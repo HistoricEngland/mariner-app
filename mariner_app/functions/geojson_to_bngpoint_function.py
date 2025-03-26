@@ -145,7 +145,9 @@ class GeoJSONToBNGPoint(BaseFunction):
             for item in geoJsFeatures:
                 # .union seems to generate 'GEOS_ERROR: IllegalArgumentException:'
                 # exceptions, but they seem spurious and are automatically ignored.
-                geosGeom_union = geosGeom_union.union(GEOSGeometry(json.dumps(item["geometry"])))
+                geosGeom_union = geosGeom_union.union(
+                    GEOSGeometry(json.dumps(item["geometry"]))
+                )
 
             # find the centroid of the envelope for the resultant Geometry Collection.
             centroidPoint = geosGeom_union.envelope.centroid
@@ -165,14 +167,17 @@ class GeoJSONToBNGPoint(BaseFunction):
             try:
                 gridref = os_grid[gridref] + easting[1:6] + northing[1:6]
             except KeyError:
-                raise Exception("Conversion Error : Coordinates outside of BNG for England.")
+                raise Exception(
+                    "Conversion Error : Coordinates outside of BNG for England."
+                )
 
             if self.config["bng_output_nodegroup"] == str(tile.nodegroup_id):
                 tile.data[bngnode] = gridref
             else:
 
                 previously_saved_tiles = Tile.objects.filter(
-                    nodegroup_id=self.config["bng_output_nodegroup"], resourceinstance_id=tile.resourceinstance_id
+                    nodegroup_id=self.config["bng_output_nodegroup"],
+                    resourceinstance_id=tile.resourceinstance_id,
                 )
 
                 # Update pre-existing tiles, or Create new one.
@@ -182,7 +187,9 @@ class GeoJSONToBNGPoint(BaseFunction):
                         p.save()
                 else:
                     new_bng_tile = Tile().get_blank_tile_from_nodegroup_id(
-                        self.config["bng_output_nodegroup"], resourceid=tile.resourceinstance_id, parenttile=tile.parenttile
+                        self.config["bng_output_nodegroup"],
+                        resourceid=tile.resourceinstance_id,
+                        parenttile=tile.parenttile,
                     )
                     new_bng_tile.data[bngnode] = gridref
                     new_bng_tile.save()

@@ -20,7 +20,13 @@ class Migration(migrations.Migration):
             functiontype="node",
             modulename="bngpoint_to_geojson_function.py",
             description="Pushes the geometry from a BNG Point node to a related GeoJSON node",
-            defaultconfig={"bng_node": "", "geojson_node": "", "bng_nodegroup": "", "geojson_nodegroup": "", "triggering_nodegroups": []},
+            defaultconfig={
+                "bng_node": "",
+                "geojson_node": "",
+                "bng_nodegroup": "",
+                "geojson_nodegroup": "",
+                "triggering_nodegroups": [],
+            },
             classname="BNGPointToGeoJSON",
             component="views/components/functions/bngpoint-to-geojson-function",
             functionid="0434df8d-b98a-4b41-9a0a-68cd9214ad73",
@@ -43,16 +49,16 @@ class Migration(migrations.Migration):
             functionid="d9a01773-6092-4cad-b331-ae725ae8fa88",
         )
 
-
     def remove_functions(apps, schema_editor):
         Function = apps.get_model("models", "Function")
 
-        for fn in Function.objects.filter(pk__in=[
-            "0434df8d-b98a-4b41-9a0a-68cd9214ad73",
-            "d9a01773-6092-4cad-b331-ae725ae8fa88",
-        ]):
+        for fn in Function.objects.filter(
+            pk__in=[
+                "0434df8d-b98a-4b41-9a0a-68cd9214ad73",
+                "d9a01773-6092-4cad-b331-ae725ae8fa88",
+            ]
+        ):
             fn.delete()
-
 
     def add_widgets(apps, schema_editor):
         Widget = apps.get_model("models", "Widget")
@@ -65,7 +71,7 @@ class Migration(migrations.Migration):
                 "placeholder": "Enter the centre point map reference of the resource."
             },
             helptext=None,
-            datatype="bngcentrepoint"
+            datatype="bngcentrepoint",
         )
 
         Widget.objects.update_or_create(
@@ -74,28 +80,25 @@ class Migration(migrations.Migration):
             datatype="file-list",
             component="views/components/widgets/photo",
             helptext=None,
-            defaultconfig={
-                "maxFilesize": "200",
-                "acceptedFiles": "",
-                "rerender": True
-            }
+            defaultconfig={"maxFilesize": "200", "acceptedFiles": "", "rerender": True},
         )
-    
+
     def remove_widgets(apps, schema_editor):
         Widget = apps.get_model("models", "Widget")
 
-        for widget in Widget.objects.filter(pk__in=[
-            "bcae8e90-09f7-4ae3-906b-7c7bb71a6ddf",
-            "31bc729d-6126-4301-8ec1-d6c4d98c68f8",
-        ]):
+        for widget in Widget.objects.filter(
+            pk__in=[
+                "bcae8e90-09f7-4ae3-906b-7c7bb71a6ddf",
+                "31bc729d-6126-4301-8ec1-d6c4d98c68f8",
+            ]
+        ):
             widget.delete()
-
 
     def add_datatypes(apps, schema_editor):
         Datatype = apps.get_model("models", "DDataType")
         Widget = apps.get_model("models", "Widget")
 
-        bngpoint=Widget.objects.get(pk="bcae8e90-09f7-4ae3-906b-7c7bb71a6ddf")
+        bngpoint = Widget.objects.get(pk="bcae8e90-09f7-4ae3-906b-7c7bb71a6ddf")
 
         Datatype.objects.update_or_create(
             datatype="bngcentrepoint",
@@ -113,11 +116,12 @@ class Migration(migrations.Migration):
     def remove_datatypes(apps, schema_editor):
         Datatype = apps.get_model("models", "DDataType")
 
-        for datatype in Datatype.objects.filter(datatype__in=[
-            "bngcentrepoint",
-        ]):
+        for datatype in Datatype.objects.filter(
+            datatype__in=[
+                "bngcentrepoint",
+            ]
+        ):
             datatype.delete()
-
 
     operations = [
         migrations.RunPython(add_functions, remove_functions),
