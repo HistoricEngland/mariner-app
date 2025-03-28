@@ -30,9 +30,9 @@ MODE = get_env_variable("DJANGO_MODE")
 
 DEBUG = ast.literal_eval(get_env_variable("DJANGO_DEBUG"))
 
-#COUCHDB_URL = "http://{}:{}@{}:{}".format(
+# COUCHDB_URL = "http://{}:{}@{}:{}".format(
 #    get_env_variable("COUCHDB_USER"), get_env_variable("COUCHDB_PASS"), get_env_variable("COUCHDB_HOST"), get_env_variable("COUCHDB_PORT")
-#)  # defaults to localhost:5984
+# )  # defaults to localhost:5984
 
 DATABASES = {
     "default": {
@@ -47,13 +47,21 @@ DATABASES = {
 }
 
 CELERY_BROKER_URL = "amqp://{}:{}@{}".format(
-    get_env_variable("RABBITMQ_USER"), get_env_variable("RABBITMQ_PASS"), get_env_variable("RABBITMQ_HOST")
+    get_env_variable("RABBITMQ_USER"),
+    get_env_variable("RABBITMQ_PASS"),
+    get_env_variable("RABBITMQ_HOST"),
 )  # RabbitMQ --> "amqp://guest:guest@localhost",  Redis --> "redis://localhost:6379/0"
 
 # CANTALOUPE_HTTP_ENDPOINT = "http://{}:{}".format(get_env_variable("CANTALOUPE_HOST"), get_env_variable("CANTALOUPE_PORT"))
 ELASTICSEARCH_HTTP_PORT = ast.literal_eval(get_env_variable("ESPORT"))
-#ELASTICSEARCH_HOSTS = [{"host": get_env_variable("ESHOST"), "port": ELASTICSEARCH_HTTP_PORT}]
-ELASTICSEARCH_HOSTS = [{"scheme": "http", "host": get_env_variable("ESHOST"), "port": ELASTICSEARCH_HTTP_PORT}]
+# ELASTICSEARCH_HOSTS = [{"host": get_env_variable("ESHOST"), "port": ELASTICSEARCH_HTTP_PORT}]
+ELASTICSEARCH_HOSTS = [
+    {
+        "scheme": "http",
+        "host": get_env_variable("ESHOST"),
+        "port": ELASTICSEARCH_HTTP_PORT,
+    }
+]
 
 
 USER_ELASTICSEARCH_PREFIX = get_optional_env_variable("ELASTICSEARCH_PREFIX")
@@ -67,7 +75,7 @@ if USER_SECRET_KEY:
     # Make this unique, and don't share it with anybody.
     SECRET_KEY = USER_SECRET_KEY
 
-#STATIC_ROOT = "/static_root"
+# STATIC_ROOT = "/static_root"
 ARCHES_NAMESPACE_FOR_DATA_EXPORT = f"http://{get_env_variable('PUBLIC_SERVER_PROJECT_NAME')}:{get_env_variable('DJANGO_PORT')}"
 
 PUBLIC_SERVER_ADDRESS = f"http://{get_env_variable('PUBLIC_SERVER_PROJECT_NAME')}:{get_env_variable('DJANGO_PORT')}/"
