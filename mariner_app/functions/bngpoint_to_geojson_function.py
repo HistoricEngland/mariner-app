@@ -1,4 +1,5 @@
 import uuid
+import logging
 from arches.app.functions.base import BaseFunction
 from arches.app.models.system_settings import settings
 from arches.app.models import models
@@ -9,6 +10,7 @@ from django.db import connection, transaction
 import json
 from datetime import datetime
 
+logger = logging.getLogger(__name__)
 
 details = {
     "name": "BNG Point to GeoJSON",
@@ -44,10 +46,12 @@ class BNGPointToGeoJSON(BaseFunction):
 
             is_function_save_method : a bool stating whether the function calling it is the save function.
         """
+        logger.debug("BNGPointToGeoJSON function running")
 
         # First let's check if this call is as a result of an inbound request (user action) or
         # as a result of the complementary GeoJSONToBNGPoint function saving a new BngPoint.
         if request is None and is_function_save_method == True:
+            logger.debug("No request object provided")
             return
 
         bngValueReturned = ""
@@ -128,6 +132,8 @@ class BNGPointToGeoJSON(BaseFunction):
         geojsonNode = self.config["geojson_node"]
         bngValueReturned = tile.data[bngnode]
 
+        logger.debug("BNG Value: %s" % bngValueReturned)
+
         if bngValueReturned != None:
             """
             The following section turns the alphanumberic BNG value in the tile into a point geometry object and then transforms that object
@@ -186,6 +192,7 @@ class BNGPointToGeoJSON(BaseFunction):
             on the Search map.
             """
             if self.config["geojson_nodegroup"] == str(tile.nodegroup_id):
+                logger.debug("Updating this geojson tile: %s" % tile.data)
                 tile.data[geojsonNode] = geometryValueJson
             else:
                 previously_saved_tiles = Tile.objects.filter(
@@ -195,6 +202,7 @@ class BNGPointToGeoJSON(BaseFunction):
 
                 if len(previously_saved_tiles) > 0:
                     for p in previously_saved_tiles:
+                        logger.debug("Updating existing geojson tile")
                         old_geojson = p.data[geojsonNode]
                         p.data[geojsonNode] = geometryValueJson
 
@@ -204,7 +212,8 @@ class BNGPointToGeoJSON(BaseFunction):
 
                         p.save()
                 else:
-                    new_geojson_tile = Tile().get_blank_tile_from_nodegroup_id(
+                    logger.debug("Creating new geojson tile")
+                    new_geojson_tile = Tile.get_blank_tile_from_nodegroup_id(
                         self.config["geojson_nodegroup"],
                         resourceid=tile.resourceinstance_id,
                         parenttile=tile.parenttile,
@@ -214,6 +223,9 @@ class BNGPointToGeoJSON(BaseFunction):
                     )
 
                     if self.config["geojson_nodegroup"] in new_geojson_tile.data:
+                        logger.debug(
+                            f"Found nodeid that matches nodegroupid in data - tileid:{tile.pk}, nodeid:{self.config['geojson_node']}, nodegroupid:{self.config['geojson_nodegroup']}"
+                        )
                         del new_geojson_tile.data[self.config["geojson_nodegroup"]]
 
                     new_geojson_tile.save()
