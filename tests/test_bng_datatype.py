@@ -7,7 +7,7 @@ from arches.app.datatypes.datatypes import DataTypeFactory
 from tests import test_settings
 
 # these tests can be run from the command line via
-# python manage.py test tests --settings="tests.test_settings"
+# python manage.py test tests.test_bng_datatype --settings="tests.test_settings"
 
 
 class BNGCentreDataTypeTests(TestCase):
