@@ -112,17 +112,37 @@ class BNGCentreDataType(BaseDataType):
                 numberElement = value[2:]
 
                 if firstTwoCharacters not in gridSquareArray:
-                    errors.append({"type": "ERROR", "message": "Invalid grid square identifier in input data."})
+                    errors.append(
+                        {
+                            "type": "ERROR",
+                            "message": "Invalid grid square identifier in input data.",
+                        }
+                    )
 
                 try:
                     int(numberElement)
                 except ValueError:
-                    errors.append({"type": "ERROR", "message": "Numeric part of the input data is not a valid integer."})
+                    errors.append(
+                        {
+                            "type": "ERROR",
+                            "message": "Numeric part of the input data is not a valid integer.",
+                        }
+                    )
 
                 if len(value) != 12:
-                    errors.append({"type": "ERROR", "message": "Input data must be exactly 12 characters long."})
+                    errors.append(
+                        {
+                            "type": "ERROR",
+                            "message": "Input data must be exactly 12 characters long.",
+                        }
+                    )
             except Exception as e:
-                errors.append({"type": "ERROR", "message": f"Unexpected error during validation: {str(e)}"})
+                errors.append(
+                    {
+                        "type": "ERROR",
+                        "message": f"Unexpected error during validation: {str(e)}",
+                    }
+                )
 
         return errors
 

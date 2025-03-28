@@ -9,6 +9,7 @@ from tests import test_settings
 # these tests can be run from the command line via
 # python manage.py test tests --settings="tests.test_settings"
 
+
 class BNGCentreDataTypeTests(TestCase):
     @classmethod
     def setUpTestData(cls):
@@ -48,22 +49,29 @@ class BNGCentreDataTypeTests(TestCase):
         invalid_value = "NT12345"
         errors = datatype.validate(invalid_value)
         self.assertTrue(len(errors) > 0)
-        self.assertEqual(errors[0]["message"], "Input data must be exactly 12 characters long.")
+        self.assertEqual(
+            errors[0]["message"], "Input data must be exactly 12 characters long."
+        )
 
         # Invalid BNG value (invalid grid square)
         invalid_value = "ZZ1234567890"
         errors = datatype.validate(invalid_value)
         self.assertTrue(len(errors) > 0)
-        self.assertEqual(errors[0]["message"], "Invalid grid square identifier in input data.")
+        self.assertEqual(
+            errors[0]["message"], "Invalid grid square identifier in input data."
+        )
 
         # Invalid BNG value (non-numeric part)
         invalid_value = "NT12345ABCD"
         errors = datatype.validate(invalid_value)
         self.assertTrue(len(errors) > 0)
-        self.assertEqual(errors[0]["message"], "Numeric part of the input data is not a valid integer.")
+        self.assertEqual(
+            errors[0]["message"],
+            "Numeric part of the input data is not a valid integer.",
+        )
 
         # Completely invalid input
-        invalid_value = 12345
+        invalid_value = 1233445
         errors = datatype.validate(invalid_value)
         self.assertTrue(len(errors) > 0)
         self.assertIn("Unexpected error during validation", errors[0]["message"])

@@ -17,6 +17,7 @@ along with this program. If not, see <http://www.gnu.org/licenses/>.
 """
 
 import os
+
 # import from the test_settings.py files in the swame folder first
 
 
@@ -36,4 +37,10 @@ DATABASES = {
 }
 
 ELASTICSEARCH_HTTP_PORT = ast.literal_eval(get_env_variable("ESPORT"))
-ELASTICSEARCH_HOSTS = [{"scheme": "http", "host": get_env_variable("ESHOST"), "port": ELASTICSEARCH_HTTP_PORT}]
+ELASTICSEARCH_HOSTS = [
+    {
+        "scheme": "http",
+        "host": get_env_variable("ESHOST"),
+        "port": ELASTICSEARCH_HTTP_PORT,
+    }
+]
