@@ -1,0 +1,7 @@
+{
+    "project_name": "mariner_app",
+    "project_name_url_safe": "marinerapp",
+    "arches_version": "7.6",
+    "arches_repo_organization": "archesproject",
+    "arches_repo_branch": "dev/7.6.x"
+}
