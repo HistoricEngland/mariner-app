@@ -12,7 +12,6 @@ from tests import test_settings
 # python manage.py test tests.test_bng_datatype --settings="tests.test_settings_for_docker"
 
 
-
 class BNGCentreDataTypeTests(TestCase):
     @classmethod
     def setUpTestData(cls):
