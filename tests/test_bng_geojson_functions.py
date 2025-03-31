@@ -18,6 +18,8 @@ from tests import test_settings
 
 # these tests can be run from the command line via
 # python manage.py test tests.test_bng_geojson_functions --settings="tests.test_settings"
+# or if using docker
+# python manage.py test tests.test_bng_geojson_functions --settings="tests.test_settings_for_docker"
 
 
 # Bletchley Park (https://gridreferencefinder.com/#gr=SP8651233928|51.9970648_s__c__s_-0.7413205|1,SP8651233928|51.9970648_s__c__s_-0.7413205|1)

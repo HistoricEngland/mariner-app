@@ -8,6 +8,9 @@ from tests import test_settings
 
 # these tests can be run from the command line via
 # python manage.py test tests.test_bng_datatype --settings="tests.test_settings"
+# or if using docker
+# python manage.py test tests.test_bng_datatype --settings="tests.test_settings_for_docker"
+
 
 
 class BNGCentreDataTypeTests(TestCase):
