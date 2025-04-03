@@ -16,37 +16,41 @@ class Migration(migrations.Migration):
         Function = apps.get_model("models", "Function")
 
         Function.objects.update_or_create(
-            name="BNG Point to GeoJSON",
-            functiontype="node",
-            modulename="bngpoint_to_geojson_function.py",
-            description="Pushes the geometry from a BNG Point node to a related GeoJSON node",
-            defaultconfig={
-                "bng_node": "",
-                "geojson_node": "",
-                "bng_nodegroup": "",
-                "geojson_nodegroup": "",
-                "triggering_nodegroups": [],
-            },
-            classname="BNGPointToGeoJSON",
-            component="views/components/functions/bngpoint-to-geojson-function",
             functionid="0434df8d-b98a-4b41-9a0a-68cd9214ad73",
+            defaults={
+                "name": "BNG Point to GeoJSON",
+                "functiontype": "node",
+                "modulename": "bngpoint_to_geojson_function.py",
+                "description": "Pushes the geometry from a BNG Point node to a related GeoJSON node",
+                "defaultconfig": {
+                    "bng_node": "",
+                    "geojson_node": "",
+                    "bng_nodegroup": "",
+                    "geojson_nodegroup": "",
+                    "triggering_nodegroups": [],
+                },
+                "classname": "BNGPointToGeoJSON",
+                "component": "views/components/functions/bngpoint-to-geojson-function",
+            },
         )
 
         Function.objects.update_or_create(
-            name="GeoJSON to BNG Point",
-            functiontype="node",
-            modulename="geojson_to_bngpoint_function",
-            description="Pushes the geometry from a GeoJSON node's centroid to a related BNG Point node",
-            defaultconfig={
-                "geojson_input_node": "",
-                "bng_output_node": "",
-                "geojson_input_nodegroup": "",
-                "bng_output_nodegroup": "",
-                "triggering_nodegroups": [],
-            },
-            classname="GeoJSONToBNGPoint",
-            component="views/components/functions/geojson-to-bngpoint-function",
             functionid="d9a01773-6092-4cad-b331-ae725ae8fa88",
+            defaults={
+                "name": "GeoJSON to BNG Point",
+                "functiontype": "node",
+                "modulename": "geojson_to_bngpoint_function.py",
+                "description": "Pushes the geometry from a GeoJSON node's centroid to a related BNG Point node",
+                "defaultconfig": {
+                    "geojson_input_node": "",
+                    "bng_output_node": "",
+                    "geojson_input_nodegroup": "",
+                    "bng_output_nodegroup": "",
+                    "triggering_nodegroups": [],
+                },
+                "classname": "GeoJSONToBNGPoint",
+                "component": "views/components/functions/geojson-to-bngpoint-function",
+            },
         )
 
     def remove_functions(apps, schema_editor):
@@ -65,22 +69,30 @@ class Migration(migrations.Migration):
 
         Widget.objects.update_or_create(
             widgetid="bcae8e90-09f7-4ae3-906b-7c7bb71a6ddf",
-            name="bngpoint",
-            component="views/components/widgets/bngpoint",
-            defaultconfig={
-                "placeholder": "Enter the centre point map reference of the resource."
+            defaults={
+                "name": "bngpoint",
+                "component": "views/components/widgets/bngpoint",
+                "defaultconfig": {
+                    "placeholder": "Enter the centre point map reference of the resource."
+                },
+                "helptext": None,
+                "datatype": "bngcentrepoint",
             },
-            helptext=None,
-            datatype="bngcentrepoint",
         )
 
         Widget.objects.update_or_create(
             widgetid="31bc729d-6126-4301-8ec1-d6c4d98c68f8",
-            name="photo-widget",
-            datatype="file-list",
-            component="views/components/widgets/photo",
-            helptext=None,
-            defaultconfig={"maxFilesize": "200", "acceptedFiles": "", "rerender": True},
+            defaults={
+                "name": "photo-widget",
+                "datatype": "file-list",
+                "component": "views/components/widgets/photo",
+                "helptext": None,
+                "defaultconfig": {
+                    "maxFilesize": "200",
+                    "acceptedFiles": "",
+                    "rerender": True,
+                },
+            },
         )
 
     def remove_widgets(apps, schema_editor):
@@ -102,15 +114,17 @@ class Migration(migrations.Migration):
 
         Datatype.objects.update_or_create(
             datatype="bngcentrepoint",
-            iconclass="fa fa-location-arrow",
-            modulename="bngcentrepoint.py",
-            classname="BNGCentreDataType",
-            defaultwidget=bngpoint,
-            defaultconfig=None,
-            configcomponent="views/components/datatypes/bngcentrepoint",
-            configname="bngcentrepoint-datatype-config",
-            isgeometric=False,
-            issearchable=True,
+            defaults={
+                "iconclass": "fa fa-location-arrow",
+                "modulename": "bngcentrepoint.py",
+                "classname": "BNGCentreDataType",
+                "defaultwidget": bngpoint,
+                "defaultconfig": None,
+                "configcomponent": "views/components/datatypes/bngcentrepoint",
+                "configname": "bngcentrepoint-datatype-config",
+                "isgeometric": False,
+                "issearchable": True,
+            },
         )
 
     def remove_datatypes(apps, schema_editor):
