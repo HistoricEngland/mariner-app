@@ -1,4 +1,5 @@
-import uuid, os
+import uuid
+import os
 from django.test import TransactionTestCase, TestCase
 from django.core import management
 from django.test.client import RequestFactory
@@ -100,8 +101,10 @@ class BNGGeoJSONFunctionTests(TestCase):
                 verbosity=0,
             )
 
-        self.graph = Graph.objects.get(pk="07dfd81a-f971-4a07-b7df-52f11e6cc2bd")
-        self.resource = Resource(resourceinstanceid=uuid.uuid4(), graph=self.graph)
+        self.graph = Graph.objects.get(
+            pk="07dfd81a-f971-4a07-b7df-52f11e6cc2bd")
+        self.resource = Resource(
+            resourceinstanceid=uuid.uuid4(), graph=self.graph)
         self.resource.save()
 
         # Create a mock request object
@@ -138,7 +141,7 @@ class BNGGeoJSONFunctionTests(TestCase):
         self.assertTrue(
             bng_tile.data[function_config["bng_output_node"]].startswith("SP")
         )
-        
+
     def test_geojson_to_bngpoint_function_not_in_bng(self):
         """
         Test the GeoJSONToBNGPoint function does not save BNG for points outside the BNG grid and does not raise an error
@@ -166,8 +169,8 @@ class BNGGeoJSONFunctionTests(TestCase):
         self.assertIsNone(bng_tile)
         self.assertIsNotNone(
             models.TileModel.objects.filter(
-            nodegroup_id=function_config["geojson_input_nodegroup"],
-            resourceinstance_id=self.resource.resourceinstanceid,
+                nodegroup_id=function_config["geojson_input_nodegroup"],
+                resourceinstance_id=self.resource.resourceinstanceid,
             ).first()
         )
 
