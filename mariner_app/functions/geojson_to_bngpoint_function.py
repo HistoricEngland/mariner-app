@@ -176,6 +176,7 @@ class GeoJSONToBNGPoint(BaseFunction):
                     f"Lat/Long: {original_centroid[0]:.6f}, {original_centroid[1]:.6f}"
                 )
                 logger.debug(notification_string)
+                return
 
             if self.config["bng_output_nodegroup"] == str(tile.nodegroup_id):
                 tile.data[bngnode] = gridref
