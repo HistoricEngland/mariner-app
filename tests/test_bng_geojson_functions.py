@@ -101,10 +101,8 @@ class BNGGeoJSONFunctionTests(TestCase):
                 verbosity=0,
             )
 
-        self.graph = Graph.objects.get(
-            pk="07dfd81a-f971-4a07-b7df-52f11e6cc2bd")
-        self.resource = Resource(
-            resourceinstanceid=uuid.uuid4(), graph=self.graph)
+        self.graph = Graph.objects.get(pk="07dfd81a-f971-4a07-b7df-52f11e6cc2bd")
+        self.resource = Resource(resourceinstanceid=uuid.uuid4(), graph=self.graph)
         self.resource.save()
 
         # Create a mock request object
@@ -144,7 +142,7 @@ class BNGGeoJSONFunctionTests(TestCase):
 
     def test_geojson_to_bngpoint_function_not_in_bng(self):
         """
-        Test the GeoJSONToBNGPoint function does not save BNG for points outside the BNG grid and does not 
+        Test the GeoJSONToBNGPoint function does not save BNG for points outside the BNG grid and does not
         raise an error
         """
 
@@ -155,7 +153,9 @@ class BNGGeoJSONFunctionTests(TestCase):
             nodegroup_id=function_config["geojson_input_nodegroup"],
             resourceinstance_id=self.resource.resourceinstanceid,
             data={
-                function_config["geojson_input_node"]: TEST_GEOJSON_POINT_NOT_IN_BNG_GRID
+                function_config[
+                    "geojson_input_node"
+                ]: TEST_GEOJSON_POINT_NOT_IN_BNG_GRID
             },
             sortorder=0,
         )
