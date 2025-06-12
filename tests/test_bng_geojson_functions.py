@@ -144,7 +144,8 @@ class BNGGeoJSONFunctionTests(TestCase):
 
     def test_geojson_to_bngpoint_function_not_in_bng(self):
         """
-        Test the GeoJSONToBNGPoint function does not save BNG for points outside the BNG grid and does not raise an error
+        Test the GeoJSONToBNGPoint function does not save BNG for points outside the BNG grid and does not 
+        raise an error
         """
 
         function_config = FUNCTION_CONFIG_GEOJSON_TO_BNG["config"]
