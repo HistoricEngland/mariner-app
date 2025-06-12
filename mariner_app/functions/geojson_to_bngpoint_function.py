@@ -154,7 +154,7 @@ class GeoJSONToBNGPoint(BaseFunction):
 
             # find the centroid of the envelope for the resultant Geometry Collection.
             centroidPoint = geosGeom_union.envelope.centroid
-            originalCentroid = centroidPoint.coords
+            original_centroid = centroidPoint.coords
 
             # Explicitly declare the SRID for the current lat/long.
             centroidPoint = GEOSGeometry(centroidPoint, srid=srid_LatLong)
@@ -173,7 +173,7 @@ class GeoJSONToBNGPoint(BaseFunction):
             except KeyError:
                 notification_string = (
                     "User has tried to save a BNG Point outside of the British National Grid.  "
-                    f"Lat/Long: {originalCentroid[0]:.6f}, {originalCentroid[1]:.6f}"
+                    f"Lat/Long: {original_centroid[0]:.6f}, {original_centroid[1]:.6f}"
                 )
                 logger.debug(notification_string)
 
