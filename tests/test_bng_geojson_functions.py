@@ -146,7 +146,7 @@ class BNGGeoJSONFunctionTests(TestCase):
 
         function_config = FUNCTION_CONFIG_GEOJSON_TO_BNG["config"]
 
-        # Create a mock tile with GeoJSON data
+        # Create a mock tile with GeoJSON data outside of BNG
         geojson_tile = Tile(
             nodegroup_id=function_config["geojson_input_nodegroup"],
             resourceinstance_id=self.resource.resourceinstanceid,
@@ -158,7 +158,7 @@ class BNGGeoJSONFunctionTests(TestCase):
 
         geojson_tile.save(request=self.request)
 
-        # Verify the BNG tile was created with the correct data
+        # Verify the BNG tile was not created and the GeoJSON tile still exists
         bng_tile = models.TileModel.objects.filter(
             nodegroup_id=function_config["bng_output_nodegroup"],
             resourceinstance_id=self.resource.resourceinstanceid,
