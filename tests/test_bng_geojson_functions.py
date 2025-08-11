@@ -1,4 +1,5 @@
-import uuid, os
+import uuid
+import os
 from django.test import TransactionTestCase, TestCase
 from django.core import management
 from django.test.client import RequestFactory
@@ -137,6 +138,41 @@ class BNGGeoJSONFunctionTests(TestCase):
         self.assertIn(function_config["bng_output_node"], bng_tile.data)
         self.assertTrue(
             bng_tile.data[function_config["bng_output_node"]].startswith("SP")
+        )
+
+    def test_geojson_to_bngpoint_function_not_in_bng(self):
+        """
+        Test the GeoJSONToBNGPoint function does not save BNG for points outside the BNG grid and does not
+        raise an error
+        """
+
+        function_config = FUNCTION_CONFIG_GEOJSON_TO_BNG["config"]
+
+        # Create a mock tile with GeoJSON data outside of BNG
+        geojson_tile = Tile(
+            nodegroup_id=function_config["geojson_input_nodegroup"],
+            resourceinstance_id=self.resource.resourceinstanceid,
+            data={
+                function_config[
+                    "geojson_input_node"
+                ]: TEST_GEOJSON_POINT_NOT_IN_BNG_GRID
+            },
+            sortorder=0,
+        )
+
+        geojson_tile.save(request=self.request)
+
+        # Verify the BNG tile was not created and the GeoJSON tile still exists
+        bng_tile = models.TileModel.objects.filter(
+            nodegroup_id=function_config["bng_output_nodegroup"],
+            resourceinstance_id=self.resource.resourceinstanceid,
+        ).first()
+        self.assertIsNone(bng_tile)
+        self.assertIsNotNone(
+            models.TileModel.objects.filter(
+                nodegroup_id=function_config["geojson_input_nodegroup"],
+                resourceinstance_id=self.resource.resourceinstanceid,
+            ).first()
         )
 
     def test_bngpoint_to_geojson_function(self):
