@@ -1,0 +1,1442 @@
+{
+    "graph": [
+        {
+            "author": " ",
+            "cards": [
+                {
+                    "active": true,
+                    "cardid": "05473754-f55c-11ed-8616-0242ac120006",
+                    "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
+                    "config": null,
+                    "constraints": [
+                        {
+                            "card_id": "05473754-f55c-11ed-8616-0242ac120006",
+                            "constraintid": "de1935f2-eebc-42de-a214-8edbd056dff2",
+                            "nodes": [],
+                            "uniquetoallinstances": false
+                        }
+                    ],
+                    "cssclass": null,
+                    "description": {
+                        "en": ""
+                    },
+                    "graph_id": "0545f79a-f55c-11ed-8616-0242ac120006",
+                    "helpenabled": false,
+                    "helptext": {
+                        "en": null
+                    },
+                    "helptitle": {
+                        "en": null
+                    },
+                    "instructions": {
+                        "en": null
+                    },
+                    "is_editable": true,
+                    "name": {
+                        "en": "Risk Management"
+                    },
+                    "nodegroup_id": "0545f2d6-f55c-11ed-8616-0242ac120006",
+                    "sortorder": null,
+                    "visible": true
+                }
+            ],
+            "cards_x_nodes_x_widgets": [
+                {
+                    "card_id": "05473754-f55c-11ed-8616-0242ac120006",
+                    "config": {
+                        "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
+                        "label": "Risk Status",
+                        "options": [],
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
+                    },
+                    "id": "03ecb394-f57e-11ed-8d8c-0242ac120006",
+                    "label": {
+                        "en": "Risk Status"
+                    },
+                    "node_id": "b76038f0-f55c-11ed-8282-0242ac120006",
+                    "sortorder": 0,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000002"
+                },
+                {
+                    "card_id": "05473754-f55c-11ed-8616-0242ac120006",
+                    "config": {
+                        "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
+                        "label": "Date Qualifier",
+                        "options": [],
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
+                    },
+                    "id": "03ed9ee4-f57e-11ed-8d8c-0242ac120006",
+                    "label": {
+                        "en": "Date Qualifier"
+                    },
+                    "node_id": "3a81d7b2-f55c-11ed-8f66-0242ac120006",
+                    "sortorder": 4,
+                    "visible": false,
+                    "widget_id": "10000000-0000-0000-0000-000000000002"
+                },
+                {
+                    "card_id": "05473754-f55c-11ed-8616-0242ac120006",
+                    "config": {
+                        "defaultValue": "59a0c936-3f60-44f9-9e37-67b6ed0f4fa4",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
+                        "label": "Date Qualifier Metatype",
+                        "options": [],
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
+                    },
+                    "id": "03ee6a7c-f57e-11ed-8d8c-0242ac120006",
+                    "label": {
+                        "en": "Date Qualifier Metatype"
+                    },
+                    "node_id": "3a81dadc-f55c-11ed-8f66-0242ac120006",
+                    "sortorder": 5,
+                    "visible": false,
+                    "widget_id": "10000000-0000-0000-0000-000000000002"
+                },
+                {
+                    "card_id": "05473754-f55c-11ed-8616-0242ac120006",
+                    "config": {
+                        "dateFormat": "YYYY-MM-DD",
+                        "defaultValue": "",
+                        "label": "Risk Assessment Start Date",
+                        "maxDate": false,
+                        "minDate": false,
+                        "placeholder": "Enter date",
+                        "viewMode": "days"
+                    },
+                    "id": "03ef2fca-f57e-11ed-8d8c-0242ac120006",
+                    "label": {
+                        "en": "Risk Assessment Start Date"
+                    },
+                    "node_id": "3a81d438-f55c-11ed-8f66-0242ac120006",
+                    "sortorder": 2,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000004"
+                },
+                {
+                    "card_id": "05473754-f55c-11ed-8616-0242ac120006",
+                    "config": {
+                        "dateFormat": "YYYY-MM-DD",
+                        "defaultValue": "",
+                        "label": "Risk Assessment End Date",
+                        "maxDate": false,
+                        "minDate": false,
+                        "placeholder": "Enter date",
+                        "viewMode": "days"
+                    },
+                    "id": "03efed2a-f57e-11ed-8d8c-0242ac120006",
+                    "label": {
+                        "en": "Risk Assessment End Date"
+                    },
+                    "node_id": "3a81d622-f55c-11ed-8f66-0242ac120006",
+                    "sortorder": 3,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000004"
+                },
+                {
+                    "card_id": "05473754-f55c-11ed-8616-0242ac120006",
+                    "config": {
+                        "defaultValue": "c9bc15cc-46fe-4d34-a530-a228854845c8",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
+                        "label": "Risk Status Metatype",
+                        "options": [],
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
+                    },
+                    "id": "03f0b872-f57e-11ed-8d8c-0242ac120006",
+                    "label": {
+                        "en": "Risk Status Metatype"
+                    },
+                    "node_id": "c99dea12-f55c-11ed-8b6e-0242ac120006",
+                    "sortorder": 1,
+                    "visible": false,
+                    "widget_id": "10000000-0000-0000-0000-000000000002"
+                },
+                {
+                    "card_id": "05473754-f55c-11ed-8616-0242ac120006",
+                    "config": {
+                        "i18n_properties": [
+                            "url_label_placeholder",
+                            "url_placeholder"
+                        ],
+                        "label": "Heritage at Risk URL",
+                        "link_color": "#0055a0",
+                        "url_label_placeholder": {
+                            "en": "Enter URL Label... "
+                        },
+                        "url_placeholder": {
+                            "en": "Enter URL... "
+                        }
+                    },
+                    "id": "425c664e-f635-11ed-bdc0-0242ac120006",
+                    "label": {
+                        "en": "Heritage at Risk URL"
+                    },
+                    "node_id": "f71cd948-f634-11ed-8248-0242ac120006",
+                    "sortorder": 21,
+                    "visible": true,
+                    "widget_id": "ca0c43ff-af73-4349-bafd-53ff9f22eebd"
+                },
+                {
+                    "card_id": "05473754-f55c-11ed-8616-0242ac120006",
+                    "config": {
+                        "defaultValue": {
+                            "en": {
+                                "direction": "ltr",
+                                "value": ""
+                            }
+                        },
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
+                        "label": "Risk Description",
+                        "maxLength": null,
+                        "placeholder": {
+                            "en": "Enter text"
+                        },
+                        "uneditable": false,
+                        "width": "100%"
+                    },
+                    "id": "6c581fd4-f634-11ed-87d5-0242ac120006",
+                    "label": {
+                        "en": "Risk Description"
+                    },
+                    "node_id": "1fed9b06-f634-11ed-ba3c-0242ac120006",
+                    "sortorder": 6,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000005"
+                },
+                {
+                    "card_id": "05473754-f55c-11ed-8616-0242ac120006",
+                    "config": {
+                        "defaultValue": "d5366899-09ec-4db1-8a49-a32b7e4784e3",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
+                        "label": "Risk Description Language Metatype",
+                        "options": [],
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
+                    },
+                    "id": "6c59a5ac-f634-11ed-87d5-0242ac120006",
+                    "label": {
+                        "en": "Risk Description Language Metatype"
+                    },
+                    "node_id": "1fed98fe-f634-11ed-ba3c-0242ac120006",
+                    "sortorder": 10,
+                    "visible": false,
+                    "widget_id": "10000000-0000-0000-0000-000000000002"
+                },
+                {
+                    "card_id": "05473754-f55c-11ed-8616-0242ac120006",
+                    "config": {
+                        "defaultValue": "39a21ebf-7dd6-4a7f-a211-9453202f60aa",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
+                        "label": "Risk Description Type",
+                        "options": [],
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
+                    },
+                    "id": "6c5a68b6-f634-11ed-87d5-0242ac120006",
+                    "label": {
+                        "en": "Risk Description Type"
+                    },
+                    "node_id": "1fed9cbe-f634-11ed-ba3c-0242ac120006",
+                    "sortorder": 7,
+                    "visible": false,
+                    "widget_id": "10000000-0000-0000-0000-000000000002"
+                },
+                {
+                    "card_id": "05473754-f55c-11ed-8616-0242ac120006",
+                    "config": {
+                        "defaultValue": "6fbe3775-e51d-4f90-af53-5695dd204c9a",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
+                        "label": "Risk Description Metatype",
+                        "options": [],
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
+                    },
+                    "id": "6c5b1928-f634-11ed-87d5-0242ac120006",
+                    "label": {
+                        "en": "Risk Description Metatype"
+                    },
+                    "node_id": "1fed9e4e-f634-11ed-ba3c-0242ac120006",
+                    "sortorder": 8,
+                    "visible": false,
+                    "widget_id": "10000000-0000-0000-0000-000000000002"
+                },
+                {
+                    "card_id": "05473754-f55c-11ed-8616-0242ac120006",
+                    "config": {
+                        "defaultValue": "b5f1ff2d-d667-4c4e-86a1-c17fa4b9447b",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
+                        "label": "Risk Description Language",
+                        "options": [],
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
+                    },
+                    "id": "6c5bd4f8-f634-11ed-87d5-0242ac120006",
+                    "label": {
+                        "en": "Risk Description Language"
+                    },
+                    "node_id": "1fed9fde-f634-11ed-ba3c-0242ac120006",
+                    "sortorder": 9,
+                    "visible": false,
+                    "widget_id": "10000000-0000-0000-0000-000000000002"
+                },
+                {
+                    "card_id": "05473754-f55c-11ed-8616-0242ac120006",
+                    "config": {
+                        "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
+                        "label": "Trend Type",
+                        "options": [],
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
+                    },
+                    "id": "af37b074-f631-11ed-a39f-0242ac120006",
+                    "label": {
+                        "en": "Trend Type"
+                    },
+                    "node_id": "7adc690a-f631-11ed-b2b6-0242ac120006",
+                    "sortorder": 17,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000002"
+                },
+                {
+                    "card_id": "05473754-f55c-11ed-8616-0242ac120006",
+                    "config": {
+                        "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
+                        "label": "Threat Type",
+                        "options": [],
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
+                    },
+                    "id": "af3951c2-f631-11ed-a39f-0242ac120006",
+                    "label": {
+                        "en": "Threat Type"
+                    },
+                    "node_id": "3a5e6a54-f631-11ed-82a1-0242ac120006",
+                    "sortorder": 15,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000012"
+                },
+                {
+                    "card_id": "05473754-f55c-11ed-8616-0242ac120006",
+                    "config": {
+                        "defaultValue": "62f3f620-ea25-46c8-9a7b-dbadf23aa874",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
+                        "label": "Threat Metatype",
+                        "options": [],
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
+                    },
+                    "id": "af3a483e-f631-11ed-a39f-0242ac120006",
+                    "label": {
+                        "en": "Threat Metatype"
+                    },
+                    "node_id": "5496d3c0-f631-11ed-b455-0242ac120006",
+                    "sortorder": 16,
+                    "visible": false,
+                    "widget_id": "10000000-0000-0000-0000-000000000002"
+                },
+                {
+                    "card_id": "05473754-f55c-11ed-8616-0242ac120006",
+                    "config": {
+                        "defaultValue": "62f3f620-ea25-46c8-9a7b-dbadf23aa874",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
+                        "label": "Trend Metatype",
+                        "options": [],
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
+                    },
+                    "id": "af3b2b00-f631-11ed-a39f-0242ac120006",
+                    "label": {
+                        "en": "Trend Metatype"
+                    },
+                    "node_id": "8e66e130-f631-11ed-833e-0242ac120006",
+                    "sortorder": 18,
+                    "visible": false,
+                    "widget_id": "10000000-0000-0000-0000-000000000002"
+                },
+                {
+                    "card_id": "05473754-f55c-11ed-8616-0242ac120006",
+                    "config": {
+                        "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
+                        "label": "Priority Category",
+                        "options": [],
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
+                    },
+                    "id": "b33b299c-f633-11ed-bc45-0242ac120006",
+                    "label": {
+                        "en": "Priority Category"
+                    },
+                    "node_id": "4513daf4-f633-11ed-8714-0242ac120006",
+                    "sortorder": 19,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000002"
+                },
+                {
+                    "card_id": "05473754-f55c-11ed-8616-0242ac120006",
+                    "config": {
+                        "defaultValue": "62f3f620-ea25-46c8-9a7b-dbadf23aa874",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
+                        "label": "Priority Category Metatype",
+                        "options": [],
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
+                    },
+                    "id": "b33c4a3e-f633-11ed-bc45-0242ac120006",
+                    "label": {
+                        "en": "Priority Category Metatype"
+                    },
+                    "node_id": "9257da04-f633-11ed-b16d-0242ac120006",
+                    "sortorder": 20,
+                    "visible": false,
+                    "widget_id": "10000000-0000-0000-0000-000000000002"
+                },
+                {
+                    "card_id": "05473754-f55c-11ed-8616-0242ac120006",
+                    "config": {
+                        "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
+                        "label": "Risk Condition Type",
+                        "options": [],
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
+                    },
+                    "id": "bd885f62-f630-11ed-8cca-0242ac120006",
+                    "label": {
+                        "en": "Risk Condition Type"
+                    },
+                    "node_id": "375be376-f57e-11ed-b3e2-0242ac120006",
+                    "sortorder": 11,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000002"
+                },
+                {
+                    "card_id": "05473754-f55c-11ed-8616-0242ac120006",
+                    "config": {
+                        "defaultValue": "62f3f620-ea25-46c8-9a7b-dbadf23aa874",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
+                        "label": "Risk Condition Metatype",
+                        "options": [],
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
+                    },
+                    "id": "bd8994a4-f630-11ed-8cca-0242ac120006",
+                    "label": {
+                        "en": "Risk Condition Metatype"
+                    },
+                    "node_id": "375beb14-f57e-11ed-b3e2-0242ac120006",
+                    "sortorder": 12,
+                    "visible": false,
+                    "widget_id": "10000000-0000-0000-0000-000000000002"
+                },
+                {
+                    "card_id": "05473754-f55c-11ed-8616-0242ac120006",
+                    "config": {
+                        "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
+                        "label": "Current Vulnerability",
+                        "options": [],
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
+                    },
+                    "id": "bd8ab212-f630-11ed-8cca-0242ac120006",
+                    "label": {
+                        "en": "Current Vulnerability"
+                    },
+                    "node_id": "4e07f148-f62b-11ed-9cd7-0242ac120006",
+                    "sortorder": 13,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000002"
+                },
+                {
+                    "card_id": "05473754-f55c-11ed-8616-0242ac120006",
+                    "config": {
+                        "defaultValue": "62f3f620-ea25-46c8-9a7b-dbadf23aa874",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
+                        "label": "Current Vulnerability Metatype",
+                        "options": [],
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
+                    },
+                    "id": "bd8bb5fe-f630-11ed-8cca-0242ac120006",
+                    "label": {
+                        "en": "Current Vulnerability Metatype"
+                    },
+                    "node_id": "4e07f738-f62b-11ed-9cd7-0242ac120006",
+                    "sortorder": 14,
+                    "visible": false,
+                    "widget_id": "10000000-0000-0000-0000-000000000002"
+                }
+            ],
+            "color": null,
+            "config": {},
+            "deploymentdate": null,
+            "deploymentfile": null,
+            "description": {
+                "en": ""
+            },
+            "edges": [
+                {
+                    "description": null,
+                    "domainnode_id": "1fed9fde-f634-11ed-ba3c-0242ac120006",
+                    "edgeid": "1fedb028-f634-11ed-ba3c-0242ac120006",
+                    "graph_id": "0545f79a-f55c-11ed-8616-0242ac120006",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "rangenode_id": "1fed98fe-f634-11ed-ba3c-0242ac120006"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "1fed9048-f634-11ed-ba3c-0242ac120006",
+                    "edgeid": "1fedb15e-f634-11ed-ba3c-0242ac120006",
+                    "graph_id": "0545f79a-f55c-11ed-8616-0242ac120006",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P3_has_note",
+                    "rangenode_id": "1fed9b06-f634-11ed-ba3c-0242ac120006"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "1fed9048-f634-11ed-ba3c-0242ac120006",
+                    "edgeid": "1fedb28a-f634-11ed-ba3c-0242ac120006",
+                    "graph_id": "0545f79a-f55c-11ed-8616-0242ac120006",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "rangenode_id": "1fed9cbe-f634-11ed-ba3c-0242ac120006"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "1fed9cbe-f634-11ed-ba3c-0242ac120006",
+                    "edgeid": "1fedb38e-f634-11ed-ba3c-0242ac120006",
+                    "graph_id": "0545f79a-f55c-11ed-8616-0242ac120006",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "rangenode_id": "1fed9e4e-f634-11ed-ba3c-0242ac120006"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "1fed9048-f634-11ed-ba3c-0242ac120006",
+                    "edgeid": "1fedb488-f634-11ed-ba3c-0242ac120006",
+                    "graph_id": "0545f79a-f55c-11ed-8616-0242ac120006",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P72_has_language",
+                    "rangenode_id": "1fed9fde-f634-11ed-ba3c-0242ac120006"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "0545f2d6-f55c-11ed-8616-0242ac120006",
+                    "edgeid": "1fedb672-f634-11ed-ba3c-0242ac120006",
+                    "graph_id": "0545f79a-f55c-11ed-8616-0242ac120006",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P129i_is_subject_of",
+                    "rangenode_id": "1fed9048-f634-11ed-ba3c-0242ac120006"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "375be376-f57e-11ed-b3e2-0242ac120006",
+                    "edgeid": "375befe2-f57e-11ed-b3e2-0242ac120006",
+                    "graph_id": "0545f79a-f55c-11ed-8616-0242ac120006",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "rangenode_id": "375beb14-f57e-11ed-b3e2-0242ac120006"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "98653bf8-f55c-11ed-88aa-0242ac120006",
+                    "edgeid": "375bf1ae-f57e-11ed-b3e2-0242ac120006",
+                    "graph_id": "0545f79a-f55c-11ed-8616-0242ac120006",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P125_used_object_of_type",
+                    "rangenode_id": "375be376-f57e-11ed-b3e2-0242ac120006"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "98653bf8-f55c-11ed-88aa-0242ac120006",
+                    "edgeid": "3a5e6f5e-f631-11ed-82a1-0242ac120006",
+                    "graph_id": "0545f79a-f55c-11ed-8616-0242ac120006",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P141_assigned",
+                    "rangenode_id": "3a5e6a54-f631-11ed-82a1-0242ac120006"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "3a81ccfe-f55c-11ed-8f66-0242ac120006",
+                    "edgeid": "3a81f08a-f55c-11ed-8f66-0242ac120006",
+                    "graph_id": "0545f79a-f55c-11ed-8616-0242ac120006",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P82a_begin_of_the_begin",
+                    "rangenode_id": "3a81d438-f55c-11ed-8f66-0242ac120006"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "3a81ccfe-f55c-11ed-8f66-0242ac120006",
+                    "edgeid": "3a81f1fc-f55c-11ed-8f66-0242ac120006",
+                    "graph_id": "0545f79a-f55c-11ed-8616-0242ac120006",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P82b_end_of_the_end",
+                    "rangenode_id": "3a81d622-f55c-11ed-8f66-0242ac120006"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "3a81ccfe-f55c-11ed-8f66-0242ac120006",
+                    "edgeid": "3a81f31e-f55c-11ed-8f66-0242ac120006",
+                    "graph_id": "0545f79a-f55c-11ed-8616-0242ac120006",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "rangenode_id": "3a81d7b2-f55c-11ed-8f66-0242ac120006"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "3a81d7b2-f55c-11ed-8f66-0242ac120006",
+                    "edgeid": "3a81f51c-f55c-11ed-8f66-0242ac120006",
+                    "graph_id": "0545f79a-f55c-11ed-8616-0242ac120006",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "rangenode_id": "3a81dadc-f55c-11ed-8f66-0242ac120006"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "0545f2d6-f55c-11ed-8616-0242ac120006",
+                    "edgeid": "3a81f846-f55c-11ed-8f66-0242ac120006",
+                    "graph_id": "0545f79a-f55c-11ed-8616-0242ac120006",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span",
+                    "rangenode_id": "3a81ccfe-f55c-11ed-8f66-0242ac120006"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "98653bf8-f55c-11ed-88aa-0242ac120006",
+                    "edgeid": "4513e74c-f633-11ed-8714-0242ac120006",
+                    "graph_id": "0545f79a-f55c-11ed-8616-0242ac120006",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P141_assigned",
+                    "rangenode_id": "4513daf4-f633-11ed-8714-0242ac120006"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "4e07f148-f62b-11ed-9cd7-0242ac120006",
+                    "edgeid": "4e07fbf2-f62b-11ed-9cd7-0242ac120006",
+                    "graph_id": "0545f79a-f55c-11ed-8616-0242ac120006",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "rangenode_id": "4e07f738-f62b-11ed-9cd7-0242ac120006"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "98653bf8-f55c-11ed-88aa-0242ac120006",
+                    "edgeid": "4e07fdb4-f62b-11ed-9cd7-0242ac120006",
+                    "graph_id": "0545f79a-f55c-11ed-8616-0242ac120006",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P141_assigned",
+                    "rangenode_id": "4e07f148-f62b-11ed-9cd7-0242ac120006"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "3a5e6a54-f631-11ed-82a1-0242ac120006",
+                    "edgeid": "5496d97e-f631-11ed-b455-0242ac120006",
+                    "graph_id": "0545f79a-f55c-11ed-8616-0242ac120006",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "rangenode_id": "5496d3c0-f631-11ed-b455-0242ac120006"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "98653bf8-f55c-11ed-88aa-0242ac120006",
+                    "edgeid": "7adc6d92-f631-11ed-b2b6-0242ac120006",
+                    "graph_id": "0545f79a-f55c-11ed-8616-0242ac120006",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P141_assigned",
+                    "rangenode_id": "7adc690a-f631-11ed-b2b6-0242ac120006"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "7adc690a-f631-11ed-b2b6-0242ac120006",
+                    "edgeid": "8e66e69e-f631-11ed-833e-0242ac120006",
+                    "graph_id": "0545f79a-f55c-11ed-8616-0242ac120006",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "rangenode_id": "8e66e130-f631-11ed-833e-0242ac120006"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "4513daf4-f633-11ed-8714-0242ac120006",
+                    "edgeid": "9257df4a-f633-11ed-b16d-0242ac120006",
+                    "graph_id": "0545f79a-f55c-11ed-8616-0242ac120006",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "rangenode_id": "9257da04-f633-11ed-b16d-0242ac120006"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "0545f2d6-f55c-11ed-8616-0242ac120006",
+                    "edgeid": "986543c8-f55c-11ed-88aa-0242ac120006",
+                    "graph_id": "0545f79a-f55c-11ed-8616-0242ac120006",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P10i_contains",
+                    "rangenode_id": "98653bf8-f55c-11ed-88aa-0242ac120006"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "98653bf8-f55c-11ed-88aa-0242ac120006",
+                    "edgeid": "b7603dfa-f55c-11ed-8282-0242ac120006",
+                    "graph_id": "0545f79a-f55c-11ed-8616-0242ac120006",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "rangenode_id": "b76038f0-f55c-11ed-8282-0242ac120006"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "b76038f0-f55c-11ed-8282-0242ac120006",
+                    "edgeid": "c99def4e-f55c-11ed-8b6e-0242ac120006",
+                    "graph_id": "0545f79a-f55c-11ed-8616-0242ac120006",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "rangenode_id": "c99dea12-f55c-11ed-8b6e-0242ac120006"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "f71cd0d8-f634-11ed-8248-0242ac120006",
+                    "edgeid": "f71cfb6c-f634-11ed-8248-0242ac120006",
+                    "graph_id": "0545f79a-f55c-11ed-8616-0242ac120006",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P3_has_note",
+                    "rangenode_id": "f71cd948-f634-11ed-8248-0242ac120006"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "0545f2d6-f55c-11ed-8616-0242ac120006",
+                    "edgeid": "f71d03be-f634-11ed-8248-0242ac120006",
+                    "graph_id": "0545f79a-f55c-11ed-8616-0242ac120006",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P15_was_influenced_by",
+                    "rangenode_id": "f71cd0d8-f634-11ed-8248-0242ac120006"
+                }
+            ],
+            "functions_x_graphs": [],
+            "graphid": "0545f79a-f55c-11ed-8616-0242ac120006",
+            "iconclass": "",
+            "is_editable": true,
+            "isresource": false,
+            "jsonldcontext": null,
+            "name": {
+                "en": "Risk Management"
+            },
+            "nodegroups": [
+                {
+                    "cardinality": "1",
+                    "legacygroupid": null,
+                    "nodegroupid": "0545f2d6-f55c-11ed-8616-0242ac120006",
+                    "parentnodegroup_id": null
+                }
+            ],
+            "nodes": [
+                {
+                    "alias": null,
+                    "config": {},
+                    "datatype": "semantic",
+                    "description": "",
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "0545f79a-f55c-11ed-8616-0242ac120006",
+                    "hascustomalias": false,
+                    "is_collector": true,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": true,
+                    "name": "Risk Management",
+                    "nodegroup_id": "0545f2d6-f55c-11ed-8616-0242ac120006",
+                    "nodeid": "0545f2d6-f55c-11ed-8616-0242ac120006",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E7_Activity",
+                    "parentproperty": "",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "risk_descriptions",
+                    "config": {},
+                    "datatype": "semantic",
+                    "description": "",
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "0545f79a-f55c-11ed-8616-0242ac120006",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Risk Descriptions",
+                    "nodegroup_id": "0545f2d6-f55c-11ed-8616-0242ac120006",
+                    "nodeid": "1fed9048-f634-11ed-ba3c-0242ac120006",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P129i_is_subject_of",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "risk_description_language_metatype",
+                    "config": {
+                        "rdmCollection": "1e63c514-eb9d-48d3-94b5-35e060e5f368"
+                    },
+                    "datatype": "concept",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "0545f79a-f55c-11ed-8616-0242ac120006",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": false,
+                    "istopnode": false,
+                    "name": "Risk Description Language Metatype",
+                    "nodegroup_id": "0545f2d6-f55c-11ed-8616-0242ac120006",
+                    "nodeid": "1fed98fe-f634-11ed-ba3c-0242ac120006",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "risk_description",
+                    "config": {},
+                    "datatype": "string",
+                    "description": null,
+                    "exportable": true,
+                    "fieldname": "Risk_Desc",
+                    "graph_id": "0545f79a-f55c-11ed-8616-0242ac120006",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Risk Description",
+                    "nodegroup_id": "0545f2d6-f55c-11ed-8616-0242ac120006",
+                    "nodeid": "1fed9b06-f634-11ed-ba3c-0242ac120006",
+                    "ontologyclass": "http://www.w3.org/2000/01/rdf-schema#Literal",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P3_has_note",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "risk_description_type",
+                    "config": {
+                        "rdmCollection": "0ff39ed3-cc95-4c60-9321-6d4e65fb1f2d"
+                    },
+                    "datatype": "concept",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "0545f79a-f55c-11ed-8616-0242ac120006",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Risk Description Type",
+                    "nodegroup_id": "0545f2d6-f55c-11ed-8616-0242ac120006",
+                    "nodeid": "1fed9cbe-f634-11ed-ba3c-0242ac120006",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "risk_description_metatype",
+                    "config": {
+                        "rdmCollection": "1e63c514-eb9d-48d3-94b5-35e060e5f368"
+                    },
+                    "datatype": "concept",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "0545f79a-f55c-11ed-8616-0242ac120006",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": false,
+                    "istopnode": false,
+                    "name": "Risk Description Metatype",
+                    "nodegroup_id": "0545f2d6-f55c-11ed-8616-0242ac120006",
+                    "nodeid": "1fed9e4e-f634-11ed-ba3c-0242ac120006",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "risk_description_language",
+                    "config": {
+                        "rdmCollection": "daacadea-1454-4cf4-8b14-9ade8069f4d7"
+                    },
+                    "datatype": "concept",
+                    "description": "",
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "0545f79a-f55c-11ed-8616-0242ac120006",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Risk Description Language",
+                    "nodegroup_id": "0545f2d6-f55c-11ed-8616-0242ac120006",
+                    "nodeid": "1fed9fde-f634-11ed-ba3c-0242ac120006",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E56_Language",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P72_has_language",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "risk_condition_type",
+                    "config": {
+                        "rdmCollection": "2ec90945-95e1-4d42-86bc-802aa5a877b8"
+                    },
+                    "datatype": "concept",
+                    "description": "Allows a concept collection to be typed. Useful for data sharing.",
+                    "exportable": true,
+                    "fieldname": "Risk_Cond",
+                    "graph_id": "0545f79a-f55c-11ed-8616-0242ac120006",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Risk Condition Type",
+                    "nodegroup_id": "0545f2d6-f55c-11ed-8616-0242ac120006",
+                    "nodeid": "375be376-f57e-11ed-b3e2-0242ac120006",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P125_used_object_of_type",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "risk_condition_metatype",
+                    "config": {
+                        "rdmCollection": "1e63c514-eb9d-48d3-94b5-35e060e5f368"
+                    },
+                    "datatype": "concept",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "0545f79a-f55c-11ed-8616-0242ac120006",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": false,
+                    "istopnode": false,
+                    "name": "Risk Condition Metatype",
+                    "nodegroup_id": "0545f2d6-f55c-11ed-8616-0242ac120006",
+                    "nodeid": "375beb14-f57e-11ed-b3e2-0242ac120006",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "threat_type",
+                    "config": {
+                        "rdmCollection": "618bb431-f54f-4783-aed8-7b7d4f877ed4"
+                    },
+                    "datatype": "concept-list",
+                    "description": null,
+                    "exportable": true,
+                    "fieldname": "Threat",
+                    "graph_id": "0545f79a-f55c-11ed-8616-0242ac120006",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Threat Type",
+                    "nodegroup_id": "0545f2d6-f55c-11ed-8616-0242ac120006",
+                    "nodeid": "3a5e6a54-f631-11ed-82a1-0242ac120006",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P141_assigned",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "risk_management_timespan",
+                    "config": {},
+                    "datatype": "semantic",
+                    "description": "",
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "0545f79a-f55c-11ed-8616-0242ac120006",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Risk Management Timespan",
+                    "nodegroup_id": "0545f2d6-f55c-11ed-8616-0242ac120006",
+                    "nodeid": "3a81ccfe-f55c-11ed-8f66-0242ac120006",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "risk_assessment_start_date",
+                    "config": {
+                        "dateFormat": "YYYY-MM-DD"
+                    },
+                    "datatype": "date",
+                    "description": null,
+                    "exportable": true,
+                    "fieldname": "Risk_SDate",
+                    "graph_id": "0545f79a-f55c-11ed-8616-0242ac120006",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Risk Assessment Start Date",
+                    "nodegroup_id": "0545f2d6-f55c-11ed-8616-0242ac120006",
+                    "nodeid": "3a81d438-f55c-11ed-8f66-0242ac120006",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E61_Time_Primitive",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P82a_begin_of_the_begin",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "risk_assessment_end_date",
+                    "config": {
+                        "dateFormat": "YYYY-MM-DD"
+                    },
+                    "datatype": "date",
+                    "description": null,
+                    "exportable": true,
+                    "fieldname": "Risk_EDate",
+                    "graph_id": "0545f79a-f55c-11ed-8616-0242ac120006",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Risk Assessment End Date",
+                    "nodegroup_id": "0545f2d6-f55c-11ed-8616-0242ac120006",
+                    "nodeid": "3a81d622-f55c-11ed-8f66-0242ac120006",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E61_Time_Primitive",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P82b_end_of_the_end",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "risk_date_qualifier",
+                    "config": {
+                        "rdmCollection": "366686d6-deb0-4245-81a3-f94d791a388c"
+                    },
+                    "datatype": "concept",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "0545f79a-f55c-11ed-8616-0242ac120006",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": false,
+                    "istopnode": false,
+                    "name": "Risk Date Qualifier",
+                    "nodegroup_id": "0545f2d6-f55c-11ed-8616-0242ac120006",
+                    "nodeid": "3a81d7b2-f55c-11ed-8f66-0242ac120006",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "risk_date_qualifier_metatype",
+                    "config": {
+                        "rdmCollection": "1e63c514-eb9d-48d3-94b5-35e060e5f368"
+                    },
+                    "datatype": "concept",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "0545f79a-f55c-11ed-8616-0242ac120006",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": false,
+                    "istopnode": false,
+                    "name": "Risk Date Qualifier Metatype",
+                    "nodegroup_id": "0545f2d6-f55c-11ed-8616-0242ac120006",
+                    "nodeid": "3a81dadc-f55c-11ed-8f66-0242ac120006",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "priority_category",
+                    "config": {
+                        "rdmCollection": "0b03a8e8-d14e-4dc8-8f85-f57bea744cba"
+                    },
+                    "datatype": "concept",
+                    "description": null,
+                    "exportable": true,
+                    "fieldname": "PrioritCat",
+                    "graph_id": "0545f79a-f55c-11ed-8616-0242ac120006",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Priority Category",
+                    "nodegroup_id": "0545f2d6-f55c-11ed-8616-0242ac120006",
+                    "nodeid": "4513daf4-f633-11ed-8714-0242ac120006",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P141_assigned",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "current_vulnerability",
+                    "config": {
+                        "rdmCollection": "5e416b22-570b-4bce-bc21-ff78d6b482ed"
+                    },
+                    "datatype": "concept",
+                    "description": "Allows a concept collection to be typed. Useful for data sharing.",
+                    "exportable": true,
+                    "fieldname": "Vulnerable",
+                    "graph_id": "0545f79a-f55c-11ed-8616-0242ac120006",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Current Vulnerability",
+                    "nodegroup_id": "0545f2d6-f55c-11ed-8616-0242ac120006",
+                    "nodeid": "4e07f148-f62b-11ed-9cd7-0242ac120006",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P141_assigned",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "current_vulnerability_metatype",
+                    "config": {
+                        "rdmCollection": "1e63c514-eb9d-48d3-94b5-35e060e5f368"
+                    },
+                    "datatype": "concept",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "0545f79a-f55c-11ed-8616-0242ac120006",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": false,
+                    "istopnode": false,
+                    "name": "Current Vulnerability Metatype",
+                    "nodegroup_id": "0545f2d6-f55c-11ed-8616-0242ac120006",
+                    "nodeid": "4e07f738-f62b-11ed-9cd7-0242ac120006",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "threat_metatype",
+                    "config": {
+                        "rdmCollection": "1e63c514-eb9d-48d3-94b5-35e060e5f368"
+                    },
+                    "datatype": "concept",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "0545f79a-f55c-11ed-8616-0242ac120006",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Threat Metatype",
+                    "nodegroup_id": "0545f2d6-f55c-11ed-8616-0242ac120006",
+                    "nodeid": "5496d3c0-f631-11ed-b455-0242ac120006",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "trend_type",
+                    "config": {
+                        "rdmCollection": "1b91229c-e55f-4f7c-9a15-58ff46ba58b2"
+                    },
+                    "datatype": "concept",
+                    "description": null,
+                    "exportable": true,
+                    "fieldname": "Trend",
+                    "graph_id": "0545f79a-f55c-11ed-8616-0242ac120006",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Trend Type",
+                    "nodegroup_id": "0545f2d6-f55c-11ed-8616-0242ac120006",
+                    "nodeid": "7adc690a-f631-11ed-b2b6-0242ac120006",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P141_assigned",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "trend_metatype",
+                    "config": {
+                        "rdmCollection": "1e63c514-eb9d-48d3-94b5-35e060e5f368"
+                    },
+                    "datatype": "concept",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "0545f79a-f55c-11ed-8616-0242ac120006",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Trend Metatype",
+                    "nodegroup_id": "0545f2d6-f55c-11ed-8616-0242ac120006",
+                    "nodeid": "8e66e130-f631-11ed-833e-0242ac120006",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "priority_category_metatype",
+                    "config": {
+                        "rdmCollection": "1e63c514-eb9d-48d3-94b5-35e060e5f368"
+                    },
+                    "datatype": "concept",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "0545f79a-f55c-11ed-8616-0242ac120006",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Priority Category Metatype",
+                    "nodegroup_id": "0545f2d6-f55c-11ed-8616-0242ac120006",
+                    "nodeid": "9257da04-f633-11ed-b16d-0242ac120006",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "risk_status_assessment",
+                    "config": {},
+                    "datatype": "semantic",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "0545f79a-f55c-11ed-8616-0242ac120006",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Risk Status Assessment",
+                    "nodegroup_id": "0545f2d6-f55c-11ed-8616-0242ac120006",
+                    "nodeid": "98653bf8-f55c-11ed-88aa-0242ac120006",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E14_Condition_Assessment",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P10i_contains",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "risk_status",
+                    "config": {
+                        "rdmCollection": "32b0bb10-84bf-4fba-bbd0-4fcd1bfff2e3"
+                    },
+                    "datatype": "concept",
+                    "description": null,
+                    "exportable": true,
+                    "fieldname": "RiskStatus",
+                    "graph_id": "0545f79a-f55c-11ed-8616-0242ac120006",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Risk Status",
+                    "nodegroup_id": "0545f2d6-f55c-11ed-8616-0242ac120006",
+                    "nodeid": "b76038f0-f55c-11ed-8282-0242ac120006",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "risk_status_metatype",
+                    "config": {
+                        "rdmCollection": "1e63c514-eb9d-48d3-94b5-35e060e5f368"
+                    },
+                    "datatype": "concept",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "0545f79a-f55c-11ed-8616-0242ac120006",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Risk Status Metatype",
+                    "nodegroup_id": "0545f2d6-f55c-11ed-8616-0242ac120006",
+                    "nodeid": "c99dea12-f55c-11ed-8b6e-0242ac120006",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "har_references",
+                    "config": {},
+                    "datatype": "semantic",
+                    "description": "",
+                    "exportable": false,
+                    "fieldname": "",
+                    "graph_id": "0545f79a-f55c-11ed-8616-0242ac120006",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "HAR References",
+                    "nodegroup_id": "0545f2d6-f55c-11ed-8616-0242ac120006",
+                    "nodeid": "f71cd0d8-f634-11ed-8248-0242ac120006",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E42_Identifier",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P15_was_influenced_by",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "har_url",
+                    "config": {},
+                    "datatype": "url",
+                    "description": null,
+                    "exportable": true,
+                    "fieldname": "HAR_URL",
+                    "graph_id": "0545f79a-f55c-11ed-8616-0242ac120006",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "HAR URL",
+                    "nodegroup_id": "0545f2d6-f55c-11ed-8616-0242ac120006",
+                    "nodeid": "f71cd948-f634-11ed-8248-0242ac120006",
+                    "ontologyclass": "http://www.w3.org/2000/01/rdf-schema#Literal",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P3_has_note",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                }
+            ],
+            "ontology_id": "e6e8db47-2ccf-11e6-927e-b8f6b115d7dd",
+            "publication": null,
+            "relatable_resource_model_ids": [],
+            "resource_2_resource_constraints": [],
+            "root": {
+                "alias": null,
+                "config": {},
+                "datatype": "semantic",
+                "description": "",
+                "exportable": false,
+                "fieldname": null,
+                "graph_id": "0545f79a-f55c-11ed-8616-0242ac120006",
+                "hascustomalias": false,
+                "is_collector": true,
+                "isrequired": false,
+                "issearchable": true,
+                "istopnode": true,
+                "name": "Risk Management",
+                "nodegroup_id": "0545f2d6-f55c-11ed-8616-0242ac120006",
+                "nodeid": "0545f2d6-f55c-11ed-8616-0242ac120006",
+                "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E7_Activity",
+                "sortorder": 0,
+                "sourcebranchpublication_id": null
+            },
+            "slug": null,
+            "subtitle": {
+                "en": ""
+            },
+            "template_id": "50000000-0000-0000-0000-000000000001",
+            "version": ""
+        }
+    ],
+    "metadata": {
+        "db": "PostgreSQL 16.10 on x86_64-pc-linux-gnu, compiled by gcc (GCC) 11.2.0, 64-bit",
+        "git hash": "fatal: not a git repository (or any of the parent directories): .git",
+        "os": "Windows",
+        "os version": "2019Server"
+    }
+}

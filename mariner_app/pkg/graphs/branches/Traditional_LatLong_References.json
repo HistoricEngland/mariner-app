@@ -1,0 +1,893 @@
+{
+    "graph": [
+        {
+            "author": "",
+            "cards": [
+                {
+                    "active": true,
+                    "cardid": "d256c8ca-fafe-11ed-8b0a-0242ac120006",
+                    "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
+                    "config": null,
+                    "constraints": [],
+                    "cssclass": null,
+                    "description": {
+                        "en": ""
+                    },
+                    "graph_id": "d256bc5e-fafe-11ed-8b0a-0242ac120006",
+                    "helpenabled": false,
+                    "helptext": {
+                        "en": null
+                    },
+                    "helptitle": {
+                        "en": null
+                    },
+                    "instructions": {
+                        "en": null
+                    },
+                    "is_editable": true,
+                    "name": {
+                        "en": "Traditional_LatLong_References"
+                    },
+                    "nodegroup_id": "d256c258-fafe-11ed-8b0a-0242ac120006",
+                    "sortorder": 5,
+                    "visible": true
+                }
+            ],
+            "cards_x_nodes_x_widgets": [
+                {
+                    "card_id": "d256c8ca-fafe-11ed-8b0a-0242ac120006",
+                    "config": {
+                        "defaultValue": {
+                            "en": {
+                                "direction": "ltr",
+                                "value": ""
+                            }
+                        },
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
+                        "label": "Latitude Minutes",
+                        "maxLength": null,
+                        "placeholder": {
+                            "en": "Enter text"
+                        },
+                        "uneditable": false,
+                        "width": "100%"
+                    },
+                    "id": "d256dfc2-fafe-11ed-8b0a-0242ac120006",
+                    "label": {
+                        "en": "Latitude Minutes"
+                    },
+                    "node_id": "d256cb22-fafe-11ed-8b0a-0242ac120006",
+                    "sortorder": 1,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000001"
+                },
+                {
+                    "card_id": "d256c8ca-fafe-11ed-8b0a-0242ac120006",
+                    "config": {
+                        "defaultValue": {
+                            "en": {
+                                "direction": "ltr",
+                                "value": ""
+                            }
+                        },
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
+                        "label": "Longitude Hemisphere",
+                        "maxLength": null,
+                        "placeholder": {
+                            "en": "Enter text"
+                        },
+                        "uneditable": false,
+                        "width": "100%"
+                    },
+                    "id": "d256e09e-fafe-11ed-8b0a-0242ac120006",
+                    "label": {
+                        "en": "Longitude Hemisphere"
+                    },
+                    "node_id": "d256db9e-fafe-11ed-8b0a-0242ac120006",
+                    "sortorder": 7,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000001"
+                },
+                {
+                    "card_id": "d256c8ca-fafe-11ed-8b0a-0242ac120006",
+                    "config": {
+                        "defaultValue": {
+                            "en": {
+                                "direction": "ltr",
+                                "value": ""
+                            }
+                        },
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
+                        "label": "Longitude Minutes",
+                        "maxLength": null,
+                        "placeholder": {
+                            "en": "Enter text"
+                        },
+                        "uneditable": false,
+                        "width": "100%"
+                    },
+                    "id": "d256e13e-fafe-11ed-8b0a-0242ac120006",
+                    "label": {
+                        "en": "Longitude Minutes"
+                    },
+                    "node_id": "d256d392-fafe-11ed-8b0a-0242ac120006",
+                    "sortorder": 5,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000001"
+                },
+                {
+                    "card_id": "d256c8ca-fafe-11ed-8b0a-0242ac120006",
+                    "config": {
+                        "defaultValue": {
+                            "en": {
+                                "direction": "ltr",
+                                "value": ""
+                            }
+                        },
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
+                        "label": "Longitude Degrees",
+                        "maxLength": null,
+                        "placeholder": {
+                            "en": "Enter text"
+                        },
+                        "uneditable": false,
+                        "width": "100%"
+                    },
+                    "id": "d256e1de-fafe-11ed-8b0a-0242ac120006",
+                    "label": {
+                        "en": "Longitude Degrees"
+                    },
+                    "node_id": "d256cd0c-fafe-11ed-8b0a-0242ac120006",
+                    "sortorder": 4,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000001"
+                },
+                {
+                    "card_id": "d256c8ca-fafe-11ed-8b0a-0242ac120006",
+                    "config": {
+                        "defaultValue": {
+                            "en": {
+                                "direction": "ltr",
+                                "value": ""
+                            }
+                        },
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
+                        "label": "Longitude Seconds",
+                        "maxLength": null,
+                        "placeholder": {
+                            "en": "Enter text"
+                        },
+                        "uneditable": false,
+                        "width": "100%"
+                    },
+                    "id": "d256e27e-fafe-11ed-8b0a-0242ac120006",
+                    "label": {
+                        "en": "Longitude Seconds"
+                    },
+                    "node_id": "d256d86a-fafe-11ed-8b0a-0242ac120006",
+                    "sortorder": 6,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000001"
+                },
+                {
+                    "card_id": "d256c8ca-fafe-11ed-8b0a-0242ac120006",
+                    "config": {
+                        "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
+                        "label": "Height Qualifier",
+                        "options": [
+                            {
+                                "children": [],
+                                "collector": "",
+                                "conceptid": "58131f31-c16f-45b7-8700-6531df456468",
+                                "id": "d8338ba5-b9a3-4df0-a399-6e99e19003bb",
+                                "sortorder": "",
+                                "text": "Chart Datum"
+                            },
+                            {
+                                "children": [],
+                                "collector": "",
+                                "conceptid": "622e2191-22e4-4722-bd19-243e090dff3c",
+                                "id": "8dd36fc5-edb5-4def-9fd7-6936f2a118d3",
+                                "sortorder": "",
+                                "text": "General Depth"
+                            },
+                            {
+                                "children": [],
+                                "collector": "",
+                                "conceptid": "70ff70c8-27d6-40c4-8264-c32c9ed1eecc",
+                                "id": "bb902ce0-1745-4005-a8b4-8eef30dd10ff",
+                                "sortorder": "",
+                                "text": "Ordnance Datum"
+                            },
+                            {
+                                "children": [],
+                                "collector": "",
+                                "conceptid": "64fc3479-334e-412f-b09a-b5dcc00aba20",
+                                "id": "e8dda1c5-4f91-4ffa-ae4f-4fe26d6fee96",
+                                "sortorder": "",
+                                "text": "Unknown"
+                            }
+                        ],
+                        "placeholder": {
+                            "en": "Select an option"
+                        },
+                        "url": "/concepts/dropdown?conceptid=234be8dd-aaca-48ac-bcb5-0eac8abd6572"
+                    },
+                    "id": "d256e328-fafe-11ed-8b0a-0242ac120006",
+                    "label": {
+                        "en": "Height Qualifier"
+                    },
+                    "node_id": "d256d1f8-fafe-11ed-8b0a-0242ac120006",
+                    "sortorder": 10,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000009"
+                },
+                {
+                    "card_id": "d256c8ca-fafe-11ed-8b0a-0242ac120006",
+                    "config": {
+                        "defaultValue": {
+                            "en": {
+                                "direction": "ltr",
+                                "value": ""
+                            }
+                        },
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
+                        "label": "Height Above/Below Ordance Datum",
+                        "maxLength": null,
+                        "placeholder": {
+                            "en": "Enter text"
+                        },
+                        "uneditable": false,
+                        "width": "100%"
+                    },
+                    "id": "d256e440-fafe-11ed-8b0a-0242ac120006",
+                    "label": {
+                        "en": "Height Above/Below Ordance Datum"
+                    },
+                    "node_id": "d256dd38-fafe-11ed-8b0a-0242ac120006",
+                    "sortorder": 8,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000001"
+                },
+                {
+                    "card_id": "d256c8ca-fafe-11ed-8b0a-0242ac120006",
+                    "config": {
+                        "defaultValue": {
+                            "en": {
+                                "direction": "ltr",
+                                "value": ""
+                            }
+                        },
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
+                        "label": "Latitude Hemisphere",
+                        "maxLength": null,
+                        "placeholder": {
+                            "en": "Enter text"
+                        },
+                        "uneditable": false,
+                        "width": "100%"
+                    },
+                    "id": "d256e4ea-fafe-11ed-8b0a-0242ac120006",
+                    "label": {
+                        "en": "Latitude Hemisphere"
+                    },
+                    "node_id": "d256d9fa-fafe-11ed-8b0a-0242ac120006",
+                    "sortorder": 3,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000001"
+                },
+                {
+                    "card_id": "d256c8ca-fafe-11ed-8b0a-0242ac120006",
+                    "config": {
+                        "defaultValue": {
+                            "en": {
+                                "direction": "ltr",
+                                "value": ""
+                            }
+                        },
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
+                        "label": "Latitude Seconds",
+                        "maxLength": null,
+                        "placeholder": {
+                            "en": "Enter text"
+                        },
+                        "uneditable": false,
+                        "width": "100%"
+                    },
+                    "id": "d256e580-fafe-11ed-8b0a-0242ac120006",
+                    "label": {
+                        "en": "Latitude Seconds"
+                    },
+                    "node_id": "d256d540-fafe-11ed-8b0a-0242ac120006",
+                    "sortorder": 2,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000001"
+                },
+                {
+                    "card_id": "d256c8ca-fafe-11ed-8b0a-0242ac120006",
+                    "config": {
+                        "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
+                        "label": "Unit of Measurement",
+                        "options": [],
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
+                    },
+                    "id": "d256e62a-fafe-11ed-8b0a-0242ac120006",
+                    "label": {
+                        "en": "Unit of Measurement"
+                    },
+                    "node_id": "d256dec8-fafe-11ed-8b0a-0242ac120006",
+                    "sortorder": 9,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000002"
+                },
+                {
+                    "card_id": "d256c8ca-fafe-11ed-8b0a-0242ac120006",
+                    "config": {
+                        "defaultValue": {
+                            "en": {
+                                "direction": "ltr",
+                                "value": ""
+                            }
+                        },
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
+                        "label": "Latitude Degrees",
+                        "maxLength": null,
+                        "placeholder": {
+                            "en": "Enter text"
+                        },
+                        "uneditable": false,
+                        "width": "100%"
+                    },
+                    "id": "d256e6c0-fafe-11ed-8b0a-0242ac120006",
+                    "label": {
+                        "en": "Latitude Degrees"
+                    },
+                    "node_id": "d256ceba-fafe-11ed-8b0a-0242ac120006",
+                    "sortorder": 0,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000001"
+                }
+            ],
+            "color": "rgba(33,59,134,1)",
+            "config": {
+                "basemap": "streets",
+                "bearing": 0,
+                "centerX": -1.5983286851933372,
+                "centerY": 53.155430248627454,
+                "defaultValue": "",
+                "defaultValueType": 0,
+                "featureColor": "#FF0000",
+                "featureEditingDisabled": true,
+                "featureLineWidth": 1,
+                "featurePointSize": 3,
+                "geocodePlaceholder": "Search",
+                "geocodeProvider": "10000000-0000-0000-0000-010000000000",
+                "geocoderVisible": true,
+                "geometryTypes": [
+                    {
+                        "id": "Point",
+                        "text": "Point"
+                    },
+                    {
+                        "id": "Line",
+                        "text": "Line"
+                    },
+                    {
+                        "id": "Polygon",
+                        "text": "Polygon"
+                    }
+                ],
+                "mapControlsHidden": false,
+                "maxZoom": 20,
+                "minZoom": 0,
+                "overlayConfigs": [],
+                "overlayOpacity": 0,
+                "pitch": 0,
+                "zoom": 4.908319487490616
+            },
+            "deploymentdate": null,
+            "deploymentfile": null,
+            "description": {
+                "en": ""
+            },
+            "edges": [
+                {
+                    "description": null,
+                    "domainnode_id": "d256c258-fafe-11ed-8b0a-0242ac120006",
+                    "edgeid": "d2571d0c-fafe-11ed-8b0a-0242ac120006",
+                    "graph_id": "d256bc5e-fafe-11ed-8b0a-0242ac120006",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P148_has_component",
+                    "rangenode_id": "d256d05e-fafe-11ed-8b0a-0242ac120006"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "d256dd38-fafe-11ed-8b0a-0242ac120006",
+                    "edgeid": "d2571f28-fafe-11ed-8b0a-0242ac120006",
+                    "graph_id": "d256bc5e-fafe-11ed-8b0a-0242ac120006",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "rangenode_id": "d256dec8-fafe-11ed-8b0a-0242ac120006"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "d256c258-fafe-11ed-8b0a-0242ac120006",
+                    "edgeid": "d2572068-fafe-11ed-8b0a-0242ac120006",
+                    "graph_id": "d256bc5e-fafe-11ed-8b0a-0242ac120006",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P148_has_component",
+                    "rangenode_id": "d256d6da-fafe-11ed-8b0a-0242ac120006"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "d256d6da-fafe-11ed-8b0a-0242ac120006",
+                    "edgeid": "d257216c-fafe-11ed-8b0a-0242ac120006",
+                    "graph_id": "d256bc5e-fafe-11ed-8b0a-0242ac120006",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P168_place_is_defined_by",
+                    "rangenode_id": "d256d9fa-fafe-11ed-8b0a-0242ac120006"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "d256d05e-fafe-11ed-8b0a-0242ac120006",
+                    "edgeid": "d257227a-fafe-11ed-8b0a-0242ac120006",
+                    "graph_id": "d256bc5e-fafe-11ed-8b0a-0242ac120006",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P168_place_is_defined_by",
+                    "rangenode_id": "d256d392-fafe-11ed-8b0a-0242ac120006"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "d256d6da-fafe-11ed-8b0a-0242ac120006",
+                    "edgeid": "d2572374-fafe-11ed-8b0a-0242ac120006",
+                    "graph_id": "d256bc5e-fafe-11ed-8b0a-0242ac120006",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P168_place_is_defined_by",
+                    "rangenode_id": "d256d540-fafe-11ed-8b0a-0242ac120006"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "d256d6da-fafe-11ed-8b0a-0242ac120006",
+                    "edgeid": "d257248c-fafe-11ed-8b0a-0242ac120006",
+                    "graph_id": "d256bc5e-fafe-11ed-8b0a-0242ac120006",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P168_place_is_defined_by",
+                    "rangenode_id": "d256cb22-fafe-11ed-8b0a-0242ac120006"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "d256d6da-fafe-11ed-8b0a-0242ac120006",
+                    "edgeid": "d257259a-fafe-11ed-8b0a-0242ac120006",
+                    "graph_id": "d256bc5e-fafe-11ed-8b0a-0242ac120006",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P168_place_is_defined_by",
+                    "rangenode_id": "d256ceba-fafe-11ed-8b0a-0242ac120006"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "d256dd38-fafe-11ed-8b0a-0242ac120006",
+                    "edgeid": "d257269e-fafe-11ed-8b0a-0242ac120006",
+                    "graph_id": "d256bc5e-fafe-11ed-8b0a-0242ac120006",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "rangenode_id": "d256d1f8-fafe-11ed-8b0a-0242ac120006"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "d256d05e-fafe-11ed-8b0a-0242ac120006",
+                    "edgeid": "d25727a2-fafe-11ed-8b0a-0242ac120006",
+                    "graph_id": "d256bc5e-fafe-11ed-8b0a-0242ac120006",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P168_place_is_defined_by",
+                    "rangenode_id": "d256cd0c-fafe-11ed-8b0a-0242ac120006"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "d256c258-fafe-11ed-8b0a-0242ac120006",
+                    "edgeid": "d25728ba-fafe-11ed-8b0a-0242ac120006",
+                    "graph_id": "d256bc5e-fafe-11ed-8b0a-0242ac120006",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P148_has_component",
+                    "rangenode_id": "d256dd38-fafe-11ed-8b0a-0242ac120006"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "d256d05e-fafe-11ed-8b0a-0242ac120006",
+                    "edgeid": "d25729be-fafe-11ed-8b0a-0242ac120006",
+                    "graph_id": "d256bc5e-fafe-11ed-8b0a-0242ac120006",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P168_place_is_defined_by",
+                    "rangenode_id": "d256db9e-fafe-11ed-8b0a-0242ac120006"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "d256d05e-fafe-11ed-8b0a-0242ac120006",
+                    "edgeid": "d2572ac2-fafe-11ed-8b0a-0242ac120006",
+                    "graph_id": "d256bc5e-fafe-11ed-8b0a-0242ac120006",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P168_place_is_defined_by",
+                    "rangenode_id": "d256d86a-fafe-11ed-8b0a-0242ac120006"
+                }
+            ],
+            "functions_x_graphs": [],
+            "graphid": "d256bc5e-fafe-11ed-8b0a-0242ac120006",
+            "iconclass": "fa fa-ship",
+            "is_editable": true,
+            "isresource": false,
+            "jsonldcontext": null,
+            "name": {
+                "en": "Traditional_LatLong_References"
+            },
+            "nodegroups": [
+                {
+                    "cardinality": "1",
+                    "legacygroupid": null,
+                    "nodegroupid": "d256c258-fafe-11ed-8b0a-0242ac120006",
+                    "parentnodegroup_id": null
+                }
+            ],
+            "nodes": [
+                {
+                    "alias": "traditional_latlong_references",
+                    "config": {},
+                    "datatype": "semantic",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "d256bc5e-fafe-11ed-8b0a-0242ac120006",
+                    "hascustomalias": false,
+                    "is_collector": true,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": true,
+                    "name": "Traditional_LatLong_References",
+                    "nodegroup_id": "d256c258-fafe-11ed-8b0a-0242ac120006",
+                    "nodeid": "d256c258-fafe-11ed-8b0a-0242ac120006",
+                    "ontologyclass": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+                    "parentproperty": "",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "latitude_minutes",
+                    "config": {},
+                    "datatype": "string",
+                    "description": null,
+                    "exportable": true,
+                    "fieldname": "LatMinutes",
+                    "graph_id": "d256bc5e-fafe-11ed-8b0a-0242ac120006",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Latitude Minutes",
+                    "nodegroup_id": "d256c258-fafe-11ed-8b0a-0242ac120006",
+                    "nodeid": "d256cb22-fafe-11ed-8b0a-0242ac120006",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E94_Space_Primitive",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P168_place_is_defined_by",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "longitude_degrees",
+                    "config": {},
+                    "datatype": "string",
+                    "description": null,
+                    "exportable": true,
+                    "fieldname": "LonDegrees",
+                    "graph_id": "d256bc5e-fafe-11ed-8b0a-0242ac120006",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Longitude Degrees",
+                    "nodegroup_id": "d256c258-fafe-11ed-8b0a-0242ac120006",
+                    "nodeid": "d256cd0c-fafe-11ed-8b0a-0242ac120006",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E94_Space_Primitive",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P168_place_is_defined_by",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "latitude_degrees",
+                    "config": {},
+                    "datatype": "string",
+                    "description": null,
+                    "exportable": true,
+                    "fieldname": "LatDegrees",
+                    "graph_id": "d256bc5e-fafe-11ed-8b0a-0242ac120006",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Latitude Degrees",
+                    "nodegroup_id": "d256c258-fafe-11ed-8b0a-0242ac120006",
+                    "nodeid": "d256ceba-fafe-11ed-8b0a-0242ac120006",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E94_Space_Primitive",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P168_place_is_defined_by",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "longitude",
+                    "config": {},
+                    "datatype": "semantic",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "d256bc5e-fafe-11ed-8b0a-0242ac120006",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Longitude",
+                    "nodegroup_id": "d256c258-fafe-11ed-8b0a-0242ac120006",
+                    "nodeid": "d256d05e-fafe-11ed-8b0a-0242ac120006",
+                    "ontologyclass": "http://www.ics.forth.gr/isl/CRMgeo/SP15_Geometry",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P148_has_component",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "trad_height_qualifier",
+                    "config": {
+                        "rdmCollection": "234be8dd-aaca-48ac-bcb5-0eac8abd6572"
+                    },
+                    "datatype": "concept",
+                    "description": null,
+                    "exportable": true,
+                    "fieldname": "THeighQual",
+                    "graph_id": "d256bc5e-fafe-11ed-8b0a-0242ac120006",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Trad Height Qualifier",
+                    "nodegroup_id": "d256c258-fafe-11ed-8b0a-0242ac120006",
+                    "nodeid": "d256d1f8-fafe-11ed-8b0a-0242ac120006",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "longitude_minutes",
+                    "config": {},
+                    "datatype": "string",
+                    "description": null,
+                    "exportable": true,
+                    "fieldname": "LonMinutes",
+                    "graph_id": "d256bc5e-fafe-11ed-8b0a-0242ac120006",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Longitude Minutes",
+                    "nodegroup_id": "d256c258-fafe-11ed-8b0a-0242ac120006",
+                    "nodeid": "d256d392-fafe-11ed-8b0a-0242ac120006",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E94_Space_Primitive",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P168_place_is_defined_by",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "latitude_seconds",
+                    "config": {},
+                    "datatype": "string",
+                    "description": null,
+                    "exportable": true,
+                    "fieldname": "LatSeconds",
+                    "graph_id": "d256bc5e-fafe-11ed-8b0a-0242ac120006",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Latitude Seconds",
+                    "nodegroup_id": "d256c258-fafe-11ed-8b0a-0242ac120006",
+                    "nodeid": "d256d540-fafe-11ed-8b0a-0242ac120006",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E94_Space_Primitive",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P168_place_is_defined_by",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "latitude",
+                    "config": {},
+                    "datatype": "semantic",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "d256bc5e-fafe-11ed-8b0a-0242ac120006",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Latitude",
+                    "nodegroup_id": "d256c258-fafe-11ed-8b0a-0242ac120006",
+                    "nodeid": "d256d6da-fafe-11ed-8b0a-0242ac120006",
+                    "ontologyclass": "http://www.ics.forth.gr/isl/CRMgeo/SP15_Geometry",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P148_has_component",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "longitude_seconds",
+                    "config": {},
+                    "datatype": "string",
+                    "description": null,
+                    "exportable": true,
+                    "fieldname": "LonSeconds",
+                    "graph_id": "d256bc5e-fafe-11ed-8b0a-0242ac120006",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Longitude Seconds",
+                    "nodegroup_id": "d256c258-fafe-11ed-8b0a-0242ac120006",
+                    "nodeid": "d256d86a-fafe-11ed-8b0a-0242ac120006",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E94_Space_Primitive",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P168_place_is_defined_by",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "latitude_hemisphere",
+                    "config": {},
+                    "datatype": "string",
+                    "description": null,
+                    "exportable": true,
+                    "fieldname": "LatHem",
+                    "graph_id": "d256bc5e-fafe-11ed-8b0a-0242ac120006",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Latitude Hemisphere",
+                    "nodegroup_id": "d256c258-fafe-11ed-8b0a-0242ac120006",
+                    "nodeid": "d256d9fa-fafe-11ed-8b0a-0242ac120006",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E94_Space_Primitive",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P168_place_is_defined_by",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "longitude_hemisphere",
+                    "config": {},
+                    "datatype": "string",
+                    "description": null,
+                    "exportable": true,
+                    "fieldname": "LonHem",
+                    "graph_id": "d256bc5e-fafe-11ed-8b0a-0242ac120006",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Longitude Hemisphere",
+                    "nodegroup_id": "d256c258-fafe-11ed-8b0a-0242ac120006",
+                    "nodeid": "d256db9e-fafe-11ed-8b0a-0242ac120006",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E94_Space_Primitive",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P168_place_is_defined_by",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "height_abovebelow_datum",
+                    "config": {},
+                    "datatype": "string",
+                    "description": null,
+                    "exportable": true,
+                    "fieldname": "HeightOD",
+                    "graph_id": "d256bc5e-fafe-11ed-8b0a-0242ac120006",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Height AboveBelow Datum",
+                    "nodegroup_id": "d256c258-fafe-11ed-8b0a-0242ac120006",
+                    "nodeid": "d256dd38-fafe-11ed-8b0a-0242ac120006",
+                    "ontologyclass": "http://www.ics.forth.gr/isl/CRMgeo/SP5_Geometric_Place_Expression",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P148_has_component",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "trad_unit_of_measurement",
+                    "config": {
+                        "rdmCollection": "51407fe6-9f8d-439d-8309-d6804b4437d2"
+                    },
+                    "datatype": "concept",
+                    "description": null,
+                    "exportable": true,
+                    "fieldname": "TMeasUnit",
+                    "graph_id": "d256bc5e-fafe-11ed-8b0a-0242ac120006",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Trad Unit of Measurement",
+                    "nodegroup_id": "d256c258-fafe-11ed-8b0a-0242ac120006",
+                    "nodeid": "d256dec8-fafe-11ed-8b0a-0242ac120006",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                }
+            ],
+            "ontology_id": "e6e8db47-2ccf-11e6-927e-b8f6b115d7dd",
+            "publication": null,
+            "relatable_resource_model_ids": [],
+            "resource_2_resource_constraints": [],
+            "root": {
+                "alias": "traditional_latlong_references",
+                "config": {},
+                "datatype": "semantic",
+                "description": null,
+                "exportable": false,
+                "fieldname": null,
+                "graph_id": "d256bc5e-fafe-11ed-8b0a-0242ac120006",
+                "hascustomalias": false,
+                "is_collector": true,
+                "isrequired": false,
+                "issearchable": true,
+                "istopnode": true,
+                "name": "Traditional_LatLong_References",
+                "nodegroup_id": "d256c258-fafe-11ed-8b0a-0242ac120006",
+                "nodeid": "d256c258-fafe-11ed-8b0a-0242ac120006",
+                "ontologyclass": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+                "sortorder": 0,
+                "sourcebranchpublication_id": null
+            },
+            "slug": null,
+            "subtitle": {
+                "en": ""
+            },
+            "template_id": "50000000-0000-0000-0000-000000000002",
+            "version": ""
+        }
+    ],
+    "metadata": {
+        "db": "PostgreSQL 16.10 on x86_64-pc-linux-gnu, compiled by gcc (GCC) 11.2.0, 64-bit",
+        "git hash": "fatal: not a git repository (or any of the parent directories): .git",
+        "os": "Windows",
+        "os version": "2019Server"
+    }
+}
