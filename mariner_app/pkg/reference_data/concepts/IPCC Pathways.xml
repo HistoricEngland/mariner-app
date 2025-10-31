@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/a7ea7165-426f-421a-a049-318d17945426">
+    <skos:narrower>
+      <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/c8698b0f-2de0-415f-86c0-83291933393e">
+        <skos:prefLabel xml:lang="en">{"id": "2e521a5d-9c27-4592-8160-67d61290bf94", "value": "RCP 4.5"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/a4ecc030-8f5b-4250-bb68-cff2a80782b8"/>
+        <skos:definition xml:lang="en">{"id": "71756205-91f2-4c0d-83a3-5f217ccdcd09", "value": "One intermediate stabilisation pathway in which radiative forcing is limited at approximately 4.5 W m\u20132  in 2100 (the corresponding Extended Concentration Pathway, or  ECP, has constant concentrations after 2150)."}</skos:definition>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:prefLabel xml:lang="en">{"id": "fc0a0a24-9e43-4923-9b20-daf8bbab0037", "value": "Representative Concentration Pathways"}</skos:prefLabel>
+    <skos:inScheme>
+      <skos:ConceptScheme rdf:about="https://nmhr.historicengland.org.uk/a4ecc030-8f5b-4250-bb68-cff2a80782b8">
+        <dcterms:title xml:lang="en">{"id": "9acb01bc-1eaf-4849-b627-432a9bb4ed06", "value": "IPCC Pathways"}</dcterms:title>
+        <skos:hasTopConcept rdf:resource="https://nmhr.historicengland.org.uk/a7ea7165-426f-421a-a049-318d17945426"/>
+        <skos:hasTopConcept rdf:resource="https://nmhr.historicengland.org.uk/35efbea9-6fd9-4029-b89d-544dba2a579e"/>
+      </skos:ConceptScheme>
+    </skos:inScheme>
+    <skos:definition xml:lang="en">{"id": "dac95715-a08f-4c29-b87f-5efc76cfb5bd", "value": "Scenarios that include time series of emissions and concentrations of the full suite of greenhouse gases (GHGs) and aerosols and chemically active gases, as well as land use/land cover (Moss et al.,2008; van Vuuren et al., 2011). The word representative signifies that each RCP provides only one of many possible scenarios that would lead to the specific radiative forcing characteristics. The term pathway emphasises that not only the long-term concentration levels are of interest, but also the trajectory taken over time to reach that outcome (Moss et al., 2010; van Vuuren et al., 2011)."}</skos:definition>
+    <skos:narrower>
+      <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/92350c19-46ca-416d-9242-30c7228da319">
+        <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/a4ecc030-8f5b-4250-bb68-cff2a80782b8"/>
+        <skos:prefLabel xml:lang="en">{"id": "cc76cff2-6701-4c51-9821-cd45a56b336a", "value": "RCP 8.5"}</skos:prefLabel>
+        <skos:definition xml:lang="en">{"id": "7cdfcd57-a676-4c1a-8dca-dad8bc0668e1", "value": "One high pathway which leads to &gt;8.5 W m\u20132 in 2100 (the corresponding Extended Concentration Pathway, or ECP, has constant emissions after 2100 until 2150 and constant concentrations after 2250)."}</skos:definition>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/4536758a-4c5b-4f5a-8ee9-76f8ce73d169">
+        <skos:prefLabel xml:lang="en">{"id": "ca6ae09e-cccf-468e-9c99-aef1ed0f54e6", "value": "RCP 2.6"}</skos:prefLabel>
+        <skos:definition xml:lang="en">{"id": "a891725c-cf82-4975-8014-de328b011d38", "value": "One pathway where radiative forcing peaks at approximately 3 W m\u20132 and then declines to be limited at 2.6 W m\u20132 in 2100 (the corresponding Extended Concentration Pathway, or ECP, has constant emissions after 2100)\u201d"}</skos:definition>
+        <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/a4ecc030-8f5b-4250-bb68-cff2a80782b8"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/ad3ad12e-9c6c-406a-afc7-f19de48a5c9f">
+        <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/a4ecc030-8f5b-4250-bb68-cff2a80782b8"/>
+        <skos:definition xml:lang="en">{"id": "fff47569-86e7-466a-87d2-3f6f7749d601", "value": "One intermediate stabilisation pathway in which radiative forcing is limited at approximately 6.0 W m\u20132 in 2100 (the corresponding Extended Concentration Pathway, or ECP, has constant concentrations after 2150)."}</skos:definition>
+        <skos:prefLabel xml:lang="en">{"id": "a054d303-f9e9-44f6-aeda-ac38d934d667", "value": "RCP 6.0"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/daaade2f-f31e-4491-8cb7-f3c1f33703ad">
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/a4ecc030-8f5b-4250-bb68-cff2a80782b8"/>
+    <skos:prefLabel xml:lang="en">{"id": "de19d317-5a4a-460d-a138-90059f3be2f5", "value": "SSP2 Middle of the road"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/35efbea9-6fd9-4029-b89d-544dba2a579e">
+    <skos:narrower rdf:resource="https://nmhr.historicengland.org.uk/daaade2f-f31e-4491-8cb7-f3c1f33703ad"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/2374bb04-f569-4f21-a6ac-00c38f95968c">
+        <skos:prefLabel xml:lang="en">{"id": "5e875cb8-c55c-4050-902d-67bef66be2e1", "value": "SSP5 Fossil-fueled development"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/a4ecc030-8f5b-4250-bb68-cff2a80782b8"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/a4ecc030-8f5b-4250-bb68-cff2a80782b8"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/5770241a-197a-4c76-9f99-f7f1c74e5d80">
+        <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/a4ecc030-8f5b-4250-bb68-cff2a80782b8"/>
+        <skos:prefLabel xml:lang="en">{"id": "562929ff-93a2-454e-bf30-59864c96f0a6", "value": "SSP1 Sustainability"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:prefLabel xml:lang="en">{"id": "9020b424-4008-481e-8b15-bd54849562cd", "value": "Shared Socio-economic Pathways"}</skos:prefLabel>
+    <skos:narrower>
+      <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/803e2ead-9bca-478a-8be1-ebcb389c7a1b">
+        <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/a4ecc030-8f5b-4250-bb68-cff2a80782b8"/>
+        <skos:prefLabel xml:lang="en">{"id": "2be05ae1-7207-4947-92c9-affa5097c999", "value": "SSP3 Regional rivalry"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/5d4907bf-5ac6-4309-a758-062cd4b58d0c">
+        <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/a4ecc030-8f5b-4250-bb68-cff2a80782b8"/>
+        <skos:prefLabel xml:lang="en">{"id": "967e3ea4-86e2-4d44-ab85-8e6bad4af010", "value": "SSP4 Inequality"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:definition xml:lang="en">{"id": "b2f4c270-c732-4e87-8d7b-c9b0f7dc6f1f", "value": "Shared Socio-economic Pathways (SSPs) have been developed to complement the Representative Concentration Pathways (RCPs). By design, the RCP emission and concentration pathways were stripped of their association with a certain socio-economic development. Different levels of emissions and climate change along the dimension of the RCPs can hence be explored against the backdrop of different socio-economic development pathways (SSPs) on the other dimension in a matrix. This integrative SSP-RCP framework is now widely used in the climate impact and policy analysis literature, where climate projections obtained under the RCP scenarios are analysed against the backdrop of various SSPs. As several emissions updates were due, a new set of emissions scenarios was developed in conjunction with the SSPs. Hence, the abbreviation SSP is now used for two things: On the one hand SSP1, SSP2, \u2026, SSP5 are used to denote the five socio-economic scenario families. On the other hand, the abbreviations SSP1-1.9, SSP1-2.6, \u2026, SSP5-8.5 are used to denote the newly developed emissions scenarios that are the result of an SSP implementation within an integrated assessment model. Those SSP scenarios are bare of climate policy assumption, but in combination with so-called shared policy assumptions (SPAs), various approximate radiative forcing levels of 1.9, 2.6, \u2026, or 8.5 W m\u20132 are reached by the end of the century, respectively."}</skos:definition>
+  </skos:Concept>
+</rdf:RDF>

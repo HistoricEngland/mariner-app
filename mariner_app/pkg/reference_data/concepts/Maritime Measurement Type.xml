@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/09d06c73-f6c1-4a55-98a8-2a11020407b1">
+    <skos:prefLabel xml:lang="en">{"id": "d3e495d7-8af3-4fdd-afc4-9aa039b7b06c", "value": "Archaeological vessel dimensions"}</skos:prefLabel>
+    <skos:inScheme>
+      <skos:ConceptScheme rdf:about="https://nmhr.historicengland.org.uk/66ae8f8a-31f0-40ad-a418-5c3f7abf2df5">
+        <skos:hasTopConcept rdf:resource="https://nmhr.historicengland.org.uk/dabbd8bf-b475-495f-931b-abd688fdaf7c"/>
+        <skos:hasTopConcept rdf:resource="https://nmhr.historicengland.org.uk/660bbdc3-e17d-487e-9c86-7c28bb0f48b3"/>
+        <dcterms:title xml:lang="en">{"id": "58c7da64-595a-45ae-83fb-fd723350b293", "value": "Maritime Measurement Type"}</dcterms:title>
+        <skos:hasTopConcept rdf:resource="https://nmhr.historicengland.org.uk/09d06c73-f6c1-4a55-98a8-2a11020407b1"/>
+        <skos:hasTopConcept rdf:resource="https://nmhr.historicengland.org.uk/b45fbab9-5dea-45b2-9c19-5a640e98dc75"/>
+        <skos:hasTopConcept rdf:resource="https://nmhr.historicengland.org.uk/b7dc8872-6eb5-4006-8035-a0e1db9d1008"/>
+      </skos:ConceptScheme>
+    </skos:inScheme>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/660bbdc3-e17d-487e-9c86-7c28bb0f48b3">
+    <skos:prefLabel xml:lang="en">{"id": "bea3fae7-302e-41ce-8d6f-125385f23c22", "value": "Measurement focus type"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/66ae8f8a-31f0-40ad-a418-5c3f7abf2df5"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/b7dc8872-6eb5-4006-8035-a0e1db9d1008">
+    <skos:prefLabel xml:lang="en">{"id": "afb22a3b-5e08-44ef-b344-b1319fc79836", "value": "Altered vessel dimensions"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/66ae8f8a-31f0-40ad-a418-5c3f7abf2df5"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/dabbd8bf-b475-495f-931b-abd688fdaf7c">
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/66ae8f8a-31f0-40ad-a418-5c3f7abf2df5"/>
+    <skos:prefLabel xml:lang="en">{"id": "bc19f3b2-251c-47dc-89cb-de806358ab8d", "value": "Wreck assemblage footprint"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/b45fbab9-5dea-45b2-9c19-5a640e98dc75">
+    <skos:prefLabel xml:lang="en">{"id": "3c44d470-571b-4c46-b0a0-a74e29dd664a", "value": "Original vessel dimensions"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/66ae8f8a-31f0-40ad-a418-5c3f7abf2df5"/>
+  </skos:Concept>
+</rdf:RDF>

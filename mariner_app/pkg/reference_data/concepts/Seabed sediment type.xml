@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:arches="https://nmhr.historicengland.org.uk/"
+>
+  <skos:ConceptScheme rdf:about="https://nmhr.historicengland.org.uk/1c5be7ee-f86c-4e14-81bd-addaf6948311">
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/6a8a8ecf-dad6-440d-8180-0e2a1d48b507">
+        <skos:prefLabel xml:lang="en">{"id": "6fd03d65-11c9-4e69-bda3-d3786baf6be7", "value": "clay"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/1c5be7ee-f86c-4e14-81bd-addaf6948311"/>
+        <arches:sortorder xml:lang="en">{"id": "3a4d1934-b891-4962-9bf5-37016524a94b", "value": "8"}</arches:sortorder>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/aea4f4b9-d677-4dfc-8d4c-3e90a9087e10">
+        <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/1c5be7ee-f86c-4e14-81bd-addaf6948311"/>
+        <arches:sortorder xml:lang="en">{"id": "95b7fbfb-d51c-421f-b559-d968c8b585b3", "value": "4"}</arches:sortorder>
+        <skos:prefLabel xml:lang="en">{"id": "f34e37d5-7f1b-4797-b6c1-967192287ca8", "value": "silty sand"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/fc03379b-aa0c-4f08-80d6-7cdf25e946ef">
+        <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/1c5be7ee-f86c-4e14-81bd-addaf6948311"/>
+        <skos:prefLabel xml:lang="en">{"id": "b35ab2d3-3011-43a0-af4d-434559c55636", "value": "slightly gravelly mud"}</skos:prefLabel>
+        <arches:sortorder xml:lang="en">{"id": "03a04cff-0308-4f25-9bb5-6a8bc11be8c0", "value": "18"}</arches:sortorder>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/98c4305e-df16-494b-9122-6a5241cdc13c">
+        <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/1c5be7ee-f86c-4e14-81bd-addaf6948311"/>
+        <arches:sortorder xml:lang="en">{"id": "c0954767-07f4-4ea4-a176-00b3ac21dc0a", "value": "22"}</arches:sortorder>
+        <skos:prefLabel xml:lang="en">{"id": "498ef385-618e-450d-94a0-4b8c610172da", "value": "other (qualify in notes field)"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/e147708d-d5c9-4c03-886e-d9c3197e10b0">
+        <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/1c5be7ee-f86c-4e14-81bd-addaf6948311"/>
+        <arches:sortorder xml:lang="en">{"id": "f9fe375d-bd0d-47a0-b80c-7f3cb5c7b17b", "value": "16"}</arches:sortorder>
+        <skos:prefLabel xml:lang="en">{"id": "6aa5c7f5-92e3-47c9-85ac-92bb1dd59d7d", "value": "gravelly muddy sand"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/3646103f-042e-4903-a1ce-231665c5c440">
+        <arches:sortorder xml:lang="en">{"id": "29548b4c-7815-4cb6-a35f-5ff910c50d88", "value": "17"}</arches:sortorder>
+        <skos:prefLabel xml:lang="en">{"id": "223ac9fa-9b15-48d8-a3ee-1f7df751f26a", "value": "gravelly sand"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/1c5be7ee-f86c-4e14-81bd-addaf6948311"/>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/205f180d-0119-4382-b292-bfd09caa2c63">
+        <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/1c5be7ee-f86c-4e14-81bd-addaf6948311"/>
+        <arches:sortorder xml:lang="en">{"id": "6e1d95c0-fa68-4546-bf57-c3a28ea61d3d", "value": "6"}</arches:sortorder>
+        <skos:prefLabel xml:lang="en">{"id": "da739a28-88c7-48b6-a13d-b8a175c42806", "value": "sandy mud"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/d4c91207-829a-4925-b258-b65e1c1ac20d">
+        <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/1c5be7ee-f86c-4e14-81bd-addaf6948311"/>
+        <skos:prefLabel xml:lang="en">{"id": "4bcf899a-6727-4e36-8226-b8b17ae4d7f5", "value": "muddy sand"}</skos:prefLabel>
+        <arches:sortorder xml:lang="en">{"id": "e8aac4ff-f132-4387-90ec-8b9f8f4bd338", "value": "3"}</arches:sortorder>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/823bd9b4-038a-4253-8ea8-4e41afb982a7">
+        <arches:sortorder xml:lang="en">{"id": "0fa58669-d074-4201-9901-9a1436576973", "value": "11"}</arches:sortorder>
+        <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/1c5be7ee-f86c-4e14-81bd-addaf6948311"/>
+        <skos:prefLabel xml:lang="en">{"id": "d5c90a1e-64a0-4fba-8844-9343d29847d2", "value": "gravel"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/3fb93d31-8333-4a95-b572-d0ec4c62d3e7">
+        <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/1c5be7ee-f86c-4e14-81bd-addaf6948311"/>
+        <arches:sortorder xml:lang="en">{"id": "8d1e8329-3641-4687-844d-54bcd59e897b", "value": "19"}</arches:sortorder>
+        <skos:prefLabel xml:lang="en">{"id": "6fac77d9-e53f-4d61-9806-463a0321ffb4", "value": "slightly gravelly sandy mud"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/f19b3d5d-c241-43cf-a1b3-40e6d3ae0cc9">
+        <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/1c5be7ee-f86c-4e14-81bd-addaf6948311"/>
+        <arches:sortorder xml:lang="en">{"id": "07c33219-669c-4ce1-8a19-a2f568c2c62b", "value": "15"}</arches:sortorder>
+        <skos:prefLabel xml:lang="en">{"id": "ce1c8685-e581-4c6b-94dc-1a5b8d4a18c5", "value": "gravelly mud"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/9e8a866d-2fe4-495b-8459-ab5d912a6d67">
+        <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/1c5be7ee-f86c-4e14-81bd-addaf6948311"/>
+        <arches:sortorder xml:lang="en">{"id": "e7280dc8-a892-4b05-bd9f-48e299de036d", "value": "7"}</arches:sortorder>
+        <skos:prefLabel xml:lang="en">{"id": "3eccb299-625f-4150-893f-4515d73663f2", "value": "sandy silt"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/ca1f1ccb-fe0f-45cb-bfb1-a9c761d343b0">
+        <arches:sortorder xml:lang="en">{"id": "3fcc5bc6-bdd1-4599-9c65-e62a7e1be791", "value": "5"}</arches:sortorder>
+        <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/1c5be7ee-f86c-4e14-81bd-addaf6948311"/>
+        <skos:prefLabel xml:lang="en">{"id": "1ec49660-195b-4c48-8a26-9121b59705f4", "value": "sandy clay"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/fe2d09bd-f65a-43c0-8614-f56695f3cc48">
+        <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/1c5be7ee-f86c-4e14-81bd-addaf6948311"/>
+        <skos:prefLabel xml:lang="en">{"id": "c3cf6f03-0982-437d-92d8-048dc73564c0", "value": "sand"}</skos:prefLabel>
+        <arches:sortorder xml:lang="en">{"id": "bfddb17b-a91e-403d-8f5f-3692c3be2207", "value": "1"}</arches:sortorder>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/955eb5f0-9621-4b9b-bfb5-dc9aa22e568a">
+        <arches:sortorder xml:lang="en">{"id": "6348404e-7181-4b40-b6b1-37074f1a38d0", "value": "2"}</arches:sortorder>
+        <skos:prefLabel xml:lang="en">{"id": "a1e7ca92-f802-422a-a13c-509ac88fd773", "value": "clayey sand"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/1c5be7ee-f86c-4e14-81bd-addaf6948311"/>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/8b01860b-c763-4b17-a18c-4e72162cf7f4">
+        <skos:prefLabel xml:lang="en">{"id": "9a4fdc98-33dd-44d9-8f42-3f6d6de1bd14", "value": "slightly gravelly muddy sand"}</skos:prefLabel>
+        <arches:sortorder xml:lang="en">{"id": "613db1d9-fa28-4471-a74d-8697d3c5279b", "value": "20"}</arches:sortorder>
+        <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/1c5be7ee-f86c-4e14-81bd-addaf6948311"/>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/acf631d4-6ff6-4fc0-853b-4964c9ef42aa">
+        <skos:prefLabel xml:lang="en">{"id": "7c2b4377-3e0b-4f83-b5be-881d7179f127", "value": "sandy gravel"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/1c5be7ee-f86c-4e14-81bd-addaf6948311"/>
+        <arches:sortorder xml:lang="en">{"id": "246a8b09-f121-4e7b-9b00-12b470f5a24c", "value": "14"}</arches:sortorder>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/c263ac54-2d1a-4395-9f11-fcb3f4b88d4a">
+        <skos:prefLabel xml:lang="en">{"id": "1f908489-21dd-493d-910b-b886a109151a", "value": "mud"}</skos:prefLabel>
+        <arches:sortorder xml:lang="en">{"id": "a0baf1db-4e4f-4b8c-a20f-0047cfe92b07", "value": "9"}</arches:sortorder>
+        <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/1c5be7ee-f86c-4e14-81bd-addaf6948311"/>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/d3d51e0f-581b-48a5-9384-c1fca43d87d3">
+        <arches:sortorder xml:lang="en">{"id": "2e9691db-23d2-4040-8098-22f1e67150c6", "value": "21"}</arches:sortorder>
+        <skos:prefLabel xml:lang="en">{"id": "72148846-8970-47a4-a450-5f47801bd6af", "value": "slightly gravelly sand"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/1c5be7ee-f86c-4e14-81bd-addaf6948311"/>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/a8b9478f-89e0-4bc6-bcdd-ed6123304265">
+        <skos:prefLabel xml:lang="en">{"id": "7fa27353-5eee-4648-8e36-c34a877363f8", "value": "muddy sandy gravel"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/1c5be7ee-f86c-4e14-81bd-addaf6948311"/>
+        <arches:sortorder xml:lang="en">{"id": "c4be912a-6440-4929-aca3-f51477b9fe8f", "value": "13"}</arches:sortorder>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/71042af5-22e4-4b21-ac2f-8421733cd507">
+        <skos:prefLabel xml:lang="en">{"id": "1a3f2c3a-4b36-4b6a-a5d4-7b782be53761", "value": "muddy gravel"}</skos:prefLabel>
+        <arches:sortorder xml:lang="en">{"id": "c09854ec-639d-49b6-9079-5a4a4e3a17b1", "value": "12"}</arches:sortorder>
+        <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/1c5be7ee-f86c-4e14-81bd-addaf6948311"/>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/dbb7f6c7-339d-4893-93d0-73e9308ef5bc">
+        <arches:sortorder xml:lang="en">{"id": "76b49558-4270-4805-ad91-5bdbda91f687", "value": "10"}</arches:sortorder>
+        <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/1c5be7ee-f86c-4e14-81bd-addaf6948311"/>
+        <skos:prefLabel xml:lang="en">{"id": "ee1defd2-59e0-4e44-b359-e3fed9c6899a", "value": "silt"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <dcterms:title xml:lang="en">{"id": "e1d06d81-5042-4ef9-92c1-6c853458af6b", "value": "Seabed sediment type"}</dcterms:title>
+  </skos:ConceptScheme>
+</rdf:RDF>

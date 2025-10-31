@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <skos:ConceptScheme rdf:about="https://nmhr.historicengland.org.uk/80de6122-a077-4ea4-bfba-976d8f9f68d7">
+    <dcterms:title xml:lang="en">{"id": "bbbd24f3-16dd-4d8a-8d48-e80e27a4809a", "value": "Significance Type"}</dcterms:title>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/63aab6ce-9c1f-4db3-9599-0879e061734d">
+        <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/80de6122-a077-4ea4-bfba-976d8f9f68d7"/>
+        <skos:prefLabel xml:lang="en">{"id": "46cf6b1c-e44d-427a-9c76-692c8a7f423c", "value": "Historically Significant"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/e0995cd9-3545-49a9-9100-a483bb96ce34">
+        <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/80de6122-a077-4ea4-bfba-976d8f9f68d7"/>
+        <skos:prefLabel xml:lang="en">{"id": "6cf2a921-5a1d-4e30-9e7e-b288a764605e", "value": "Scientifically Significant"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/375cfd95-ef76-44c4-a836-3d51472a18de">
+        <skos:prefLabel xml:lang="en">{"id": "408771be-dcb8-4bd5-9dc2-9e51f04df4a1", "value": "Archaeologically Significant"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/80de6122-a077-4ea4-bfba-976d8f9f68d7"/>
+      </skos:Concept>
+    </skos:hasTopConcept>
+  </skos:ConceptScheme>
+</rdf:RDF>

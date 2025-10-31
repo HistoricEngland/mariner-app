@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <skos:ConceptScheme rdf:about="https://nmhr.historicengland.org.uk/2af4649e-f1ae-48e3-ac6b-5e3cc5adc50f">
+    <dcterms:title xml:lang="en">{"id": "af8ce88d-904f-41fe-a40c-3868cee2f5df", "value": "Use Phase Type"}</dcterms:title>
+    <dcterms:identifier xml:lang="en">{"id": "f71b145c-cbe0-4a01-a3f4-1dd5e30e1e13", "value": "http://localhost:8080/2af4649e-f1ae-48e3-ac6b-5e3cc5adc50f"}</dcterms:identifier>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/16cbffe9-0741-475d-9e7b-559473b5edf8">
+        <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/2af4649e-f1ae-48e3-ac6b-5e3cc5adc50f"/>
+        <dcterms:identifier xml:lang="en">{"id": "499a76f7-f886-4661-961b-611c50d06eab", "value": "http://localhost:8080/16cbffe9-0741-475d-9e7b-559473b5edf8"}</dcterms:identifier>
+        <skos:prefLabel xml:lang="en">{"id": "63a62d31-c3e7-44d4-9da4-f32efee83832", "value": "Requisitioned"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:hasTopConcept>
+  </skos:ConceptScheme>
+</rdf:RDF>
