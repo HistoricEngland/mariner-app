@@ -1,40 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
-  xmlns:dcterms="http://purl.org/dc/terms/"
   xmlns:skos="http://www.w3.org/2004/02/skos/core#"
   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:dcterms="http://purl.org/dc/terms/"
 >
-  <skos:ConceptScheme rdf:about="https://nmhr.historicengland.org.uk/f169d862-7f68-4b6c-bf48-acca0cef10a3">
-    <skos:hasTopConcept>
-      <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/36b98e2c-5739-44c1-9666-77353b96dc13">
-        <skos:prefLabel xml:lang="en">{"id": "5c2d5fa9-75ef-4e67-964f-3faaf57edf74", "value": "Crash site assemblage footprint"}</skos:prefLabel>
-        <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/f169d862-7f68-4b6c-bf48-acca0cef10a3"/>
-      </skos:Concept>
-    </skos:hasTopConcept>
-    <skos:hasTopConcept>
-      <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/94225c9f-c85c-4437-809f-dba02bb9429f">
-        <skos:prefLabel xml:lang="en">{"id": "deac9df2-be08-414e-8789-6aa5ad089646", "value": "Measurement focus type"}</skos:prefLabel>
-        <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/f169d862-7f68-4b6c-bf48-acca0cef10a3"/>
-      </skos:Concept>
-    </skos:hasTopConcept>
-    <skos:hasTopConcept>
-      <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/23d95caa-9355-4aa0-baa1-232b115c1a7f">
-        <skos:prefLabel xml:lang="en">{"id": "cad26bfb-61f5-490e-9c3e-ec34a21bdb7f", "value": "Original aircraft dimensions"}</skos:prefLabel>
-        <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/f169d862-7f68-4b6c-bf48-acca0cef10a3"/>
-      </skos:Concept>
-    </skos:hasTopConcept>
-    <dcterms:title xml:lang="en">{"id": "11f67eac-4c56-4521-b0cc-b43d0fc2b3b9", "value": "Aircraft Measurement Type"}</dcterms:title>
-    <skos:hasTopConcept>
-      <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/7facd34b-b185-49b7-b274-7aa89e7abccc">
-        <skos:prefLabel xml:lang="en">{"id": "6fcbf2ec-1d1b-4c7f-98ef-592756c8b704", "value": "Archaeological aircraft dimensions"}</skos:prefLabel>
-        <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/f169d862-7f68-4b6c-bf48-acca0cef10a3"/>
-      </skos:Concept>
-    </skos:hasTopConcept>
-    <skos:hasTopConcept>
-      <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/6b4ac9b0-f151-4fce-b112-43356fa12a3d">
-        <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/f169d862-7f68-4b6c-bf48-acca0cef10a3"/>
-        <skos:prefLabel xml:lang="en">{"id": "ece2542d-1050-43ec-a107-fdc394971083", "value": "Altered aircraft dimensions"}</skos:prefLabel>
-      </skos:Concept>
-    </skos:hasTopConcept>
-  </skos:ConceptScheme>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/36b98e2c-5739-44c1-9666-77353b96dc13">
+    <skos:inScheme>
+      <skos:ConceptScheme rdf:about="https://nmhr.historicengland.org.uk/f169d862-7f68-4b6c-bf48-acca0cef10a3">
+        <skos:hasTopConcept rdf:resource="https://nmhr.historicengland.org.uk/23d95caa-9355-4aa0-baa1-232b115c1a7f"/>
+        <skos:hasTopConcept rdf:resource="https://nmhr.historicengland.org.uk/7facd34b-b185-49b7-b274-7aa89e7abccc"/>
+        <skos:hasTopConcept rdf:resource="https://nmhr.historicengland.org.uk/36b98e2c-5739-44c1-9666-77353b96dc13"/>
+        <skos:hasTopConcept rdf:resource="https://nmhr.historicengland.org.uk/6b4ac9b0-f151-4fce-b112-43356fa12a3d"/>
+        <dcterms:title xml:lang="en">{"id": "11f67eac-4c56-4521-b0cc-b43d0fc2b3b9", "value": "Aircraft Measurement Type"}</dcterms:title>
+        <skos:hasTopConcept rdf:resource="https://nmhr.historicengland.org.uk/94225c9f-c85c-4437-809f-dba02bb9429f"/>
+      </skos:ConceptScheme>
+    </skos:inScheme>
+    <skos:prefLabel xml:lang="en">{"id": "5c2d5fa9-75ef-4e67-964f-3faaf57edf74", "value": "Crash site assemblage footprint"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/94225c9f-c85c-4437-809f-dba02bb9429f">
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/f169d862-7f68-4b6c-bf48-acca0cef10a3"/>
+    <skos:prefLabel xml:lang="en">{"id": "deac9df2-be08-414e-8789-6aa5ad089646", "value": "Measurement focus type"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/7facd34b-b185-49b7-b274-7aa89e7abccc">
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/f169d862-7f68-4b6c-bf48-acca0cef10a3"/>
+    <skos:prefLabel xml:lang="en">{"id": "6fcbf2ec-1d1b-4c7f-98ef-592756c8b704", "value": "Archaeological aircraft dimensions"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/6b4ac9b0-f151-4fce-b112-43356fa12a3d">
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/f169d862-7f68-4b6c-bf48-acca0cef10a3"/>
+    <skos:prefLabel xml:lang="en">{"id": "ece2542d-1050-43ec-a107-fdc394971083", "value": "Altered aircraft dimensions"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/23d95caa-9355-4aa0-baa1-232b115c1a7f">
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/f169d862-7f68-4b6c-bf48-acca0cef10a3"/>
+    <skos:prefLabel xml:lang="en">{"id": "cad26bfb-61f5-490e-9c3e-ec34a21bdb7f", "value": "Original aircraft dimensions"}</skos:prefLabel>
+  </skos:Concept>
 </rdf:RDF>

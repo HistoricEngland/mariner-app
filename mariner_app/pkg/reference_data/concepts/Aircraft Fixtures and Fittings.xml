@@ -1,22 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
-  xmlns:dcterms="http://purl.org/dc/terms/"
   xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:dcterms="http://purl.org/dc/terms/"
   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
 >
-  <skos:ConceptScheme rdf:about="https://nmhr.historicengland.org.uk/62e6ade7-2f7a-4e66-9560-44e258833910">
-    <skos:hasTopConcept>
-      <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/7c233ec1-bdce-43ee-88b8-d7c13dff97b7">
-        <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/62e6ade7-2f7a-4e66-9560-44e258833910"/>
-        <skos:prefLabel xml:lang="en">{"id": "7b85bfab-0695-4619-ba7b-11ddee1716ac", "value": "Aircraft Structure"}</skos:prefLabel>
-      </skos:Concept>
-    </skos:hasTopConcept>
-    <dcterms:title xml:lang="en">{"id": "f40422e4-1ef0-4755-a25b-b15538b261c4", "value": "Aircraft Fixtures and Fittings"}</dcterms:title>
-    <skos:hasTopConcept>
-      <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/95962c8e-b900-4189-b5a7-cdcad07c0aa8">
-        <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/62e6ade7-2f7a-4e66-9560-44e258833910"/>
-        <skos:prefLabel xml:lang="en">{"id": "2a5fe69c-c8a6-4a66-85c1-e39287297765", "value": "Aircraft Fittings"}</skos:prefLabel>
-      </skos:Concept>
-    </skos:hasTopConcept>
-  </skos:ConceptScheme>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/7c233ec1-bdce-43ee-88b8-d7c13dff97b7">
+    <skos:inScheme>
+      <skos:ConceptScheme rdf:about="https://nmhr.historicengland.org.uk/62e6ade7-2f7a-4e66-9560-44e258833910">
+        <dcterms:title xml:lang="en">{"id": "f40422e4-1ef0-4755-a25b-b15538b261c4", "value": "Aircraft Fixtures and Fittings"}</dcterms:title>
+        <skos:hasTopConcept rdf:resource="https://nmhr.historicengland.org.uk/95962c8e-b900-4189-b5a7-cdcad07c0aa8"/>
+        <skos:hasTopConcept rdf:resource="https://nmhr.historicengland.org.uk/7c233ec1-bdce-43ee-88b8-d7c13dff97b7"/>
+      </skos:ConceptScheme>
+    </skos:inScheme>
+    <skos:prefLabel xml:lang="en">{"id": "7b85bfab-0695-4619-ba7b-11ddee1716ac", "value": "Aircraft Structure"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/95962c8e-b900-4189-b5a7-cdcad07c0aa8">
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/62e6ade7-2f7a-4e66-9560-44e258833910"/>
+    <skos:prefLabel xml:lang="en">{"id": "2a5fe69c-c8a6-4a66-85c1-e39287297765", "value": "Aircraft Fittings"}</skos:prefLabel>
+  </skos:Concept>
 </rdf:RDF>
