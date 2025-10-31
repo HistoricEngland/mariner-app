@@ -3092,49 +3092,6 @@
             "functions_x_graphs": [
                 {
                     "config": {
-                        "nodegroup_nodes": [],
-                        "resourceid_node": "a9766e1e-b6d9-11ee-8a20-0242ac120006",
-                        "simpleuid_node": "a976670c-b6d9-11ee-8a20-0242ac120006",
-                        "triggering_nodegroups": [
-                            "515be9e2-70a8-11ed-a1a4-000d3a873d5f",
-                            "a9765ab4-b6d9-11ee-8a20-0242ac120006",
-                            "a5e94f32-b067-11ee-bf71-0242ac140006",
-                            "05d3a226-17ba-11ef-a2a8-0242ac120006",
-                            "f07a238d-7174-11ed-8069-000d3a873d5f",
-                            "c4145c94-dba1-11ee-8197-0242ac130007",
-                            "87a08309-70a8-11ed-8627-000d3a873d5f",
-                            "cdd10620-b6d9-11ee-8d2c-0242ac120006",
-                            "a8426782-3208-11ef-8c91-0242ac130006",
-                            "efef4238-cee7-11ed-be45-0242ac120006",
-                            "d5937a4c-b6d8-11ee-b553-0242ac120006",
-                            "db250a24-b459-11ee-9be7-0242ac120006",
-                            "49d9d9ae-17ba-11ef-8359-0242ac120006",
-                            "7a6bb180-b6eb-11ee-be43-0242ac120006",
-                            "24e734ca-c3dd-11ed-9078-0242ac120006",
-                            "515be9e2-70a8-11ed-a1a4-000d3a873d5f",
-                            "a9765ab4-b6d9-11ee-8a20-0242ac120006",
-                            "a5e94f32-b067-11ee-bf71-0242ac140006",
-                            "05d3a226-17ba-11ef-a2a8-0242ac120006",
-                            "f07a238d-7174-11ed-8069-000d3a873d5f",
-                            "c4145c94-dba1-11ee-8197-0242ac130007",
-                            "87a08309-70a8-11ed-8627-000d3a873d5f",
-                            "cdd10620-b6d9-11ee-8d2c-0242ac120006",
-                            "a8426782-3208-11ef-8c91-0242ac130006",
-                            "efef4238-cee7-11ed-be45-0242ac120006",
-                            "d5937a4c-b6d8-11ee-b553-0242ac120006",
-                            "db250a24-b459-11ee-9be7-0242ac120006",
-                            "49d9d9ae-17ba-11ef-8359-0242ac120006",
-                            "7a6bb180-b6eb-11ee-be43-0242ac120006",
-                            "24e734ca-c3dd-11ed-9078-0242ac120006"
-                        ],
-                        "uniqueresource_nodegroup": "a9765ab4-b6d9-11ee-8a20-0242ac120006"
-                    },
-                    "function_id": "39d627ae-6973-4ddb-8b62-1f0230e1e3f9",
-                    "graph_id": "3be61489-70a8-11ed-bfa5-000d3a873d5f",
-                    "id": "80673a09-fc69-4c50-819e-b38f343d5dbe"
-                },
-                {
-                    "config": {
                         "descriptor_types": {
                             "description": {
                                 "nodegroup_id": "f07a238d-7174-11ed-8069-000d3a873d5f",

@@ -2010,41 +2010,6 @@
                     "function_id": "60000000-0000-0000-0000-000000000001",
                     "graph_id": "a535a235-8481-11ea-a6b9-f875a44e0e11",
                     "id": "8dae06e0-e8fa-11ed-9ee9-0242ac130006"
-                },
-                {
-                    "config": {
-                        "nodegroup_nodes": [],
-                        "resourceid_node": "79026216-a0f4-11ea-8f89-f875a44e0e11",
-                        "simpleuid_node": "79026215-a0f4-11ea-81df-f875a44e0e11",
-                        "triggering_nodegroups": [
-                            "79026212-a0f4-11ea-8df3-f875a44e0e11",
-                            "a6af4102-b480-11ee-91f3-0242ac120006",
-                            "7db68c6c-8490-11ea-a543-f875a44e0e11",
-                            "fc1d0ded-a0f5-11ea-b90c-f875a44e0e11",
-                            "888e6a68-17c2-11ef-88ad-0242ac120006",
-                            "e7cb0a5f-9513-11ea-a02b-f875a44e0e11",
-                            "b49f2170-b6d7-11ee-be77-0242ac120006",
-                            "aff2509b-848f-11ea-81e1-f875a44e0e11",
-                            "c61ab163-9513-11ea-9bb6-f875a44e0e11",
-                            "754afb06-17c2-11ef-8e89-0242ac120006",
-                            "e55389c6-8481-11ea-9c0c-f875a44e0e11",
-                            "79026212-a0f4-11ea-8df3-f875a44e0e11",
-                            "a6af4102-b480-11ee-91f3-0242ac120006",
-                            "7db68c6c-8490-11ea-a543-f875a44e0e11",
-                            "fc1d0ded-a0f5-11ea-b90c-f875a44e0e11",
-                            "888e6a68-17c2-11ef-88ad-0242ac120006",
-                            "e7cb0a5f-9513-11ea-a02b-f875a44e0e11",
-                            "b49f2170-b6d7-11ee-be77-0242ac120006",
-                            "aff2509b-848f-11ea-81e1-f875a44e0e11",
-                            "c61ab163-9513-11ea-9bb6-f875a44e0e11",
-                            "754afb06-17c2-11ef-8e89-0242ac120006",
-                            "e55389c6-8481-11ea-9c0c-f875a44e0e11"
-                        ],
-                        "uniqueresource_nodegroup": "79026212-a0f4-11ea-8df3-f875a44e0e11"
-                    },
-                    "function_id": "39d627ae-6973-4ddb-8b62-1f0230e1e3f9",
-                    "graph_id": "a535a235-8481-11ea-a6b9-f875a44e0e11",
-                    "id": "b476bd8e-ac4f-4aa0-b86f-95129ff0bd6a"
                 }
             ],
             "graphid": "a535a235-8481-11ea-a6b9-f875a44e0e11",
