@@ -362,23 +362,16 @@
                     "cardid": "4f210fe2-c714-11ed-aedf-0242ac120006",
                     "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
                     "config": null,
-                    "constraints": [
-                        {
-                            "card_id": "4f210fe2-c714-11ed-aedf-0242ac120006",
-                            "constraintid": "73570f9a-665a-4773-839c-15a266ab0df1",
-                            "nodes": [],
-                            "uniquetoallinstances": false
-                        }
-                    ],
+                    "constraints": [],
                     "cssclass": null,
                     "description": null,
                     "graph_id": "49bac32e-5464-11e9-a6e2-000d3ab1e588",
                     "helpenabled": false,
                     "helptext": {
-                        "en": null
+                        "en": ""
                     },
                     "helptitle": {
-                        "en": null
+                        "en": ""
                     },
                     "instructions": {
                         "en": "Used to record the type and number of any ordnance carried on the vessel."
@@ -626,20 +619,7 @@
                     "cardid": "8c3070f0-c712-11ed-a064-0242ac120006",
                     "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
                     "config": null,
-                    "constraints": [
-                        {
-                            "card_id": "8c3070f0-c712-11ed-a064-0242ac120006",
-                            "constraintid": "be89ddd5-7d31-4f5c-9cad-af6c5479ab6b",
-                            "nodes": [],
-                            "uniquetoallinstances": false
-                        },
-                        {
-                            "card_id": "8c3070f0-c712-11ed-a064-0242ac120006",
-                            "constraintid": "dc52187b-d801-4c78-a49c-de72a363e26c",
-                            "nodes": [],
-                            "uniquetoallinstances": false
-                        }
-                    ],
+                    "constraints": [],
                     "cssclass": null,
                     "description": {
                         "en": "Allows a concept collection to be typed. Useful for data sharing."
@@ -647,10 +627,10 @@
                     "graph_id": "49bac32e-5464-11e9-a6e2-000d3ab1e588",
                     "helpenabled": false,
                     "helptext": {
-                        "en": null
+                        "en": ""
                     },
                     "helptitle": {
-                        "en": null
+                        "en": ""
                     },
                     "instructions": {
                         "en": "Used to record the type and number of any ordnance installed on the vessel at the time of construction"
@@ -4984,7 +4964,7 @@
                         "en": "Digital File(s)"
                     },
                     "node_id": "8e0a7e25-51c4-11eb-9fe4-f875a44e0e11",
-                    "sortorder": null,
+                    "sortorder": 0,
                     "visible": true,
                     "widget_id": "31f3728c-7613-11e7-a139-784f435179ea"
                 },
@@ -6344,7 +6324,7 @@
                         "en": "Number"
                     },
                     "node_id": "8afd8946-c714-11ed-889e-0242ac120006",
-                    "sortorder": 2,
+                    "sortorder": 1,
                     "visible": true,
                     "widget_id": "10000000-0000-0000-0000-000000000008"
                 },
@@ -7085,7 +7065,7 @@
                         "en": "Ordnance Type"
                     },
                     "node_id": "bcae0c63-3ec3-11eb-ab4f-f875a44e0e11",
-                    "sortorder": null,
+                    "sortorder": 0,
                     "visible": true,
                     "widget_id": "10000000-0000-0000-0000-000000000012"
                 },
@@ -7107,7 +7087,7 @@
                         "en": "Ordnance Metatype"
                     },
                     "node_id": "bcae0c66-3ec3-11eb-a9d3-f875a44e0e11",
-                    "sortorder": null,
+                    "sortorder": 2,
                     "visible": false,
                     "widget_id": "10000000-0000-0000-0000-000000000002"
                 },
@@ -7512,7 +7492,7 @@
                         "en": "Use Phase Ordnance Metatype"
                     },
                     "node_id": "4a53165e-c714-11ed-95e3-0242ac120006",
-                    "sortorder": 1,
+                    "sortorder": 2,
                     "visible": false,
                     "widget_id": "10000000-0000-0000-0000-000000000002"
                 },
@@ -11094,6 +11074,91 @@
                     "function_id": "60000000-0000-0000-0000-000000000001",
                     "graph_id": "49bac32e-5464-11e9-a6e2-000d3ab1e588",
                     "id": "b9207934-e8fa-11ed-9ee9-0242ac130006"
+                },
+                {
+                    "config": {
+                        "nodegroup_nodes": [],
+                        "resourceid_node": "f75ac304-29a7-11eb-bf0f-f875a44e0e11",
+                        "simpleuid_node": "f75ac300-29a7-11eb-b7b9-f875a44e0e11",
+                        "triggering_nodegroups": [
+                            "4d45112f-51c3-11eb-aec8-f875a44e0e11",
+                            "24636b1c-d625-11ee-aa27-0242ac130007",
+                            "656c41a9-3ec0-11eb-a444-f875a44e0e11",
+                            "6f179691-29a6-11eb-86e9-f875a44e0e11",
+                            "5db2df1e-cfd3-11ed-9d9c-0242ac120006",
+                            "72996edf-3ecb-11eb-a32f-f875a44e0e11",
+                            "2f1b74da-185d-11ef-80b8-0242ac130006",
+                            "36574f18-2fdb-11ef-bba5-0242ac130006",
+                            "365747ca-2fdb-11ef-bba5-0242ac130006",
+                            "7e9366ca-cfda-11ed-ac51-0242ac120006",
+                            "9d478cd9-29a2-11eb-826f-f875a44e0e11",
+                            "9d478ce8-29a2-11eb-ad6d-f875a44e0e11",
+                            "3657558a-2fdb-11ef-bba5-0242ac130006",
+                            "8e0a7e25-51c4-11eb-9fe4-f875a44e0e11",
+                            "a6bbf31b-299e-11eb-bb46-f875a44e0e11",
+                            "7cd26170-26f0-11ee-8ae7-0242ac130006",
+                            "36572b32-2fdb-11ef-bba5-0242ac130006",
+                            "9d478ce2-29a2-11eb-be07-f875a44e0e11",
+                            "46df8936-146a-11ef-89d4-0242ac130006",
+                            "b8a60efb-29a4-11eb-bffe-f875a44e0e11",
+                            "bcae0c63-3ec3-11eb-ab4f-f875a44e0e11",
+                            "771ea34c-185d-11ef-8181-0242ac130006",
+                            "96ffa6c4-fa41-11ed-a3de-0242ac120006",
+                            "ce5a5f46-3e0e-11eb-8f54-f875a44e0e11",
+                            "d00d4c87-299f-11eb-b05e-f875a44e0e11",
+                            "996b81d2-6e52-11ee-8fc3-0242ac120006",
+                            "ed3c32e3-29a1-11eb-a399-f875a44e0e11",
+                            "f75a9ba3-29a7-11eb-aad5-f875a44e0e11",
+                            "e87d7340-3dda-11ef-97d3-0242ac130006",
+                            "f2daf25c-185c-11ef-bf2c-0242ac130006",
+                            "3657341a-2fdb-11ef-bba5-0242ac130006",
+                            "9d478ce5-29a2-11eb-b4ea-f875a44e0e11",
+                            "14acf88d-29a3-11eb-93bd-f875a44e0e11",
+                            "53da6eca-185d-11ef-b0e3-0242ac130006",
+                            "228b0654-c714-11ed-9b00-0242ac120006",
+                            "0fab4850-6e53-11ee-b0bc-0242ac120006",
+                            "4d45112f-51c3-11eb-aec8-f875a44e0e11",
+                            "24636b1c-d625-11ee-aa27-0242ac130007",
+                            "656c41a9-3ec0-11eb-a444-f875a44e0e11",
+                            "6f179691-29a6-11eb-86e9-f875a44e0e11",
+                            "5db2df1e-cfd3-11ed-9d9c-0242ac120006",
+                            "72996edf-3ecb-11eb-a32f-f875a44e0e11",
+                            "2f1b74da-185d-11ef-80b8-0242ac130006",
+                            "36574f18-2fdb-11ef-bba5-0242ac130006",
+                            "365747ca-2fdb-11ef-bba5-0242ac130006",
+                            "7e9366ca-cfda-11ed-ac51-0242ac120006",
+                            "9d478cd9-29a2-11eb-826f-f875a44e0e11",
+                            "9d478ce8-29a2-11eb-ad6d-f875a44e0e11",
+                            "3657558a-2fdb-11ef-bba5-0242ac130006",
+                            "8e0a7e25-51c4-11eb-9fe4-f875a44e0e11",
+                            "a6bbf31b-299e-11eb-bb46-f875a44e0e11",
+                            "7cd26170-26f0-11ee-8ae7-0242ac130006",
+                            "36572b32-2fdb-11ef-bba5-0242ac130006",
+                            "9d478ce2-29a2-11eb-be07-f875a44e0e11",
+                            "46df8936-146a-11ef-89d4-0242ac130006",
+                            "b8a60efb-29a4-11eb-bffe-f875a44e0e11",
+                            "bcae0c63-3ec3-11eb-ab4f-f875a44e0e11",
+                            "771ea34c-185d-11ef-8181-0242ac130006",
+                            "96ffa6c4-fa41-11ed-a3de-0242ac120006",
+                            "ce5a5f46-3e0e-11eb-8f54-f875a44e0e11",
+                            "d00d4c87-299f-11eb-b05e-f875a44e0e11",
+                            "996b81d2-6e52-11ee-8fc3-0242ac120006",
+                            "ed3c32e3-29a1-11eb-a399-f875a44e0e11",
+                            "f75a9ba3-29a7-11eb-aad5-f875a44e0e11",
+                            "e87d7340-3dda-11ef-97d3-0242ac130006",
+                            "f2daf25c-185c-11ef-bf2c-0242ac130006",
+                            "3657341a-2fdb-11ef-bba5-0242ac130006",
+                            "9d478ce5-29a2-11eb-b4ea-f875a44e0e11",
+                            "14acf88d-29a3-11eb-93bd-f875a44e0e11",
+                            "53da6eca-185d-11ef-b0e3-0242ac130006",
+                            "228b0654-c714-11ed-9b00-0242ac120006",
+                            "0fab4850-6e53-11ee-b0bc-0242ac120006"
+                        ],
+                        "uniqueresource_nodegroup": "f75a9ba3-29a7-11eb-aad5-f875a44e0e11"
+                    },
+                    "function_id": "39d627ae-6973-4ddb-8b62-1f0230e1e3f9",
+                    "graph_id": "49bac32e-5464-11e9-a6e2-000d3ab1e588",
+                    "id": "f6c34ead-36a0-4495-8eba-c6e2d6be403a"
                 }
             ],
             "graphid": "49bac32e-5464-11e9-a6e2-000d3ab1e588",
@@ -19554,35 +19619,35 @@
             "publication": {
                 "graph_id": "49bac32e-5464-11e9-a6e2-000d3ab1e588",
                 "notes": null,
-                "publicationid": "2858b9cc-b5a8-11f0-a7d0-6045bd0b6819",
-                "published_time": "2025-10-30T15:50:28.452"
+                "publicationid": "3cb79cd5-b993-11f0-a8c4-6045bd0b6819",
+                "published_time": "2025-11-04T15:30:47.848"
             },
             "relatable_resource_model_ids": [
-                "a535a235-8481-11ea-a6b9-f875a44e0e11",
                 "49bac32e-5464-11e9-a6e2-000d3ab1e588",
-                "b07cfa6f-894d-11ea-82aa-f875a44e0e11",
-                "e14ac900-ee59-11ed-94d5-0242ac120006",
-                "b9e0701e-5463-11e9-b5f5-000d3ab1e588",
-                "78b32d8c-b6f2-11ea-af42-f875a44e0e11",
                 "d4a88461-5463-11e9-90d9-000d3ab1e588",
-                "979aaf0b-7042-11ea-9674-287fcf6a5e72",
-                "22477f01-1a44-11e9-b0a9-000d3ab1e588",
-                "5d65337e-11f2-11ef-81e7-0242ac120006",
                 "cf3a2979-f1aa-11e8-9f5d-022b22146258",
-                "3be61489-70a8-11ed-bfa5-000d3a873d5f",
-                "227f29f8-1847-11ef-949d-0242ac130006",
+                "e14ac900-ee59-11ed-94d5-0242ac120006",
+                "979aaf0b-7042-11ea-9674-287fcf6a5e72",
+                "076f9381-7b00-11e9-8d6b-80000b44d1d9",
+                "49bac32e-5464-11e9-a6e2-000d3ab1e588",
+                "78b32d8c-b6f2-11ea-af42-f875a44e0e11",
+                "b9e0701e-5463-11e9-b5f5-000d3ab1e588",
+                "190bb2a6-33ae-11ef-8f99-0242ac120006",
+                "934cd7f0-480a-11ea-9240-c4d9877d154e",
                 "1d47e2bc-2d51-11ef-ae46-0242ac140006",
-                "e7a4296e-2fca-11ef-9baf-0242ac120006",
+                "ce759cf1-c299-11e9-8188-c4d9877d154e",
+                "2b3b8df0-2fd2-11ef-8227-0242ac120006",
                 "0add0e11-99aa-11ea-9ab8-f875a44e0e11",
                 "b8032b00-594d-11e9-9cf0-18cf5eb368c4",
-                "076f9381-7b00-11e9-8d6b-80000b44d1d9",
-                "190bb2a6-33ae-11ef-8f99-0242ac120006",
-                "2b3b8df0-2fd2-11ef-8227-0242ac120006",
-                "934cd7f0-480a-11ea-9240-c4d9877d154e",
-                "24d7b54f-5464-11e9-a86b-000d3ab1e588",
-                "ce759cf1-c299-11e9-8188-c4d9877d154e",
                 "f9045867-8861-11ea-b06f-f875a44e0e11",
-                "49bac32e-5464-11e9-a6e2-000d3ab1e588"
+                "22477f01-1a44-11e9-b0a9-000d3ab1e588",
+                "e7a4296e-2fca-11ef-9baf-0242ac120006",
+                "5d65337e-11f2-11ef-81e7-0242ac120006",
+                "227f29f8-1847-11ef-949d-0242ac130006",
+                "b07cfa6f-894d-11ea-82aa-f875a44e0e11",
+                "24d7b54f-5464-11e9-a86b-000d3ab1e588",
+                "3be61489-70a8-11ed-bfa5-000d3a873d5f",
+                "a535a235-8481-11ea-a6b9-f875a44e0e11"
             ],
             "resource_2_resource_constraints": [],
             "root": {

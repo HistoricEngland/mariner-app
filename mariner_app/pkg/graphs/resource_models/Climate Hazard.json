@@ -109,20 +109,20 @@
                     "graph_id": "5d65337e-11f2-11ef-81e7-0242ac120006",
                     "helpenabled": false,
                     "helptext": {
-                        "en": null
+                        "en": ""
                     },
                     "helptitle": {
-                        "en": null
+                        "en": ""
                     },
                     "instructions": {
-                        "en": null
+                        "en": ""
                     },
                     "is_editable": true,
                     "name": {
                         "en": "Seabed Use Classification Assignment"
                     },
                     "nodegroup_id": "532a062c-18e2-11ef-964e-0242ac130006",
-                    "sortorder": null,
+                    "sortorder": 2,
                     "visible": true
                 },
                 {
@@ -153,7 +153,7 @@
                     "instructions": {
                         "en": "Enter the resource name and its respective type."
                     },
-                    "is_editable": true,
+                    "is_editable": false,
                     "name": {
                         "en": "Names"
                     },
@@ -218,12 +218,12 @@
                     "instructions": {
                         "en": null
                     },
-                    "is_editable": true,
+                    "is_editable": false,
                     "name": {
                         "en": "Geometry"
                     },
                     "nodegroup_id": "55d3bbfe-144e-11ef-9fc8-0242ac130006",
-                    "sortorder": null,
+                    "sortorder": 1,
                     "visible": true
                 },
                 {
@@ -250,7 +250,7 @@
                         "en": "Named Locations"
                     },
                     "nodegroup_id": "55d3c4dc-144e-11ef-9fc8-0242ac130006",
-                    "sortorder": null,
+                    "sortorder": 0,
                     "visible": true
                 },
                 {
@@ -277,7 +277,7 @@
                         "en": "Area Statuses"
                     },
                     "nodegroup_id": "55d3cd06-144e-11ef-9fc8-0242ac130006",
-                    "sortorder": 12,
+                    "sortorder": 7,
                     "visible": true
                 },
                 {
@@ -360,7 +360,7 @@
                         "en": "National Grid References"
                     },
                     "nodegroup_id": "55d3e7dc-144e-11ef-9fc8-0242ac130006",
-                    "sortorder": 5,
+                    "sortorder": 6,
                     "visible": true
                 },
                 {
@@ -681,7 +681,7 @@
                     "instructions": {
                         "en": ""
                     },
-                    "is_editable": true,
+                    "is_editable": false,
                     "name": {
                         "en": "System Reference Numbers"
                     },
@@ -788,7 +788,7 @@
                     "instructions": {
                         "en": null
                     },
-                    "is_editable": true,
+                    "is_editable": false,
                     "name": {
                         "en": "Locations"
                     },
@@ -1288,7 +1288,7 @@
                         "en": "Seabed Use Assessment Start Date"
                     },
                     "node_id": "fb887902-18e2-11ef-a309-0242ac130006",
-                    "sortorder": null,
+                    "sortorder": 1,
                     "visible": true,
                     "widget_id": "adfd15ce-dbab-11e7-86d1-0fcf08612b27"
                 },
@@ -1309,7 +1309,7 @@
                         "en": "Seabed Use Assessment End Date"
                     },
                     "node_id": "226357f4-18e3-11ef-96e6-0242ac130006",
-                    "sortorder": null,
+                    "sortorder": 2,
                     "visible": true,
                     "widget_id": "adfd15ce-dbab-11e7-86d1-0fcf08612b27"
                 },
@@ -1577,7 +1577,7 @@
                         "en": "Seabed Use Note"
                     },
                     "node_id": "532a0d2a-18e2-11ef-964e-0242ac130006",
-                    "sortorder": 2,
+                    "sortorder": 4,
                     "visible": true,
                     "widget_id": "10000000-0000-0000-0000-000000000005"
                 },
@@ -1599,7 +1599,7 @@
                         "en": "Seabed Use Notes Type"
                     },
                     "node_id": "532a2292-18e2-11ef-964e-0242ac130006",
-                    "sortorder": 3,
+                    "sortorder": 5,
                     "visible": false,
                     "widget_id": "10000000-0000-0000-0000-000000000002"
                 },
@@ -1621,7 +1621,7 @@
                         "en": "Seabed Use Notes Metatype"
                     },
                     "node_id": "532a0f14-18e2-11ef-964e-0242ac130006",
-                    "sortorder": 4,
+                    "sortorder": 6,
                     "visible": false,
                     "widget_id": "10000000-0000-0000-0000-000000000002"
                 },
@@ -1643,7 +1643,7 @@
                         "en": "Seabed Use Notes Language"
                     },
                     "node_id": "532a2102-18e2-11ef-964e-0242ac130006",
-                    "sortorder": 5,
+                    "sortorder": 7,
                     "visible": false,
                     "widget_id": "10000000-0000-0000-0000-000000000002"
                 },
@@ -1665,7 +1665,7 @@
                         "en": "Seabed Use Metatype"
                     },
                     "node_id": "532a173e-18e2-11ef-964e-0242ac130006",
-                    "sortorder": 1,
+                    "sortorder": 3,
                     "visible": false,
                     "widget_id": "10000000-0000-0000-0000-000000000002"
                 },
@@ -1687,7 +1687,7 @@
                         "en": "Seabed Use Notes Language Metatype"
                     },
                     "node_id": "532a2422-18e2-11ef-964e-0242ac130006",
-                    "sortorder": 6,
+                    "sortorder": 8,
                     "visible": false,
                     "widget_id": "10000000-0000-0000-0000-000000000002"
                 },
@@ -2089,7 +2089,7 @@
                         "en": "Named Location"
                     },
                     "node_id": "55d52d04-144e-11ef-9fc8-0242ac130006",
-                    "sortorder": null,
+                    "sortorder": 0,
                     "visible": true,
                     "widget_id": "31f3728c-7613-11e7-a139-784f435179ea"
                 },
@@ -3111,7 +3111,7 @@
                         "en": "National Grid Reference"
                     },
                     "node_id": "55d4cf76-144e-11ef-9fc8-0242ac130006",
-                    "sortorder": null,
+                    "sortorder": 0,
                     "visible": true,
                     "widget_id": "bcae8e90-09f7-4ae3-906b-7c7bb71a6ddf"
                 },
@@ -6864,11 +6864,76 @@
                     "function_id": "60000000-0000-0000-0000-000000000001",
                     "graph_id": "5d65337e-11f2-11ef-81e7-0242ac120006",
                     "id": "8bf07e36-11f9-11ef-a521-0242ac120006"
+                },
+                {
+                    "config": {
+                        "nodegroup_nodes": [],
+                        "resourceid_node": "9a1c978e-145f-11ef-b089-0242ac130006",
+                        "simpleuid_node": "9a1c8f00-145f-11ef-b089-0242ac130006",
+                        "triggering_nodegroups": [
+                            "093615be-1460-11ef-8fd0-0242ac130006",
+                            "1f09c254-11fa-11ef-a482-0242ac120006",
+                            "2476896c-1460-11ef-8b64-0242ac130006",
+                            "5476f4ee-11f9-11ef-9565-0242ac120006",
+                            "55d3c4dc-144e-11ef-9fc8-0242ac130006",
+                            "55d3df08-144e-11ef-9fc8-0242ac130006",
+                            "55d3cd06-144e-11ef-9fc8-0242ac130006",
+                            "532a062c-18e2-11ef-964e-0242ac130006",
+                            "55d3e7dc-144e-11ef-9fc8-0242ac130006",
+                            "5b88ad94-145c-11ef-85a9-0242ac130006",
+                            "6a914850-144d-11ef-ade9-0242ac130006",
+                            "6a913298-144d-11ef-ade9-0242ac130006",
+                            "55d3d526-144e-11ef-9fc8-0242ac130006",
+                            "6a914ecc-144d-11ef-ade9-0242ac130006",
+                            "6a915d04-144d-11ef-ade9-0242ac130006",
+                            "6e864024-11f9-11ef-b7ee-0242ac120006",
+                            "87ec88d0-145f-11ef-856e-0242ac130006",
+                            "6a9156b0-144d-11ef-ade9-0242ac130006",
+                            "90e55312-1451-11ef-8d3f-0242ac130006",
+                            "7af587e6-145d-11ef-8ce9-0242ac130006",
+                            "9a1c8668-145f-11ef-b089-0242ac130006",
+                            "aaa84848-145d-11ef-a2bc-0242ac130006",
+                            "c5ed06b0-3542-11ef-8a4c-0242ac140006",
+                            "d888ccb6-144d-11ef-acd1-0242ac130006",
+                            "55d3a52e-144e-11ef-9fc8-0242ac130006",
+                            "55d3bbfe-144e-11ef-9fc8-0242ac130006",
+                            "093615be-1460-11ef-8fd0-0242ac130006",
+                            "1f09c254-11fa-11ef-a482-0242ac120006",
+                            "2476896c-1460-11ef-8b64-0242ac130006",
+                            "5476f4ee-11f9-11ef-9565-0242ac120006",
+                            "55d3c4dc-144e-11ef-9fc8-0242ac130006",
+                            "55d3df08-144e-11ef-9fc8-0242ac130006",
+                            "55d3cd06-144e-11ef-9fc8-0242ac130006",
+                            "532a062c-18e2-11ef-964e-0242ac130006",
+                            "55d3e7dc-144e-11ef-9fc8-0242ac130006",
+                            "5b88ad94-145c-11ef-85a9-0242ac130006",
+                            "6a914850-144d-11ef-ade9-0242ac130006",
+                            "6a913298-144d-11ef-ade9-0242ac130006",
+                            "55d3d526-144e-11ef-9fc8-0242ac130006",
+                            "6a914ecc-144d-11ef-ade9-0242ac130006",
+                            "6a915d04-144d-11ef-ade9-0242ac130006",
+                            "6e864024-11f9-11ef-b7ee-0242ac120006",
+                            "87ec88d0-145f-11ef-856e-0242ac130006",
+                            "6a9156b0-144d-11ef-ade9-0242ac130006",
+                            "90e55312-1451-11ef-8d3f-0242ac130006",
+                            "7af587e6-145d-11ef-8ce9-0242ac130006",
+                            "9a1c8668-145f-11ef-b089-0242ac130006",
+                            "aaa84848-145d-11ef-a2bc-0242ac130006",
+                            "c5ed06b0-3542-11ef-8a4c-0242ac140006",
+                            "d888ccb6-144d-11ef-acd1-0242ac130006",
+                            "55d3a52e-144e-11ef-9fc8-0242ac130006",
+                            "55d3bbfe-144e-11ef-9fc8-0242ac130006"
+                        ],
+                        "uniqueresource_nodegroup": "9a1c8668-145f-11ef-b089-0242ac130006"
+                    },
+                    "function_id": "39d627ae-6973-4ddb-8b62-1f0230e1e3f9",
+                    "graph_id": "5d65337e-11f2-11ef-81e7-0242ac120006",
+                    "id": "bdf73d05-3eb0-46fd-b402-7c7aa6acba70"
                 }
             ],
             "graphid": "5d65337e-11f2-11ef-81e7-0242ac120006",
             "iconclass": "fa fa-cloud",
-            "is_editable": true,
+            "is_editable": false,
             "isresource": true,
             "jsonldcontext": null,
             "name": {
@@ -12248,8 +12313,8 @@
             "publication": {
                 "graph_id": "5d65337e-11f2-11ef-81e7-0242ac120006",
                 "notes": null,
-                "publicationid": "3df01915-b5a7-11f0-966c-6045bd0b6819",
-                "published_time": "2025-10-30T15:43:55.179"
+                "publicationid": "722e387f-b991-11f0-822b-6045bd0b6819",
+                "published_time": "2025-11-04T15:17:58.551"
             },
             "relatable_resource_model_ids": [
                 "b07cfa6f-894d-11ea-82aa-f875a44e0e11",
@@ -12268,6 +12333,7 @@
                 "190bb2a6-33ae-11ef-8f99-0242ac120006",
                 "2b3b8df0-2fd2-11ef-8227-0242ac120006",
                 "934cd7f0-480a-11ea-9240-c4d9877d154e",
+                "49bac32e-5464-11e9-a6e2-000d3ab1e588",
                 "d4a88461-5463-11e9-90d9-000d3ab1e588",
                 "a535a235-8481-11ea-a6b9-f875a44e0e11",
                 "24d7b54f-5464-11e9-a86b-000d3ab1e588",
@@ -12275,8 +12341,7 @@
                 "78b32d8c-b6f2-11ea-af42-f875a44e0e11",
                 "979aaf0b-7042-11ea-9674-287fcf6a5e72",
                 "5d65337e-11f2-11ef-81e7-0242ac120006",
-                "ce759cf1-c299-11e9-8188-c4d9877d154e",
-                "49bac32e-5464-11e9-a6e2-000d3ab1e588"
+                "ce759cf1-c299-11e9-8188-c4d9877d154e"
             ],
             "resource_2_resource_constraints": [],
             "root": {

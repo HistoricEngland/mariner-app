@@ -129,26 +129,19 @@
                     "cardid": "58896e12-3f68-11ef-a815-0242ac130006",
                     "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
                     "config": null,
-                    "constraints": [
-                        {
-                            "card_id": "58896e12-3f68-11ef-a815-0242ac130006",
-                            "constraintid": "383ab9a6-ac50-4250-a13f-3cf7d050d9f0",
-                            "nodes": [],
-                            "uniquetoallinstances": false
-                        }
-                    ],
+                    "constraints": [],
                     "cssclass": null,
                     "description": null,
                     "graph_id": "e14ac900-ee59-11ed-94d5-0242ac120006",
                     "helpenabled": false,
                     "helptext": {
-                        "en": null
+                        "en": ""
                     },
                     "helptitle": {
-                        "en": null
+                        "en": ""
                     },
                     "instructions": {
-                        "en": null
+                        "en": ""
                     },
                     "is_editable": false,
                     "name": {
@@ -1128,29 +1121,16 @@
                     "cardid": "ea0c3680-1745-11ef-b0ef-0242ac120006",
                     "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
                     "config": null,
-                    "constraints": [
-                        {
-                            "card_id": "ea0c3680-1745-11ef-b0ef-0242ac120006",
-                            "constraintid": "28e76329-590b-4a57-ad36-c2b7fc41fdf0",
-                            "nodes": [],
-                            "uniquetoallinstances": false
-                        },
-                        {
-                            "card_id": "ea0c3680-1745-11ef-b0ef-0242ac120006",
-                            "constraintid": "6fd21cbd-2419-4a99-8da9-9411d360c669",
-                            "nodes": [],
-                            "uniquetoallinstances": false
-                        }
-                    ],
+                    "constraints": [],
                     "cssclass": null,
                     "description": null,
                     "graph_id": "e14ac900-ee59-11ed-94d5-0242ac120006",
                     "helpenabled": false,
                     "helptext": {
-                        "en": null
+                        "en": ""
                     },
                     "helptitle": {
-                        "en": null
+                        "en": ""
                     },
                     "instructions": {
                         "en": "Use to record salvage activities which have recovered some or all of the wrecked Vessel or Aircraft."
@@ -1263,7 +1243,7 @@
                         "en": "Legacy ID"
                     },
                     "node_id": "e14c9fbe-ee59-11ed-94d5-0242ac120006",
-                    "sortorder": null,
+                    "sortorder": 0,
                     "visible": true,
                     "widget_id": "10000000-0000-0000-0000-000000000001"
                 },
@@ -1547,7 +1527,7 @@
                         "en": "Salvage Metatype"
                     },
                     "node_id": "039b04fc-1749-11ef-9d8d-0242ac120006",
-                    "sortorder": 1,
+                    "sortorder": 3,
                     "visible": false,
                     "widget_id": "10000000-0000-0000-0000-000000000002"
                 },
@@ -1858,7 +1838,7 @@
                         "en": "Salvage Description"
                     },
                     "node_id": "aef33e46-1749-11ef-a426-0242ac120006",
-                    "sortorder": 8,
+                    "sortorder": 10,
                     "visible": true,
                     "widget_id": "10000000-0000-0000-0000-000000000005"
                 },
@@ -1880,7 +1860,7 @@
                         "en": "Salvage Description Type"
                     },
                     "node_id": "dfc275a0-1749-11ef-a426-0242ac120006",
-                    "sortorder": 9,
+                    "sortorder": 11,
                     "visible": false,
                     "widget_id": "10000000-0000-0000-0000-000000000002"
                 },
@@ -1902,7 +1882,7 @@
                         "en": "Salvage Description Metatype"
                     },
                     "node_id": "05ab79e2-174a-11ef-a426-0242ac120006",
-                    "sortorder": 10,
+                    "sortorder": 12,
                     "visible": false,
                     "widget_id": "10000000-0000-0000-0000-000000000002"
                 },
@@ -2120,7 +2100,7 @@
                         "en": "Repurposed?"
                     },
                     "node_id": "23e1ec38-174b-11ef-8658-0242ac120006",
-                    "sortorder": null,
+                    "sortorder": 1,
                     "visible": true,
                     "widget_id": "10000000-0000-0000-0000-000000000006"
                 },
@@ -2135,7 +2115,7 @@
                         "en": "Broken Up?"
                     },
                     "node_id": "ff99d1c4-174a-11ef-8658-0242ac120006",
-                    "sortorder": null,
+                    "sortorder": 2,
                     "visible": true,
                     "widget_id": "10000000-0000-0000-0000-000000000006"
                 },
@@ -2157,7 +2137,7 @@
                         "en": "Component Type"
                     },
                     "node_id": "e14c82fe-ee59-11ed-94d5-0242ac120006",
-                    "sortorder": null,
+                    "sortorder": 0,
                     "visible": true,
                     "widget_id": "10000000-0000-0000-0000-000000000012"
                 },
@@ -2179,7 +2159,7 @@
                         "en": "Component Metatype"
                     },
                     "node_id": "e14c7264-ee59-11ed-94d5-0242ac120006",
-                    "sortorder": null,
+                    "sortorder": 1,
                     "visible": false,
                     "widget_id": "10000000-0000-0000-0000-000000000002"
                 },
@@ -2201,7 +2181,7 @@
                         "en": "Component Material"
                     },
                     "node_id": "e14c7a66-ee59-11ed-94d5-0242ac120006",
-                    "sortorder": null,
+                    "sortorder": 3,
                     "visible": true,
                     "widget_id": "10000000-0000-0000-0000-000000000012"
                 },
@@ -2223,7 +2203,7 @@
                         "en": "Component Material Metatype"
                     },
                     "node_id": "e14c7bf6-ee59-11ed-94d5-0242ac120006",
-                    "sortorder": null,
+                    "sortorder": 2,
                     "visible": false,
                     "widget_id": "10000000-0000-0000-0000-000000000002"
                 },
@@ -2360,7 +2340,7 @@
                         "en": "Salvage Evidence Type"
                     },
                     "node_id": "37d581ca-1749-11ef-a426-0242ac120006",
-                    "sortorder": 2,
+                    "sortorder": 4,
                     "visible": true,
                     "widget_id": "10000000-0000-0000-0000-000000000012"
                 },
@@ -2971,7 +2951,7 @@
                         "en": "Salvage Event Start Date"
                     },
                     "node_id": "0abca392-1746-11ef-9719-0242ac120006",
-                    "sortorder": 3,
+                    "sortorder": 5,
                     "visible": true,
                     "widget_id": "adfd15ce-dbab-11e7-86d1-0fcf08612b27"
                 },
@@ -2992,7 +2972,7 @@
                         "en": "Salvage Event End Date"
                     },
                     "node_id": "0abca55e-1746-11ef-9719-0242ac120006",
-                    "sortorder": 4,
+                    "sortorder": 6,
                     "visible": true,
                     "widget_id": "adfd15ce-dbab-11e7-86d1-0fcf08612b27"
                 },
@@ -3014,7 +2994,7 @@
                         "en": "Date Qualifier Metatype"
                     },
                     "node_id": "0abca6f8-1746-11ef-9719-0242ac120006",
-                    "sortorder": 5,
+                    "sortorder": 7,
                     "visible": false,
                     "widget_id": "10000000-0000-0000-0000-000000000002"
                 },
@@ -3043,7 +3023,7 @@
                         "en": "Display Date"
                     },
                     "node_id": "0abca888-1746-11ef-9719-0242ac120006",
-                    "sortorder": 6,
+                    "sortorder": 8,
                     "visible": false,
                     "widget_id": "10000000-0000-0000-0000-000000000001"
                 },
@@ -3065,7 +3045,7 @@
                         "en": "Date Qualifier"
                     },
                     "node_id": "0abcaa18-1746-11ef-9719-0242ac120006",
-                    "sortorder": 7,
+                    "sortorder": 9,
                     "visible": false,
                     "widget_id": "10000000-0000-0000-0000-000000000002"
                 },
@@ -3757,7 +3737,7 @@
                         "en": "ResourceID"
                     },
                     "node_id": "e14c9e38-ee59-11ed-94d5-0242ac120006",
-                    "sortorder": null,
+                    "sortorder": 2,
                     "visible": true,
                     "widget_id": "10000000-0000-0000-0000-000000000001"
                 },
@@ -4745,7 +4725,7 @@
                         "en": "Digital File(s)"
                     },
                     "node_id": "e14ae674-ee59-11ed-94d5-0242ac120006",
-                    "sortorder": null,
+                    "sortorder": 0,
                     "visible": true,
                     "widget_id": "31f3728c-7613-11e7-a139-784f435179ea"
                 },
@@ -7672,7 +7652,7 @@
                         "en": "Primary Reference Number"
                     },
                     "node_id": "e14c9ca8-ee59-11ed-94d5-0242ac120006",
-                    "sortorder": null,
+                    "sortorder": 1,
                     "visible": true,
                     "widget_id": "10000000-0000-0000-0000-000000000008"
                 }
@@ -10680,6 +10660,54 @@
                     "function_id": "60000000-0000-0000-0000-000000000001",
                     "graph_id": "e14ac900-ee59-11ed-94d5-0242ac120006",
                     "id": "17b1483e-ee5a-11ed-94d5-0242ac120006"
+                },
+                {
+                    "config": {
+                        "nodegroup_nodes": [],
+                        "resourceid_node": "e14c9e38-ee59-11ed-94d5-0242ac120006",
+                        "simpleuid_node": "e14c9ca8-ee59-11ed-94d5-0242ac120006",
+                        "triggering_nodegroups": [
+                            "4a68b74c-09f0-11ee-ac01-0242ac130006",
+                            "2cf1c202-195e-11ef-9e67-0242ac150006",
+                            "3bbb010c-3535-11ef-9d5f-0242ac140006",
+                            "7d2265ac-f87a-11ed-95d0-0242ac120006",
+                            "9c06e7e8-fcc3-11ed-aa9e-0242ac120006",
+                            "a21803dc-f891-11ed-915c-0242ac120006",
+                            "639e0672-174b-11ef-9d07-0242ac120006",
+                            "817d072e-68eb-11ee-b7e6-0242ac120006",
+                            "6f37a1e0-195e-11ef-b4f4-0242ac150006",
+                            "e14be092-ee59-11ed-94d5-0242ac120006",
+                            "e14c06ee-ee59-11ed-94d5-0242ac120006",
+                            "e14b8c32-ee59-11ed-94d5-0242ac120006",
+                            "e14b4024-ee59-11ed-94d5-0242ac120006",
+                            "e14bb5fe-ee59-11ed-94d5-0242ac120006",
+                            "e14c8164-ee59-11ed-94d5-0242ac120006",
+                            "e14bcad0-ee59-11ed-94d5-0242ac120006",
+                            "e14c5fe0-ee59-11ed-94d5-0242ac120006",
+                            "e14acc70-ee59-11ed-94d5-0242ac120006",
+                            "d9474bc2-f636-11ed-b619-0242ac120006",
+                            "d464d262-68ed-11ee-824d-0242ac120006",
+                            "e14b76c0-ee59-11ed-94d5-0242ac120006",
+                            "d51bcac4-b557-11ee-8eb9-0242ac120006",
+                            "e14ba0aa-ee59-11ed-94d5-0242ac120006",
+                            "ea0bd794-1745-11ef-b0ef-0242ac120006",
+                            "e14afb8c-ee59-11ed-94d5-0242ac120006",
+                            "e14b96b4-ee59-11ed-94d5-0242ac120006",
+                            "e14beb1e-ee59-11ed-94d5-0242ac120006",
+                            "e14bd660-ee59-11ed-94d5-0242ac120006",
+                            "e14ae674-ee59-11ed-94d5-0242ac120006",
+                            "e14babae-ee59-11ed-94d5-0242ac120006",
+                            "e14c5536-ee59-11ed-94d5-0242ac120006",
+                            "e14b81b0-ee59-11ed-94d5-0242ac120006",
+                            "e14adb0c-ee59-11ed-94d5-0242ac120006",
+                            "e14c1314-ee59-11ed-94d5-0242ac120006",
+                            "09455ed6-0465-11ee-8ff2-0242ac120006"
+                        ],
+                        "uniqueresource_nodegroup": "e14afb8c-ee59-11ed-94d5-0242ac120006"
+                    },
+                    "function_id": "39d627ae-6973-4ddb-8b62-1f0230e1e3f9",
+                    "graph_id": "e14ac900-ee59-11ed-94d5-0242ac120006",
+                    "id": "66ed4907-8171-44c2-95d9-a604f43e9fc7"
                 }
             ],
             "graphid": "e14ac900-ee59-11ed-94d5-0242ac120006",
@@ -18666,8 +18694,8 @@
             "publication": {
                 "graph_id": "e14ac900-ee59-11ed-94d5-0242ac120006",
                 "notes": null,
-                "publicationid": "7675504d-b5a9-11f0-ac24-6045bd0b6819",
-                "published_time": "2025-10-30T15:59:48.998"
+                "publicationid": "37920a99-b994-11f0-bc24-6045bd0b6819",
+                "published_time": "2025-11-04T15:37:48.710"
             },
             "relatable_resource_model_ids": [
                 "b07cfa6f-894d-11ea-82aa-f875a44e0e11",
@@ -18677,6 +18705,7 @@
                 "190bb2a6-33ae-11ef-8f99-0242ac120006",
                 "2b3b8df0-2fd2-11ef-8227-0242ac120006",
                 "934cd7f0-480a-11ea-9240-c4d9877d154e",
+                "49bac32e-5464-11e9-a6e2-000d3ab1e588",
                 "3be61489-70a8-11ed-bfa5-000d3a873d5f",
                 "24d7b54f-5464-11e9-a86b-000d3ab1e588",
                 "d4a88461-5463-11e9-90d9-000d3ab1e588",
@@ -18690,7 +18719,6 @@
                 "076f9381-7b00-11e9-8d6b-80000b44d1d9",
                 "1d47e2bc-2d51-11ef-ae46-0242ac140006",
                 "f9045867-8861-11ea-b06f-f875a44e0e11",
-                "49bac32e-5464-11e9-a6e2-000d3ab1e588",
                 "b8032b00-594d-11e9-9cf0-18cf5eb368c4",
                 "0add0e11-99aa-11ea-9ab8-f875a44e0e11",
                 "227f29f8-1847-11ef-949d-0242ac130006",

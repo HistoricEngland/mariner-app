@@ -768,13 +768,13 @@
                     "graph_id": "b8032b00-594d-11e9-9cf0-18cf5eb368c4",
                     "helpenabled": false,
                     "helptext": {
-                        "en": null
+                        "en": ""
                     },
                     "helptitle": {
-                        "en": null
+                        "en": ""
                     },
                     "instructions": {
-                        "en": null
+                        "en": ""
                     },
                     "is_editable": false,
                     "name": {
@@ -1656,6 +1656,28 @@
                     "sortorder": 6,
                     "visible": false,
                     "widget_id": "10000000-0000-0000-0000-000000000002"
+                },
+                {
+                    "card_id": "cfb9b30b-28e1-11eb-a7fe-f875a44e0e11",
+                    "config": {
+                        "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
+                        "label": "Associated Activity Type",
+                        "options": [],
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
+                    },
+                    "id": "13a9b642-a2e1-4401-97da-f6202c72bf30",
+                    "label": {
+                        "en": "Associated Activity Type"
+                    },
+                    "node_id": "9027e12a-3dfe-11ef-ad41-0242ac130006",
+                    "sortorder": 0,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000012"
                 },
                 {
                     "card_id": "daa1dd33-5a08-11e9-9cfd-18cf5eb368c4",
@@ -5169,7 +5191,7 @@
                         "en": "Activity"
                     },
                     "node_id": "cfb9b309-28e1-11eb-bdb7-f875a44e0e11",
-                    "sortorder": null,
+                    "sortorder": 1,
                     "visible": true,
                     "widget_id": "ff3c400a-76ec-11e7-a793-784f435179ea"
                 },
@@ -40644,6 +40666,89 @@
             "functions_x_graphs": [
                 {
                     "config": {
+                        "nodegroup_nodes": [],
+                        "resourceid_node": "95495b1b-298b-11eb-8fa8-f875a44e0e11",
+                        "simpleuid_node": "95495b17-298b-11eb-b6cb-f875a44e0e11",
+                        "triggering_nodegroups": [
+                            "4c6a0196-fa6d-11ed-801b-0242ac120006",
+                            "534393dc-fa41-11ed-8873-0242ac120006",
+                            "2f9ba6e8-1928-11ef-9186-0242ac150006",
+                            "516ec1a8-26f1-11ee-ba92-0242ac130006",
+                            "63f8fde8-b61b-11ee-8fec-0242ac120006",
+                            "95495b13-298b-11eb-b746-f875a44e0e11",
+                            "b15dbaaf-28f2-11eb-bd40-f875a44e0e11",
+                            "b5b885cc-faeb-11ed-b6c1-0242ac120006",
+                            "cfb9b309-28e1-11eb-bdb7-f875a44e0e11",
+                            "cab69dee-fb20-11ed-9ecd-0242ac120006",
+                            "dd2c635a-28e7-11eb-a7b8-f875a44e0e11",
+                            "925c357a-1830-11ef-ad10-0242ac130006",
+                            "c2de1532-b61b-11ee-ad8c-0242ac120006",
+                            "fcddd8ad-51b9-11eb-b704-f875a44e0e11",
+                            "d01957f0-b460-11ee-a61c-0242ac120006",
+                            "d0196da8-b460-11ee-a61c-0242ac120006",
+                            "d0198892-b460-11ee-a61c-0242ac120006",
+                            "c1f4a304-1681-11ef-8084-0242ac120006",
+                            "d01981c6-b460-11ee-a61c-0242ac120006",
+                            "d0197a14-b460-11ee-a61c-0242ac120006",
+                            "d0197424-b460-11ee-a61c-0242ac120006",
+                            "b4a2117a-1828-11ef-a664-0242ac130006",
+                            "f60ea484-1837-11ef-be04-0242ac130006",
+                            "daa1dd31-5a08-11e9-882d-18cf5eb368c4",
+                            "2ba1ac5c-fa3b-11ed-96ba-0242ac120006",
+                            "008e66cc-28e0-11eb-85dc-f875a44e0e11",
+                            "0b8d0b0a-28df-11eb-9d98-f875a44e0e11",
+                            "0b8d0b16-28df-11eb-ae3e-f875a44e0e11",
+                            "0b8d0b10-28df-11eb-8bc5-f875a44e0e11",
+                            "0b8d0b19-28df-11eb-bc96-f875a44e0e11",
+                            "0b8d0b13-28df-11eb-a9d0-f875a44e0e11",
+                            "20d7355b-28e1-11eb-92c5-f875a44e0e11",
+                            "30f5066b-3e07-11eb-b66f-f875a44e0e11",
+                            "2ba1b576-fa3b-11ed-96ba-0242ac120006",
+                            "2dd851fa-fad7-11ed-9854-0242ac120006",
+                            "4c6a0196-fa6d-11ed-801b-0242ac120006",
+                            "534393dc-fa41-11ed-8873-0242ac120006",
+                            "2f9ba6e8-1928-11ef-9186-0242ac150006",
+                            "516ec1a8-26f1-11ee-ba92-0242ac130006",
+                            "63f8fde8-b61b-11ee-8fec-0242ac120006",
+                            "95495b13-298b-11eb-b746-f875a44e0e11",
+                            "b15dbaaf-28f2-11eb-bd40-f875a44e0e11",
+                            "b5b885cc-faeb-11ed-b6c1-0242ac120006",
+                            "cfb9b309-28e1-11eb-bdb7-f875a44e0e11",
+                            "cab69dee-fb20-11ed-9ecd-0242ac120006",
+                            "dd2c635a-28e7-11eb-a7b8-f875a44e0e11",
+                            "925c357a-1830-11ef-ad10-0242ac130006",
+                            "c2de1532-b61b-11ee-ad8c-0242ac120006",
+                            "fcddd8ad-51b9-11eb-b704-f875a44e0e11",
+                            "d01957f0-b460-11ee-a61c-0242ac120006",
+                            "d0196da8-b460-11ee-a61c-0242ac120006",
+                            "d0198892-b460-11ee-a61c-0242ac120006",
+                            "c1f4a304-1681-11ef-8084-0242ac120006",
+                            "d01981c6-b460-11ee-a61c-0242ac120006",
+                            "d0197a14-b460-11ee-a61c-0242ac120006",
+                            "d0197424-b460-11ee-a61c-0242ac120006",
+                            "b4a2117a-1828-11ef-a664-0242ac130006",
+                            "f60ea484-1837-11ef-be04-0242ac130006",
+                            "daa1dd31-5a08-11e9-882d-18cf5eb368c4",
+                            "2ba1ac5c-fa3b-11ed-96ba-0242ac120006",
+                            "008e66cc-28e0-11eb-85dc-f875a44e0e11",
+                            "0b8d0b0a-28df-11eb-9d98-f875a44e0e11",
+                            "0b8d0b16-28df-11eb-ae3e-f875a44e0e11",
+                            "0b8d0b10-28df-11eb-8bc5-f875a44e0e11",
+                            "0b8d0b19-28df-11eb-bc96-f875a44e0e11",
+                            "0b8d0b13-28df-11eb-a9d0-f875a44e0e11",
+                            "20d7355b-28e1-11eb-92c5-f875a44e0e11",
+                            "30f5066b-3e07-11eb-b66f-f875a44e0e11",
+                            "2ba1b576-fa3b-11ed-96ba-0242ac120006",
+                            "2dd851fa-fad7-11ed-9854-0242ac120006"
+                        ],
+                        "uniqueresource_nodegroup": "95495b13-298b-11eb-b746-f875a44e0e11"
+                    },
+                    "function_id": "39d627ae-6973-4ddb-8b62-1f0230e1e3f9",
+                    "graph_id": "b8032b00-594d-11e9-9cf0-18cf5eb368c4",
+                    "id": "57573755-8cb6-492d-a07f-3ffa4835c3ea"
+                },
+                {
+                    "config": {
                         "descriptor_types": {
                             "description": {
                                 "nodegroup_id": "20d7355b-28e1-11eb-92c5-f875a44e0e11",
@@ -48155,8 +48260,8 @@
             "publication": {
                 "graph_id": "b8032b00-594d-11e9-9cf0-18cf5eb368c4",
                 "notes": null,
-                "publicationid": "ddfdeab3-b5a7-11f0-8e48-6045bd0b6819",
-                "published_time": "2025-10-30T15:48:23.705"
+                "publicationid": "b7bc2e6a-b98f-11f0-943b-6045bd0b6819",
+                "published_time": "2025-11-04T15:05:36.251"
             },
             "relatable_resource_model_ids": [
                 "e14ac900-ee59-11ed-94d5-0242ac120006",
@@ -48168,6 +48273,7 @@
                 "190bb2a6-33ae-11ef-8f99-0242ac120006",
                 "2b3b8df0-2fd2-11ef-8227-0242ac120006",
                 "934cd7f0-480a-11ea-9240-c4d9877d154e",
+                "49bac32e-5464-11e9-a6e2-000d3ab1e588",
                 "3be61489-70a8-11ed-bfa5-000d3a873d5f",
                 "24d7b54f-5464-11e9-a86b-000d3ab1e588",
                 "d4a88461-5463-11e9-90d9-000d3ab1e588",
@@ -48179,7 +48285,6 @@
                 "5d65337e-11f2-11ef-81e7-0242ac120006",
                 "1d47e2bc-2d51-11ef-ae46-0242ac140006",
                 "f9045867-8861-11ea-b06f-f875a44e0e11",
-                "49bac32e-5464-11e9-a6e2-000d3ab1e588",
                 "b8032b00-594d-11e9-9cf0-18cf5eb368c4",
                 "0add0e11-99aa-11ea-9ab8-f875a44e0e11",
                 "227f29f8-1847-11ef-949d-0242ac130006",

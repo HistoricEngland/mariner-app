@@ -167,7 +167,7 @@
                     "instructions": {
                         "en": "Enter the resource name and its respective type."
                     },
-                    "is_editable": true,
+                    "is_editable": false,
                     "name": {
                         "en": "Names"
                     },
@@ -265,7 +265,7 @@
                     "instructions": {
                         "en": null
                     },
-                    "is_editable": true,
+                    "is_editable": false,
                     "name": {
                         "en": "Location"
                     },
@@ -360,7 +360,7 @@
                     "instructions": {
                         "en": ""
                     },
-                    "is_editable": true,
+                    "is_editable": false,
                     "name": {
                         "en": "System Reference Numbers"
                     },
@@ -3987,7 +3987,7 @@
                         "en": "Digital File(s)"
                     },
                     "node_id": "c0d889e8-b6ed-11ee-ae27-0242ac120006",
-                    "sortorder": null,
+                    "sortorder": 0,
                     "visible": true,
                     "widget_id": "ff3c400a-76ec-11e7-a793-784f435179ea"
                 },
@@ -5560,11 +5560,37 @@
                     "function_id": "60000000-0000-0000-0000-000000000001",
                     "graph_id": "934cd7f0-480a-11ea-9240-c4d9877d154e",
                     "id": "4ad19a98-e8fb-11ed-9ee9-0242ac130006"
+                },
+                {
+                    "config": {
+                        "nodegroup_nodes": [],
+                        "resourceid_node": "99456f69-0dfd-11eb-8070-f875a44e0e11",
+                        "simpleuid_node": "99456f68-0dfd-11eb-b132-f875a44e0e11",
+                        "triggering_nodegroups": [
+                            "4cf307dd-07b5-11eb-9b93-f875a44e0e11",
+                            "96658f8c-b556-11ee-afb9-0242ac120006",
+                            "02f036ba-482c-11ea-8e39-c4d9877d154e",
+                            "e354c5ac-07b8-11eb-8007-f875a44e0e11",
+                            "6677b647-3dff-11eb-bbd8-f875a44e0e11",
+                            "056e9f1e-da27-11ee-84b6-0242ac130007",
+                            "c0d889e8-b6ed-11ee-ae27-0242ac120006",
+                            "445efc34-b536-11ee-9f7d-0242ac120006",
+                            "86ce8acb-4eaa-11eb-8468-f875a44e0e11",
+                            "4e23828e-b537-11ee-a715-0242ac120006",
+                            "db0b5074-b536-11ee-b644-0242ac120006",
+                            "99456f65-0dfd-11eb-b51f-f875a44e0e11",
+                            "3d22bf1f-1aa8-11eb-83d7-f875a44e0e11"
+                        ],
+                        "uniqueresource_nodegroup": "99456f65-0dfd-11eb-b51f-f875a44e0e11"
+                    },
+                    "function_id": "39d627ae-6973-4ddb-8b62-1f0230e1e3f9",
+                    "graph_id": "934cd7f0-480a-11ea-9240-c4d9877d154e",
+                    "id": "8096267c-aa9f-4cca-a8d0-2e9c9acb4f2b"
                 }
             ],
             "graphid": "934cd7f0-480a-11ea-9240-c4d9877d154e",
             "iconclass": "fa fa-picture-o",
-            "is_editable": true,
+            "is_editable": false,
             "isresource": true,
             "jsonldcontext": null,
             "name": {
@@ -8128,6 +8154,7 @@
             },
             "relatable_resource_model_ids": [
                 "934cd7f0-480a-11ea-9240-c4d9877d154e",
+                "49bac32e-5464-11e9-a6e2-000d3ab1e588",
                 "3be61489-70a8-11ed-bfa5-000d3a873d5f",
                 "d4a88461-5463-11e9-90d9-000d3ab1e588",
                 "a535a235-8481-11ea-a6b9-f875a44e0e11",
@@ -8147,7 +8174,6 @@
                 "b8032b00-594d-11e9-9cf0-18cf5eb368c4",
                 "190bb2a6-33ae-11ef-8f99-0242ac120006",
                 "b07cfa6f-894d-11ea-82aa-f875a44e0e11",
-                "49bac32e-5464-11e9-a6e2-000d3ab1e588",
                 "e14ac900-ee59-11ed-94d5-0242ac120006",
                 "b9e0701e-5463-11e9-b5f5-000d3ab1e588",
                 "076f9381-7b00-11e9-8d6b-80000b44d1d9",

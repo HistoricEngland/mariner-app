@@ -910,7 +910,7 @@
                         "en": "Digital File"
                     },
                     "node_id": "2c5939f5-8ed5-11ea-a638-f875a44e0e11",
-                    "sortorder": null,
+                    "sortorder": 0,
                     "visible": true,
                     "widget_id": "31f3728c-7613-11e7-a139-784f435179ea"
                 },
@@ -3514,6 +3514,51 @@
                 }
             ],
             "functions_x_graphs": [
+                {
+                    "config": {
+                        "nodegroup_nodes": [],
+                        "resourceid_node": "46fbf791-95ce-11ea-8d36-f875a44e0e11",
+                        "simpleuid_node": "46fbf790-95ce-11ea-8331-f875a44e0e11",
+                        "triggering_nodegroups": [
+                            "6c862f81-8ed4-11ea-b9e9-f875a44e0e11",
+                            "1e5ef700-d723-11ee-a16e-0242ac130007",
+                            "03e2984b-8ecf-11ea-8f83-f875a44e0e11",
+                            "8cd5def1-8ecf-11ea-ade5-f875a44e0e11",
+                            "95a57b40-95bc-11ea-9792-f875a44e0e11",
+                            "980ebd07-a0f8-11ea-868d-f875a44e0e11",
+                            "9c800fcc-8f9b-11ea-b968-f875a44e0e11",
+                            "1987a81b-8ed0-11ea-ba85-f875a44e0e11",
+                            "1ed132d8-95f1-11ea-b306-f875a44e0e11",
+                            "4ed8c1a4-17bf-11ef-b895-0242ac120006",
+                            "2c5939f5-8ed5-11ea-a638-f875a44e0e11",
+                            "b083ef94-8ee6-11ea-a277-f875a44e0e11",
+                            "9f29bb76-8ed4-11ea-81d3-f875a44e0e11",
+                            "c06e4047-95ef-11ea-be5d-f875a44e0e11",
+                            "73967748-17bf-11ef-a0bd-0242ac120006",
+                            "46fbf78d-95ce-11ea-91b5-f875a44e0e11",
+                            "6c862f81-8ed4-11ea-b9e9-f875a44e0e11",
+                            "1e5ef700-d723-11ee-a16e-0242ac130007",
+                            "03e2984b-8ecf-11ea-8f83-f875a44e0e11",
+                            "8cd5def1-8ecf-11ea-ade5-f875a44e0e11",
+                            "95a57b40-95bc-11ea-9792-f875a44e0e11",
+                            "980ebd07-a0f8-11ea-868d-f875a44e0e11",
+                            "9c800fcc-8f9b-11ea-b968-f875a44e0e11",
+                            "1987a81b-8ed0-11ea-ba85-f875a44e0e11",
+                            "1ed132d8-95f1-11ea-b306-f875a44e0e11",
+                            "4ed8c1a4-17bf-11ef-b895-0242ac120006",
+                            "2c5939f5-8ed5-11ea-a638-f875a44e0e11",
+                            "b083ef94-8ee6-11ea-a277-f875a44e0e11",
+                            "9f29bb76-8ed4-11ea-81d3-f875a44e0e11",
+                            "c06e4047-95ef-11ea-be5d-f875a44e0e11",
+                            "73967748-17bf-11ef-a0bd-0242ac120006",
+                            "46fbf78d-95ce-11ea-91b5-f875a44e0e11"
+                        ],
+                        "uniqueresource_nodegroup": "46fbf78d-95ce-11ea-91b5-f875a44e0e11"
+                    },
+                    "function_id": "39d627ae-6973-4ddb-8b62-1f0230e1e3f9",
+                    "graph_id": "24d7b54f-5464-11e9-a86b-000d3ab1e588",
+                    "id": "234a1c8f-3ab2-4e17-9572-071bbbe97fff"
+                },
                 {
                     "config": {
                         "descriptor_types": {
@@ -6143,7 +6188,6 @@
             "relatable_resource_model_ids": [
                 "a535a235-8481-11ea-a6b9-f875a44e0e11",
                 "b07cfa6f-894d-11ea-82aa-f875a44e0e11",
-                "49bac32e-5464-11e9-a6e2-000d3ab1e588",
                 "e14ac900-ee59-11ed-94d5-0242ac120006",
                 "b9e0701e-5463-11e9-b5f5-000d3ab1e588",
                 "22477f01-1a44-11e9-b0a9-000d3ab1e588",
@@ -6164,6 +6208,7 @@
                 "190bb2a6-33ae-11ef-8f99-0242ac120006",
                 "2b3b8df0-2fd2-11ef-8227-0242ac120006",
                 "934cd7f0-480a-11ea-9240-c4d9877d154e",
+                "49bac32e-5464-11e9-a6e2-000d3ab1e588",
                 "24d7b54f-5464-11e9-a86b-000d3ab1e588",
                 "f9045867-8861-11ea-b06f-f875a44e0e11"
             ],

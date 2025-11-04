@@ -71,7 +71,7 @@
                     "instructions": {
                         "en": "Enter the resource name and its respective type."
                     },
-                    "is_editable": true,
+                    "is_editable": false,
                     "name": {
                         "en": "Names"
                     },
@@ -298,7 +298,7 @@
                     "instructions": {
                         "en": null
                     },
-                    "is_editable": true,
+                    "is_editable": false,
                     "name": {
                         "en": "Geographic coverage"
                     },
@@ -325,7 +325,7 @@
                     "instructions": {
                         "en": ""
                     },
-                    "is_editable": true,
+                    "is_editable": false,
                     "name": {
                         "en": "System Reference Numbers"
                     },
@@ -681,7 +681,7 @@
                         "en": "National Grid Reference"
                     },
                     "node_id": "2a5e5982-405b-11ef-87ee-0242ac120006",
-                    "sortorder": null,
+                    "sortorder": 0,
                     "visible": true,
                     "widget_id": "bcae8e90-09f7-4ae3-906b-7c7bb71a6ddf"
                 },
@@ -1022,7 +1022,7 @@
                         "en": "Digital File(s)"
                     },
                     "node_id": "89ff0bce-184d-11ef-a903-0242ac130006",
-                    "sortorder": null,
+                    "sortorder": 0,
                     "visible": true,
                     "widget_id": "ff3c400a-76ec-11e7-a793-784f435179ea"
                 },
@@ -3444,11 +3444,54 @@
                     "function_id": "60000000-0000-0000-0000-000000000001",
                     "graph_id": "227f29f8-1847-11ef-949d-0242ac130006",
                     "id": "68c63658-1848-11ef-aebb-0242ac130006"
+                },
+                {
+                    "config": {
+                        "nodegroup_nodes": [],
+                        "resourceid_node": "a9fa8594-1851-11ef-88ae-0242ac130006",
+                        "simpleuid_node": "a9fa7f04-1851-11ef-88ae-0242ac130006",
+                        "triggering_nodegroups": [
+                            "fb6616f4-184d-11ef-a9cd-0242ac130006",
+                            "7d210324-194e-11ef-a494-0242ac150006",
+                            "89ff0bce-184d-11ef-a903-0242ac130006",
+                            "0e7b4cd2-1849-11ef-82ef-0242ac130006",
+                            "10a8cad0-1848-11ef-9bf8-0242ac130006",
+                            "2a5e5342-405b-11ef-87ee-0242ac120006",
+                            "a93c82b4-1848-11ef-b394-0242ac130006",
+                            "a6194ba6-184f-11ef-9619-0242ac130006",
+                            "3090bc04-1848-11ef-b3bb-0242ac130006",
+                            "a9fa7644-1851-11ef-88ae-0242ac130006",
+                            "b668eb7c-1847-11ef-bdae-0242ac130006",
+                            "bde9334c-184d-11ef-8d32-0242ac130006",
+                            "d1ec16bc-1851-11ef-a92e-0242ac130006",
+                            "e4e9a220-1851-11ef-8533-0242ac130006",
+                            "69516cb2-184f-11ef-a239-0242ac130006",
+                            "fb6616f4-184d-11ef-a9cd-0242ac130006",
+                            "7d210324-194e-11ef-a494-0242ac150006",
+                            "89ff0bce-184d-11ef-a903-0242ac130006",
+                            "0e7b4cd2-1849-11ef-82ef-0242ac130006",
+                            "10a8cad0-1848-11ef-9bf8-0242ac130006",
+                            "2a5e5342-405b-11ef-87ee-0242ac120006",
+                            "a93c82b4-1848-11ef-b394-0242ac130006",
+                            "a6194ba6-184f-11ef-9619-0242ac130006",
+                            "3090bc04-1848-11ef-b3bb-0242ac130006",
+                            "a9fa7644-1851-11ef-88ae-0242ac130006",
+                            "b668eb7c-1847-11ef-bdae-0242ac130006",
+                            "bde9334c-184d-11ef-8d32-0242ac130006",
+                            "d1ec16bc-1851-11ef-a92e-0242ac130006",
+                            "e4e9a220-1851-11ef-8533-0242ac130006",
+                            "69516cb2-184f-11ef-a239-0242ac130006"
+                        ],
+                        "uniqueresource_nodegroup": "a9fa7644-1851-11ef-88ae-0242ac130006"
+                    },
+                    "function_id": "39d627ae-6973-4ddb-8b62-1f0230e1e3f9",
+                    "graph_id": "227f29f8-1847-11ef-949d-0242ac130006",
+                    "id": "87b9b667-1877-4b2f-b66c-12867cfd7c69"
                 }
             ],
             "graphid": "227f29f8-1847-11ef-949d-0242ac130006",
             "iconclass": "fa fa-calendar-o",
-            "is_editable": true,
+            "is_editable": false,
             "isresource": true,
             "jsonldcontext": null,
             "name": {
@@ -6066,6 +6109,7 @@
                 "190bb2a6-33ae-11ef-8f99-0242ac120006",
                 "2b3b8df0-2fd2-11ef-8227-0242ac120006",
                 "934cd7f0-480a-11ea-9240-c4d9877d154e",
+                "49bac32e-5464-11e9-a6e2-000d3ab1e588",
                 "24d7b54f-5464-11e9-a86b-000d3ab1e588",
                 "d4a88461-5463-11e9-90d9-000d3ab1e588",
                 "a535a235-8481-11ea-a6b9-f875a44e0e11",
@@ -6073,7 +6117,6 @@
                 "ce759cf1-c299-11e9-8188-c4d9877d154e",
                 "5d65337e-11f2-11ef-81e7-0242ac120006",
                 "f9045867-8861-11ea-b06f-f875a44e0e11",
-                "49bac32e-5464-11e9-a6e2-000d3ab1e588",
                 "227f29f8-1847-11ef-949d-0242ac130006",
                 "78b32d8c-b6f2-11ea-af42-f875a44e0e11"
             ],

@@ -90,7 +90,7 @@
                     "instructions": {
                         "en": ""
                     },
-                    "is_editable": true,
+                    "is_editable": false,
                     "name": {
                         "en": "System Reference Numbers"
                     },
@@ -139,7 +139,7 @@
                     "instructions": {
                         "en": null
                     },
-                    "is_editable": true,
+                    "is_editable": false,
                     "name": {
                         "en": "Geographic coverage"
                     },
@@ -175,7 +175,7 @@
                     "instructions": {
                         "en": "Enter the resource name and its respective type."
                     },
-                    "is_editable": true,
+                    "is_editable": false,
                     "name": {
                         "en": "Names"
                     },
@@ -1760,7 +1760,7 @@
                         "en": "Translation"
                     },
                     "node_id": "cfb8a186-99e4-11ea-aee7-f875a44e0e11",
-                    "sortorder": null,
+                    "sortorder": 0,
                     "visible": true,
                     "widget_id": "ff3c400a-76ec-11e7-a793-784f435179ea"
                 },
@@ -3605,6 +3605,55 @@
             "functions_x_graphs": [
                 {
                     "config": {
+                        "nodegroup_nodes": [],
+                        "resourceid_node": "44441e0d-99ac-11ea-b010-f875a44e0e11",
+                        "simpleuid_node": "44441e0c-99ac-11ea-97cc-f875a44e0e11",
+                        "triggering_nodegroups": [
+                            "e99ff2af-99ab-11ea-b39e-f875a44e0e11",
+                            "494764e2-99ab-11ea-8026-f875a44e0e11",
+                            "0b3f8d74-1814-11ef-9ab0-0242ac130006",
+                            "36891156-b6d7-11ee-bfbf-0242ac120006",
+                            "be6ae232-b481-11ee-9c13-0242ac120006",
+                            "96ce986e-99ab-11ea-89d1-f875a44e0e11",
+                            "cfb8a186-99e4-11ea-aee7-f875a44e0e11",
+                            "6b791854-1927-11ef-a81b-0242ac150006",
+                            "b2d194c6-99aa-11ea-b5eb-f875a44e0e11",
+                            "bb2ed559-99ad-11ea-a79c-f875a44e0e11",
+                            "e951999a-b6d5-11ee-bf62-0242ac120006",
+                            "44441e09-99ac-11ea-b283-f875a44e0e11",
+                            "cbb6be9d-99b3-11ea-876d-f875a44e0e11",
+                            "4bc440ff-99aa-11ea-b5fe-f875a44e0e11",
+                            "51ba65e4-fe77-11ea-aee7-f875a44e0e11",
+                            "e08e6d5a-99aa-11ea-86d7-f875a44e0e11",
+                            "63fbc19f-99ad-11ea-87cd-f875a44e0e11",
+                            "69db3f4c-9c09-11ea-8465-f875a44e0e11",
+                            "e99ff2af-99ab-11ea-b39e-f875a44e0e11",
+                            "494764e2-99ab-11ea-8026-f875a44e0e11",
+                            "0b3f8d74-1814-11ef-9ab0-0242ac130006",
+                            "36891156-b6d7-11ee-bfbf-0242ac120006",
+                            "be6ae232-b481-11ee-9c13-0242ac120006",
+                            "96ce986e-99ab-11ea-89d1-f875a44e0e11",
+                            "cfb8a186-99e4-11ea-aee7-f875a44e0e11",
+                            "6b791854-1927-11ef-a81b-0242ac150006",
+                            "b2d194c6-99aa-11ea-b5eb-f875a44e0e11",
+                            "bb2ed559-99ad-11ea-a79c-f875a44e0e11",
+                            "e951999a-b6d5-11ee-bf62-0242ac120006",
+                            "44441e09-99ac-11ea-b283-f875a44e0e11",
+                            "cbb6be9d-99b3-11ea-876d-f875a44e0e11",
+                            "4bc440ff-99aa-11ea-b5fe-f875a44e0e11",
+                            "51ba65e4-fe77-11ea-aee7-f875a44e0e11",
+                            "e08e6d5a-99aa-11ea-86d7-f875a44e0e11",
+                            "63fbc19f-99ad-11ea-87cd-f875a44e0e11",
+                            "69db3f4c-9c09-11ea-8465-f875a44e0e11"
+                        ],
+                        "uniqueresource_nodegroup": "44441e09-99ac-11ea-b283-f875a44e0e11"
+                    },
+                    "function_id": "39d627ae-6973-4ddb-8b62-1f0230e1e3f9",
+                    "graph_id": "0add0e11-99aa-11ea-9ab8-f875a44e0e11",
+                    "id": "14175880-f7ba-4445-9e8a-fcd723519dc1"
+                },
+                {
+                    "config": {
                         "descriptor_types": {
                             "description": {
                                 "nodegroup_id": "cbb6be9d-99b3-11ea-876d-f875a44e0e11",
@@ -3628,7 +3677,7 @@
             ],
             "graphid": "0add0e11-99aa-11ea-9ab8-f875a44e0e11",
             "iconclass": "fa fa-book",
-            "is_editable": true,
+            "is_editable": false,
             "isresource": true,
             "jsonldcontext": null,
             "name": {
@@ -6230,6 +6279,7 @@
                 "190bb2a6-33ae-11ef-8f99-0242ac120006",
                 "2b3b8df0-2fd2-11ef-8227-0242ac120006",
                 "934cd7f0-480a-11ea-9240-c4d9877d154e",
+                "49bac32e-5464-11e9-a6e2-000d3ab1e588",
                 "a535a235-8481-11ea-a6b9-f875a44e0e11",
                 "78b32d8c-b6f2-11ea-af42-f875a44e0e11",
                 "cf3a2979-f1aa-11e8-9f5d-022b22146258",
@@ -6241,7 +6291,6 @@
                 "5d65337e-11f2-11ef-81e7-0242ac120006",
                 "1d47e2bc-2d51-11ef-ae46-0242ac140006",
                 "f9045867-8861-11ea-b06f-f875a44e0e11",
-                "49bac32e-5464-11e9-a6e2-000d3ab1e588",
                 "0add0e11-99aa-11ea-9ab8-f875a44e0e11",
                 "227f29f8-1847-11ef-949d-0242ac130006",
                 "b9e0701e-5463-11e9-b5f5-000d3ab1e588"

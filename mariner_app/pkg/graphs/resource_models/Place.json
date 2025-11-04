@@ -1920,7 +1920,7 @@
                         "en": "Digital File(s)"
                     },
                     "node_id": "3cab0524-b6ed-11ee-8370-0242ac120006",
-                    "sortorder": null,
+                    "sortorder": 0,
                     "visible": true,
                     "widget_id": "ff3c400a-76ec-11e7-a793-784f435179ea"
                 },
@@ -4795,6 +4795,34 @@
                     "function_id": "60000000-0000-0000-0000-000000000001",
                     "graph_id": "78b32d8c-b6f2-11ea-af42-f875a44e0e11",
                     "id": "35072d04-e8fb-11ed-9ee9-0242ac130006"
+                },
+                {
+                    "config": {
+                        "nodegroup_nodes": [],
+                        "resourceid_node": "d677353c-b6da-11ee-9b93-0242ac120006",
+                        "simpleuid_node": "d6772ed4-b6da-11ee-9b93-0242ac120006",
+                        "triggering_nodegroups": [
+                            "18d6ad5e-b6db-11ee-88a4-0242ac120006",
+                            "71de72fa-1956-11ef-b2c7-0242ac150006",
+                            "cb6ca579-4f66-11eb-9200-f875a44e0e11",
+                            "27387ee5-29b5-11eb-b4ea-f875a44e0e11",
+                            "3cab0524-b6ed-11ee-8370-0242ac120006",
+                            "bffdaed0-b6da-11ee-9a5c-0242ac120006",
+                            "972d3864-b6f2-11ea-9a38-f875a44e0e11",
+                            "5083895e-b526-11ee-bf02-0242ac120006",
+                            "d6772678-b6da-11ee-9b93-0242ac120006",
+                            "e3c937ea-da10-11ee-b55d-0242ac130007",
+                            "c9058a00-1956-11ef-b624-0242ac150006",
+                            "5518ba9b-b6f3-11ea-ba58-f875a44e0e11",
+                            "4f8b9fcc-b6f3-11ea-bdcf-f875a44e0e11",
+                            "08086ba8-b6e4-11ee-8a4c-0242ac120006",
+                            "f1e381e2-1957-11ef-8fe0-0242ac150006"
+                        ],
+                        "uniqueresource_nodegroup": "d6772678-b6da-11ee-9b93-0242ac120006"
+                    },
+                    "function_id": "39d627ae-6973-4ddb-8b62-1f0230e1e3f9",
+                    "graph_id": "78b32d8c-b6f2-11ea-af42-f875a44e0e11",
+                    "id": "b6dd0eeb-c92d-4f93-9496-27bc69d6521f"
                 }
             ],
             "graphid": "78b32d8c-b6f2-11ea-af42-f875a44e0e11",
@@ -8292,11 +8320,11 @@
                 "190bb2a6-33ae-11ef-8f99-0242ac120006",
                 "2b3b8df0-2fd2-11ef-8227-0242ac120006",
                 "934cd7f0-480a-11ea-9240-c4d9877d154e",
+                "49bac32e-5464-11e9-a6e2-000d3ab1e588",
                 "24d7b54f-5464-11e9-a86b-000d3ab1e588",
                 "ce759cf1-c299-11e9-8188-c4d9877d154e",
                 "f9045867-8861-11ea-b06f-f875a44e0e11",
-                "78b32d8c-b6f2-11ea-af42-f875a44e0e11",
-                "49bac32e-5464-11e9-a6e2-000d3ab1e588"
+                "78b32d8c-b6f2-11ea-af42-f875a44e0e11"
             ],
             "resource_2_resource_constraints": [],
             "root": {
