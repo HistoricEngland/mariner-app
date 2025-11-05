@@ -24,9 +24,9 @@ For development purposes, you can treat this app as a standard Arches project. E
   
   Please ensure that you clone the amariner-app repository into a directory that uses underscores instead of hyphens, as the arches-containers configuration expects this format. For example, clone it to `mariner_app`.
 
-  ```bash
-  git clone https://github.com/HistoricEngland/mariner-app.git mariner_app
-  ```
+    ```bash
+    git clone https://github.com/HistoricEngland/mariner-app.git mariner_app
+    ```
 
   This repository includes an `arches-containers` project configuration, so you can import, activate, and start the system as follows:
 
@@ -65,7 +65,8 @@ While you can use Mariner App as a standalone app, you may wish to use it as par
 
   ```toml
   mariner_app @ git+https://github.com/HistoricEngland/mariner-app.git@release/1.0.0
-
+  ```
+ 
   Example:
 
   ```toml
