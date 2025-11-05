@@ -293,10 +293,10 @@
                     "graph_id": "1d47e2bc-2d51-11ef-ae46-0242ac140006",
                     "helpenabled": false,
                     "helptext": {
-                        "en": null
+                        "en": ""
                     },
                     "helptitle": {
-                        "en": null
+                        "en": ""
                     },
                     "instructions": {
                         "en": "National Grid references, map names, and other common location identifiers for the resource"
@@ -7004,6 +7004,21 @@
                     "sortorder": 0,
                     "visible": true,
                     "widget_id": "ff3c400a-76ec-11e7-a793-784f435179ea"
+                },
+                {
+                    "card_id": "1d4847a2-2d51-11ef-ae46-0242ac140006",
+                    "config": {
+                        "label": "National Grid Reference",
+                        "placeholder": "Enter the centre point map reference of the resource."
+                    },
+                    "id": "4aa0bb49-ed03-4e9a-9364-4f20ca93e148",
+                    "label": {
+                        "en": "National Grid Reference"
+                    },
+                    "node_id": "1d4a5010-2d51-11ef-ae46-0242ac140006",
+                    "sortorder": null,
+                    "visible": true,
+                    "widget_id": "bcae8e90-09f7-4ae3-906b-7c7bb71a6ddf"
                 },
                 {
                     "card_id": "1d4853aa-2d51-11ef-ae46-0242ac140006",
@@ -15920,8 +15935,8 @@
             "publication": {
                 "graph_id": "1d47e2bc-2d51-11ef-ae46-0242ac140006",
                 "notes": null,
-                "publicationid": "0d430d70-b5a7-11f0-9eaa-6045bd0b6819",
-                "published_time": "2025-10-30T15:42:33.514"
+                "publicationid": "88ba9705-b9a0-11f0-bdaf-6045bd0b6819",
+                "published_time": "2025-11-04T17:05:58.832"
             },
             "relatable_resource_model_ids": [
                 "b07cfa6f-894d-11ea-82aa-f875a44e0e11",

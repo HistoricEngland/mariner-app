@@ -128,32 +128,19 @@
                     "cardid": "515be9e4-70a8-11ed-9bf3-000d3a873d5f",
                     "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
                     "config": null,
-                    "constraints": [
-                        {
-                            "card_id": "515be9e4-70a8-11ed-9bf3-000d3a873d5f",
-                            "constraintid": "a8d08e50-a53f-4995-84cf-1cb03baeb1b2",
-                            "nodes": [],
-                            "uniquetoallinstances": false
-                        },
-                        {
-                            "card_id": "515be9e4-70a8-11ed-9bf3-000d3a873d5f",
-                            "constraintid": "6183e7fe-358a-4894-9eea-137420431a39",
-                            "nodes": [],
-                            "uniquetoallinstances": false
-                        }
-                    ],
+                    "constraints": [],
                     "cssclass": null,
                     "description": null,
                     "graph_id": "3be61489-70a8-11ed-bfa5-000d3a873d5f",
                     "helpenabled": false,
                     "helptext": {
-                        "en": null
+                        "en": ""
                     },
                     "helptitle": {
-                        "en": null
+                        "en": ""
                     },
                     "instructions": {
-                        "en": null
+                        "en": ""
                     },
                     "is_editable": true,
                     "name": {
@@ -467,32 +454,19 @@
                     "cardid": "efefa944-cee7-11ed-be45-0242ac120006",
                     "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
                     "config": null,
-                    "constraints": [
-                        {
-                            "card_id": "efefa944-cee7-11ed-be45-0242ac120006",
-                            "constraintid": "23161633-817f-4b9b-bc9a-3a3c39165bd7",
-                            "nodes": [],
-                            "uniquetoallinstances": false
-                        },
-                        {
-                            "card_id": "efefa944-cee7-11ed-be45-0242ac120006",
-                            "constraintid": "1d3888fe-a012-42a6-bdd1-7dfce65303a2",
-                            "nodes": [],
-                            "uniquetoallinstances": false
-                        }
-                    ],
+                    "constraints": [],
                     "cssclass": null,
                     "description": null,
                     "graph_id": "3be61489-70a8-11ed-bfa5-000d3a873d5f",
                     "helpenabled": false,
                     "helptext": {
-                        "en": null
+                        "en": ""
                     },
                     "helptitle": {
-                        "en": null
+                        "en": ""
                     },
                     "instructions": {
-                        "en": null
+                        "en": ""
                     },
                     "is_editable": true,
                     "name": {
@@ -575,6 +549,27 @@
                     "widget_id": "10000000-0000-0000-0000-000000000008"
                 },
                 {
+                    "card_id": "515be9e4-70a8-11ed-9bf3-000d3a873d5f",
+                    "config": {
+                        "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
+                        "label": "Formation Start Date",
+                        "placeholder": {
+                            "en": ""
+                        }
+                    },
+                    "id": "08cd3a17-3332-46ec-a375-58dc46470780",
+                    "label": {
+                        "en": "Formation Start Date"
+                    },
+                    "node_id": "0ac3dc9c-1765-11ef-bdba-0242ac120006",
+                    "sortorder": null,
+                    "visible": true,
+                    "widget_id": "adfd15ce-dbab-11e7-86d1-0fcf08612b27"
+                },
+                {
                     "card_id": "05d403c4-17ba-11ef-a2a8-0242ac120006",
                     "config": {
                         "defaultResourceInstance": [],
@@ -594,6 +589,27 @@
                     "sortorder": 0,
                     "visible": true,
                     "widget_id": "ff3c400a-76ec-11e7-a793-784f435179ea"
+                },
+                {
+                    "card_id": "efefa944-cee7-11ed-be45-0242ac120006",
+                    "config": {
+                        "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
+                        "label": "Dissolution EDate",
+                        "placeholder": {
+                            "en": ""
+                        }
+                    },
+                    "id": "2bf6b928-3123-47ff-8496-09ecfc943468",
+                    "label": {
+                        "en": "Dissolution EDate"
+                    },
+                    "node_id": "6a518268-1765-11ef-a313-0242ac120006",
+                    "sortorder": null,
+                    "visible": true,
+                    "widget_id": "adfd15ce-dbab-11e7-86d1-0fcf08612b27"
                 },
                 {
                     "card_id": "a5ea3e10-b067-11ee-bf71-0242ac140006",
@@ -657,6 +673,27 @@
                     "sortorder": 0,
                     "visible": true,
                     "widget_id": "ff3c400a-76ec-11e7-a793-784f435179ea"
+                },
+                {
+                    "card_id": "515be9e4-70a8-11ed-9bf3-000d3a873d5f",
+                    "config": {
+                        "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
+                        "label": "Formation End Date",
+                        "placeholder": {
+                            "en": ""
+                        }
+                    },
+                    "id": "85fbef22-f86b-4344-849a-47a0772d9586",
+                    "label": {
+                        "en": "Formation End Date"
+                    },
+                    "node_id": "2c507e1a-1765-11ef-8df9-0242ac120006",
+                    "sortorder": null,
+                    "visible": true,
+                    "widget_id": "adfd15ce-dbab-11e7-86d1-0fcf08612b27"
                 },
                 {
                     "card_id": "87a2e4dc-70a8-11ed-83bf-000d3a873d5f",
@@ -2223,6 +2260,27 @@
                     "sortorder": 2,
                     "visible": false,
                     "widget_id": "10000000-0000-0000-0000-000000000002"
+                },
+                {
+                    "card_id": "efefa944-cee7-11ed-be45-0242ac120006",
+                    "config": {
+                        "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
+                        "label": "Dissolution Start Date",
+                        "placeholder": {
+                            "en": ""
+                        }
+                    },
+                    "id": "f24fedab-7f30-4a01-9858-864a56f90e87",
+                    "label": {
+                        "en": "Dissolution Start Date"
+                    },
+                    "node_id": "52a43f66-1765-11ef-b804-0242ac120006",
+                    "sortorder": null,
+                    "visible": true,
+                    "widget_id": "adfd15ce-dbab-11e7-86d1-0fcf08612b27"
                 }
             ],
             "color": null,
@@ -5502,8 +5560,8 @@
             "publication": {
                 "graph_id": "3be61489-70a8-11ed-bfa5-000d3a873d5f",
                 "notes": null,
-                "publicationid": "72102133-b5a7-11f0-8d0e-6045bd0b6819",
-                "published_time": "2025-10-30T15:45:22.631"
+                "publicationid": "f023a21d-b9a0-11f0-b373-6045bd0b6819",
+                "published_time": "2025-11-04T17:08:52.325"
             },
             "relatable_resource_model_ids": [
                 "b07cfa6f-894d-11ea-82aa-f875a44e0e11",

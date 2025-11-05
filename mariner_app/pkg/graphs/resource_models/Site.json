@@ -592,10 +592,10 @@
                     "graph_id": "979aaf0b-7042-11ea-9674-287fcf6a5e72",
                     "helpenabled": false,
                     "helptext": {
-                        "en": null
+                        "en": ""
                     },
                     "helptitle": {
-                        "en": null
+                        "en": ""
                     },
                     "instructions": {
                         "en": "National Grid references, map names, and other common location identifiers for the resource"
@@ -2460,6 +2460,21 @@
                     "sortorder": 16,
                     "visible": true,
                     "widget_id": "adfd15ce-dbab-11e7-86d1-0fcf08612b27"
+                },
+                {
+                    "card_id": "d17a5388-28cd-11eb-a9a7-f875a44e0e11",
+                    "config": {
+                        "label": "National Grid Reference",
+                        "placeholder": "Enter the centre point map reference of the resource."
+                    },
+                    "id": "485604c8-02d8-46bc-957f-ae0de67696c3",
+                    "label": {
+                        "en": "National Grid Reference"
+                    },
+                    "node_id": "d17a7abb-28cd-11eb-81f8-f875a44e0e11",
+                    "sortorder": null,
+                    "visible": true,
+                    "widget_id": "bcae8e90-09f7-4ae3-906b-7c7bb71a6ddf"
                 },
                 {
                     "card_id": "4a94134a-195a-11ef-9bde-0242ac150006",
@@ -19077,8 +19092,8 @@
             "publication": {
                 "graph_id": "979aaf0b-7042-11ea-9674-287fcf6a5e72",
                 "notes": null,
-                "publicationid": "219e38da-b990-11f0-b5c7-6045bd0b6819",
-                "published_time": "2025-11-04T15:08:33.893"
+                "publicationid": "d58b5d7d-b9a1-11f0-bed5-6045bd0b6819",
+                "published_time": "2025-11-04T17:15:17.203"
             },
             "relatable_resource_model_ids": [
                 "a535a235-8481-11ea-a6b9-f875a44e0e11",

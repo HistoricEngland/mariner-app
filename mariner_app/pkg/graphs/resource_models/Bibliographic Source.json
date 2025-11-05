@@ -477,26 +477,19 @@
                     "cardid": "b083ef96-8ee6-11ea-b69b-f875a44e0e11",
                     "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
                     "config": null,
-                    "constraints": [
-                        {
-                            "card_id": "b083ef96-8ee6-11ea-b69b-f875a44e0e11",
-                            "constraintid": "5b4fa9b1-de8d-4f60-b068-da0749c1bd88",
-                            "nodes": [],
-                            "uniquetoallinstances": false
-                        }
-                    ],
+                    "constraints": [],
                     "cssclass": null,
                     "description": "",
                     "graph_id": "24d7b54f-5464-11e9-a86b-000d3ab1e588",
                     "helpenabled": false,
                     "helptext": {
-                        "en": null
+                        "en": ""
                     },
                     "helptitle": {
-                        "en": null
+                        "en": ""
                     },
                     "instructions": {
-                        "en": null
+                        "en": ""
                     },
                     "is_editable": false,
                     "name": {
@@ -699,6 +692,27 @@
                     "sortorder": 6,
                     "visible": true,
                     "widget_id": "10000000-0000-0000-0000-000000000004"
+                },
+                {
+                    "card_id": "b083ef96-8ee6-11ea-b69b-f875a44e0e11",
+                    "config": {
+                        "defaultResourceInstance": [],
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
+                        "label": "Journal or Serial",
+                        "placeholder": {
+                            "en": ""
+                        }
+                    },
+                    "id": "1e523fe6-a28d-43f9-bf56-6d317ef2eea3",
+                    "label": {
+                        "en": "Journal or Serial"
+                    },
+                    "node_id": "b083ef94-8ee6-11ea-a277-f875a44e0e11",
+                    "sortorder": null,
+                    "visible": true,
+                    "widget_id": "31f3728c-7613-11e7-a139-784f435179ea"
                 },
                 {
                     "card_id": "1e5efb7e-d723-11ee-a16e-0242ac130007",
@@ -6182,8 +6196,8 @@
             "publication": {
                 "graph_id": "24d7b54f-5464-11e9-a86b-000d3ab1e588",
                 "notes": null,
-                "publicationid": "282db101-b5a7-11f0-af6a-6045bd0b6819",
-                "published_time": "2025-10-30T15:43:18.673"
+                "publicationid": "a30e8779-b9a0-11f0-b6ef-6045bd0b6819",
+                "published_time": "2025-11-04T17:06:43.002"
             },
             "relatable_resource_model_ids": [
                 "a535a235-8481-11ea-a6b9-f875a44e0e11",

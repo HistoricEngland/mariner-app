@@ -771,32 +771,19 @@
                     "cardid": "c859ee92-1a4d-11ee-a5d0-0242ac120006",
                     "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
                     "config": null,
-                    "constraints": [
-                        {
-                            "card_id": "c859ee92-1a4d-11ee-a5d0-0242ac120006",
-                            "constraintid": "da27f664-d67a-49b6-90c6-4f4d83147eea",
-                            "nodes": [],
-                            "uniquetoallinstances": false
-                        },
-                        {
-                            "card_id": "c859ee92-1a4d-11ee-a5d0-0242ac120006",
-                            "constraintid": "d0e57e2d-625b-4924-a542-a4b103d5e804",
-                            "nodes": [],
-                            "uniquetoallinstances": false
-                        }
-                    ],
+                    "constraints": [],
                     "cssclass": null,
                     "description": null,
                     "graph_id": "ce759cf1-c299-11e9-8188-c4d9877d154e",
                     "helpenabled": false,
                     "helptext": {
-                        "en": null
+                        "en": ""
                     },
                     "helptitle": {
-                        "en": null
+                        "en": ""
                     },
                     "instructions": {
-                        "en": null
+                        "en": ""
                     },
                     "is_editable": true,
                     "name": {
@@ -1049,6 +1036,21 @@
                     "sortorder": 0,
                     "visible": true,
                     "widget_id": "ff3c400a-76ec-11e7-a793-784f435179ea"
+                },
+                {
+                    "card_id": "c859ee92-1a4d-11ee-a5d0-0242ac120006",
+                    "config": {
+                        "defaultValue": null,
+                        "label": "Confidential?"
+                    },
+                    "id": "0e5de29f-85a3-4f4b-86cb-7e94aa510ec9",
+                    "label": {
+                        "en": "Confidential?"
+                    },
+                    "node_id": "cb079aee-1a4e-11ee-9606-0242ac120006",
+                    "sortorder": null,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000006"
                 },
                 {
                     "card_id": "d7b1d9e6-ad28-11ed-be45-0242ac130006",
@@ -1880,6 +1882,21 @@
                     "sortorder": 0,
                     "visible": true,
                     "widget_id": "ff3c400a-76ec-11e7-a793-784f435179ea"
+                },
+                {
+                    "card_id": "c859ee92-1a4d-11ee-a5d0-0242ac120006",
+                    "config": {
+                        "defaultValue": null,
+                        "label": "Omit Record?"
+                    },
+                    "id": "577424af-0395-43ac-a31c-8cad7293a20e",
+                    "label": {
+                        "en": "Omit Record?"
+                    },
+                    "node_id": "07e07d10-1a4e-11ee-b1b9-0242ac120006",
+                    "sortorder": null,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000006"
                 },
                 {
                     "card_id": "f97abaae-1445-11ef-b47c-0242ac130006",
@@ -11803,8 +11820,8 @@
             "publication": {
                 "graph_id": "ce759cf1-c299-11e9-8188-c4d9877d154e",
                 "notes": null,
-                "publicationid": "604ac6b4-b5a7-11f0-bfd2-6045bd0b6819",
-                "published_time": "2025-10-30T15:44:52.816"
+                "publicationid": "c6f38190-b9a0-11f0-a685-6045bd0b6819",
+                "published_time": "2025-11-04T17:07:43.223"
             },
             "relatable_resource_model_ids": [
                 "a535a235-8481-11ea-a6b9-f875a44e0e11",

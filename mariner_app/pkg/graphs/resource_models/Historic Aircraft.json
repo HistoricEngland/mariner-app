@@ -79,10 +79,10 @@
                     "graph_id": "b8032b00-594d-11e9-9cf0-18cf5eb368c4",
                     "helpenabled": false,
                     "helptext": {
-                        "en": null
+                        "en": ""
                     },
                     "helptitle": {
-                        "en": null
+                        "en": ""
                     },
                     "instructions": {
                         "en": "National Grid references, map names, and other common location identifiers for the resource"
@@ -230,13 +230,13 @@
                     "graph_id": "b8032b00-594d-11e9-9cf0-18cf5eb368c4",
                     "helpenabled": false,
                     "helptext": {
-                        "en": null
+                        "en": ""
                     },
                     "helptitle": {
-                        "en": null
+                        "en": ""
                     },
                     "instructions": {
-                        "en": null
+                        "en": ""
                     },
                     "is_editable": false,
                     "name": {
@@ -1678,6 +1678,21 @@
                     "sortorder": 0,
                     "visible": true,
                     "widget_id": "10000000-0000-0000-0000-000000000012"
+                },
+                {
+                    "card_id": "0b8d0b12-28df-11eb-b855-f875a44e0e11",
+                    "config": {
+                        "label": "National Grid Reference",
+                        "placeholder": "Enter the centre point map reference of the resource."
+                    },
+                    "id": "16694d15-9097-4fcf-88b6-cfd2d6ef6779",
+                    "label": {
+                        "en": "National Grid Reference"
+                    },
+                    "node_id": "0b8d320b-28df-11eb-88e9-f875a44e0e11",
+                    "sortorder": null,
+                    "visible": true,
+                    "widget_id": "bcae8e90-09f7-4ae3-906b-7c7bb71a6ddf"
                 },
                 {
                     "card_id": "daa1dd33-5a08-11e9-9cfd-18cf5eb368c4",
@@ -4088,6 +4103,27 @@
                     "sortorder": 10,
                     "visible": false,
                     "widget_id": "10000000-0000-0000-0000-000000000002"
+                },
+                {
+                    "card_id": "235ed10a-d262-11ee-beba-0242ac130007",
+                    "config": {
+                        "defaultResourceInstance": [],
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
+                        "label": "Named Location (place)",
+                        "placeholder": {
+                            "en": ""
+                        }
+                    },
+                    "id": "9ae6853d-15a4-4f66-a378-e9f3fcdd4cc2",
+                    "label": {
+                        "en": "Named Location (place)"
+                    },
+                    "node_id": "516ec1a8-26f1-11ee-ba92-0242ac130006",
+                    "sortorder": null,
+                    "visible": true,
+                    "widget_id": "ff3c400a-76ec-11e7-a793-784f435179ea"
                 },
                 {
                     "card_id": "d01985b8-b460-11ee-a61c-0242ac120006",
@@ -48260,8 +48296,8 @@
             "publication": {
                 "graph_id": "b8032b00-594d-11e9-9cf0-18cf5eb368c4",
                 "notes": null,
-                "publicationid": "b7bc2e6a-b98f-11f0-943b-6045bd0b6819",
-                "published_time": "2025-11-04T15:05:36.251"
+                "publicationid": "13b17569-b9a1-11f0-a709-6045bd0b6819",
+                "published_time": "2025-11-04T17:09:51.975"
             },
             "relatable_resource_model_ids": [
                 "e14ac900-ee59-11ed-94d5-0242ac120006",

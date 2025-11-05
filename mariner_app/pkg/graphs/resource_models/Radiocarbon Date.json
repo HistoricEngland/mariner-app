@@ -137,32 +137,19 @@
                     "cardid": "5638f392-b75d-11ed-af88-0242ac120006",
                     "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
                     "config": null,
-                    "constraints": [
-                        {
-                            "card_id": "5638f392-b75d-11ed-af88-0242ac120006",
-                            "constraintid": "1463718b-6e5c-49c1-9496-4a433bef1910",
-                            "nodes": [],
-                            "uniquetoallinstances": false
-                        },
-                        {
-                            "card_id": "5638f392-b75d-11ed-af88-0242ac120006",
-                            "constraintid": "ac253ef4-1b7b-42f2-9400-7501d7332811",
-                            "nodes": [],
-                            "uniquetoallinstances": false
-                        }
-                    ],
+                    "constraints": [],
                     "cssclass": null,
                     "description": null,
                     "graph_id": "cf3a2979-f1aa-11e8-9f5d-022b22146258",
                     "helpenabled": false,
                     "helptext": {
-                        "en": null
+                        "en": ""
                     },
                     "helptitle": {
-                        "en": null
+                        "en": ""
                     },
                     "instructions": {
-                        "en": null
+                        "en": ""
                     },
                     "is_editable": true,
                     "name": {
@@ -387,13 +374,13 @@
                     "graph_id": "cf3a2979-f1aa-11e8-9f5d-022b22146258",
                     "helpenabled": false,
                     "helptext": {
-                        "en": null
+                        "en": ""
                     },
                     "helptitle": {
-                        "en": null
+                        "en": ""
                     },
                     "instructions": {
-                        "en": null
+                        "en": ""
                     },
                     "is_editable": true,
                     "name": {
@@ -1680,6 +1667,21 @@
                     "widget_id": "ff3c400a-76ec-11e7-a793-784f435179ea"
                 },
                 {
+                    "card_id": "5638f392-b75d-11ed-af88-0242ac120006",
+                    "config": {
+                        "defaultValue": null,
+                        "label": "Fraction Modern"
+                    },
+                    "id": "8ae959f6-92b3-4747-9ed0-afa23195fc6a",
+                    "label": {
+                        "en": "Fraction Modern"
+                    },
+                    "node_id": "73d35b04-b75d-11ed-93a0-0242ac120006",
+                    "sortorder": null,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000006"
+                },
+                {
                     "card_id": "8b103d0f-29b6-11eb-ad7c-f875a44e0e11",
                     "config": {
                         "defaultValue": "b5f1ff2d-d667-4c4e-86a1-c17fa4b9447b",
@@ -1794,6 +1796,71 @@
                     "sortorder": 1,
                     "visible": false,
                     "widget_id": "10000000-0000-0000-0000-000000000002"
+                },
+                {
+                    "card_id": "8c34e253-f211-11e8-9f5d-022b22146258",
+                    "config": {
+                        "defaultValue": {
+                            "en": {
+                                "direction": "ltr",
+                                "value": ""
+                            }
+                        },
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
+                        "label": "Quality Data Control Measurement Type",
+                        "maxLength": null,
+                        "placeholder": {
+                            "en": "Enter text"
+                        },
+                        "uneditable": false,
+                        "width": "100%"
+                    },
+                    "id": "8b60e2f4-5b1b-454d-ae64-2618bff3abdd",
+                    "label": {
+                        "en": "Quality Data Control Measurement Type"
+                    },
+                    "node_id": "8c34e254-f211-11e8-9f5d-022b22146258",
+                    "sortorder": null,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000001"
+                },
+                {
+                    "card_id": "5638f392-b75d-11ed-af88-0242ac120006",
+                    "config": {
+                        "defaultValue": "",
+                        "format": "",
+                        "i18n_properties": [
+                            "placeholder",
+                            "prefix",
+                            "suffix"
+                        ],
+                        "label": "fM Error",
+                        "max": "",
+                        "min": "",
+                        "placeholder": {
+                            "en": "Enter number"
+                        },
+                        "precision": "",
+                        "prefix": {
+                            "en": ""
+                        },
+                        "step": "",
+                        "suffix": {
+                            "en": ""
+                        },
+                        "uneditable": false,
+                        "width": "100%"
+                    },
+                    "id": "91292be3-31c2-4230-9b79-a28d91e4fa05",
+                    "label": {
+                        "en": "fM Error"
+                    },
+                    "node_id": "a44dc418-b75d-11ed-ace8-0242ac120006",
+                    "sortorder": null,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000008"
                 },
                 {
                     "card_id": "00b3562e-06e2-11ea-989a-c4d9877d154a",
@@ -2107,6 +2174,42 @@
                     "widget_id": "10000000-0000-0000-0000-000000000001"
                 },
                 {
+                    "card_id": "5638f392-b75d-11ed-af88-0242ac120006",
+                    "config": {
+                        "defaultValue": "",
+                        "format": "",
+                        "i18n_properties": [
+                            "placeholder",
+                            "prefix",
+                            "suffix"
+                        ],
+                        "label": "fM Result",
+                        "max": "",
+                        "min": "",
+                        "placeholder": {
+                            "en": "Enter number"
+                        },
+                        "precision": "",
+                        "prefix": {
+                            "en": ""
+                        },
+                        "step": "",
+                        "suffix": {
+                            "en": ""
+                        },
+                        "uneditable": false,
+                        "width": "100%"
+                    },
+                    "id": "b0386531-695c-4244-b204-cb7a334629d0",
+                    "label": {
+                        "en": "fM Result"
+                    },
+                    "node_id": "86f30d10-b75d-11ed-9412-0242ac120006",
+                    "sortorder": null,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000008"
+                },
+                {
                     "card_id": "62e30395-f292-11e8-9f5d-022b22146258",
                     "config": {
                         "defaultValue": "",
@@ -2267,6 +2370,42 @@
                     "sortorder": 1,
                     "visible": true,
                     "widget_id": "31f3728c-7613-11e7-a139-784f435179ea"
+                },
+                {
+                    "card_id": "8c34e253-f211-11e8-9f5d-022b22146258",
+                    "config": {
+                        "defaultValue": "",
+                        "format": "",
+                        "i18n_properties": [
+                            "placeholder",
+                            "prefix",
+                            "suffix"
+                        ],
+                        "label": "Quality Data Control Measurement",
+                        "max": "",
+                        "min": "",
+                        "placeholder": {
+                            "en": "Enter number"
+                        },
+                        "precision": "",
+                        "prefix": {
+                            "en": ""
+                        },
+                        "step": "",
+                        "suffix": {
+                            "en": ""
+                        },
+                        "uneditable": false,
+                        "width": "100%"
+                    },
+                    "id": "e5cb277c-35c5-4f58-b8e7-036e3c3066ce",
+                    "label": {
+                        "en": "Quality Data Control Measurement"
+                    },
+                    "node_id": "8c34e255-f211-11e8-9f5d-022b22146258",
+                    "sortorder": null,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000008"
                 }
             ],
             "color": "rgba(242,183,8,1)",
@@ -5739,8 +5878,8 @@
             "publication": {
                 "graph_id": "cf3a2979-f1aa-11e8-9f5d-022b22146258",
                 "notes": null,
-                "publicationid": "9f768110-b5a8-11f0-beb7-6045bd0b6819",
-                "published_time": "2025-10-30T15:53:48.296"
+                "publicationid": "9afff39a-b9a1-11f0-8e33-6045bd0b6819",
+                "published_time": "2025-11-04T17:13:38.982"
             },
             "relatable_resource_model_ids": [
                 "b07cfa6f-894d-11ea-82aa-f875a44e0e11",

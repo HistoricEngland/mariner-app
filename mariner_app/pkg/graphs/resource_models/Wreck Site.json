@@ -41,13 +41,13 @@
                     "graph_id": "e14ac900-ee59-11ed-94d5-0242ac120006",
                     "helpenabled": false,
                     "helptext": {
-                        "en": null
+                        "en": ""
                     },
                     "helptitle": {
-                        "en": null
+                        "en": ""
                     },
                     "instructions": {
-                        "en": null
+                        "en": ""
                     },
                     "is_editable": false,
                     "name": {
@@ -3580,6 +3580,27 @@
                     "sortorder": 9,
                     "visible": false,
                     "widget_id": "10000000-0000-0000-0000-000000000002"
+                },
+                {
+                    "card_id": "185dace8-168e-11ef-8bcc-0242ac120006",
+                    "config": {
+                        "defaultResourceInstance": [],
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
+                        "label": "Named Location (place)",
+                        "placeholder": {
+                            "en": ""
+                        }
+                    },
+                    "id": "aefdd217-c9a3-4f2f-a8d7-6d2bbc328813",
+                    "label": {
+                        "en": "Named Location (place)"
+                    },
+                    "node_id": "4a68b74c-09f0-11ee-ac01-0242ac130006",
+                    "sortorder": null,
+                    "visible": true,
+                    "widget_id": "ff3c400a-76ec-11e7-a793-784f435179ea"
                 },
                 {
                     "card_id": "e14b918c-ee59-11ed-94d5-0242ac120006",
@@ -18694,8 +18715,8 @@
             "publication": {
                 "graph_id": "e14ac900-ee59-11ed-94d5-0242ac120006",
                 "notes": null,
-                "publicationid": "37920a99-b994-11f0-bc24-6045bd0b6819",
-                "published_time": "2025-11-04T15:37:48.710"
+                "publicationid": "f41e86e2-b9a1-11f0-9513-6045bd0b6819",
+                "published_time": "2025-11-04T17:16:08.499"
             },
             "relatable_resource_model_ids": [
                 "b07cfa6f-894d-11ea-82aa-f875a44e0e11",

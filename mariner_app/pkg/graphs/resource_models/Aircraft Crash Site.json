@@ -412,13 +412,13 @@
                     "graph_id": "190bb2a6-33ae-11ef-8f99-0242ac120006",
                     "helpenabled": false,
                     "helptext": {
-                        "en": null
+                        "en": ""
                     },
                     "helptitle": {
-                        "en": null
+                        "en": ""
                     },
                     "instructions": {
-                        "en": null
+                        "en": ""
                     },
                     "is_editable": false,
                     "name": {
@@ -6144,6 +6144,27 @@
                     "sortorder": 0,
                     "visible": true,
                     "widget_id": "10000000-0000-0000-0000-000000000007"
+                },
+                {
+                    "card_id": "190c83c0-33ae-11ef-8f99-0242ac120006",
+                    "config": {
+                        "defaultResourceInstance": [],
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
+                        "label": "Named Location (place)",
+                        "placeholder": {
+                            "en": ""
+                        }
+                    },
+                    "id": "43bf4a14-a1ea-4da0-bcce-9dbff67ae0c0",
+                    "label": {
+                        "en": "Named Location (place)"
+                    },
+                    "node_id": "190c7bf0-33ae-11ef-8f99-0242ac120006",
+                    "sortorder": null,
+                    "visible": true,
+                    "widget_id": "ff3c400a-76ec-11e7-a793-784f435179ea"
                 },
                 {
                     "card_id": "190c567a-33ae-11ef-8f99-0242ac120006",
@@ -17380,8 +17401,8 @@
             "publication": {
                 "graph_id": "190bb2a6-33ae-11ef-8f99-0242ac120006",
                 "notes": null,
-                "publicationid": "f7aba3c0-b990-11f0-97e5-6045bd0b6819",
-                "published_time": "2025-11-04T15:14:33.013"
+                "publicationid": "368c87de-b9a0-11f0-b871-6045bd0b6819",
+                "published_time": "2025-11-04T17:03:40.957"
             },
             "relatable_resource_model_ids": [
                 "b07cfa6f-894d-11ea-82aa-f875a44e0e11",

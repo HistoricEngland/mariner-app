@@ -239,32 +239,19 @@
                     "cardid": "7bf0ee18-8964-11ea-9690-f875a44e0e11",
                     "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
                     "config": null,
-                    "constraints": [
-                        {
-                            "card_id": "7bf0ee18-8964-11ea-9690-f875a44e0e11",
-                            "constraintid": "a8e7efe2-ab1d-44ba-af9c-d784dcc97843",
-                            "nodes": [],
-                            "uniquetoallinstances": false
-                        },
-                        {
-                            "card_id": "7bf0ee18-8964-11ea-9690-f875a44e0e11",
-                            "constraintid": "adfaa63e-99e7-437a-80c0-e6081f53daa4",
-                            "nodes": [],
-                            "uniquetoallinstances": false
-                        }
-                    ],
+                    "constraints": [],
                     "cssclass": null,
                     "description": null,
                     "graph_id": "f9045867-8861-11ea-b06f-f875a44e0e11",
                     "helpenabled": false,
                     "helptext": {
-                        "en": null
+                        "en": ""
                     },
                     "helptitle": {
-                        "en": null
+                        "en": ""
                     },
                     "instructions": {
-                        "en": null
+                        "en": ""
                     },
                     "is_editable": false,
                     "name": {
@@ -1950,6 +1937,27 @@
                     "sortorder": 3,
                     "visible": true,
                     "widget_id": "adfd15ce-dbab-11e7-86d1-0fcf08612b27"
+                },
+                {
+                    "card_id": "7bf0ee18-8964-11ea-9690-f875a44e0e11",
+                    "config": {
+                        "defaultResourceInstance": [],
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
+                        "label": "Parent Period",
+                        "placeholder": {
+                            "en": ""
+                        }
+                    },
+                    "id": "9626eea1-50a8-4b3a-8a4d-3c641fe429e2",
+                    "label": {
+                        "en": "Parent Period"
+                    },
+                    "node_id": "7bea7b80-8964-11ea-a8d4-f875a44e0e11",
+                    "sortorder": null,
+                    "visible": true,
+                    "widget_id": "31f3728c-7613-11e7-a139-784f435179ea"
                 },
                 {
                     "card_id": "9d16beec-1955-11ef-a84a-0242ac150006",
@@ -5301,8 +5309,8 @@
             "publication": {
                 "graph_id": "f9045867-8861-11ea-b06f-f875a44e0e11",
                 "notes": null,
-                "publicationid": "642313b8-b5a8-11f0-bcc1-6045bd0b6819",
-                "published_time": "2025-10-30T15:52:08.763"
+                "publicationid": "706c9006-b9a1-11f0-8d9d-6045bd0b6819",
+                "published_time": "2025-11-04T17:12:27.552"
             },
             "relatable_resource_model_ids": [
                 "a535a235-8481-11ea-a6b9-f875a44e0e11",
