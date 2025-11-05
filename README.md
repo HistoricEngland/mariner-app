@@ -5,7 +5,7 @@ This is an Arches extension app providing the basis of a Marine Historic Environ
 Mariner App was initially developed for use by Historic England to provide an inventory for maritime cultural heritage off the coast of England.  As such, there are elements of the out-of-the-box Mariner App which reflects this geographic focus.
 ## Requirements
 
-- Python 3.12+ (Check the Arches python requirements and match your Python version))
+- Python 3.10+ (Check the Arches python requirements and match your Python version))
 - Arches >=7.6.0, <7.7.0
 
 ## Installing for Development
