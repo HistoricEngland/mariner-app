@@ -64,7 +64,7 @@ While you can use Mariner App as a standalone app, you may wish to use it as par
   Add the following to your `pyproject.toml` dependencies (in the `[project]` section):
 
   ```toml
-  mariner_app @ git+https://github.com/HistoricEngland/mariner-app.git@release/1.0.0
+  mariner-app @ git+https://github.com/HistoricEngland/mariner-app.git@release/1.0.0
   ```
  
   Example:
