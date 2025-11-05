@@ -118,8 +118,17 @@ Run the following command to apply any database migrations required by this app:
 python manage.py migrate
 ```
 
+### 5. Load Package
 
-## 5. Install and Build Front-End Dependencies
+Run the following command to load the package files for Mariner App:
+
+> if using the arches-containers, run this in the application container
+
+```bash
+python manage.py packages -o load_package -s '/path/to/mariner_app/mariner_app/pkg/
+```
+
+## 6. Install and Build Front-End Dependencies
 
 From the directory containing your `your_project/package.json`:
 
@@ -130,7 +139,7 @@ npm install
 npm run build_development
 ```
 
-## 6. Start Your Arches Project
+## 7. Start Your Arches Project
 
 ```bash
 python manage.py runserver
