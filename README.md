@@ -125,7 +125,7 @@ Run the following command to load the package files for Mariner App:
 > if using the arches-containers, run this in the application container
 
 ```bash
-python manage.py packages -o load_package -s '/path/to/mariner_app/mariner_app/pkg/
+python manage.py packages -o load_package -s '/path/to/mariner_app/mariner_app/pkg/'
 ```
 
 ## 6. Install and Build Front-End Dependencies
