@@ -9536,28 +9536,6 @@
                     "function_id": "39d627ae-6973-4ddb-8b62-1f0230e1e3f9",
                     "graph_id": "1d47e2bc-2d51-11ef-ae46-0242ac140006",
                     "id": "46f1034b-58b3-4f4a-9d8f-4d20004de456"
-                },
-                {
-                    "config": {
-                        "descriptor_types": {
-                            "description": {
-                                "nodegroup_id": "1d48803c-2d51-11ef-ae46-0242ac140006",
-                                "string_template": " <Description>"
-                            },
-                            "map_popup": {
-                                "nodegroup_id": "1d48803c-2d51-11ef-ae46-0242ac140006",
-                                "string_template": "<Description>"
-                            },
-                            "name": {
-                                "nodegroup_id": "1d4811c4-2d51-11ef-ae46-0242ac140006",
-                                "string_template": "<Artefact Type>,<From Date> - <To Date>"
-                            }
-                        },
-                        "triggering_nodegroups": []
-                    },
-                    "function_id": "60000000-0000-0000-0000-000000000001",
-                    "graph_id": "1d47e2bc-2d51-11ef-ae46-0242ac140006",
-                    "id": "4b118626-2d51-11ef-ae46-0242ac140006"
                 }
             ],
             "graphid": "1d47e2bc-2d51-11ef-ae46-0242ac140006",

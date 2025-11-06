@@ -3303,34 +3303,6 @@
                     "function_id": "60000000-0000-0000-0000-000000000001",
                     "graph_id": "cf3a2979-f1aa-11e8-9f5d-022b22146258",
                     "id": "314801d7-005a-4e4a-8553-f764da47ab04"
-                },
-                {
-                    "config": {
-                        "nodegroup_nodes": [],
-                        "resourceid_node": "963d5d4c-1a50-11ee-bfd6-0242ac120006",
-                        "simpleuid_node": "963d56ee-1a50-11ee-bfd6-0242ac120006",
-                        "triggering_nodegroups": [
-                            "f3726900-37e4-11ef-bb53-0242ac140006",
-                            "963d4eba-1a50-11ee-bfd6-0242ac120006",
-                            "8c34e251-f211-11e8-9f5d-022b22146258",
-                            "3d1b721a-b534-11ee-92b3-0242ac120006",
-                            "e935737a-2fcd-11ef-91e3-0242ac120006",
-                            "5638969a-b75d-11ed-af88-0242ac120006",
-                            "3c6ef964-f214-11e8-9f5d-022b22146258",
-                            "3c85cb11-f1c2-11e8-9f5d-022b22146258",
-                            "8b103d0d-29b6-11eb-b897-f875a44e0e11",
-                            "61a95bb3-f22d-11e8-9f5d-022b22146258",
-                            "6e3e6b38-1a50-11ee-8944-0242ac120006",
-                            "62e30393-f292-11e8-9f5d-022b22146258",
-                            "874c2148-b6da-11ee-989f-0242ac120006",
-                            "88684f94-b6ed-11ee-b8f4-0242ac120006",
-                            "00ae9b40-06e2-11ea-a4ec-c4d9877d154a"
-                        ],
-                        "uniqueresource_nodegroup": "963d4eba-1a50-11ee-bfd6-0242ac120006"
-                    },
-                    "function_id": "39d627ae-6973-4ddb-8b62-1f0230e1e3f9",
-                    "graph_id": "cf3a2979-f1aa-11e8-9f5d-022b22146258",
-                    "id": "831bcc9b-535c-4ede-86af-420229e3947c"
                 }
             ],
             "graphid": "cf3a2979-f1aa-11e8-9f5d-022b22146258",

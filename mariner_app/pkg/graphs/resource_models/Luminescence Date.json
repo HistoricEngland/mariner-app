@@ -2556,41 +2556,6 @@
             "functions_x_graphs": [
                 {
                     "config": {
-                        "nodegroup_nodes": [],
-                        "resourceid_node": "e7a4dd3c-2fca-11ef-9baf-0242ac120006",
-                        "simpleuid_node": "e7a4d102-2fca-11ef-9baf-0242ac120006",
-                        "triggering_nodegroups": [
-                            "02a701aa-2fd0-11ef-bb2a-0242ac120006",
-                            "e7a4911a-2fca-11ef-9baf-0242ac120006",
-                            "e7a45718-2fca-11ef-9baf-0242ac120006",
-                            "e7a4ac86-2fca-11ef-9baf-0242ac120006",
-                            "e7a489ae-2fca-11ef-9baf-0242ac120006",
-                            "e7a49886-2fca-11ef-9baf-0242ac120006",
-                            "e7a45ee8-2fca-11ef-9baf-0242ac120006",
-                            "e7a431a2-2fca-11ef-9baf-0242ac120006",
-                            "e7a43c4c-2fca-11ef-9baf-0242ac120006",
-                            "bf95792c-2fd0-11ef-8b1c-0242ac120006",
-                            "e7a46672-2fca-11ef-9baf-0242ac120006",
-                            "02a701aa-2fd0-11ef-bb2a-0242ac120006",
-                            "e7a4911a-2fca-11ef-9baf-0242ac120006",
-                            "e7a45718-2fca-11ef-9baf-0242ac120006",
-                            "e7a4ac86-2fca-11ef-9baf-0242ac120006",
-                            "e7a489ae-2fca-11ef-9baf-0242ac120006",
-                            "e7a49886-2fca-11ef-9baf-0242ac120006",
-                            "e7a45ee8-2fca-11ef-9baf-0242ac120006",
-                            "e7a431a2-2fca-11ef-9baf-0242ac120006",
-                            "e7a43c4c-2fca-11ef-9baf-0242ac120006",
-                            "bf95792c-2fd0-11ef-8b1c-0242ac120006",
-                            "e7a46672-2fca-11ef-9baf-0242ac120006"
-                        ],
-                        "uniqueresource_nodegroup": "e7a45718-2fca-11ef-9baf-0242ac120006"
-                    },
-                    "function_id": "39d627ae-6973-4ddb-8b62-1f0230e1e3f9",
-                    "graph_id": "e7a4296e-2fca-11ef-9baf-0242ac120006",
-                    "id": "2fd1da24-3026-4e07-b55c-40c656ed9acb"
-                },
-                {
-                    "config": {
                         "description": {
                             "nodegroup_id": "e7a43c4c-2fca-11ef-9baf-0242ac120006",
                             "string_template": "<Materials Description>"
