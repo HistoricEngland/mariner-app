@@ -1316,61 +1316,6 @@
       <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/61bbe03f-8cd1-48d3-aab7-19c663ae9557"/>
     </skos:member>
   </skos:Collection>
-  <skos:Collection rdf:about="https://nmhr.historicengland.org.uk/ede33ec4-d710-4be8-b44c-a73175b06b72">
-    <skos:altLabel xml:lang="en">{"id": "41907250-2d1d-4a8e-9f9c-66229f9c04c3", "value": "STP"}</skos:altLabel>
-    <skos:member>
-      <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/3465214d-7137-4677-9ac4-d5750fe5269a"/>
-    </skos:member>
-    <skos:member>
-      <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/1cdb97ad-de4d-452a-b973-357bc3f8083d"/>
-    </skos:member>
-    <skos:member>
-      <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/b5a0bf36-adda-43fe-8db1-f083da22c502"/>
-    </skos:member>
-    <skos:member>
-      <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/1de337e9-af32-4f4d-a77c-c4996c3f1f76"/>
-    </skos:member>
-    <skos:member>
-      <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/c1cebbe0-eb44-4e07-910b-9729dec26f5d"/>
-    </skos:member>
-    <skos:member>
-      <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/7459e72c-f8a3-4dcf-8976-00c2aea6fcc5"/>
-    </skos:member>
-    <skos:member>
-      <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/317e26ee-7c18-48af-a215-c891a9f57b93"/>
-    </skos:member>
-    <skos:member>
-      <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/26461b65-44c6-46f5-b0f7-82eb8b5778f6"/>
-    </skos:member>
-    <skos:member>
-      <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/c0db999d-0ae7-4420-9615-ca593bd40e14"/>
-    </skos:member>
-    <skos:member>
-      <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/5d5bcf49-90ea-45bc-9bfe-5fd8cd7769c7"/>
-    </skos:member>
-    <skos:member>
-      <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/f9575634-6033-4f43-8d8f-ea1cb60dfd51"/>
-    </skos:member>
-    <skos:member>
-      <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/7b226136-bdf8-4d5b-b60d-5b5c54e576a7"/>
-    </skos:member>
-    <skos:member>
-      <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/bf46c899-647e-41e4-906c-4a6ea98a1364"/>
-    </skos:member>
-    <skos:member>
-      <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/211cc05e-a638-40c0-af7c-b9557581729d"/>
-    </skos:member>
-    <skos:member>
-      <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/6c781739-0a16-464e-afb7-55ce85034cb4"/>
-    </skos:member>
-    <skos:prefLabel xml:lang="en">{"id": "a8c29560-e5f1-4569-a8d4-90fe02eb4f40", "value": "Street Pattern"}</skos:prefLabel>
-    <skos:member>
-      <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/031533d7-4a90-4b91-bbf0-f8fb0fe8d0dd"/>
-    </skos:member>
-    <skos:member>
-      <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/3d940408-0127-4330-820d-de33ea7abef6"/>
-    </skos:member>
-  </skos:Collection>
   <skos:Collection rdf:about="https://nmhr.historicengland.org.uk/00000000-0000-0000-0000-000000000005">
     <skos:member>
       <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/00000000-0000-0000-0000-000000000007"/>
@@ -4433,37 +4378,11 @@
   </skos:Collection>
   <skos:Collection rdf:about="https://nmhr.historicengland.org.uk/1af3b013-0577-42f4-b3e4-bafc8c90d616">
     <skos:member>
-      <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/14c336be-262f-3319-8b82-245f12c3e1cd">
-        <skos:member rdf:resource="https://nmhr.historicengland.org.uk/56a9eb45-104a-32d0-bcbb-7aa1d0eed855"/>
-      </skos:Concept>
-    </skos:member>
-    <skos:member>
       <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/d98f78af-3063-33eb-ae9b-a907ec07eb65">
         <skos:member rdf:resource="https://nmhr.historicengland.org.uk/63da4745-150b-3a77-8319-10b06dfd40a0"/>
       </skos:Concept>
     </skos:member>
-    <skos:member>
-      <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/083ea285-6ba1-301d-8257-7415d54097f8"/>
-    </skos:member>
-    <skos:member>
-      <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/901e1a62-303e-304e-8360-d7ba97f65d70"/>
-    </skos:member>
-    <skos:member>
-      <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/9bbb1b54-2d66-3278-b167-b8ccedc4a27b">
-        <skos:member rdf:resource="https://nmhr.historicengland.org.uk/a5010a15-61d4-32b0-ae84-97be6088b0bb"/>
-        <skos:member rdf:resource="https://nmhr.historicengland.org.uk/25f78b98-b901-31d6-8b51-5ee518942d03"/>
-      </skos:Concept>
-    </skos:member>
-    <skos:member>
-      <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/86d46828-4a13-3ba2-bf16-1595586e1d90"/>
-    </skos:member>
-    <skos:prefLabel xml:lang="en">{"id": "874a9726-7e1f-44a2-bd43-42e1b5efcbc1", "value": "Aircraft Form"}</skos:prefLabel>
-    <skos:member>
-      <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/bf21bc40-3843-31d8-8e97-124963f833b3"/>
-    </skos:member>
-    <skos:member>
-      <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/dc39ccfc-9dff-3480-98c0-8ed55b90de08"/>
-    </skos:member>
+    <skos:prefLabel xml:lang="en">{"id": "874a9726-7e1f-44a2-bd43-42e1b5efcbc1", "value": "Aircraft Form"}</skos:prefLabel>r>r>
   </skos:Collection>
   <skos:Collection rdf:about="https://nmhr.historicengland.org.uk/02458080-9b7a-4a02-b298-f7ea61f60dbb">
     <skos:member>
