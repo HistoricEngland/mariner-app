@@ -72,7 +72,7 @@ While you can use Mariner App as a standalone app, you may wish to use it as par
 
   ```toml
   dependencies = [
-      "arches>=7.6.0,<7.7.0",
+      "arches==7.6.17",
       "mariner-app @ git+https://github.com/HistoricEngland/mariner-app.git@release/1.0.0",
   ]
   ```
