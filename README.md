@@ -52,7 +52,7 @@ For development purposes, you can treat this app as a standard Arches project. E
      act up
      ```
 
-  6. Once setup and webpack builds are complete, open a browser and navigate to `http://localhost:8002` or use `act view` in a termainal to open the project in your default browser.
+  6. Once setup and webpack builds are complete, open a browser and navigate to `http://localhost:8002` or use `act view` in a terminal to open the project in your default browser.
 
 
 
