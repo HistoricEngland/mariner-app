@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:arches="https://nmhr.historicengland.org.uk/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/dfeb18fe-c921-379b-b0a8-a1bb925efc8d">
+    <skos:inScheme>
+      <skos:ConceptScheme rdf:about="https://nmhr.historicengland.org.uk/7c41ed3e-4573-333e-9fb4-f05c737e3c25">
+        <skos:hasTopConcept rdf:resource="https://nmhr.historicengland.org.uk/fa5bca8c-c375-3aa7-98f9-e900fbd2758a"/>
+        <skos:hasTopConcept rdf:resource="https://nmhr.historicengland.org.uk/8b70d45a-b86c-3ff0-ab82-d6778ef85a1d"/>
+        <skos:hasTopConcept rdf:resource="https://nmhr.historicengland.org.uk/26559d3a-9d46-3326-82ba-5ac4c5974643"/>
+        <dcterms:identifier xml:lang="en">{"id": "2f774d97-8385-4960-b6df-e320ce338a66", "value": "http://purl.org/heritagedata/schemes/78"}</dcterms:identifier>
+        <skos:hasTopConcept rdf:resource="https://nmhr.historicengland.org.uk/8c84d390-96c4-30bc-af05-e427a13d4511"/>
+        <skos:hasTopConcept rdf:resource="https://nmhr.historicengland.org.uk/cecade9a-3229-371a-8ad6-b0aabec540bb"/>
+        <skos:hasTopConcept rdf:resource="https://nmhr.historicengland.org.uk/bdf714c5-334d-3547-8bef-6f009c8a854d"/>
+        <skos:hasTopConcept rdf:resource="https://nmhr.historicengland.org.uk/499a6eb0-aa1b-355b-9a87-4e843ee8f2c2"/>
+        <skos:hasTopConcept rdf:resource="https://nmhr.historicengland.org.uk/dfeb18fe-c921-379b-b0a8-a1bb925efc8d"/>
+        <skos:hasTopConcept rdf:resource="https://nmhr.historicengland.org.uk/f614ee03-a17b-3a59-947a-f459560092c3"/>
+        <skos:hasTopConcept rdf:resource="https://nmhr.historicengland.org.uk/ec61dc8f-6878-3993-a9e2-f910f6aea8e0"/>
+        <skos:hasTopConcept rdf:resource="https://nmhr.historicengland.org.uk/ed8b3267-e1a9-3bf0-a614-eff078c21958"/>
+        <skos:hasTopConcept rdf:resource="https://nmhr.historicengland.org.uk/947f69b4-5ef1-3f32-92b7-542cfdfa3da1"/>
+        <skos:hasTopConcept rdf:resource="https://nmhr.historicengland.org.uk/15176067-1cf3-3235-852e-afdb99a00e4b"/>
+        <skos:hasTopConcept rdf:resource="https://nmhr.historicengland.org.uk/31bc02cd-87e6-3ed1-894f-004c641de169"/>
+        <skos:hasTopConcept rdf:resource="https://nmhr.historicengland.org.uk/1c94ed11-8bea-3fb8-8f05-de9c756f10ae"/>
+        <skos:hasTopConcept rdf:resource="https://nmhr.historicengland.org.uk/c30e6103-6aad-3974-8fd2-cbb0a51013cf"/>
+        <skos:hasTopConcept rdf:resource="https://nmhr.historicengland.org.uk/da43b708-63c9-378d-a453-b77e06ffb736"/>
+        <skos:hasTopConcept rdf:resource="https://nmhr.historicengland.org.uk/6bff875b-a336-3f81-a290-eed77b4cd2ea"/>
+        <dcterms:title xml:lang="en">{"id": "6a830459-638a-41c4-8002-bab478274946", "value": "Manner of Loss"}</dcterms:title>
+        <skos:hasTopConcept rdf:resource="https://nmhr.historicengland.org.uk/c3f64464-625c-3181-8c93-0fdc8df1fa70"/>
+        <skos:hasTopConcept rdf:resource="https://nmhr.historicengland.org.uk/d5442af1-924d-3983-a29e-adec5d0032a5"/>
+        <skos:hasTopConcept rdf:resource="https://nmhr.historicengland.org.uk/2d72b853-ea45-3d06-b4c7-70e8b75d58c8"/>
+        <skos:hasTopConcept rdf:resource="https://nmhr.historicengland.org.uk/af9fec88-0905-3086-a7f1-f2b9b83e7d57"/>
+        <skos:hasTopConcept rdf:resource="https://nmhr.historicengland.org.uk/59359926-e3c3-340c-b00c-36bde8a0d8cd"/>
+        <skos:hasTopConcept rdf:resource="https://nmhr.historicengland.org.uk/33c96e33-71a1-375a-b8dd-e9ecf2a09b10"/>
+        <skos:hasTopConcept rdf:resource="https://nmhr.historicengland.org.uk/c0e244cb-35c1-3dd1-85fb-a3fac4719f1f"/>
+        <skos:hasTopConcept rdf:resource="https://nmhr.historicengland.org.uk/6b2f5e94-3b06-3950-8c52-a4c7acf1e8f5"/>
+        <skos:hasTopConcept rdf:resource="https://nmhr.historicengland.org.uk/7ff8e9ff-7548-39c4-a641-b61001bc4c97"/>
+        <dcterms:description xml:lang="en">{"id": "ee03b3c5-6246-462b-9e6b-4929dde02b19", "value": "Authority list of primary causes of loss of vessel (Maritime)."}</dcterms:description>
+        <skos:hasTopConcept rdf:resource="https://nmhr.historicengland.org.uk/755932e8-3efc-398f-84ab-4a8b1ca3bc86"/>
+        <skos:hasTopConcept rdf:resource="https://nmhr.historicengland.org.uk/e8891ad1-be57-31a4-99c4-c1932de553aa"/>
+        <skos:hasTopConcept rdf:resource="https://nmhr.historicengland.org.uk/a8cad18d-91a6-3c27-9658-76f7f3e1c336"/>
+        <skos:hasTopConcept rdf:resource="https://nmhr.historicengland.org.uk/087cbf92-da3c-3825-885d-9c0c74dd7de7"/>
+        <skos:hasTopConcept rdf:resource="https://nmhr.historicengland.org.uk/76032548-1adb-36ac-a7d8-8d3eb1867160"/>
+        <skos:hasTopConcept rdf:resource="https://nmhr.historicengland.org.uk/c6243186-be4a-3aab-bbc6-6ae781d10929"/>
+        <skos:hasTopConcept rdf:resource="https://nmhr.historicengland.org.uk/576035fb-5b6d-3c02-8133-518194d0d972"/>
+        <skos:hasTopConcept rdf:resource="https://nmhr.historicengland.org.uk/b1fd4430-a9df-32ad-b179-596146149363"/>
+        <skos:hasTopConcept rdf:resource="https://nmhr.historicengland.org.uk/163ee5e4-d1f4-3698-b43b-055421458469"/>
+        <skos:hasTopConcept rdf:resource="https://nmhr.historicengland.org.uk/11d0a5fb-b05c-3bf6-ac0c-baaab8749a9d"/>
+        <skos:hasTopConcept rdf:resource="https://nmhr.historicengland.org.uk/39e64b2d-138e-3122-92b3-f2dc593220f8"/>
+        <skos:hasTopConcept rdf:resource="https://nmhr.historicengland.org.uk/c695ce14-f5db-3c05-98fd-166f42d91d99"/>
+        <skos:hasTopConcept rdf:resource="https://nmhr.historicengland.org.uk/6bfe4088-f694-3b21-96ab-2d88e6311210"/>
+        <skos:hasTopConcept rdf:resource="https://nmhr.historicengland.org.uk/02eea119-3773-3ce5-8f6f-0af77665637f"/>
+        <skos:hasTopConcept rdf:resource="https://nmhr.historicengland.org.uk/21f9c738-24ac-39c0-b4b3-3e65a6b889b3"/>
+        <skos:hasTopConcept rdf:resource="https://nmhr.historicengland.org.uk/e4f5b733-b938-3896-b02e-23893018c2c8"/>
+        <skos:hasTopConcept rdf:resource="https://nmhr.historicengland.org.uk/44238261-a8af-3d3d-8d71-31904cd676c0"/>
+        <skos:hasTopConcept rdf:resource="https://nmhr.historicengland.org.uk/f66e7dda-22ad-37ac-9e11-839f86057077"/>
+        <skos:hasTopConcept rdf:resource="https://nmhr.historicengland.org.uk/893a9778-a490-39a5-b4c6-ac0444c00b5e"/>
+      </skos:ConceptScheme>
+    </skos:inScheme>
+    <skos:prefLabel xml:lang="en">{"id": "5ee3b72a-438a-4d24-a43b-78833d009e9a", "value": "Laid Up"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "cff7a4ab-a8e7-401b-984a-6c20a8daefb0", "value": "http://purl.org/heritagedata/schemes/78/concepts/565"}</dcterms:identifier>
+    <skos:scopeNote xml:lang="en">{"id": "d1d6e85a-c886-4cef-a104-f948442cf3be", "value": "A vessel withdrawn from active use and awaiting disposal or reuse.  Vessel subsequently becomes derelict."}</skos:scopeNote>
+    <arches:notation xml:lang="en">{"id": "aa1ce3e7-5442-43f0-9e6c-cbe18d457506", "value": "Liquid error: Object reference not set to an instance of an object."}</arches:notation>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/c0e244cb-35c1-3dd1-85fb-a3fac4719f1f">
+    <dcterms:identifier xml:lang="en">{"id": "07a24166-a6d6-4663-adb2-ed9d97cf032b", "value": "http://purl.org/heritagedata/schemes/78/concepts/5129"}</dcterms:identifier>
+    <skos:scopeNote xml:lang="en">{"id": "445d79d6-375d-46b5-a281-1b9f69a493cd", "value": "For use when a vessel, already lost through other causes, is dismantled or dispersed by means of explosives to render it harmless to other shipping."}</skos:scopeNote>
+    <arches:notation xml:lang="en">{"id": "6e72274c-29e2-4855-8ce4-7e85668e1a33", "value": "Liquid error: Object reference not set to an instance of an object."}</arches:notation>
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/7c41ed3e-4573-333e-9fb4-f05c737e3c25"/>
+    <skos:prefLabel xml:lang="en">{"id": "450845d8-9cb9-4c97-96c5-1afe88349aa4", "value": "Dispersed"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/087cbf92-da3c-3825-885d-9c0c74dd7de7">
+    <skos:prefLabel xml:lang="en">{"id": "a8ce85ca-651c-47f2-867c-e26dfb90f5b1", "value": "Capsized"}</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">{"id": "11552eb2-d712-409a-8fe0-b515f92fbd6e", "value": "A vessel lost having overturned due to severe weather or shifting cargo."}</skos:scopeNote>
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/7c41ed3e-4573-333e-9fb4-f05c737e3c25"/>
+    <arches:notation xml:lang="en">{"id": "c4541170-136b-420b-bfaf-7024bd0b1847", "value": "Liquid error: Object reference not set to an instance of an object."}</arches:notation>
+    <dcterms:identifier xml:lang="en">{"id": "db493d9a-7d85-433f-a649-3b8e1adccb51", "value": "http://purl.org/heritagedata/schemes/78/concepts/558"}</dcterms:identifier>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/2d72b853-ea45-3d06-b4c7-70e8b75d58c8">
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/7c41ed3e-4573-333e-9fb4-f05c737e3c25"/>
+    <arches:notation xml:lang="en">{"id": "7445a571-efc5-487b-ae97-ed7ff200bdaa", "value": "Liquid error: Object reference not set to an instance of an object."}</arches:notation>
+    <skos:scopeNote xml:lang="en">{"id": "18860938-3e7f-4393-b0f5-7acdc0018941", "value": "Use where an entire, wrecked or incapacitated, craft has been recovered or salvaged, possibly leaving debris or other evidence of its presence at the wreck or crash site. If part of the wreck remains on the seabed use PARTIALLY RECOVERED."}</skos:scopeNote>
+    <dcterms:identifier xml:lang="en">{"id": "ee3b9bc6-3b5e-4aa1-b3e7-2ee141e7a5ac", "value": "http://purl.org/heritagedata/schemes/78/concepts/5065"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="en">{"id": "7ad78f8a-4a08-4b64-9f82-079942caf552", "value": "Recovered"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/44238261-a8af-3d3d-8d71-31904cd676c0">
+    <skos:scopeNote xml:lang="en">{"id": "6441f563-cf46-4941-99f5-ea63b1f1608f", "value": "Stoving in or fracturing of lowest part of vessel's hull."}</skos:scopeNote>
+    <skos:prefLabel xml:lang="en">{"id": "c33992a5-896d-449f-9665-6de5a0d6f423", "value": "Bilged"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/7c41ed3e-4573-333e-9fb4-f05c737e3c25"/>
+    <arches:notation xml:lang="en">{"id": "23e8fb97-925b-4056-8bd7-7803895a6b9c", "value": "Liquid error: Object reference not set to an instance of an object."}</arches:notation>
+    <dcterms:identifier xml:lang="en">{"id": "e66bb16f-c4c8-41ad-81ca-9c28ca3710ab", "value": "http://purl.org/heritagedata/schemes/78/concepts/555"}</dcterms:identifier>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/11d0a5fb-b05c-3bf6-ac0c-baaab8749a9d">
+    <skos:prefLabel xml:lang="en">{"id": "8653e413-e767-41dd-ab84-734fa596dca3", "value": "Ramming"}</skos:prefLabel>
+    <arches:notation xml:lang="en">{"id": "9f494304-d26f-4cb3-a4e5-92f9cb7588b6", "value": "Liquid error: Object reference not set to an instance of an object."}</arches:notation>
+    <dcterms:identifier xml:lang="en">{"id": "22618f7d-f203-407e-a30f-00f7639e6619", "value": "http://purl.org/heritagedata/schemes/78/concepts/569"}</dcterms:identifier>
+    <skos:scopeNote xml:lang="en">{"id": "c7fda0b4-aeb3-4026-9f4c-2c461ad928b3", "value": "Deliberate collision with another vessel in order to inflict damage."}</skos:scopeNote>
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/7c41ed3e-4573-333e-9fb4-f05c737e3c25"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/893a9778-a490-39a5-b4c6-ac0444c00b5e">
+    <arches:notation xml:lang="en">{"id": "f6e7f7da-8160-4dbf-9f3d-2c215aa57ce9", "value": "Liquid error: Object reference not set to an instance of an object."}</arches:notation>
+    <skos:scopeNote xml:lang="en">{"id": "e3923e48-fe02-477a-afd2-523ccec295fd", "value": "A vessel which has been dismantled for the purpose of removal from the shore after stranding."}</skos:scopeNote>
+    <skos:prefLabel xml:lang="en">{"id": "eaa0bc90-ddff-459b-975a-d0a87a27c938", "value": "Broken Up"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "284086c9-0b72-4a05-853b-f686fc73da23", "value": "http://purl.org/heritagedata/schemes/78/concepts/556"}</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/7c41ed3e-4573-333e-9fb4-f05c737e3c25"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/d5442af1-924d-3983-a29e-adec5d0032a5">
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/7c41ed3e-4573-333e-9fb4-f05c737e3c25"/>
+    <skos:scopeNote xml:lang="en">{"id": "fb8c0f29-644a-499c-aad8-a91c27fcce8f", "value": "The loss of a craft due to structural or engine failure. In the case of loss resulting from the malfunction of navigational or operational apparatus, use INSTRUMENT FAILURE."}</skos:scopeNote>
+    <dcterms:identifier xml:lang="en">{"id": "96912234-648e-4b2c-968f-baa7642e533b", "value": "http://purl.org/heritagedata/schemes/78/concepts/1424"}</dcterms:identifier>
+    <arches:notation xml:lang="en">{"id": "3e136444-be3a-4fa9-9f36-be350148c445", "value": "Liquid error: Object reference not set to an instance of an object."}</arches:notation>
+    <skos:prefLabel xml:lang="en">{"id": "d68a69fc-93f8-44f7-9528-bd329325d5c9", "value": "Mechanical Failure"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/6b2f5e94-3b06-3950-8c52-a4c7acf1e8f5">
+    <arches:notation xml:lang="en">{"id": "5a004020-650c-4e45-945c-bf2e68946166", "value": "Liquid error: Object reference not set to an instance of an object."}</arches:notation>
+    <skos:prefLabel xml:lang="en">{"id": "8fa64892-cdf6-4bcb-9092-80e2fdf79e5f", "value": "Lightning Strike"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/7c41ed3e-4573-333e-9fb4-f05c737e3c25"/>
+    <dcterms:identifier xml:lang="en">{"id": "b77856fe-5caa-42c9-9a85-5ae53c473f57", "value": "http://purl.org/heritagedata/schemes/78/concepts/5217"}</dcterms:identifier>
+    <skos:scopeNote xml:lang="en">{"id": "ddfe7346-55fe-45c1-9454-10a1f35f766e", "value": "A vessel which has damaged by a lightning strike and subsequently lost."}</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/af9fec88-0905-3086-a7f1-f2b9b83e7d57">
+    <dcterms:identifier xml:lang="en">{"id": "ba7d0a91-e40f-45f8-b816-f0a0ba057cc4", "value": "http://purl.org/heritagedata/schemes/78/concepts/5198"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="en">{"id": "2233d3b2-f736-4aa9-ace5-50d5ed4a2d1d", "value": "Condemned"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/7c41ed3e-4573-333e-9fb4-f05c737e3c25"/>
+    <skos:scopeNote xml:lang="en">{"id": "51d426fd-ee6b-4501-84b6-c5f641ec016a", "value": "Judged as irreparable or no longer seaworthy following a wrecking incident (from which the vessel may have been recovered) or a difficult voyage: a term with legal force indicating that the vessel is unfit for service."}</skos:scopeNote>
+    <arches:notation xml:lang="en">{"id": "261090eb-1317-4047-95e2-1a296b8afe63", "value": "Liquid error: Object reference not set to an instance of an object."}</arches:notation>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/26559d3a-9d46-3326-82ba-5ac4c5974643">
+    <skos:prefLabel xml:lang="en">{"id": "2a15ad23-5c2b-47ff-ae5c-d8e83ca37f71", "value": "Enemy Action"}</skos:prefLabel>
+    <arches:notation xml:lang="en">{"id": "24323aa4-f96c-4171-8c6f-1ff8673f78e4", "value": "Liquid error: Object reference not set to an instance of an object."}</arches:notation>
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/7c41ed3e-4573-333e-9fb4-f05c737e3c25"/>
+    <dcterms:identifier xml:lang="en">{"id": "d8cceedb-cb21-489c-9299-b193dad77d64", "value": "http://purl.org/heritagedata/schemes/78/concepts/5197"}</dcterms:identifier>
+    <skos:scopeNote xml:lang="en">{"id": "443dd9a6-7eca-459c-bc16-7c3a4710d2d5", "value": "Loss due to cumulative damage sustained during acts of warfare, capture, piracy, privateering etc. Use in instances where a more specific manner of loss (e.g. SCUTTLED, GUN ACTION) cannot be assigned."}</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/31bc02cd-87e6-3ed1-894f-004c641de169">
+    <skos:scopeNote xml:lang="en">{"id": "b3319f6b-d500-4e94-abd0-1e3b6883b385", "value": "Use where a section of the vessel has been recovered from where she lies, either at the time or subsequently, leaving behind substantial remains (unlike RECOVERED, where the entire vessel has been removed from the site)."}</skos:scopeNote>
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/7c41ed3e-4573-333e-9fb4-f05c737e3c25"/>
+    <arches:notation xml:lang="en">{"id": "7ec695da-4958-4174-b684-735d713bdc48", "value": "Liquid error: Object reference not set to an instance of an object."}</arches:notation>
+    <dcterms:identifier xml:lang="en">{"id": "4d21027d-ec2a-4a8b-9c4c-ae1f589f2045", "value": "http://purl.org/heritagedata/schemes/78/concepts/5213"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="en">{"id": "2b148adb-a671-47df-9631-ed60decaed34", "value": "Partially Recovered"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/c6243186-be4a-3aab-bbc6-6ae781d10929">
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/7c41ed3e-4573-333e-9fb4-f05c737e3c25"/>
+    <arches:notation xml:lang="en">{"id": "f5bd5824-7c0b-4efd-ac22-7912094dd412", "value": "Liquid error: Object reference not set to an instance of an object."}</arches:notation>
+    <dcterms:identifier xml:lang="en">{"id": "83d37bba-baba-4968-b96c-96969e35e1e6", "value": "http://purl.org/heritagedata/schemes/78/concepts/5241"}</dcterms:identifier>
+    <skos:scopeNote xml:lang="en">{"id": "8eee6cc5-6d34-4388-af38-d2d0df7490af", "value": "Lee shore, i.e. the wind blowing onto the shore"}</skos:scopeNote>
+    <skos:prefLabel xml:lang="en">{"id": "140bc931-4ee8-4590-b68f-b341d0dd41c8", "value": "Embayed"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/f66e7dda-22ad-37ac-9e11-839f86057077">
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/7c41ed3e-4573-333e-9fb4-f05c737e3c25"/>
+    <dcterms:identifier xml:lang="en">{"id": "9c827c80-6dfb-4568-80bd-7b9e5299dc13", "value": "http://purl.org/heritagedata/schemes/78/concepts/553"}</dcterms:identifier>
+    <arches:notation xml:lang="en">{"id": "046ca561-fdce-47ce-b614-ef81d446c834", "value": "Liquid error: Object reference not set to an instance of an object."}</arches:notation>
+    <skos:prefLabel xml:lang="en">{"id": "fac5af97-acc4-436d-910c-9b01a0e42a77", "value": "Beached"}</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">{"id": "b8efd816-2538-4279-8ed0-4c93e98e7fcb", "value": "A vessel that is deliberately run or dragged up the beach to save cargo and or crew. Do not use if the vessel is refloated."}</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/fa5bca8c-c375-3aa7-98f9-e900fbd2758a">
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/7c41ed3e-4573-333e-9fb4-f05c737e3c25"/>
+    <skos:prefLabel xml:lang="en">{"id": "27cd01a9-1d00-4e58-9abf-334336eeef71", "value": "Bombed"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "355a2b65-1038-43e0-b23e-514bb1f49588", "value": "http://purl.org/heritagedata/schemes/78/concepts/554"}</dcterms:identifier>
+    <arches:notation xml:lang="en">{"id": "aa3a8361-b601-4534-8806-3964bc31660d", "value": "Liquid error: Object reference not set to an instance of an object."}</arches:notation>
+    <skos:scopeNote xml:lang="en">{"id": "b1ccd22a-c85d-4d71-a250-13437af8b7d7", "value": "A vessel lost due to aerial bombardment."}</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/33c96e33-71a1-375a-b8dd-e9ecf2a09b10">
+    <skos:scopeNote xml:lang="en">{"id": "378318c0-7489-4960-878a-71349a45d768", "value": "Loss of vessel due to deployment of explosive charges set to detonate at a predetermined depth."}</skos:scopeNote>
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/7c41ed3e-4573-333e-9fb4-f05c737e3c25"/>
+    <skos:prefLabel xml:lang="en">{"id": "da04feba-89c7-48ae-beae-dd43156d771a", "value": "Depth Charged"}</skos:prefLabel>
+    <arches:notation xml:lang="en">{"id": "5dc8c3d7-7b22-4c61-b312-bdd253c1b21a", "value": "Liquid error: Object reference not set to an instance of an object."}</arches:notation>
+    <dcterms:identifier xml:lang="en">{"id": "de49db3a-a45e-4e99-a916-b630341f5574", "value": "http://purl.org/heritagedata/schemes/78/concepts/560"}</dcterms:identifier>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/c30e6103-6aad-3974-8fd2-cbb0a51013cf">
+    <skos:prefLabel xml:lang="en">{"id": "6bc20357-b136-464c-bfd4-7ae32e96e841", "value": "Scuttling Charges"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/7c41ed3e-4573-333e-9fb4-f05c737e3c25"/>
+    <arches:notation xml:lang="en">{"id": "22b40b84-57af-4871-8383-44e5df0406fe", "value": "Liquid error: Object reference not set to an instance of an object."}</arches:notation>
+    <skos:scopeNote xml:lang="en">{"id": "ddfa0002-5ec3-47e5-b0bf-0933acabad90", "value": "A vessel which has been deliberately scuttled using explosive charges."}</skos:scopeNote>
+    <dcterms:identifier xml:lang="en">{"id": "500ee2ff-0964-4471-baf9-7d70832d3248", "value": "http://purl.org/heritagedata/schemes/78/concepts/5216"}</dcterms:identifier>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/7ff8e9ff-7548-39c4-a641-b61001bc4c97">
+    <skos:scopeNote xml:lang="en">{"id": "b5342bca-37de-4f1b-9968-0fa83dfb2d38", "value": "Reuse of timbers or hull of a vessel in construction. For example sinking of hulks as harbour foundations or recycling of timbers in domestic contexts."}</skos:scopeNote>
+    <arches:notation xml:lang="en">{"id": "1eb1e439-fc6f-4977-bacf-c75823a61ee5", "value": "Liquid error: Object reference not set to an instance of an object."}</arches:notation>
+    <dcterms:identifier xml:lang="en">{"id": "8c3b4c84-515a-4d3b-8b4b-f6c61ca4b8f4", "value": "http://purl.org/heritagedata/schemes/78/concepts/5240"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="en">{"id": "36c125cf-4704-46b4-93f5-7cab953fa666", "value": "Used in Construction"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/7c41ed3e-4573-333e-9fb4-f05c737e3c25"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/59359926-e3c3-340c-b00c-36bde8a0d8cd">
+    <skos:prefLabel xml:lang="en">{"id": "3f935497-3353-43c7-9b5a-aeb66061a6ca", "value": "Shot Down"}</skos:prefLabel>
+    <arches:notation xml:lang="en">{"id": "935f76bc-0cf2-4884-8c9a-d5eab57ffe42", "value": "Liquid error: Object reference not set to an instance of an object."}</arches:notation>
+    <dcterms:identifier xml:lang="en">{"id": "be3ad289-7f44-44b6-9f0d-9e668b061fb8", "value": "http://purl.org/heritagedata/schemes/78/concepts/1425"}</dcterms:identifier>
+    <skos:scopeNote xml:lang="en">{"id": "66d49f78-ea15-4519-956e-0737663ab813", "value": "An aircraft lost due to offensive action. Includes air-to-air and ground-to-air combat. For Vessels use GUN ACTION."}</skos:scopeNote>
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/7c41ed3e-4573-333e-9fb4-f05c737e3c25"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/f614ee03-a17b-3a59-947a-f459560092c3">
+    <dcterms:identifier xml:lang="en">{"id": "64d84499-5d78-4e6a-9b4b-525faea354fb", "value": "http://purl.org/heritagedata/schemes/78/concepts/561"}</dcterms:identifier>
+    <arches:notation xml:lang="en">{"id": "4d2cafd6-8ed3-444e-9744-99db11b829cd", "value": "Liquid error: Object reference not set to an instance of an object."}</arches:notation>
+    <skos:prefLabel xml:lang="en">{"id": "f821a680-ccdf-4b75-a007-cd45d743578f", "value": "Explosion"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/7c41ed3e-4573-333e-9fb4-f05c737e3c25"/>
+    <skos:scopeNote xml:lang="en">{"id": "36e1c24c-d599-4952-9030-be6356add564", "value": "A vessel or aircraft lost due to an accidental explosion.  Do not use for losses caused by deliberate action."}</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/bdf714c5-334d-3547-8bef-6f009c8a854d">
+    <skos:scopeNote xml:lang="en">{"id": "d0e57672-9718-43cd-9fcb-de7df99ffc16", "value": "Ignition from within rather than through external forces; frequently associated with cargoes of organic material such as manure, owing to an internal rise in temperature of the cargo itself."}</skos:scopeNote>
+    <arches:notation xml:lang="en">{"id": "48963272-bdc9-4974-aa16-1fa20fb09c11", "value": "Liquid error: Object reference not set to an instance of an object."}</arches:notation>
+    <skos:prefLabel xml:lang="en">{"id": "1ea89ef9-eec6-4931-9240-5dc3797cc056", "value": "Spontaneous Combustion"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "119d93d6-ea12-4936-93e9-43f7f2963b06", "value": "http://purl.org/heritagedata/schemes/78/concepts/5196"}</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/7c41ed3e-4573-333e-9fb4-f05c737e3c25"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/a8cad18d-91a6-3c27-9658-76f7f3e1c336">
+    <skos:prefLabel xml:lang="en">{"id": "8e4acf2a-6262-44ac-a05d-74a331e83058", "value": "Off Course"}</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">{"id": "2fec588c-ebaf-433c-a05c-fb7f02d50ec6", "value": "Vessel not on intended course e.g. along the Channel coast from French port to French port, or in the Bristol Channel rather than the English Channel; errors in longitude or mistaking a lighthouse."}</skos:scopeNote>
+    <arches:notation xml:lang="en">{"id": "3a101e31-fd8d-4a04-939f-82e707b5f73f", "value": "Liquid error: Object reference not set to an instance of an object."}</arches:notation>
+    <dcterms:identifier xml:lang="en">{"id": "0fad1c2c-9b88-4425-87dc-7fe9374259d1", "value": "http://purl.org/heritagedata/schemes/78/concepts/5243"}</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/7c41ed3e-4573-333e-9fb4-f05c737e3c25"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/8c84d390-96c4-30bc-af05-e427a13d4511">
+    <arches:notation xml:lang="en">{"id": "daa9104b-1b48-4655-9ae7-dd68384c734f", "value": "Liquid error: Object reference not set to an instance of an object."}</arches:notation>
+    <dcterms:identifier xml:lang="en">{"id": "508949ab-4750-4338-8c52-bee92fda2908", "value": "http://purl.org/heritagedata/schemes/78/concepts/563"}</dcterms:identifier>
+    <skos:scopeNote xml:lang="en">{"id": "e08bd733-dc0d-403d-926d-9a3028a7e61c", "value": "Loss of a vessel due to running aground and subsequently refloating before final loss."}</skos:scopeNote>
+    <skos:prefLabel xml:lang="en">{"id": "9eec903b-1663-4f2b-860b-a8cfd9b8bc3e", "value": "Grounded"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/7c41ed3e-4573-333e-9fb4-f05c737e3c25"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/21f9c738-24ac-39c0-b4b3-3e65a6b889b3">
+    <arches:notation xml:lang="en">{"id": "bbd43616-c106-4a26-a8c8-60a175872670", "value": "Liquid error: Object reference not set to an instance of an object."}</arches:notation>
+    <skos:scopeNote xml:lang="en">{"id": "20fc74b8-895a-43a4-a37f-c29a5ede8af4", "value": "A vessel which runs aground and does not get off."}</skos:scopeNote>
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/7c41ed3e-4573-333e-9fb4-f05c737e3c25"/>
+    <dcterms:identifier xml:lang="en">{"id": "88916183-56b5-4a0a-9b8f-9f0be9e5aa67", "value": "http://purl.org/heritagedata/schemes/78/concepts/572"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="en">{"id": "a590e59f-ee9a-4d06-96ca-ae59192806aa", "value": "Stranded"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/76032548-1adb-36ac-a7d8-8d3eb1867160">
+    <dcterms:identifier xml:lang="en">{"id": "ed039de4-94ad-4f22-a75a-6747ea7c460c", "value": "http://purl.org/heritagedata/schemes/78/concepts/5220"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="en">{"id": "295c06f0-9ffd-45f6-ab09-2699a6081397", "value": "Internal Explosion"}</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">{"id": "bb9219cd-a8f1-4948-8918-314c309ceb32", "value": "Loss of a vessel or aircraft due to an explosion caused by its own armament or cargo."}</skos:scopeNote>
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/7c41ed3e-4573-333e-9fb4-f05c737e3c25"/>
+    <arches:notation xml:lang="en">{"id": "ddf95fb6-5fbb-4be6-b3cb-737f4d78cc69", "value": "Liquid error: Object reference not set to an instance of an object."}</arches:notation>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/6bff875b-a336-3f81-a290-eed77b4cd2ea">
+    <dcterms:identifier xml:lang="en">{"id": "1f1d1078-b3d8-4f72-baf2-5dd071d5a64d", "value": "http://purl.org/heritagedata/schemes/78/concepts/557"}</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/7c41ed3e-4573-333e-9fb4-f05c737e3c25"/>
+    <skos:scopeNote xml:lang="en">{"id": "ae487886-2778-4948-a475-8e8ebcf354f4", "value": "Loss of a vessel or aircraft primarily due to fire."}</skos:scopeNote>
+    <skos:prefLabel xml:lang="en">{"id": "685b016f-8dd1-4705-8684-f34d67491b3a", "value": "Burnt"}</skos:prefLabel>
+    <arches:notation xml:lang="en">{"id": "f5151c3d-0cf4-4878-881c-41bdf23f9d8e", "value": "Liquid error: Object reference not set to an instance of an object."}</arches:notation>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/1c94ed11-8bea-3fb8-8f05-de9c756f10ae">
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/7c41ed3e-4573-333e-9fb4-f05c737e3c25"/>
+    <skos:prefLabel xml:lang="en">{"id": "196778a9-8754-4bae-8914-dc54dd4e884d", "value": "Vandalism"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "0e59bd4b-ad36-4b71-92c8-4fe83aadfe2e", "value": "http://purl.org/heritagedata/schemes/78/concepts/5215"}</dcterms:identifier>
+    <arches:notation xml:lang="en">{"id": "f5d91027-4e1d-490b-b75a-bd017c99bdc8", "value": "Liquid error: Object reference not set to an instance of an object."}</arches:notation>
+    <skos:scopeNote xml:lang="en">{"id": "2273dde9-7a7b-4078-9056-8ac5fae6002e", "value": "Acts of vandalism, or deliberate damage by owner or other parties, which result in the `Constructive Total Loss\ufffd (CTL) of vessel, or contributes to CTL of an abandoned vessel."}</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/cecade9a-3229-371a-8ad6-b0aabec540bb">
+    <dcterms:identifier xml:lang="en">{"id": "fced1d34-94f0-4237-85d1-8fd5fbd97da7", "value": "http://purl.org/heritagedata/schemes/78/concepts/5195"}</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/7c41ed3e-4573-333e-9fb4-f05c737e3c25"/>
+    <skos:scopeNote xml:lang="en">{"id": "1e2dc2be-b8d1-47bd-a39e-f6a42a16917a", "value": "Loss of a craft, especially aircraft, resulting from the malfunction of registering or measuring apparatus vital to its navigation or operation. In the case of structural or engine failure use MECHANICAL FAILURE."}</skos:scopeNote>
+    <skos:prefLabel xml:lang="en">{"id": "e01cb5be-bee7-459a-b5fd-ff512f6338d7", "value": "Instrument Failure"}</skos:prefLabel>
+    <arches:notation xml:lang="en">{"id": "62c860e6-e6bb-4c32-9762-24339ca23ae6", "value": "Liquid error: Object reference not set to an instance of an object."}</arches:notation>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/163ee5e4-d1f4-3698-b43b-055421458469">
+    <skos:prefLabel xml:lang="en">{"id": "9d8008e4-9b91-49ff-9189-f6b4b51c93c3", "value": "Overshooting"}</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">{"id": "363e05f9-9d4e-4f1d-81c3-cc1383592c92", "value": "Shooting past intended port, e.g. northbound to Tyne to end up on the Farne Islands"}</skos:scopeNote>
+    <dcterms:identifier xml:lang="en">{"id": "ad0b563f-bf2a-4fa8-9a9d-eb523453f21c", "value": "http://purl.org/heritagedata/schemes/78/concepts/5244"}</dcterms:identifier>
+    <arches:notation xml:lang="en">{"id": "2fe939dc-cb49-4446-abcc-5b873c886ac5", "value": "Liquid error: Object reference not set to an instance of an object."}</arches:notation>
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/7c41ed3e-4573-333e-9fb4-f05c737e3c25"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/15176067-1cf3-3235-852e-afdb99a00e4b">
+    <dcterms:identifier xml:lang="en">{"id": "a9d00bdc-4ead-4529-9325-060754d1072a", "value": "http://purl.org/heritagedata/schemes/78/concepts/5242"}</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/7c41ed3e-4573-333e-9fb4-f05c737e3c25"/>
+    <arches:notation xml:lang="en">{"id": "8987e344-a612-43c0-9f44-70402676baee", "value": "Liquid error: Object reference not set to an instance of an object."}</arches:notation>
+    <skos:scopeNote xml:lang="en">{"id": "dbcc37d8-19ef-437d-8a2c-8bdbb5da56ad", "value": "A specific form of stranding, above high water, i.e. cannot be refloated"}</skos:scopeNote>
+    <skos:prefLabel xml:lang="en">{"id": "d3c0f9f2-3b11-442b-8905-ec5ced1133f4", "value": "High and Dry"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/39e64b2d-138e-3122-92b3-f2dc593220f8">
+    <skos:scopeNote xml:lang="en">{"id": "c5ebd3b1-3bd8-4979-b2a3-40639ea2c5b5", "value": "Loss due to action of free floating or tethered explosive device set to explode on contact with or in proximity to a vessel."}</skos:scopeNote>
+    <dcterms:identifier xml:lang="en">{"id": "eab79118-e51f-440d-a820-7755f447fc61", "value": "http://purl.org/heritagedata/schemes/78/concepts/568"}</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/7c41ed3e-4573-333e-9fb4-f05c737e3c25"/>
+    <arches:notation xml:lang="en">{"id": "3960646a-e35d-48f5-9ab4-c332e0263fe4", "value": "Liquid error: Object reference not set to an instance of an object."}</arches:notation>
+    <skos:prefLabel xml:lang="en">{"id": "dd79799f-82d6-4258-94ea-d06ea7f575ab", "value": "Mined"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/c695ce14-f5db-3c05-98fd-166f42d91d99">
+    <arches:notation xml:lang="en">{"id": "73dc6943-e563-4b93-b91c-a71b78b494a8", "value": "Liquid error: Object reference not set to an instance of an object."}</arches:notation>
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/7c41ed3e-4573-333e-9fb4-f05c737e3c25"/>
+    <dcterms:identifier xml:lang="en">{"id": "860c848e-f12c-4b44-89b4-f1d5c4baba78", "value": "http://purl.org/heritagedata/schemes/78/concepts/559"}</dcterms:identifier>
+    <skos:scopeNote xml:lang="en">{"id": "0b365424-44c0-4df3-86dd-bddfc2cffd8b", "value": "Loss of a vessel or aircraft through accidental contact with another or a structure. Do not use when contact is with natural feature or rocky shore."}</skos:scopeNote>
+    <skos:prefLabel xml:lang="en">{"id": "1f2da473-fcc0-4d8b-9572-9e8aa2603fbc", "value": "Collision"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/da43b708-63c9-378d-a453-b77e06ffb736">
+    <skos:scopeNote xml:lang="en">{"id": "284527e1-3bd4-4e67-a84e-b6913bdc5f5f", "value": "A vessel or aircraft lost at sea, cause unknown."}</skos:scopeNote>
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/7c41ed3e-4573-333e-9fb4-f05c737e3c25"/>
+    <dcterms:identifier xml:lang="en">{"id": "32c78a45-c96c-4df0-9640-737139bea9e3", "value": "http://purl.org/heritagedata/schemes/78/concepts/567"}</dcterms:identifier>
+    <arches:notation xml:lang="en">{"id": "c3010293-a2da-486f-bf59-38e1647c0345", "value": "Liquid error: Object reference not set to an instance of an object."}</arches:notation>
+    <skos:prefLabel xml:lang="en">{"id": "0d479d66-4efd-4473-a76f-630aa3c115f6", "value": "Lost"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/e4f5b733-b938-3896-b02e-23893018c2c8">
+    <arches:notation xml:lang="en">{"id": "6adb923b-3f80-4d7e-8f0d-23afc966e95e", "value": "Liquid error: Object reference not set to an instance of an object."}</arches:notation>
+    <skos:scopeNote xml:lang="en">{"id": "f604a9e0-8b6f-422d-8861-930b04060ae8", "value": "Loss due to action of self propelled submerged missile."}</skos:scopeNote>
+    <skos:prefLabel xml:lang="en">{"id": "2032afbf-793f-4aa7-9071-798cf9e3f18b", "value": "Torpedoed"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/7c41ed3e-4573-333e-9fb4-f05c737e3c25"/>
+    <dcterms:identifier xml:lang="en">{"id": "265b9608-2d53-4647-b0ef-6198418e36cd", "value": "http://purl.org/heritagedata/schemes/78/concepts/573"}</dcterms:identifier>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/755932e8-3efc-398f-84ab-4a8b1ca3bc86">
+    <skos:scopeNote xml:lang="en">{"id": "5cdfb447-4315-47fe-9907-0d20b65786da", "value": "Loss of a vessel due to bombardment from ship, shore or submarine. For Aircraft use SHOT DOWN."}</skos:scopeNote>
+    <arches:notation xml:lang="en">{"id": "357b2f08-477a-4cd8-b5d5-820822848fbd", "value": "Liquid error: Object reference not set to an instance of an object."}</arches:notation>
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/7c41ed3e-4573-333e-9fb4-f05c737e3c25"/>
+    <dcterms:identifier xml:lang="en">{"id": "d759f562-08cc-4f53-a20f-b1f0d83270a0", "value": "http://purl.org/heritagedata/schemes/78/concepts/564"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="en">{"id": "ee6a8e5f-1ea7-4187-b3f2-e9143c97e0fc", "value": "Gun Action"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/ec61dc8f-6878-3993-a9e2-f910f6aea8e0">
+    <skos:prefLabel xml:lang="en">{"id": "d2c3bedc-af1d-402c-8ccb-df8db665a935", "value": "Foundered"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/7c41ed3e-4573-333e-9fb4-f05c737e3c25"/>
+    <dcterms:identifier xml:lang="en">{"id": "a0d3ad96-2f77-40c3-bf37-738a1e819733", "value": "http://purl.org/heritagedata/schemes/78/concepts/562"}</dcterms:identifier>
+    <arches:notation xml:lang="en">{"id": "25d1facb-8f50-4ae4-8f4b-1605ef3a5092", "value": "Liquid error: Object reference not set to an instance of an object."}</arches:notation>
+    <skos:scopeNote xml:lang="en">{"id": "9c59d4bf-62e4-43fc-b514-8b1865e3d117", "value": "A vessel that has sunk at sea: Double-index with background cause were known, e.g. LEAKED, COLLISION."}</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/ed8b3267-e1a9-3bf0-a614-eff078c21958">
+    <skos:scopeNote xml:lang="en">{"id": "948ee99e-6a5a-4c35-a6ee-0d44d66deb63", "value": "Damaged, usually by weather or warfare, to such an extent that the vessel is in severe or imminent danger of being lost; i.e. a pre-existing condition of the vessel which contributes to the final wrecking event."}</skos:scopeNote>
+    <skos:prefLabel xml:lang="en">{"id": "91a6f6b5-1d7e-4298-860c-0143ce272ac1", "value": "Distressed"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/7c41ed3e-4573-333e-9fb4-f05c737e3c25"/>
+    <dcterms:identifier xml:lang="en">{"id": "396ec5d5-e1f2-478a-9219-c1e8a98513f0", "value": "http://purl.org/heritagedata/schemes/78/concepts/837"}</dcterms:identifier>
+    <arches:notation xml:lang="en">{"id": "c3445526-c5e0-464a-a384-c4a07d320e4f", "value": "Liquid error: Object reference not set to an instance of an object."}</arches:notation>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/8b70d45a-b86c-3ff0-ab82-d6778ef85a1d">
+    <arches:notation xml:lang="en">{"id": "541d5ce8-7c7d-4f71-8813-d1bc035c2344", "value": "Liquid error: Object reference not set to an instance of an object."}</arches:notation>
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/7c41ed3e-4573-333e-9fb4-f05c737e3c25"/>
+    <skos:scopeNote xml:lang="en">{"id": "a96068e7-ef4c-4f96-9d44-00788d483604", "value": "A vessel which comes ashore and breaks up immediately due to severe weather."}</skos:scopeNote>
+    <dcterms:identifier xml:lang="en">{"id": "c54f460d-3cbc-4167-97c9-5c9453c29928", "value": "http://purl.org/heritagedata/schemes/78/concepts/574"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="en">{"id": "d59e072f-de2c-4b87-9244-62ac137c2c49", "value": "Wrecked"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/6bfe4088-f694-3b21-96ab-2d88e6311210">
+    <skos:prefLabel xml:lang="en">{"id": "03306819-68fb-4959-a862-734e29a9053d", "value": "Beyond Repair"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "5b2f332a-f9f5-4cf5-9cf8-bb262fd35eec", "value": "http://purl.org/heritagedata/schemes/78/concepts/5212"}</dcterms:identifier>
+    <skos:scopeNote xml:lang="en">{"id": "cf871031-05ec-4e68-8c1c-95def0b7ca0d", "value": "Use for 'constructive total loss' (CTL) or where a vessel is abandoned because she is beyond repair or has become so after abandonment, which may include acts of vandalism."}</skos:scopeNote>
+    <arches:notation xml:lang="en">{"id": "18f27aa2-f164-41d1-808f-28c0d096be31", "value": "Liquid error: Object reference not set to an instance of an object."}</arches:notation>
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/7c41ed3e-4573-333e-9fb4-f05c737e3c25"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/499a6eb0-aa1b-355b-9a87-4e843ee8f2c2">
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/7c41ed3e-4573-333e-9fb4-f05c737e3c25"/>
+    <skos:scopeNote xml:lang="en">{"id": "a0791e0c-1a1d-48f3-b6b3-78ff3eef4366", "value": "An aircraft which has been damaged beyond repair due to a collision with the ground or sea."}</skos:scopeNote>
+    <skos:prefLabel xml:lang="en">{"id": "cbd7e197-a736-4078-8747-d51a455909e1", "value": "Crashed"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "a50addd6-7df6-41c0-891a-47853a8852a4", "value": "http://purl.org/heritagedata/schemes/78/concepts/1423"}</dcterms:identifier>
+    <arches:notation xml:lang="en">{"id": "d06c2c00-3c7d-404a-97bd-ce824ea6be26", "value": "Liquid error: Object reference not set to an instance of an object."}</arches:notation>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/02eea119-3773-3ce5-8f6f-0af77665637f">
+    <dcterms:identifier xml:lang="en">{"id": "df586f14-9438-4f3a-8958-c95e2b4ae28b", "value": "http://purl.org/heritagedata/schemes/78/concepts/571"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="en">{"id": "1cf75ae2-b233-4563-b799-d7dc4a11f62d", "value": "Scuttled"}</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">{"id": "b8c860cb-dd59-44d1-9e5f-7f8514c430e6", "value": "Deliberate sinking of a vessel, e.g. to prevent capture or to act as a blockship."}</skos:scopeNote>
+    <arches:notation xml:lang="en">{"id": "472ea86d-88cc-4a36-aaef-5c284b478b05", "value": "Liquid error: Object reference not set to an instance of an object."}</arches:notation>
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/7c41ed3e-4573-333e-9fb4-f05c737e3c25"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/e8891ad1-be57-31a4-99c4-c1932de553aa">
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/7c41ed3e-4573-333e-9fb4-f05c737e3c25"/>
+    <dcterms:identifier xml:lang="en">{"id": "05c9ff56-bef8-475a-b42c-5d3fb7611301", "value": "http://purl.org/heritagedata/schemes/78/concepts/5238"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="en">{"id": "d9f69152-a1aa-43db-8b18-73473946f697", "value": "Washed Up"}</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">{"id": "ac7eae73-51c7-4422-940e-4dd329ac027a", "value": "Use only for fragmentary wreckage washed up at the time of loss or subsequently: but not for complete hulls for which STRANDED or another appropriate manner of loss should be used."}</skos:scopeNote>
+    <arches:notation xml:lang="en">{"id": "52bd452e-7976-4fdb-a905-b32c820f0fc2", "value": "Liquid error: Object reference not set to an instance of an object."}</arches:notation>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/947f69b4-5ef1-3f32-92b7-542cfdfa3da1">
+    <skos:prefLabel xml:lang="en">{"id": "accc3f09-4b71-4975-a5da-07477fc80c1c", "value": "Leaked"}</skos:prefLabel>
+    <arches:notation xml:lang="en">{"id": "69c41f8a-2375-477e-8f96-e053dc6c9c8d", "value": "Liquid error: Object reference not set to an instance of an object."}</arches:notation>
+    <skos:scopeNote xml:lang="en">{"id": "7d12c281-147f-4525-a966-78e6edb8ab3b", "value": "Ingress of water through damage or defects in the hull. Double-index with any cause, were known, e.g. COLLISION, and consequence, were known, e.g. BEACHED, FOUNDERED."}</skos:scopeNote>
+    <dcterms:identifier xml:lang="en">{"id": "00bd0a0a-53d5-4489-bfaa-b4d460c5ddc6", "value": "http://purl.org/heritagedata/schemes/78/concepts/566"}</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/7c41ed3e-4573-333e-9fb4-f05c737e3c25"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/576035fb-5b6d-3c02-8133-518194d0d972">
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/7c41ed3e-4573-333e-9fb4-f05c737e3c25"/>
+    <arches:notation xml:lang="en">{"id": "cd3f081a-3c03-4a13-a2a5-a2a2ccdc4f65", "value": "Liquid error: Object reference not set to an instance of an object."}</arches:notation>
+    <skos:prefLabel xml:lang="en">{"id": "1e499076-e3ec-4422-8cb0-a3d903c9a750", "value": "Back Broken"}</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">{"id": "cfbbf55f-5df9-42b2-b29b-520be8f6c44b", "value": "Use when the vessel splits in two due to stresses on her frame where she lies unsupported either amidships or at the ends, typically after stranding, although this may also happen in similar conditions on the seabed after foundering."}</skos:scopeNote>
+    <dcterms:identifier xml:lang="en">{"id": "27ae69e3-e404-4b42-bda0-7a0964e8dd1e", "value": "http://purl.org/heritagedata/schemes/78/concepts/5214"}</dcterms:identifier>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/c3f64464-625c-3181-8c93-0fdc8df1fa70">
+    <dcterms:identifier xml:lang="en">{"id": "1b9182e6-2370-4fe5-a31f-b09fb548eb86", "value": "http://purl.org/heritagedata/schemes/78/concepts/552"}</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/7c41ed3e-4573-333e-9fb4-f05c737e3c25"/>
+    <skos:scopeNote xml:lang="en">{"id": "1049fc0e-beb2-4335-b2f4-eebe334d6032", "value": "Refers to the abandonment of a vessel at sea due to its becoming unseaworthy.  Do not use for vessels abandoned having run aground. For aircraft use DITCHED."}</skos:scopeNote>
+    <arches:notation xml:lang="en">{"id": "89d4ec0e-d8d5-46b0-a5a4-1a4d142fac13", "value": "Liquid error: Object reference not set to an instance of an object."}</arches:notation>
+    <skos:prefLabel xml:lang="en">{"id": "4f7ace76-5dc0-4c53-afc7-09923c40ff59", "value": "Abandoned"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/b1fd4430-a9df-32ad-b179-596146149363">
+    <dcterms:identifier xml:lang="en">{"id": "73e3e79e-4ca2-4f87-88d9-c92edaa1edea", "value": "http://purl.org/heritagedata/schemes/78/concepts/1422"}</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/7c41ed3e-4573-333e-9fb4-f05c737e3c25"/>
+    <skos:scopeNote xml:lang="en">{"id": "8a74ab59-2af2-42c6-8f63-0bb40de39e84", "value": "An aircraft which has been forced to land on the sea in an emergency."}</skos:scopeNote>
+    <arches:notation xml:lang="en">{"id": "6b796987-0a7c-408c-9088-0b843e73c503", "value": "Liquid error: Object reference not set to an instance of an object."}</arches:notation>
+    <skos:prefLabel xml:lang="en">{"id": "1292e836-7d84-484e-8576-12d2d91d71a3", "value": "Ditched"}</skos:prefLabel>
+  </skos:Concept>
+</rdf:RDF>
