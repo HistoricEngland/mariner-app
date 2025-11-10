@@ -1,0 +1,170 @@
+{
+    "graph": [
+        {
+            "author": "",
+            "cards": [
+                {
+                    "active": true,
+                    "cardid": "1c2e9780-17bd-11ef-9b52-0242ac120006",
+                    "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
+                    "config": null,
+                    "constraints": [
+                        {
+                            "card_id": "1c2e9780-17bd-11ef-9b52-0242ac120006",
+                            "constraintid": "017922f9-3faa-44bf-98cb-9504d540973e",
+                            "nodes": [],
+                            "uniquetoallinstances": false
+                        }
+                    ],
+                    "cssclass": null,
+                    "description": {
+                        "en": ""
+                    },
+                    "graph_id": "1c2e8d44-17bd-11ef-9b52-0242ac120006",
+                    "helpenabled": false,
+                    "helptext": {
+                        "en": null
+                    },
+                    "helptitle": {
+                        "en": null
+                    },
+                    "instructions": {
+                        "en": null
+                    },
+                    "is_editable": true,
+                    "name": {
+                        "en": "Associated Historic Event"
+                    },
+                    "nodegroup_id": "1c2e92e4-17bd-11ef-9b52-0242ac120006",
+                    "sortorder": null,
+                    "visible": true
+                }
+            ],
+            "cards_x_nodes_x_widgets": [
+                {
+                    "card_id": "1c2e9780-17bd-11ef-9b52-0242ac120006",
+                    "config": {
+                        "defaultResourceInstance": [],
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
+                        "label": "Associated Historic Event",
+                        "placeholder": {
+                            "en": ""
+                        }
+                    },
+                    "id": "1c2e9910-17bd-11ef-9b52-0242ac120006",
+                    "label": {
+                        "en": "Associated Historic Event"
+                    },
+                    "node_id": "1c2e92e4-17bd-11ef-9b52-0242ac120006",
+                    "sortorder": 0,
+                    "visible": true,
+                    "widget_id": "ff3c400a-76ec-11e7-a793-784f435179ea"
+                }
+            ],
+            "color": "rgba(162,127,115,1)",
+            "config": {},
+            "deploymentdate": null,
+            "deploymentfile": null,
+            "description": {
+                "en": ""
+            },
+            "edges": [],
+            "functions_x_graphs": [],
+            "graphid": "1c2e8d44-17bd-11ef-9b52-0242ac120006",
+            "iconclass": "fa fa-archive",
+            "is_editable": true,
+            "isresource": false,
+            "jsonldcontext": null,
+            "name": {
+                "en": "Associated Historic Event"
+            },
+            "nodegroups": [
+                {
+                    "cardinality": "n",
+                    "legacygroupid": null,
+                    "nodegroupid": "1c2e92e4-17bd-11ef-9b52-0242ac120006",
+                    "parentnodegroup_id": null
+                }
+            ],
+            "nodes": [
+                {
+                    "alias": "associated_historic_event",
+                    "config": {
+                        "graphs": [
+                            {
+                                "graphid": "227f29f8-1847-11ef-949d-0242ac130006",
+                                "name": "Historic Event1"
+                            }
+                        ],
+                        "searchDsl": "",
+                        "searchString": ""
+                    },
+                    "datatype": "resource-instance-list",
+                    "description": null,
+                    "exportable": true,
+                    "fieldname": "Hist_Event",
+                    "graph_id": "1c2e8d44-17bd-11ef-9b52-0242ac120006",
+                    "hascustomalias": false,
+                    "is_collector": true,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": true,
+                    "name": "Associated Historic Event",
+                    "nodegroup_id": "1c2e92e4-17bd-11ef-9b52-0242ac120006",
+                    "nodeid": "1c2e92e4-17bd-11ef-9b52-0242ac120006",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E5_Event",
+                    "parentproperty": "",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                }
+            ],
+            "ontology_id": "e6e8db47-2ccf-11e6-927e-b8f6b115d7dd",
+            "publication": null,
+            "relatable_resource_model_ids": [],
+            "resource_2_resource_constraints": [],
+            "root": {
+                "alias": "associated_historic_event",
+                "config": {
+                    "graphs": [
+                        {
+                            "graphid": "227f29f8-1847-11ef-949d-0242ac130006",
+                            "name": "Historic Event1"
+                        }
+                    ],
+                    "searchDsl": "",
+                    "searchString": ""
+                },
+                "datatype": "resource-instance-list",
+                "description": null,
+                "exportable": true,
+                "fieldname": "Hist_Event",
+                "graph_id": "1c2e8d44-17bd-11ef-9b52-0242ac120006",
+                "hascustomalias": false,
+                "is_collector": true,
+                "isrequired": false,
+                "issearchable": true,
+                "istopnode": true,
+                "name": "Associated Historic Event",
+                "nodegroup_id": "1c2e92e4-17bd-11ef-9b52-0242ac120006",
+                "nodeid": "1c2e92e4-17bd-11ef-9b52-0242ac120006",
+                "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E5_Event",
+                "sortorder": 0,
+                "sourcebranchpublication_id": null
+            },
+            "slug": null,
+            "subtitle": {
+                "en": ""
+            },
+            "template_id": "50000000-0000-0000-0000-000000000001",
+            "version": ""
+        }
+    ],
+    "metadata": {
+        "db": "PostgreSQL 16.10 on x86_64-pc-linux-gnu, compiled by gcc (GCC) 11.2.0, 64-bit",
+        "git hash": "fatal: not a git repository (or any of the parent directories): .git",
+        "os": "Windows",
+        "os version": "2019Server"
+    }
+}

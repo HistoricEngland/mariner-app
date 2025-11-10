@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/c7652b76-2bdb-4648-91e0-1417bc23d93e">
+    <skos:inScheme>
+      <skos:ConceptScheme rdf:about="https://nmhr.historicengland.org.uk/9b1e4da1-c855-4f2b-8b67-5568311bf872">
+        <skos:hasTopConcept rdf:resource="https://nmhr.historicengland.org.uk/c7652b76-2bdb-4648-91e0-1417bc23d93e"/>
+        <skos:hasTopConcept rdf:resource="https://nmhr.historicengland.org.uk/edc29262-6827-4dd3-af1b-cd012033b4f6"/>
+        <skos:hasTopConcept rdf:resource="https://nmhr.historicengland.org.uk/3084ce2d-b012-485e-a652-0ae929de0d52"/>
+        <skos:hasTopConcept rdf:resource="https://nmhr.historicengland.org.uk/6583a77d-9752-4188-8f39-6ea9ab7ef074"/>
+        <skos:hasTopConcept rdf:resource="https://nmhr.historicengland.org.uk/74cfdd28-d121-4bfa-968f-0be7a1bbf471"/>
+        <skos:hasTopConcept rdf:resource="https://nmhr.historicengland.org.uk/df1d5154-3a41-4b02-b525-cf3a89e8462f"/>
+        <skos:hasTopConcept rdf:resource="https://nmhr.historicengland.org.uk/1e0b9eb1-241e-4a01-81d0-d5ccce135817"/>
+        <dcterms:title xml:lang="en">{"id": "b6282c14-7107-43be-820c-5c226292387d", "value": "Maritime Orientation"}</dcterms:title>
+        <skos:hasTopConcept rdf:resource="https://nmhr.historicengland.org.uk/da5ba922-e69e-4574-9c6e-0efb8ee6e8b9"/>
+      </skos:ConceptScheme>
+    </skos:inScheme>
+    <skos:prefLabel xml:lang="en">{"id": "0dacd51d-3365-4b44-9d3f-f9d11208e242", "value": "E-W"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/1e0b9eb1-241e-4a01-81d0-d5ccce135817">
+    <skos:prefLabel xml:lang="en">{"id": "128e6356-b44a-4bc7-ac12-ff7f9a7791ba", "value": "N-S"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/9b1e4da1-c855-4f2b-8b67-5568311bf872"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/da5ba922-e69e-4574-9c6e-0efb8ee6e8b9">
+    <skos:prefLabel xml:lang="en">{"id": "fa7eabc6-5bc2-4a77-b98c-d0927675b014", "value": "S-N"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/9b1e4da1-c855-4f2b-8b67-5568311bf872"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/6583a77d-9752-4188-8f39-6ea9ab7ef074">
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/9b1e4da1-c855-4f2b-8b67-5568311bf872"/>
+    <skos:prefLabel xml:lang="en">{"id": "7c2271b4-67e1-4184-a61c-668b47c5b1f4", "value": "SE-NW"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/df1d5154-3a41-4b02-b525-cf3a89e8462f">
+    <skos:prefLabel xml:lang="en">{"id": "4e4099dc-72cb-4934-ad5f-509d349ed69a", "value": "NE-SW"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/9b1e4da1-c855-4f2b-8b67-5568311bf872"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/edc29262-6827-4dd3-af1b-cd012033b4f6">
+    <skos:prefLabel xml:lang="en">{"id": "85118751-b3c0-4b46-b4bf-a58f6dcf3f0c", "value": "SW-NE"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/9b1e4da1-c855-4f2b-8b67-5568311bf872"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/086c0606-ca60-4626-b8fc-d2ef56827f75">
+        <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/9b1e4da1-c855-4f2b-8b67-5568311bf872"/>
+        <skos:prefLabel xml:lang="en">{"id": "34567637-2f48-4e0c-8b7b-3ba16f83fc16", "value": "ssw-nne"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/3084ce2d-b012-485e-a652-0ae929de0d52">
+    <skos:prefLabel xml:lang="en">{"id": "6fcb0d0b-e0c1-4c2a-9a03-a45c586af012", "value": "NW-SE"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/9b1e4da1-c855-4f2b-8b67-5568311bf872"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/74cfdd28-d121-4bfa-968f-0be7a1bbf471">
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/9b1e4da1-c855-4f2b-8b67-5568311bf872"/>
+    <skos:prefLabel xml:lang="en">{"id": "798fee28-e1b4-46b0-8880-f1b56814e4e8", "value": "W-E"}</skos:prefLabel>
+  </skos:Concept>
+</rdf:RDF>

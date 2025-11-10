@@ -1,0 +1,1167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/734d30b5-9b31-30ca-8cae-b7ee34920a93">
+    <skos:narrower>
+      <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/ed8890f7-c92c-323e-86f5-240d5f715033">
+        <skos:scopeNote xml:lang="en">{"id": "35ffb172-8f6e-4dc2-abad-99e45a1c476c", "value": "This class of documents confers statutory designation on the monuments listed within them. It usually is restricted to legally defined national or local notifications of designation."}</skos:scopeNote>
+        <skos:prefLabel xml:lang="en">{"id": "83c684eb-d72b-4b3a-abb5-a894f4dda812", "value": "Statutory Designation Notification"}</skos:prefLabel>
+        <skos:narrower rdf:resource="https://nmhr.historicengland.org.uk/e6780b97-c37b-3afc-80aa-de9de5270ee2"/>
+        <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/1d8bd761-4aba-3221-ad21-9c1567a6eeb6"/>
+        <skos:narrower rdf:resource="https://nmhr.historicengland.org.uk/d4be2b0a-885a-36cc-b824-6a5693ee84ce"/>
+        <dcterms:identifier xml:lang="en">{"id": "f8ac2518-1d65-46d5-879d-d8d14a154fa8", "value": "http://purl.org/heritagedata/schemes/547/concepts/139577"}</dcterms:identifier>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:scopeNote xml:lang="en">{"id": "a62d22d0-e512-48f6-a35c-401be46d28f2", "value": "This term is appropriate to official notifications of a monument or area whether they are statutory or purely advisory. Where possible the specific document type should be indexed for example Scheduled Monument Notification."}</skos:scopeNote>
+    <skos:narrower>
+      <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/a0a29399-a54a-3dc7-ae52-6e057906b55e">
+        <skos:narrower rdf:resource="https://nmhr.historicengland.org.uk/35367a5d-2a7a-3c61-bd58-f9f8761971d9"/>
+        <skos:narrower rdf:resource="https://nmhr.historicengland.org.uk/a186d18b-56f8-3590-b3c0-4b0b9f91e7d8"/>
+        <skos:prefLabel xml:lang="en">{"id": "730947b9-dbb3-4134-8ce9-bc98abedfa9f", "value": "Advisory Designation Notification"}</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">{"id": "3cf097dc-4b7f-4c6c-81c5-9dc9fcd6cdc6", "value": "The contents of these documents do not confer any statutory designation on the monuments listed, they are purely advisory notifications for use within preserving the historic environment."}</skos:scopeNote>
+        <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/1d8bd761-4aba-3221-ad21-9c1567a6eeb6"/>
+        <dcterms:identifier xml:lang="en">{"id": "9f403aa3-1329-44d3-a75a-7ed0b8e59736", "value": "http://purl.org/heritagedata/schemes/547/concepts/139578"}</dcterms:identifier>
+      </skos:Concept>
+    </skos:narrower>
+    <dcterms:identifier xml:lang="en">{"id": "87d01d42-652e-4a68-b0c5-8bf6c08682a1", "value": "http://purl.org/heritagedata/schemes/547/concepts/139576"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="en">{"id": "0344b227-b693-4f86-b9f8-7cda0eae7c30", "value": "Official Designation Notification"}</skos:prefLabel>
+    <skos:inScheme>
+      <skos:ConceptScheme rdf:about="https://nmhr.historicengland.org.uk/1d8bd761-4aba-3221-ad21-9c1567a6eeb6">
+        <dcterms:title xml:lang="en">{"id": "6cf46163-01ed-4c9e-8728-bc443194f102", "value": "FISH Resource Description Thesaurus"}</dcterms:title>
+        <skos:hasTopConcept rdf:resource="https://nmhr.historicengland.org.uk/66d49fee-1081-369e-9b15-01bd920071e3"/>
+        <skos:hasTopConcept rdf:resource="https://nmhr.historicengland.org.uk/66500478-51e4-39d3-8a46-f2dcbdf7600a"/>
+        <dcterms:identifier xml:lang="en">{"id": "e20d7e01-7672-4ebb-9f55-c1b9c78cde13", "value": "http://purl.org/heritagedata/schemes/547"}</dcterms:identifier>
+        <dcterms:description xml:lang="en">{"id": "01a574a4-8a28-41cd-bf16-96e8999083d6", "value": "Terminology for the description of archive type and format, now updated by FISH (e.g. excavation report, newspaper article, video clip). Originally developed by English Heritage and the National Trust."}</dcterms:description>
+      </skos:ConceptScheme>
+    </skos:inScheme>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/d706af52-ab8f-3dad-a887-21b4718a1efa">
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/1d8bd761-4aba-3221-ad21-9c1567a6eeb6"/>
+    <dcterms:identifier xml:lang="en">{"id": "20d7e240-0393-4dc2-a5bc-8978fb5387f7", "value": "http://purl.org/heritagedata/schemes/547/concepts/138716"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="en">{"id": "02bfecc6-083f-4f44-b67b-ef6444272d02", "value": "Planning Archive"}</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">{"id": "b4b29962-fb73-4b73-9f06-45527c1783c3", "value": "Documents relating to the administration of planning applications."}</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/2a59455f-2610-3ec9-a356-59a90d7e2928">
+    <skos:narrower>
+      <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/4c84f298-bfa9-3bfc-9304-cb8b928c85ce">
+        <skos:prefLabel xml:lang="en">{"id": "b8267531-539b-44b2-b83f-f045bc977c05", "value": "Floppy Disc"}</skos:prefLabel>
+        <skos:altLabel xml:lang="en">{"id": "d189fdba-6c26-445d-8530-9f79025e1eab", "value": "Floppy Disk"}</skos:altLabel>
+        <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/1d8bd761-4aba-3221-ad21-9c1567a6eeb6"/>
+        <dcterms:identifier xml:lang="en">{"id": "74d04985-383c-4b49-8dce-d8a36a7ba61b", "value": "http://purl.org/heritagedata/schemes/547/concepts/138811"}</dcterms:identifier>
+        <skos:scopeNote xml:lang="en">{"id": "3d6c4ced-13a6-489f-aaef-3472e4040dbf", "value": "Thin round flexible disc with magnetic surfaces for storing and retrieving data. [AAT]"}</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/1d8bd761-4aba-3221-ad21-9c1567a6eeb6"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/50f52fc9-df59-374a-8746-3c57ba131f23">
+        <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/1d8bd761-4aba-3221-ad21-9c1567a6eeb6"/>
+        <dcterms:identifier xml:lang="en">{"id": "459bd807-f109-4551-bc2e-2cac68c52f8e", "value": "http://purl.org/heritagedata/schemes/547/concepts/138808"}</dcterms:identifier>
+        <skos:altLabel xml:lang="en">{"id": "8b0499a4-35b0-4225-9962-854fcd93bb50", "value": "Digital Video Disk"}</skos:altLabel>
+        <skos:altLabel xml:lang="en">{"id": "20d36141-e885-4d85-a9be-50b36ecc4f13", "value": "Digital Versatile Disk"}</skos:altLabel>
+        <skos:altLabel xml:lang="en">{"id": "cb21bf00-3a8b-477e-9eff-f340220cc175", "value": "DVD"}</skos:altLabel>
+        <skos:scopeNote xml:lang="en">{"id": "ba914d7b-dd5b-4e91-b68c-37a0c9bcaeb8", "value": "A disc capable of holding more data than a conventional CD or CD-Rom. Commonly used as storage medium for film and interactive products."}</skos:scopeNote>
+        <skos:prefLabel xml:lang="en">{"id": "55301901-24b7-42a5-ac34-99bc12c82716", "value": "Digital Versatile Disc"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/82aa2ffe-3144-31be-9e38-258896d0980b">
+        <skos:narrower rdf:resource="https://nmhr.historicengland.org.uk/403aa55d-b68e-39ba-9e17-4aa67ed446f3"/>
+        <dcterms:identifier xml:lang="en">{"id": "1cc45b34-49eb-4d85-aebf-ae973ef798cf", "value": "http://purl.org/heritagedata/schemes/547/concepts/138713"}</dcterms:identifier>
+        <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/1d8bd761-4aba-3221-ad21-9c1567a6eeb6"/>
+        <skos:scopeNote xml:lang="en">{"id": "b68038b9-044e-4afe-9eaf-0003023575e2", "value": "The storage of material (text, images, files etc) in an electromagnetic format."}</skos:scopeNote>
+        <skos:prefLabel xml:lang="en">{"id": "3a6d2383-7486-4489-9c1a-2b713c975a4d", "value": "Magnetic Storage Medium"}</skos:prefLabel>
+        <skos:narrower rdf:resource="https://nmhr.historicengland.org.uk/3e7e1a19-8adc-3024-99d9-8f41ef2096c4"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/fe479526-907f-34f1-871e-ea0e66274d90">
+        <skos:altLabel xml:lang="en">{"id": "d99cfe8b-0e3b-43b5-ac97-1fbbb37ca21d", "value": "Optical Disk"}</skos:altLabel>
+        <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/1d8bd761-4aba-3221-ad21-9c1567a6eeb6"/>
+        <skos:altLabel xml:lang="en">{"id": "2cbe3bfc-7e2e-4f7c-b43a-1993be087055", "value": "Laser Disc"}</skos:altLabel>
+        <skos:prefLabel xml:lang="en">{"id": "948e75db-55b2-4b45-bb47-7dd195e0fb74", "value": "Optical Disc"}</skos:prefLabel>
+        <dcterms:identifier xml:lang="en">{"id": "97a2dba9-96fb-4d16-aafe-5178c98ee388", "value": "http://purl.org/heritagedata/schemes/547/concepts/139033"}</dcterms:identifier>
+        <skos:scopeNote xml:lang="en">{"id": "225e44ef-6c5c-494e-be88-7c100220496c", "value": "Data storage device in disc form that uses lasers to write and access data; can store data in analog or digital form. [AAT]"}</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:scopeNote xml:lang="en">{"id": "fda96609-14bc-4e82-8909-726ad894c58e", "value": "Storage medium for information (text, images, files etc) in an encoded digital format."}</skos:scopeNote>
+    <skos:narrower>
+      <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/fcf5f56b-77e4-3273-b2eb-9242970a75d2">
+        <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/1d8bd761-4aba-3221-ad21-9c1567a6eeb6"/>
+        <dcterms:identifier xml:lang="en">{"id": "1fbec983-a6e9-410c-aa4a-2f72a265d08b", "value": "http://purl.org/heritagedata/schemes/547/concepts/138813"}</dcterms:identifier>
+        <skos:prefLabel xml:lang="en">{"id": "1946c9df-2c9e-4b1a-9baa-a2247f6330db", "value": "Computer File"}</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">{"id": "df72e97d-b4c0-4831-bf1c-e148fdda42bd", "value": "Data stored in a format that is meant to be manipulated and read in one or more software systems."}</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+    <dcterms:identifier xml:lang="en">{"id": "51c3081d-f7ec-4a1c-bcfa-e5f49a23d300", "value": "http://purl.org/heritagedata/schemes/547/concepts/138712"}</dcterms:identifier>
+    <skos:narrower>
+      <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/cb4b3da9-c3c0-3d0e-9896-71ff6f4c2d3a">
+        <skos:altLabel xml:lang="en">{"id": "940940c0-7278-42da-9dc3-370322788b57", "value": "CD"}</skos:altLabel>
+        <skos:altLabel xml:lang="en">{"id": "b5ae8fe2-74ed-41fc-bc5d-94c2592d51fc", "value": "Compact Disk"}</skos:altLabel>
+        <skos:scopeNote xml:lang="en">{"id": "bba58031-6453-417a-adc7-26a7e15aa1ae", "value": "Optical discs on which programs, data, or music are digitally encoded for a laser beam to scan, decode and transmit to a playback system, computer monitor or television set. [AAT]"}</skos:scopeNote>
+        <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/1d8bd761-4aba-3221-ad21-9c1567a6eeb6"/>
+        <skos:prefLabel xml:lang="en">{"id": "4509954c-a684-4e68-9e5a-341b62180801", "value": "Compact Disc"}</skos:prefLabel>
+        <dcterms:identifier xml:lang="en">{"id": "57d94f4c-b8bc-47ad-92a1-e2badb42faa0", "value": "http://purl.org/heritagedata/schemes/547/concepts/138810"}</dcterms:identifier>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:prefLabel xml:lang="en">{"id": "da61b904-f040-4289-99b4-3781d1777ec2", "value": "Machine Readable Storage Medium"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/e550ac26-5360-36a6-966b-b2dd352fbab2">
+    <skos:narrower>
+      <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/ade1d5e1-5afd-392e-8842-9dbea731b617">
+        <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/1d8bd761-4aba-3221-ad21-9c1567a6eeb6"/>
+        <dcterms:identifier xml:lang="en">{"id": "a6498932-cb6c-415e-9727-e94a6de53844", "value": "http://purl.org/heritagedata/schemes/547/concepts/138821"}</dcterms:identifier>
+        <skos:prefLabel xml:lang="en">{"id": "c9220bb5-9cd5-45b6-bd6d-b99052b04c05", "value": "Black And White Print"}</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">{"id": "14ab753c-8a22-489b-b0d6-ff5e35830e3b", "value": "A photographic print of a mononchrome image (composed of grey, black and white tones)."}</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/6f97148c-83c8-3523-94a2-81f294e237fe">
+        <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/1d8bd761-4aba-3221-ad21-9c1567a6eeb6"/>
+        <skos:prefLabel xml:lang="en">{"id": "14f0afeb-1f98-4126-9ca3-675dda4904a2", "value": "Colour Negative"}</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">{"id": "a2f0c75a-8ba9-4b5e-a4ef-0b6806ada143", "value": "A photographic frame of developed colour film which can be used to print a photographic image."}</skos:scopeNote>
+        <dcterms:identifier xml:lang="en">{"id": "5d166399-ebdd-4c34-a8c2-8c70808b5485", "value": "http://purl.org/heritagedata/schemes/547/concepts/138826"}</dcterms:identifier>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:prefLabel xml:lang="en">{"id": "edeacfff-283f-4c6e-a5b6-8c0f88b4d6be", "value": "Photographic Medium"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/1d8bd761-4aba-3221-ad21-9c1567a6eeb6"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/6c9d32e8-5781-35aa-89df-5c60f1a92dd0">
+        <skos:prefLabel xml:lang="en">{"id": "04a50c54-c2db-4182-9295-f9973e2e9983", "value": "Black And White Negative"}</skos:prefLabel>
+        <dcterms:identifier xml:lang="en">{"id": "b58bc686-2e03-4ac7-9c39-583c9205f020", "value": "http://purl.org/heritagedata/schemes/547/concepts/138827"}</dcterms:identifier>
+        <skos:scopeNote xml:lang="en">{"id": "4759077f-8165-4ac6-99e8-f37116b42d39", "value": "A photographic frame of developed black and white film from which a positive print can be produced."}</skos:scopeNote>
+        <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/1d8bd761-4aba-3221-ad21-9c1567a6eeb6"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/3cd8a05a-faa7-3c9c-bc64-23b6a1d0dca6">
+        <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/1d8bd761-4aba-3221-ad21-9c1567a6eeb6"/>
+        <dcterms:identifier xml:lang="en">{"id": "4fcbb5c4-9530-4b41-b21e-ad42290509c6", "value": "http://purl.org/heritagedata/schemes/547/concepts/138820"}</dcterms:identifier>
+        <skos:scopeNote xml:lang="en">{"id": "00af5b5c-c603-4c97-8b09-e23a390685b2", "value": "A photographic print of a polychrome image (composed of colours other than, but not exclusive of, black, white or grey tones)."}</skos:scopeNote>
+        <skos:prefLabel xml:lang="en">{"id": "6d7ee763-60b4-40b4-8e4a-c2a2efe5c6a8", "value": "Colour Print"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/67218d7e-73af-3383-9cef-704c415a3128">
+        <skos:prefLabel xml:lang="en">{"id": "f8fa69e8-57ac-45bd-b603-46f3a208c8cf", "value": "Black And White Transparency"}</skos:prefLabel>
+        <dcterms:identifier xml:lang="en">{"id": "bbd9cca3-aae3-4889-b9d1-077297a5efab", "value": "http://purl.org/heritagedata/schemes/547/concepts/138825"}</dcterms:identifier>
+        <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/1d8bd761-4aba-3221-ad21-9c1567a6eeb6"/>
+        <skos:scopeNote xml:lang="en">{"id": "8f5c344d-3202-4543-91d9-c962b95df1a6", "value": "A positive black and white image on film which can be projected onto a screen when light is shone through it."}</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:scopeNote xml:lang="en">{"id": "3c65411b-49f6-4b7f-8d08-ab029431bce3", "value": "The class or material that a photograph is produced upon. [AAT] Use a specific term or terms as appropriate."}</skos:scopeNote>
+    <skos:narrower>
+      <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/bd42d774-bbe5-3a85-a004-0af33a6aec8d">
+        <dcterms:identifier xml:lang="en">{"id": "423a0f40-0012-466f-87d2-a8263b75c6d7", "value": "http://purl.org/heritagedata/schemes/547/concepts/138819"}</dcterms:identifier>
+        <skos:prefLabel xml:lang="en">{"id": "c177ccd0-1dca-4852-aa2f-c60b14c48c5f", "value": "Glass Plate"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/1d8bd761-4aba-3221-ad21-9c1567a6eeb6"/>
+        <skos:scopeNote xml:lang="en">{"id": "dec8aaeb-57f8-4f9b-aaa9-de601f776fff", "value": "A sheet of glass coated in a light sensitive substance on which a photgraphic image can be developed."}</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/6c0a04ee-dd53-3ef0-811f-703692d2b0ab">
+        <skos:prefLabel xml:lang="en">{"id": "ada86347-914c-45de-80dc-8336fc0f5099", "value": "Colour Transparency"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/1d8bd761-4aba-3221-ad21-9c1567a6eeb6"/>
+        <dcterms:identifier xml:lang="en">{"id": "de8fcd4a-5e85-42e7-99e0-256e936de943", "value": "http://purl.org/heritagedata/schemes/547/concepts/138824"}</dcterms:identifier>
+        <skos:scopeNote xml:lang="en">{"id": "53e27c44-4a2f-4042-adda-04602afffc75", "value": "A positive colour image on film which can be projected onto a screen when light is shone through it."}</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+    <dcterms:identifier xml:lang="en">{"id": "2dfd69dc-85a2-4e53-8510-3f8b8e324f89", "value": "http://purl.org/heritagedata/schemes/547/concepts/138817"}</dcterms:identifier>
+    <skos:narrower>
+      <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/b4714e16-1249-345e-867c-1ee520769a40">
+        <skos:narrower rdf:resource="https://nmhr.historicengland.org.uk/ea566ba9-05af-32d1-a0fe-ac91c0c30104"/>
+        <skos:scopeNote xml:lang="en">{"id": "aa98f106-3f4f-4064-86f9-28b5eed993c3", "value": "A medium containing microphotographic images, usually reproduced on film, requiring magnification to render them readable."}</skos:scopeNote>
+        <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/1d8bd761-4aba-3221-ad21-9c1567a6eeb6"/>
+        <skos:prefLabel xml:lang="en">{"id": "d6f25291-cb3a-438d-b650-4491c00fd556", "value": "Microform"}</skos:prefLabel>
+        <skos:narrower rdf:resource="https://nmhr.historicengland.org.uk/0d42dd8c-6027-3c89-bea3-e4c62724dda9"/>
+        <dcterms:identifier xml:lang="en">{"id": "9a586db8-3c7d-46c7-9458-5c3905c5dbfa", "value": "http://purl.org/heritagedata/schemes/547/concepts/141680"}</dcterms:identifier>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/44db3964-b1fe-3904-9e44-f286e52cc040">
+        <skos:prefLabel xml:lang="en">{"id": "27447329-a4fc-4621-a4f9-721dd3aaca4a", "value": "Infrared Film"}</skos:prefLabel>
+        <dcterms:identifier xml:lang="en">{"id": "47ef3bcb-093a-4e40-9b5c-10a8821101b7", "value": "http://purl.org/heritagedata/schemes/547/concepts/138818"}</dcterms:identifier>
+        <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/1d8bd761-4aba-3221-ad21-9c1567a6eeb6"/>
+        <skos:scopeNote xml:lang="en">{"id": "558bea23-6378-427c-965e-9c6ea264041f", "value": "Photographic film responsive to infrared radiation. Used to record temperature variations in the subject, indicative of hidden archaeological or architectural features."}</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/1c584ce5-332b-3330-800f-31dc49e357af">
+        <skos:scopeNote xml:lang="en">{"id": "ca3caf75-d553-499c-b4ae-61218a671fa8", "value": "A photographic slide of a black and white (monochromatic) image."}</skos:scopeNote>
+        <dcterms:identifier xml:lang="en">{"id": "f6bdfb69-fd4d-4c7c-aab4-8f925b0229de", "value": "http://purl.org/heritagedata/schemes/547/concepts/138823"}</dcterms:identifier>
+        <skos:prefLabel xml:lang="en">{"id": "9bc63bee-6269-4cb9-8de5-a8db0f35dcf5", "value": "Black And White Slide"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/1d8bd761-4aba-3221-ad21-9c1567a6eeb6"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/62c6ae7e-20fd-32a4-a4ba-b8a9f578bc64">
+        <dcterms:identifier xml:lang="en">{"id": "de07fb51-7553-4c96-8f7d-84f1c571435b", "value": "http://purl.org/heritagedata/schemes/547/concepts/138822"}</dcterms:identifier>
+        <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/1d8bd761-4aba-3221-ad21-9c1567a6eeb6"/>
+        <skos:scopeNote xml:lang="en">{"id": "f65fd560-30b3-464b-ab24-565089ba719f", "value": "A photographic slide of a colour (polychromatic) image."}</skos:scopeNote>
+        <skos:prefLabel xml:lang="en">{"id": "c9f9a6ef-fb6e-407e-a40e-dd41f6595e60", "value": "Colour Slide"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/50f2136f-7423-3e1c-a596-5d88d0ae51ee">
+    <skos:narrower>
+      <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/48fefc59-00df-332e-9e9b-6547778a020a">
+        <skos:scopeNote xml:lang="en">{"id": "da43c9a8-6c72-4bdf-a1d6-e42d2a22b76c", "value": "An image created manually using paint or pigments, to record, illustrate or convey impressions."}</skos:scopeNote>
+        <skos:prefLabel xml:lang="en">{"id": "0d7cea21-c06d-4499-89f2-e2fe7d85ff94", "value": "Painting"}</skos:prefLabel>
+        <dcterms:identifier xml:lang="en">{"id": "585721ea-a3b0-4ba5-829c-e979bb1f8291", "value": "http://purl.org/heritagedata/schemes/547/concepts/138744"}</dcterms:identifier>
+        <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/1d8bd761-4aba-3221-ad21-9c1567a6eeb6"/>
+      </skos:Concept>
+    </skos:narrower>
+    <dcterms:identifier xml:lang="en">{"id": "9ffd56c7-e889-4af1-bd97-b83947008b54", "value": "http://purl.org/heritagedata/schemes/547/concepts/138736"}</dcterms:identifier>
+    <skos:narrower>
+      <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/86a15093-1c91-32b7-8acf-13b6a1f0c86e">
+        <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/1d8bd761-4aba-3221-ad21-9c1567a6eeb6"/>
+        <skos:prefLabel xml:lang="en">{"id": "95b1ea6a-cb1d-437f-b002-b56f65f77bb9", "value": "Picture Postcard"}</skos:prefLabel>
+        <dcterms:identifier xml:lang="en">{"id": "c82645b4-56c4-4dab-a411-35af91aba7f9", "value": "http://purl.org/heritagedata/schemes/547/concepts/138737"}</dcterms:identifier>
+        <skos:scopeNote xml:lang="en">{"id": "24f22640-9d4c-4f89-b87e-ff49c7ccbe5c", "value": "Card printed with an image, often a photograph on one side, and space for a short message and a postal address on the other."}</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/537474de-b1b0-391f-a8c4-71d5a19998e8">
+        <dcterms:identifier xml:lang="en">{"id": "f1c61de6-9c41-4353-b2db-d11e5f1b0fc0", "value": "http://purl.org/heritagedata/schemes/547/concepts/139014"}</dcterms:identifier>
+        <skos:scopeNote xml:lang="en">{"id": "a5f2ff21-f277-4c6c-b299-dd90de5aee23", "value": "Reproduced image derived by mechanical printing from an image engraved or carved on a suitable surface."}</skos:scopeNote>
+        <skos:narrower rdf:resource="https://nmhr.historicengland.org.uk/53045ff8-7eff-3acc-85d3-a3598bce32d6"/>
+        <skos:prefLabel xml:lang="en">{"id": "f45791ec-2724-4f69-bea9-972f98f13bf5", "value": "Mechanical Print"}</skos:prefLabel>
+        <skos:narrower rdf:resource="https://nmhr.historicengland.org.uk/a801327e-e2e3-3842-bd7b-5249f7fb27b4"/>
+        <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/1d8bd761-4aba-3221-ad21-9c1567a6eeb6"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:scopeNote xml:lang="en">{"id": "93f6224f-0ecf-4689-8b81-80aa164be4ae", "value": "General term for images used to represent a particular place or item, or convey information."}</skos:scopeNote>
+    <skos:narrower>
+      <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/fe75d9d7-36ee-3be5-90e9-0e4230254887">
+        <skos:narrower rdf:resource="https://nmhr.historicengland.org.uk/0b29a2e4-54b9-379c-938a-db24418c4308"/>
+        <skos:narrower rdf:resource="https://nmhr.historicengland.org.uk/94a2197f-e619-3591-bb59-54cebb306984"/>
+        <skos:scopeNote xml:lang="en">{"id": "b31f7c51-8ffb-40eb-b5fe-62d20673ba74", "value": "A manually produced image for illustration or record purposes."}</skos:scopeNote>
+        <skos:prefLabel xml:lang="en">{"id": "1fd58664-38d6-4bf6-aa3b-620209500028", "value": "Drawing"}</skos:prefLabel>
+        <dcterms:identifier xml:lang="en">{"id": "ead2483b-bb12-4ef7-a8ab-c854db0fa036", "value": "http://purl.org/heritagedata/schemes/547/concepts/138740"}</dcterms:identifier>
+        <skos:narrower rdf:resource="https://nmhr.historicengland.org.uk/5e0aaebb-3e3e-37fd-a79a-69a27667e12f"/>
+        <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/1d8bd761-4aba-3221-ad21-9c1567a6eeb6"/>
+        <skos:narrower rdf:resource="https://nmhr.historicengland.org.uk/fc74c8fc-9d8d-3034-86de-8e9a05aea5d8"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/292078ba-5f63-3b02-aa42-ef8e1a8cf8b0">
+        <skos:scopeNote xml:lang="en">{"id": "917aae2e-b1c0-487e-9cb4-995bcac2b9bd", "value": "An image used to convey information, often as part of a larger publication or exhibition."}</skos:scopeNote>
+        <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/1d8bd761-4aba-3221-ad21-9c1567a6eeb6"/>
+        <skos:prefLabel xml:lang="en">{"id": "91bd4922-29ef-4e1b-ba0c-7cc2c10e5b41", "value": "Illustration"}</skos:prefLabel>
+        <dcterms:identifier xml:lang="en">{"id": "c7af31f1-8ac3-4b46-9ba2-cc1c7c5cb050", "value": "http://purl.org/heritagedata/schemes/547/concepts/138738"}</dcterms:identifier>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/9aff1106-357e-37ce-b2b5-ea1a338a74a3">
+        <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/1d8bd761-4aba-3221-ad21-9c1567a6eeb6"/>
+        <dcterms:identifier xml:lang="en">{"id": "7209a8f9-b71d-414e-9e8b-1aac12405b77", "value": "http://purl.org/heritagedata/schemes/547/concepts/138741"}</dcterms:identifier>
+        <skos:prefLabel xml:lang="en">{"id": "5daeb821-d383-46a5-900b-968db97b1834", "value": "Sketch"}</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">{"id": "8fd5ee33-397a-4c56-8e73-ac638759ff1e", "value": "A drawing, often made in the field as the basis for later work, or to quickly convey important information."}</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:prefLabel xml:lang="en">{"id": "6b40f459-cc87-4bfd-acea-2e85717b8503", "value": "Picture"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/1d8bd761-4aba-3221-ad21-9c1567a6eeb6"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/f86e9327-2132-325b-8b45-66da654a1263">
+    <skos:prefLabel xml:lang="en">{"id": "98ba50b3-57d8-4673-b723-e4cc27e683cc", "value": "Off Print"}</skos:prefLabel>
+    <skos:altLabel xml:lang="en">{"id": "f67c4372-7a25-4b28-b6a7-199bd2d3dd5c", "value": "Offprint"}</skos:altLabel>
+    <skos:scopeNote xml:lang="en">{"id": "9bec764c-1b0c-4732-a693-359a40596191", "value": "-"}</skos:scopeNote>
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/1d8bd761-4aba-3221-ad21-9c1567a6eeb6"/>
+    <dcterms:identifier xml:lang="en">{"id": "4e376a51-5a13-400c-9afd-31a92729cafc", "value": "http://purl.org/heritagedata/schemes/547/concepts/167910"}</dcterms:identifier>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/c0c8d0a5-4504-338d-b43c-a24f90fbeee9">
+    <skos:scopeNote xml:lang="en">{"id": "83dc3340-f850-4ffb-88fa-5f225afdba96", "value": "A hard copy of digital data that has been printed onto paper."}</skos:scopeNote>
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/1d8bd761-4aba-3221-ad21-9c1567a6eeb6"/>
+    <dcterms:identifier xml:lang="en">{"id": "8a85f274-8f05-4280-958d-db1d7649c487", "value": "http://purl.org/heritagedata/schemes/547/concepts/167918"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="en">{"id": "4c09a694-f9ff-48d8-8b53-e7451996a948", "value": "Print Out"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/c968538d-405a-359c-8081-6b96b9153d16">
+    <skos:narrower>
+      <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/cf18992a-7004-3cbb-875c-c047173a1d22">
+        <skos:prefLabel xml:lang="en">{"id": "3c07ba96-61c8-4360-8ce1-f876511d01b7", "value": "Radio Programme"}</skos:prefLabel>
+        <dcterms:identifier xml:lang="en">{"id": "cfe8910e-b8b7-4565-9d25-11ec72f7f695", "value": "http://purl.org/heritagedata/schemes/547/concepts/139051"}</dcterms:identifier>
+        <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/1d8bd761-4aba-3221-ad21-9c1567a6eeb6"/>
+        <skos:scopeNote xml:lang="en">{"id": "3c36fd70-3d7c-4b4b-aeac-dd27d8c3add5", "value": "Recording of a complete broadcast radio programme."}</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:scopeNote xml:lang="en">{"id": "d0626451-cf2d-4137-bd60-72009f139bcc", "value": "A sound is a resource whose content is primarily intended to be rendered as audio. [DC] For example recorded speech, sounds or music."}</skos:scopeNote>
+    <dcterms:identifier xml:lang="en">{"id": "56dc662f-370e-4cc1-ad49-1c6983bcfc76", "value": "http://purl.org/heritagedata/schemes/547/concepts/138708"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="en">{"id": "a8e8957e-b0b2-4fce-b8a9-24992bde7d24", "value": "Sound"}</skos:prefLabel>
+    <skos:narrower>
+      <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/be1810ae-f825-3b47-a5dd-a45acdf84a92">
+        <dcterms:identifier xml:lang="en">{"id": "6f41cd6e-be28-4566-847a-acd2b0f235fc", "value": "http://purl.org/heritagedata/schemes/547/concepts/138788"}</dcterms:identifier>
+        <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/1d8bd761-4aba-3221-ad21-9c1567a6eeb6"/>
+        <skos:scopeNote xml:lang="en">{"id": "7941c804-84f0-4c2e-a3d9-127e557d9e78", "value": "Recorded interview intended to preserve the recollections of persons whose experiences or memories are representative of historical life."}</skos:scopeNote>
+        <skos:prefLabel xml:lang="en">{"id": "469a9ad1-5806-41a6-88b8-0e9310b99170", "value": "Oral History Recording"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/1d8bd761-4aba-3221-ad21-9c1567a6eeb6"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/a49f0599-01d0-3008-b673-066c4b51f14b">
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/1d8bd761-4aba-3221-ad21-9c1567a6eeb6"/>
+    <skos:prefLabel xml:lang="en">{"id": "37b25a54-c58e-478d-b81a-44f64fbaa4ab", "value": "Sketch Map"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "1cdd0183-a191-4cae-9d0c-0af595f3499d", "value": "http://purl.org/heritagedata/schemes/547/concepts/138734"}</dcterms:identifier>
+    <skos:scopeNote xml:lang="en">{"id": "269232b3-86f2-4917-a372-314a05036025", "value": "A map generally produced manually to indicate main features of an area quickly, for example to assist location of a particular place."}</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/6eee9995-c310-3830-9e03-0ea4c9bac70f">
+    <skos:narrower>
+      <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/c165a910-1dfb-3a43-a57c-ecf959498286">
+        <skos:scopeNote xml:lang="en">{"id": "c6c2641f-2577-45fe-a59f-cadb7d2a028c", "value": "Written copy of recorded interviews collected to illustrate history from personal experiences."}</skos:scopeNote>
+        <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/1d8bd761-4aba-3221-ad21-9c1567a6eeb6"/>
+        <dcterms:identifier xml:lang="en">{"id": "640d6a88-c41a-4725-97a0-ea4c44238a11", "value": "http://purl.org/heritagedata/schemes/547/concepts/139038"}</dcterms:identifier>
+        <skos:prefLabel xml:lang="en">{"id": "18a701ba-5bd7-4eae-946d-d4d0e1d29850", "value": "Oral History Transcript"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/f6182e31-04a4-39b5-a64f-e32b5511a38f">
+        <skos:altLabel xml:lang="en">{"id": "4b33622e-fcac-471e-b38f-244f9e73f0ed", "value": "Unpublished Document"}</skos:altLabel>
+        <dcterms:identifier xml:lang="en">{"id": "77b6e9f0-9f9b-4db5-b497-8f8777fa3e0c", "value": "http://purl.org/heritagedata/schemes/547/concepts/171105"}</dcterms:identifier>
+        <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/1d8bd761-4aba-3221-ad21-9c1567a6eeb6"/>
+        <skos:scopeNote xml:lang="en">{"id": "c4eec308-92b8-4c9e-b0c2-9eb262028a6a", "value": "A paper or set of papers with written or printed information, especially of an official type."}</skos:scopeNote>
+        <skos:prefLabel xml:lang="en">{"id": "5c812c2f-727d-4944-963a-801c3ffc7653", "value": "Document"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/969eb155-0c9c-3d7c-8770-509263c8a07a">
+        <skos:scopeNote xml:lang="en">{"id": "244dbbda-6cdf-4e2c-856c-069466eb9be0", "value": "A chronological journal, generally showing appointments, or recording memories and impressions of a days events over a period of time."}</skos:scopeNote>
+        <dcterms:identifier xml:lang="en">{"id": "c2cb15ee-dd3e-41d0-b382-cc7bcabdb0b1", "value": "http://purl.org/heritagedata/schemes/547/concepts/138765"}</dcterms:identifier>
+        <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/1d8bd761-4aba-3221-ad21-9c1567a6eeb6"/>
+        <skos:prefLabel xml:lang="en">{"id": "d4dc0e58-db51-470a-be90-d05d19878285", "value": "Diary"}</skos:prefLabel>
+        <skos:narrower rdf:resource="https://nmhr.historicengland.org.uk/a02376f6-97ee-3501-a74c-4bb08fe9ed3b"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:prefLabel xml:lang="en">{"id": "0c02ce76-5dc7-4475-a08a-4a0ddbd5519e", "value": "Text"}</skos:prefLabel>
+    <skos:narrower>
+      <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/b59fdd8c-c939-38b1-b187-de1578427ef3">
+        <skos:prefLabel xml:lang="en">{"id": "a977be95-f9c7-4f78-ab6a-4fc0883ec57a", "value": "Notebook"}</skos:prefLabel>
+        <dcterms:identifier xml:lang="en">{"id": "f99cefde-a279-435d-9fca-5ffead55bf6a", "value": "http://purl.org/heritagedata/schemes/547/concepts/138771"}</dcterms:identifier>
+        <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/1d8bd761-4aba-3221-ad21-9c1567a6eeb6"/>
+        <skos:scopeNote xml:lang="en">{"id": "8da1c02c-5426-4c8b-b8d6-957040114126", "value": "Book used to record information or impressions in the field, often as a preparation for more formal reporting at a later date."}</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:scopeNote xml:lang="en">{"id": "58423443-7d2e-4be9-a78a-71dc4ccf3607", "value": "A resource whose content is primarily words for reading. For example - books, letters, dissertations, poems, newspapers, articles, archives of mailing lists. [DC]"}</skos:scopeNote>
+    <skos:narrower>
+      <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/78d1fe30-bf14-32e1-9b41-0acdcbf6def0">
+        <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/1d8bd761-4aba-3221-ad21-9c1567a6eeb6"/>
+        <dcterms:identifier xml:lang="en">{"id": "63aa3c78-aafa-48fd-b4f6-4d7e93db2df6", "value": "http://purl.org/heritagedata/schemes/547/concepts/138754"}</dcterms:identifier>
+        <skos:prefLabel xml:lang="en">{"id": "673472a3-b05c-4226-b57d-b2e513459e38", "value": "Correspondence"}</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">{"id": "3c4eceab-bfdd-4d93-befd-1be100e1e248", "value": "Written communication, generally in the form of letters."}</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+    <dcterms:identifier xml:lang="en">{"id": "41678acc-30c0-4be9-94f7-0c70032df802", "value": "http://purl.org/heritagedata/schemes/547/concepts/138709"}</dcterms:identifier>
+    <skos:narrower>
+      <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/cfc97e86-f3aa-3091-8a77-61aff177be8e">
+        <skos:scopeNote xml:lang="en">{"id": "0ff8ca81-93fa-4726-81e1-0f44635baed4", "value": "An unpublished document."}</skos:scopeNote>
+        <skos:prefLabel xml:lang="en">{"id": "18525113-972c-4fd0-b499-7313c64cc66b", "value": "Manuscript"}</skos:prefLabel>
+        <dcterms:identifier xml:lang="en">{"id": "48f5e14f-9f3d-43d3-9ce7-756f714fb09f", "value": "http://purl.org/heritagedata/schemes/547/concepts/138785"}</dcterms:identifier>
+        <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/1d8bd761-4aba-3221-ad21-9c1567a6eeb6"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower rdf:resource="https://nmhr.historicengland.org.uk/734d30b5-9b31-30ca-8cae-b7ee34920a93"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/723360d7-283b-3823-918f-329e90476693">
+        <skos:narrower rdf:resource="https://nmhr.historicengland.org.uk/129c5918-9f8a-376e-9007-c594175f99fe"/>
+        <skos:narrower rdf:resource="https://nmhr.historicengland.org.uk/488569a6-63f9-3d6b-ada8-27e1f43c8fff"/>
+        <skos:narrower rdf:resource="https://nmhr.historicengland.org.uk/5a586b30-884a-34cc-bfa7-7799a4334279"/>
+        <skos:narrower rdf:resource="https://nmhr.historicengland.org.uk/14e608ae-a34c-325d-9b82-48ca95d4c15f"/>
+        <skos:scopeNote xml:lang="en">{"id": "3b9cfc73-1a3a-4201-b0f4-b0925033b272", "value": "General term for documents that have been produced in large numbers for public sale or distribution."}</skos:scopeNote>
+        <skos:narrower rdf:resource="https://nmhr.historicengland.org.uk/0092a483-dd9f-39a0-ab7c-5ef0222fb8cf"/>
+        <skos:narrower rdf:resource="https://nmhr.historicengland.org.uk/2b3ae075-6cb6-3492-86e1-cb418485d401"/>
+        <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/1d8bd761-4aba-3221-ad21-9c1567a6eeb6"/>
+        <dcterms:identifier xml:lang="en">{"id": "a4989327-61af-4b84-8a0d-feb573adc338", "value": "http://purl.org/heritagedata/schemes/547/concepts/138756"}</dcterms:identifier>
+        <skos:narrower rdf:resource="https://nmhr.historicengland.org.uk/94662a5d-805e-3f9d-ac60-7be6718db761"/>
+        <skos:narrower rdf:resource="https://nmhr.historicengland.org.uk/f86e9327-2132-325b-8b45-66da654a1263"/>
+        <skos:prefLabel xml:lang="en">{"id": "c6cb8eea-e8ce-4c69-a001-f4764bd45a1a", "value": "Publication"}</skos:prefLabel>
+        <skos:narrower rdf:resource="https://nmhr.historicengland.org.uk/c055d432-46a4-31d1-ae87-f4b5ad137c87"/>
+        <skos:narrower rdf:resource="https://nmhr.historicengland.org.uk/a84f79f7-fe71-3d3b-8bc8-992184dc4580"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/3fa8f093-6418-393f-806b-9ee96cdc7abc">
+        <dcterms:identifier xml:lang="en">{"id": "f8dec327-4641-4f8c-937f-5e6b54af4931", "value": "http://purl.org/heritagedata/schemes/547/concepts/139052"}</dcterms:identifier>
+        <skos:prefLabel xml:lang="en">{"id": "70d0a190-4f21-4d7b-8b83-2017e37df09b", "value": "Visitors Book"}</skos:prefLabel>
+        <skos:altLabel xml:lang="en">{"id": "dc5b5d79-f857-4ae3-8ee3-36a825867692", "value": "Visitors Diary"}</skos:altLabel>
+        <skos:scopeNote xml:lang="en">{"id": "441b58a1-d0cf-4d2d-849a-845d049f1d90", "value": "A book in which visitors to a property, monument or exhibition record their thoughts and impressions on their experience."}</skos:scopeNote>
+        <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/1d8bd761-4aba-3221-ad21-9c1567a6eeb6"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/59bd7fbd-751a-3dbe-b4ba-5eea06da7f54">
+        <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/1d8bd761-4aba-3221-ad21-9c1567a6eeb6"/>
+        <skos:prefLabel xml:lang="en">{"id": "ea899541-4ed7-4595-addd-65da8fae0c94", "value": "Index"}</skos:prefLabel>
+        <dcterms:identifier xml:lang="en">{"id": "ea836200-aec2-45bc-842e-59130a1e9642", "value": "http://purl.org/heritagedata/schemes/547/concepts/138768"}</dcterms:identifier>
+        <skos:narrower rdf:resource="https://nmhr.historicengland.org.uk/1acecc44-6675-3ef4-8971-0b148ce00f59"/>
+        <skos:scopeNote xml:lang="en">{"id": "e9530f83-e9bd-48e3-afe3-9c763c1aee66", "value": "A structured set of data taken from a larger work to assist in location of particular subject matter."}</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/2140f034-70b1-378e-8458-8f7a44be19e7">
+        <skos:altLabel xml:lang="en">{"id": "eb820ce3-15d3-4d45-bfb6-af0fed09ba80", "value": "Digital Report"}</skos:altLabel>
+        <skos:narrower rdf:resource="https://nmhr.historicengland.org.uk/f37702c2-6b11-3218-8b57-bc8feb765c4b"/>
+        <skos:narrower rdf:resource="https://nmhr.historicengland.org.uk/5504e0ca-b04e-3b7f-8a3b-497309081a8d"/>
+        <dcterms:identifier xml:lang="en">{"id": "bac2b835-7b00-4805-83f0-78f8cd8b2c9c", "value": "http://purl.org/heritagedata/schemes/547/concepts/138773"}</dcterms:identifier>
+        <skos:scopeNote xml:lang="en">{"id": "3dec24f0-2440-4df7-8dd1-a4d7cafb719c", "value": "A full written presentation of the details of a particular event or investigative technique, often including illustrations and appendices."}</skos:scopeNote>
+        <skos:narrower rdf:resource="https://nmhr.historicengland.org.uk/a7344db6-1845-32bf-9024-cccf792561a7"/>
+        <skos:narrower rdf:resource="https://nmhr.historicengland.org.uk/a997c972-5afc-3cc7-8e8d-e63ec6c71f97"/>
+        <skos:narrower rdf:resource="https://nmhr.historicengland.org.uk/06e39756-6205-31a1-ac35-bad48f94846f"/>
+        <skos:narrower rdf:resource="https://nmhr.historicengland.org.uk/0ebb14ac-cf6c-377f-8034-78ad9ac9a8b7"/>
+        <skos:narrower rdf:resource="https://nmhr.historicengland.org.uk/25ba2da7-fef9-3afe-a12f-2f4301fe9ca6"/>
+        <skos:narrower rdf:resource="https://nmhr.historicengland.org.uk/d263e36d-27d7-37b1-849c-1fcaa4cfe4c9"/>
+        <skos:narrower rdf:resource="https://nmhr.historicengland.org.uk/8f6cc657-3dc1-3e33-8055-da7b701414f1"/>
+        <skos:prefLabel xml:lang="en">{"id": "e4650d4a-5600-4ebb-98bf-9d2e235f1e0c", "value": "Report"}</skos:prefLabel>
+        <skos:narrower rdf:resource="https://nmhr.historicengland.org.uk/7e9e8380-0de9-3f38-8a95-99d32c9121fc"/>
+        <skos:narrower rdf:resource="https://nmhr.historicengland.org.uk/56e4cd30-0757-34eb-9ef7-09a12d37dea6"/>
+        <skos:narrower rdf:resource="https://nmhr.historicengland.org.uk/5f09c575-55f6-3d6a-b653-799aff732e33"/>
+        <skos:narrower rdf:resource="https://nmhr.historicengland.org.uk/6210064d-e934-32a5-a539-804c325e75e6"/>
+        <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/1d8bd761-4aba-3221-ad21-9c1567a6eeb6"/>
+        <skos:narrower rdf:resource="https://nmhr.historicengland.org.uk/4ca1f46a-f9d5-357f-8a26-b94a2f339d1c"/>
+        <skos:narrower rdf:resource="https://nmhr.historicengland.org.uk/38aa0d6b-9c99-3ee8-a81d-385adadd8236"/>
+        <skos:narrower rdf:resource="https://nmhr.historicengland.org.uk/9d2166d3-6a01-3054-987a-979f4b56cc35"/>
+        <skos:narrower rdf:resource="https://nmhr.historicengland.org.uk/4ccefa89-2664-3235-bd6b-f0e6319aea22"/>
+        <skos:narrower rdf:resource="https://nmhr.historicengland.org.uk/5275168e-f1d9-3029-9b25-816e5918e43e"/>
+        <skos:narrower rdf:resource="https://nmhr.historicengland.org.uk/176c3112-4087-3e1b-a328-95e9eb831847"/>
+        <skos:narrower rdf:resource="https://nmhr.historicengland.org.uk/f0af2a93-0317-3d8d-a511-ba33da9bc43b"/>
+        <skos:narrower rdf:resource="https://nmhr.historicengland.org.uk/d3629ee3-aeed-3cc2-87f0-b58bdaa10fde"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/1d8bd761-4aba-3221-ad21-9c1567a6eeb6"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/31f3802c-bbce-3b59-847b-43252540e9ee">
+        <skos:narrower rdf:resource="https://nmhr.historicengland.org.uk/f8bd62e3-bb4a-3ad7-b300-a3645a1ff096"/>
+        <skos:narrower rdf:resource="https://nmhr.historicengland.org.uk/6983dac3-6e74-33c2-a79e-908f7cb37337"/>
+        <skos:prefLabel xml:lang="en">{"id": "0d663044-07dd-453a-a902-c16f4531517c", "value": "Record Form"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/1d8bd761-4aba-3221-ad21-9c1567a6eeb6"/>
+        <dcterms:identifier xml:lang="en">{"id": "a1c8dbb8-f137-44b6-a248-6054ebe656ac", "value": "http://purl.org/heritagedata/schemes/547/concepts/138779"}</dcterms:identifier>
+        <skos:scopeNote xml:lang="en">{"id": "c102f1c2-b8fa-43e8-9430-48ccc23a97c8", "value": "A paper form used to record specific information in a systematic way."}</skos:scopeNote>
+        <skos:narrower rdf:resource="https://nmhr.historicengland.org.uk/2fccaa27-5adb-3105-ba4f-2eb39a046e25"/>
+      </skos:Concept>
+    </skos:narrower>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/5275168e-f1d9-3029-9b25-816e5918e43e">
+    <skos:prefLabel xml:lang="en">{"id": "871069a5-cc43-448c-824f-59b86fbd74da", "value": "Watching Brief Report"}</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">{"id": "7acbaa53-6419-404e-a662-a50da6680793", "value": "A report written as a result of archaeological monitoring during development work."}</skos:scopeNote>
+    <dcterms:identifier xml:lang="en">{"id": "9a277986-b76d-4637-bf24-e01af86971fe", "value": "http://purl.org/heritagedata/schemes/547/concepts/138778"}</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/1d8bd761-4aba-3221-ad21-9c1567a6eeb6"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/92cb12a4-eafa-3c0c-92c6-71119b80428b">
+    <skos:prefLabel xml:lang="en">{"id": "3ea23275-3479-41c2-adea-efcffa5beb67", "value": "Hardcopy"}</skos:prefLabel>
+    <skos:narrower>
+      <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/a3030a8a-5f64-3421-a99f-a8366272737a">
+        <dcterms:identifier xml:lang="en">{"id": "1e6c680b-4bc2-4fb5-8b37-c1430cb338f8", "value": "http://purl.org/heritagedata/schemes/547/concepts/138815"}</dcterms:identifier>
+        <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/1d8bd761-4aba-3221-ad21-9c1567a6eeb6"/>
+        <skos:scopeNote xml:lang="en">{"id": "3e6f6c5d-f4bc-44de-a09b-65c3f867f1de", "value": "A heavy grade, water proof plastic film used for the preparation of technical drawings."}</skos:scopeNote>
+        <skos:prefLabel xml:lang="en">{"id": "bae5790e-4025-4047-9962-1b468f6b57f0", "value": "Drafting Film"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/e5a084d9-e79b-3d4f-ba1f-93cba049193f">
+        <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/1d8bd761-4aba-3221-ad21-9c1567a6eeb6"/>
+        <skos:scopeNote xml:lang="en">{"id": "8f541064-6de3-433c-bf11-1b36880e12f9", "value": "Paper made for writing or drawing underwater."}</skos:scopeNote>
+        <skos:prefLabel xml:lang="en">{"id": "f32162b7-a983-4628-b571-3583876b3e8e", "value": "Waterproof Paper"}</skos:prefLabel>
+        <dcterms:identifier xml:lang="en">{"id": "cef5aa32-d409-4fb7-9dcf-c0f7af77b86d", "value": "http://purl.org/heritagedata/schemes/547/concepts/139039"}</dcterms:identifier>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/1d8bd761-4aba-3221-ad21-9c1567a6eeb6"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/fc27c3d2-284f-347b-9e6c-19f0c859a9e4">
+        <skos:scopeNote xml:lang="en">{"id": "5b6876b0-37a6-41dd-aa66-4fc000c8388a", "value": "A thin opaque, slightly absorbent material, generally made from processing of plant or other fibres, for use as a medium for writing, drawing and printing."}</skos:scopeNote>
+        <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/1d8bd761-4aba-3221-ad21-9c1567a6eeb6"/>
+        <dcterms:identifier xml:lang="en">{"id": "1dcc8f11-2f97-4de9-86ce-448df0d0a818", "value": "http://purl.org/heritagedata/schemes/547/concepts/138816"}</dcterms:identifier>
+        <skos:prefLabel xml:lang="en">{"id": "64b0e85e-bb43-4060-b100-4ee69dd859cc", "value": "Paper"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower rdf:resource="https://nmhr.historicengland.org.uk/c0c8d0a5-4504-338d-b43c-a24f90fbeee9"/>
+    <dcterms:identifier xml:lang="en">{"id": "d4ddeec1-1849-43cf-955e-56ef9c605ef2", "value": "http://purl.org/heritagedata/schemes/547/concepts/138715"}</dcterms:identifier>
+    <skos:narrower>
+      <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/ca319c03-fd4b-388a-876d-117bb7b6b86f">
+        <skos:scopeNote xml:lang="en">{"id": "95cadaa8-cd7e-4cd6-88ec-1928b1c925e5", "value": "-"}</skos:scopeNote>
+        <dcterms:identifier xml:lang="en">{"id": "38fecc82-27a4-4c63-adba-2ffa49be3f9e", "value": "http://purl.org/heritagedata/schemes/547/concepts/167917"}</dcterms:identifier>
+        <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/1d8bd761-4aba-3221-ad21-9c1567a6eeb6"/>
+        <skos:prefLabel xml:lang="en">{"id": "a25aff5c-d2a7-469c-8e6b-b81299b04ee8", "value": "Fax"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/68d7cc8c-fbca-3403-94f5-190af1a75eb0">
+        <skos:scopeNote xml:lang="en">{"id": "74cf111c-8fe6-4101-84b9-af08d291fddc", "value": "A photographic reproduction of written or printed material produced by using toner particles under heat and pressure to fuse a copy onto blank paper."}</skos:scopeNote>
+        <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/1d8bd761-4aba-3221-ad21-9c1567a6eeb6"/>
+        <skos:prefLabel xml:lang="en">{"id": "6036432f-a53c-4539-b5df-7787744b6631", "value": "Photocopy"}</skos:prefLabel>
+        <dcterms:identifier xml:lang="en">{"id": "0d8bd8cb-8a8c-4766-81a3-6d247fe91e98", "value": "http://purl.org/heritagedata/schemes/547/concepts/167916"}</dcterms:identifier>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:scopeNote xml:lang="en">{"id": "221d12e4-db6d-4363-8047-4418cb1b4494", "value": "Item in a format suitable for normal reading or viewing, without a computer or other device.  For digital files or disks use MACHINE READABLE STORAGE MEDIUM or specific terms."}</skos:scopeNote>
+    <skos:narrower>
+      <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/1c27ecd1-6792-30dd-b060-6d3d90ab427a">
+        <dcterms:identifier xml:lang="en">{"id": "5a8edb97-86a4-42e5-beea-256eeb84119a", "value": "http://purl.org/heritagedata/schemes/547/concepts/170844"}</dcterms:identifier>
+        <skos:scopeNote xml:lang="en">{"id": "765d953d-b770-4fc8-a304-7052978717f9", "value": "A cheap and relatively rough paper on which newspapers are printed."}</skos:scopeNote>
+        <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/1d8bd761-4aba-3221-ad21-9c1567a6eeb6"/>
+        <skos:prefLabel xml:lang="en">{"id": "c3d8e518-57f4-4440-911a-c81ee39cfabc", "value": "Newsprint"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/97bb9f83-45c1-3207-9737-6b3d5f08a183">
+        <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/1d8bd761-4aba-3221-ad21-9c1567a6eeb6"/>
+        <skos:prefLabel xml:lang="en">{"id": "e9b9852e-64d8-46dd-905a-4ed4c02cdac0", "value": "Tracing Paper"}</skos:prefLabel>
+        <dcterms:identifier xml:lang="en">{"id": "13c175cc-118d-4951-97a5-2f33fbc7e7a7", "value": "http://purl.org/heritagedata/schemes/547/concepts/138814"}</dcterms:identifier>
+        <skos:scopeNote xml:lang="en">{"id": "5d29d288-d4a7-4cc8-9274-12178bf37136", "value": "A translucent paper, which when laid over an existing image, permits the image to be seen and/or traced."}</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/de682024-771b-3a61-82a9-d9c384eb44df">
+        <skos:prefLabel xml:lang="en">{"id": "3cb8874f-279f-404b-a527-fe13dc380dce", "value": "Card"}</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">{"id": "a6a806d6-7c63-4983-aee4-e1b94aca9e4e", "value": "A material stronger than paper, generally made from wood pulp."}</skos:scopeNote>
+        <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/1d8bd761-4aba-3221-ad21-9c1567a6eeb6"/>
+        <dcterms:identifier xml:lang="en">{"id": "67f3ece8-dafe-4988-bbf6-0bad14b6a4d7", "value": "http://purl.org/heritagedata/schemes/547/concepts/170843"}</dcterms:identifier>
+      </skos:Concept>
+    </skos:narrower>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/2185edad-bfd3-3a9a-812d-87a2d0b54052">
+    <skos:altLabel xml:lang="en">{"id": "fe78de8c-fe94-48b6-9d42-436e6e8e34db", "value": "Harris Matrix"}</skos:altLabel>
+    <skos:scopeNote xml:lang="en">{"id": "9e953649-6411-48e9-b6a3-e379af598f61", "value": "A schematic diagram showing the relationships of the composition and strata of layers identified during excavation or intervention."}</skos:scopeNote>
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/1d8bd761-4aba-3221-ad21-9c1567a6eeb6"/>
+    <dcterms:identifier xml:lang="en">{"id": "0c513da0-4715-49bc-8838-e07089440c0b", "value": "http://purl.org/heritagedata/schemes/547/concepts/138800"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="en">{"id": "5c11b6cb-cf59-4138-bf77-0005b339e76e", "value": "Stratigraphic Matrix"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/c07bf327-86df-3ef7-85c9-4fcc645d4a37">
+    <skos:narrower>
+      <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/a02d60ed-5175-3bdb-ae00-f0565593c483">
+        <skos:scopeNote xml:lang="en">{"id": "91ecfdc5-652b-4b63-9e33-620aec462d41", "value": "Data suitable for processing using computer aided design (CAD) packages."}</skos:scopeNote>
+        <dcterms:identifier xml:lang="en">{"id": "3550ca56-1095-4fe9-aa7e-04a203abac42", "value": "http://purl.org/heritagedata/schemes/547/concepts/138722"}</dcterms:identifier>
+        <skos:prefLabel xml:lang="en">{"id": "d6ec4625-24d0-4778-a7dc-d879f7db0782", "value": "Cad Data"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/1d8bd761-4aba-3221-ad21-9c1567a6eeb6"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/d68b5a7f-1165-324f-92b6-8015cd003867">
+        <skos:prefLabel xml:lang="en">{"id": "e0bcba81-6101-4576-8ba5-897031729a06", "value": "Database File"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/1d8bd761-4aba-3221-ad21-9c1567a6eeb6"/>
+        <dcterms:identifier xml:lang="en">{"id": "39fffe34-d554-4e34-ab70-5f6e95ecabfa", "value": "http://purl.org/heritagedata/schemes/547/concepts/138721"}</dcterms:identifier>
+        <skos:scopeNote xml:lang="en">{"id": "3b29a9e0-e83e-47e0-aff9-889f89d5dea4", "value": "Data suitable for processing using database management software."}</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/a8e8c388-b19f-374c-96c3-273158230751">
+        <dcterms:identifier xml:lang="en">{"id": "c4ac5add-bffc-4848-ac25-49d350cf82f2", "value": "http://purl.org/heritagedata/schemes/547/concepts/138723"}</dcterms:identifier>
+        <skos:prefLabel xml:lang="en">{"id": "65e898ce-49d7-4ab5-abfe-928c676c9019", "value": "Geospatial Data"}</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">{"id": "fdcf0757-e1bf-449e-a0cf-a1c8eadff81e", "value": "Machine readable files suitable for use in a geographic information system (GIS)."}</skos:scopeNote>
+        <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/1d8bd761-4aba-3221-ad21-9c1567a6eeb6"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:scopeNote xml:lang="en">{"id": "2786a920-c907-4a4e-b87e-64eb54c07971", "value": "Information encoded in a defined structure (for example, lists, tables, and databases), intended to be useful for direct machine processing. [DC] For manual data use index, gazetteer etc."}</skos:scopeNote>
+    <dcterms:identifier xml:lang="en">{"id": "ab1e0a2c-42b2-4ee9-acc9-80bee1d6046c", "value": "http://purl.org/heritagedata/schemes/547/concepts/138704"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="en">{"id": "66efeb14-0510-4f81-b59d-64d253ec377b", "value": "Dataset"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/1d8bd761-4aba-3221-ad21-9c1567a6eeb6"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/35367a5d-2a7a-3c61-bd58-f9f8761971d9">
+    <skos:scopeNote xml:lang="en">{"id": "2586ed91-d9a0-421b-9355-e511d2df5cbc", "value": "A list of English battlefields maintained by English Heritage. Inclusion in the document does not confer any statutory status. It lists and records the details of battlefields to preserve their nature and survival."}</skos:scopeNote>
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/1d8bd761-4aba-3221-ad21-9c1567a6eeb6"/>
+    <dcterms:identifier xml:lang="en">{"id": "1bc139ac-3c3d-49d4-a1bc-f2abf47ef974", "value": "http://purl.org/heritagedata/schemes/547/concepts/139581"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="en">{"id": "a5312485-a1a8-4cef-bae9-250a812626ed", "value": "Battlefields Register"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/0ef22908-0ea7-36ed-b843-6de785be5663">
+    <skos:prefLabel xml:lang="en">{"id": "c82cbc12-89d8-4331-ba31-7a70c56bf75a", "value": "Chart"}</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">{"id": "0bb37b78-a005-406a-8be0-b55f346e27de", "value": "A depiction of land, coastal or sea areas intended to aid navigation, usually using latitude and longitude co-ordinates."}</skos:scopeNote>
+    <dcterms:identifier xml:lang="en">{"id": "4300eb1d-b5fd-45e3-a6b7-3e95385fa21e", "value": "http://purl.org/heritagedata/schemes/547/concepts/138733"}</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/1d8bd761-4aba-3221-ad21-9c1567a6eeb6"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/381d45a2-f98d-3bf5-ac8f-66e0d343f655">
+    <skos:scopeNote xml:lang="en">{"id": "d6ab155c-bbcc-4d46-bdcc-07074cf781b9", "value": "Scale drawing showing the horizontal extent, height and arrangement of an excavated layer or feature on an archaeological site."}</skos:scopeNote>
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/1d8bd761-4aba-3221-ad21-9c1567a6eeb6"/>
+    <dcterms:identifier xml:lang="en">{"id": "cc009143-dd4c-471a-81c7-284669a5f62b", "value": "http://purl.org/heritagedata/schemes/547/concepts/139019"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="en">{"id": "f998d5cb-6776-4cdd-a227-267065d58716", "value": "Context Plan"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/5a586b30-884a-34cc-bfa7-7799a4334279">
+    <skos:narrower>
+      <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/d30426a9-202a-3f73-a4ab-987517f26756">
+        <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/1d8bd761-4aba-3221-ad21-9c1567a6eeb6"/>
+        <dcterms:identifier xml:lang="en">{"id": "2ef4f3f1-16f5-414b-bec3-299b17318961", "value": "http://purl.org/heritagedata/schemes/547/concepts/139008"}</dcterms:identifier>
+        <skos:scopeNote xml:lang="en">{"id": "f3650bfc-ce3b-4afa-a47c-1d001d3a52b4", "value": "A written extract taken from a published newspaper."}</skos:scopeNote>
+        <skos:altLabel xml:lang="en">{"id": "224b936a-a8e2-42bc-993a-a0fa40df5adf", "value": "Press Cutting"}</skos:altLabel>
+        <skos:prefLabel xml:lang="en">{"id": "51bfc018-e104-4a93-9a97-97f7ab538f1a", "value": "Newspaper Article"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:prefLabel xml:lang="en">{"id": "ff9e86dc-5eda-4276-a9a0-57136f3a73c6", "value": "Article"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/1d8bd761-4aba-3221-ad21-9c1567a6eeb6"/>
+    <dcterms:identifier xml:lang="en">{"id": "2f1f481c-45bb-4548-b13a-7c2bfbf59d9f", "value": "http://purl.org/heritagedata/schemes/547/concepts/138759"}</dcterms:identifier>
+    <skos:scopeNote xml:lang="en">{"id": "6dc71dbe-b54d-4f0c-bb84-ea3c276f55b2", "value": "A written work for publication, being one of several found in a serial, monograph or magazine."}</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/816889b0-1ab9-3168-9d74-0c5f9d3f4062">
+    <skos:prefLabel xml:lang="en">{"id": "5e70968b-022f-412c-8d3c-1bed61841e43", "value": "Vertical Aerial Photograph"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/1d8bd761-4aba-3221-ad21-9c1567a6eeb6"/>
+    <skos:scopeNote xml:lang="en">{"id": "57ec8b03-3d5b-4179-9b22-4c9c10058a0d", "value": "An aerial photograph taken from directly above a feature in the landscape, suitable for mapping or survey purposes. For photographs taken from the air at an angle to the subject use OBLIQUE AERIAL PHOTOGRAPH."}</skos:scopeNote>
+    <dcterms:identifier xml:lang="en">{"id": "b56b96eb-78c4-4e08-a659-fd310864fa5b", "value": "http://purl.org/heritagedata/schemes/547/concepts/138791"}</dcterms:identifier>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/6c0a4b73-3095-38a0-ac62-6419b6122f9d">
+    <skos:scopeNote xml:lang="en">{"id": "169074c0-f91b-4b32-90ba-a5b1ce57278b", "value": "A report that primarily details the results of attempts to assign a date to orgainic material by measuring the amount of carbon 14 it contains."}</skos:scopeNote>
+    <dcterms:identifier xml:lang="en">{"id": "9483c102-621d-4ad2-b459-a4f8dfc0ad66", "value": "http://purl.org/heritagedata/schemes/547/concepts/164074"}</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/1d8bd761-4aba-3221-ad21-9c1567a6eeb6"/>
+    <skos:prefLabel xml:lang="en">{"id": "a0cf650e-e9fe-46bc-8e8b-504510aec1ec", "value": "Radiocarbon Dating Report"}</skos:prefLabel>
+    <skos:altLabel xml:lang="en">{"id": "99a67a68-c1cf-4649-bea2-8e8f89275ee6", "value": "C14 Dating Report"}</skos:altLabel>
+    <skos:altLabel xml:lang="en">{"id": "d7eb4945-dfcf-45a2-9319-7a439862ce14", "value": "Carbon 14 Dating Report"}</skos:altLabel>
+    <skos:altLabel xml:lang="en">{"id": "c843cc9a-738c-4f6a-aa7c-fa6681b3197f", "value": "Carbon Dating Report"}</skos:altLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/2b3ae075-6cb6-3492-86e1-cb418485d401">
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/1d8bd761-4aba-3221-ad21-9c1567a6eeb6"/>
+    <skos:prefLabel xml:lang="en">{"id": "dd5a4f04-c742-45a6-9c19-2ac9be840583", "value": "Leaflet"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "1a0610c5-782c-43f7-ad5c-b1788a873f5a", "value": "http://purl.org/heritagedata/schemes/547/concepts/138762"}</dcterms:identifier>
+    <skos:scopeNote xml:lang="en">{"id": "9fedb222-97bd-43bc-970b-202cf1a16ca9", "value": "A short published document, often a single sheet, describing a particular place, feature or service to assist visitors and users."}</skos:scopeNote>
+    <skos:altLabel xml:lang="en">{"id": "de87f3df-92ff-48b3-808e-7519d072aef9", "value": "Pamphlet"}</skos:altLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/35bb2d57-2b8d-367d-adbc-cbc34a918ab4">
+    <skos:prefLabel xml:lang="en">{"id": "2c3df468-cd9a-4f08-a52c-515344334638", "value": "Journal"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/1d8bd761-4aba-3221-ad21-9c1567a6eeb6"/>
+    <skos:scopeNote xml:lang="en">{"id": "10cb16af-5599-449f-87df-0418d30b39eb", "value": "A publication that contains scholarly articles and is published regularly. Journals are often written by experts in a specific field and are peer reviewed before publication."}</skos:scopeNote>
+    <dcterms:identifier xml:lang="en">{"id": "01b00d35-7edf-46e7-80a3-dcf31eea544e", "value": "http://purl.org/heritagedata/schemes/547/concepts/171103"}</dcterms:identifier>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/f0552a91-4fc6-3c9f-b7c0-ec56dd39f5b5">
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/1d8bd761-4aba-3221-ad21-9c1567a6eeb6"/>
+    <skos:prefLabel xml:lang="en">{"id": "f70b4401-8ed5-4dcb-894b-0346ab743d48", "value": "Webpage"}</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">{"id": "8a6bb701-66d3-4f76-b8fd-4c990e85c8d4", "value": "A file of computer information stored on a computer connected to the internet coded so that it can be accessed over the internet using browser software."}</skos:scopeNote>
+    <dcterms:identifier xml:lang="en">{"id": "d4f89aa0-41fc-42b3-8015-6766024e305f", "value": "http://purl.org/heritagedata/schemes/547/concepts/138751"}</dcterms:identifier>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/38aa0d6b-9c99-3ee8-a81d-385adadd8236">
+    <dcterms:identifier xml:lang="en">{"id": "11239321-44bd-461c-be86-e87ad4f50952", "value": "http://purl.org/heritagedata/schemes/547/concepts/139571"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="en">{"id": "cd5658e3-0f86-4f0f-9c9a-dff67d13895f", "value": "Project Brief"}</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">{"id": "4edf5841-08d9-40c0-8022-5ca1fa188d04", "value": "An outline of the circumstances to be addressed, with an indication of the scope of work which will be required (English term)"}</skos:scopeNote>
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/1d8bd761-4aba-3221-ad21-9c1567a6eeb6"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/66d49fee-1081-369e-9b15-01bd920071e3">
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/1d8bd761-4aba-3221-ad21-9c1567a6eeb6"/>
+    <skos:scopeNote xml:lang="en">{"id": "983e1801-ae17-4e00-a353-110570c7fe45", "value": "-"}</skos:scopeNote>
+    <skos:narrower>
+      <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/a9b03db3-b2b2-3bf0-8020-53d093ad0465">
+        <skos:narrower rdf:resource="https://nmhr.historicengland.org.uk/5e18199e-80f2-39c0-86cf-069074b2abc8"/>
+        <skos:narrower rdf:resource="https://nmhr.historicengland.org.uk/e550ac26-5360-36a6-966b-b2dd352fbab2"/>
+        <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/1d8bd761-4aba-3221-ad21-9c1567a6eeb6"/>
+        <skos:scopeNote xml:lang="en">{"id": "c33ffc20-7a0d-4a0b-bf25-238af075af09", "value": "Any material that records, holds and communicates information in a primarily visual manner."}</skos:scopeNote>
+        <skos:prefLabel xml:lang="en">{"id": "c7d49510-41f3-46e5-89d2-17e492e00ddd", "value": "Visual Medium"}</skos:prefLabel>
+        <dcterms:identifier xml:lang="en">{"id": "4d535f87-052a-48cb-a1f6-ea71ebd4f182", "value": "http://purl.org/heritagedata/schemes/547/concepts/138714"}</dcterms:identifier>
+      </skos:Concept>
+    </skos:narrower>
+    <dcterms:identifier xml:lang="en">{"id": "d5cc7197-4de6-4768-886b-714ccc757019", "value": "http://purl.org/heritagedata/schemes/547/concepts/139047"}</dcterms:identifier>
+    <skos:narrower rdf:resource="https://nmhr.historicengland.org.uk/2a59455f-2610-3ec9-a356-59a90d7e2928"/>
+    <skos:prefLabel xml:lang="en">{"id": "2663daa2-ab8a-4cfc-bb9e-0d97a41de950", "value": "Resource Format And Material"}</skos:prefLabel>
+    <skos:narrower rdf:resource="https://nmhr.historicengland.org.uk/92cb12a4-eafa-3c0c-92c6-71119b80428b"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/2fccaa27-5adb-3105-ba4f-2eb39a046e25">
+    <skos:scopeNote xml:lang="en">{"id": "ee9025c4-d8a7-47fe-8540-39c252fc72d5", "value": "A form that records the details of a project, for example, an excavation index form."}</skos:scopeNote>
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/1d8bd761-4aba-3221-ad21-9c1567a6eeb6"/>
+    <dcterms:identifier xml:lang="en">{"id": "699cad8a-988f-456b-afa4-6b7a3c156e89", "value": "http://purl.org/heritagedata/schemes/547/concepts/138782"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="en">{"id": "8b64456a-ca28-4fe9-8899-57cc36637fbe", "value": "Project Recording Form"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/edd47124-233c-3dfc-9485-2ab26baf81ec">
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/1d8bd761-4aba-3221-ad21-9c1567a6eeb6"/>
+    <skos:scopeNote xml:lang="en">{"id": "5c17ebf1-68fe-4fcc-a0b3-116c1cdaab63", "value": "Collection of artefacts recovered during archaeological investigation of a site."}</skos:scopeNote>
+    <dcterms:identifier xml:lang="en">{"id": "1516dd0d-5a3b-49cf-8604-f6b873b0d2d8", "value": "http://purl.org/heritagedata/schemes/547/concepts/138718"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="en">{"id": "46671aef-0f1c-4585-bcaf-3accdffc612d", "value": "Finds Collection"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/6aa30242-940e-30d5-8137-2173ebd68fd1">
+    <skos:narrower>
+      <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/274ce079-6404-376c-9af4-7cefbfb40a49">
+        <skos:narrower rdf:resource="https://nmhr.historicengland.org.uk/a2958c51-034a-3898-ad42-9b892631a675"/>
+        <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/1d8bd761-4aba-3221-ad21-9c1567a6eeb6"/>
+        <dcterms:identifier xml:lang="en">{"id": "52457f56-e4c6-4c62-adbf-219bd5ffbc14", "value": "http://purl.org/heritagedata/schemes/547/concepts/138720"}</dcterms:identifier>
+        <skos:scopeNote xml:lang="en">{"id": "f69b3c91-dd27-4be8-a55b-679038e067cd", "value": "Structured descriptions of an archive or collection used to assist retrieval and management, or presentation to the public."}</skos:scopeNote>
+        <skos:prefLabel xml:lang="en">{"id": "46657c30-7cb2-41dd-8da8-4722c7fba2b7", "value": "Catalogue"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower rdf:resource="https://nmhr.historicengland.org.uk/edd47124-233c-3dfc-9485-2ab26baf81ec"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/33dfcbc0-33c3-3d2b-9217-ea24b9f93285">
+        <skos:prefLabel xml:lang="en">{"id": "663f0a3b-366f-48c2-af1f-5a37b5918099", "value": "Album"}</skos:prefLabel>
+        <dcterms:identifier xml:lang="en">{"id": "308896b5-2f45-4d78-b069-008a1dd13e08", "value": "http://purl.org/heritagedata/schemes/547/concepts/138719"}</dcterms:identifier>
+        <skos:scopeNote xml:lang="en">{"id": "bd824c6d-291b-4f73-a0c0-8aece9968a7b", "value": "A collection of items presented in a protective folder."}</skos:scopeNote>
+        <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/1d8bd761-4aba-3221-ad21-9c1567a6eeb6"/>
+      </skos:Concept>
+    </skos:narrower>
+    <dcterms:identifier xml:lang="en">{"id": "5fa2b421-f968-4f0c-8d56-aad79f79523e", "value": "http://purl.org/heritagedata/schemes/547/concepts/138703"}</dcterms:identifier>
+    <skos:scopeNote xml:lang="en">{"id": "cd13fbf5-7150-4f80-a255-64dce48c41e3", "value": "A resource comprising of a group of items the parts of which may be separately described and navigated. [DC]"}</skos:scopeNote>
+    <skos:narrower>
+      <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/68323f18-c368-37ba-b482-8e55a0eeb167">
+        <skos:prefLabel xml:lang="en">{"id": "7901f27f-0f03-4187-a5d5-9680e41210ea", "value": "Project Archive"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/1d8bd761-4aba-3221-ad21-9c1567a6eeb6"/>
+        <skos:scopeNote xml:lang="en">{"id": "d6b4acc3-6ed8-49dd-aee6-c73e1f83921e", "value": "Organised and documented collection of the records made during the course of a project."}</skos:scopeNote>
+        <dcterms:identifier xml:lang="en">{"id": "ee020613-ac7c-4d17-85aa-14f69a86eb32", "value": "http://purl.org/heritagedata/schemes/547/concepts/138717"}</dcterms:identifier>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/1d8bd761-4aba-3221-ad21-9c1567a6eeb6"/>
+    <skos:narrower rdf:resource="https://nmhr.historicengland.org.uk/d706af52-ab8f-3dad-a887-21b4718a1efa"/>
+    <skos:prefLabel xml:lang="en">{"id": "825945c3-b9aa-44ce-830a-0305dae073cd", "value": "Collection"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/5e0aaebb-3e3e-37fd-a79a-69a27667e12f">
+    <skos:scopeNote xml:lang="en">{"id": "60f465a0-1885-4384-b475-c75f28753a70", "value": "A plan of a feature or small area generally done in the field to quickly record the main features."}</skos:scopeNote>
+    <dcterms:identifier xml:lang="en">{"id": "7d22d7c6-a262-4ff6-b862-9d7dc1c604fd", "value": "http://purl.org/heritagedata/schemes/547/concepts/138739"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="en">{"id": "d30412fc-ad5c-4eee-80f2-d6dc68e7220c", "value": "Sketch Plan"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/1d8bd761-4aba-3221-ad21-9c1567a6eeb6"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/1acecc44-6675-3ef4-8971-0b148ce00f59">
+    <dcterms:identifier xml:lang="en">{"id": "168debc5-64e7-4fba-9855-f8bdc9335aab", "value": "http://purl.org/heritagedata/schemes/547/concepts/138769"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="en">{"id": "7412f819-b9c5-411e-815f-f0b38c131380", "value": "Card Index"}</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">{"id": "0eb9c69e-5e41-4fb8-852e-2d29e3d7eb5e", "value": "Cards, often printed with forms, for the recording and sorting of information in a structured manner."}</skos:scopeNote>
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/1d8bd761-4aba-3221-ad21-9c1567a6eeb6"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/4ca1f46a-f9d5-357f-8a26-b94a2f339d1c">
+    <skos:prefLabel xml:lang="en">{"id": "68710588-61f9-4c89-acc2-9fadfb658dd7", "value": "Post Excavation Assessment Report"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "b626fd70-dcda-4760-b658-669353ee6660", "value": "http://purl.org/heritagedata/schemes/547/concepts/167881"}</dcterms:identifier>
+    <skos:scopeNote xml:lang="en">{"id": "413aeebf-13bc-4f12-91dc-1ed918dc7b81", "value": "A report which represents an initial synthesis of the data collected from an excavation ahead of the production of a full publication/post excavation full analysis report."}</skos:scopeNote>
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/1d8bd761-4aba-3221-ad21-9c1567a6eeb6"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/53045ff8-7eff-3acc-85d3-a3598bce32d6">
+    <dcterms:identifier xml:lang="en">{"id": "2f67c472-8b09-4553-8b1a-c873d64645c8", "value": "http://purl.org/heritagedata/schemes/547/concepts/139015"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="en">{"id": "30e39234-6cd9-41ab-945f-8360a1a90872", "value": "Woodcut"}</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">{"id": "c620ce28-c464-43f2-99c4-1646cf191d12", "value": "A relief process in which the design is cut into and printed from the plank side of a wood block [AAT]."}</skos:scopeNote>
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/1d8bd761-4aba-3221-ad21-9c1567a6eeb6"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/22b54844-b55d-36a4-9f42-2d17ae9ca7e2">
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/1d8bd761-4aba-3221-ad21-9c1567a6eeb6"/>
+    <dcterms:identifier xml:lang="en">{"id": "bf1a2057-5fa1-4cee-a0a7-2941ecba95c7", "value": "http://purl.org/heritagedata/schemes/547/concepts/138807"}</dcterms:identifier>
+    <skos:altLabel xml:lang="en">{"id": "9ca9991b-3e94-4bf6-a0b7-6da573170500", "value": "Antiquity Model"}</skos:altLabel>
+    <skos:prefLabel xml:lang="en">{"id": "304d7544-0c85-48cc-9739-2caa2d7aad31", "value": "Measured Survey Drawing"}</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">{"id": "286af31b-6d2e-47a7-964d-7aaaefaabb2e", "value": "A drawing which depicts to scale a feature within the landscape. For drawings of selected features of a site use SCALE DRAWING.."}</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/b3430b08-9624-397d-a086-bc4fbd579a5a">
+    <skos:narrower>
+      <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/36826265-f6c0-32ec-8a71-d1c1d5536d23">
+        <dcterms:identifier xml:lang="en">{"id": "9a1fd12c-4df4-4fa7-9a62-290f24490a5a", "value": "http://purl.org/heritagedata/schemes/547/concepts/138729"}</dcterms:identifier>
+        <skos:scopeNote xml:lang="en">{"id": "16a91e02-0b54-4854-81db-c54f4284c358", "value": "A photograph usually of a standing structure that has been manipulated to allow the creation of a measured drawing of the facade or elevation."}</skos:scopeNote>
+        <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/1d8bd761-4aba-3221-ad21-9c1567a6eeb6"/>
+        <skos:prefLabel xml:lang="en">{"id": "0bd2f8d4-0767-4e42-bdaa-d2a9e3715d92", "value": "Rectified Photograph"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:prefLabel xml:lang="en">{"id": "18c2f245-b52c-4794-96fa-49436bc36273", "value": "Photograph"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "21d6f107-01b0-460a-9447-7b809c3f3661", "value": "http://purl.org/heritagedata/schemes/547/concepts/138727"}</dcterms:identifier>
+    <skos:narrower>
+      <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/244dd7a2-7dfd-3a95-bd7c-cea2f32ec590">
+        <dcterms:identifier xml:lang="en">{"id": "41b37d4b-8ebd-48c4-b23a-eaca7dd001ca", "value": "http://purl.org/heritagedata/schemes/547/concepts/138728"}</dcterms:identifier>
+        <skos:narrower rdf:resource="https://nmhr.historicengland.org.uk/bd7c1987-9985-3e0c-a093-22a2cdae5fee"/>
+        <skos:narrower rdf:resource="https://nmhr.historicengland.org.uk/816889b0-1ab9-3168-9d74-0c5f9d3f4062"/>
+        <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/1d8bd761-4aba-3221-ad21-9c1567a6eeb6"/>
+        <skos:scopeNote xml:lang="en">{"id": "19173221-186c-4a25-ad19-73375ff914aa", "value": "A photograph taken from the air."}</skos:scopeNote>
+        <skos:prefLabel xml:lang="en">{"id": "157bd335-9bd7-472d-9f9b-cd36936c1bc1", "value": "Aerial Photograph"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/1d8bd761-4aba-3221-ad21-9c1567a6eeb6"/>
+    <skos:scopeNote xml:lang="en">{"id": "1a4bcb0f-69a9-41e3-9d62-c26b1603cf94", "value": "An image created by controlled exposure of light sensitive film.  Usually a static image in time and space.  For digital photographs double index with an appropriate term under MACHINE READABLE STORAGE MEDIUM."}</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/d4be2b0a-885a-36cc-b824-6a5693ee84ce">
+    <dcterms:identifier xml:lang="en">{"id": "2f720cec-f86d-42be-8d51-1d95cbf65426", "value": "http://purl.org/heritagedata/schemes/547/concepts/139580"}</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/1d8bd761-4aba-3221-ad21-9c1567a6eeb6"/>
+    <skos:prefLabel xml:lang="en">{"id": "21cd3f48-671c-4fff-bcae-1dcc28ab1108", "value": "Scheduled Monument Notification"}</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">{"id": "e96c6649-1f76-4c43-a96d-0964ade88722", "value": "Any notification, update or amendment relating to the scheduling of a monument. Usually includes description and a map showing the limit of the scheduling. It confers a statutory status and receipt is an acknowledgement of the scheduling."}</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/a7344db6-1845-32bf-9024-cccf792561a7">
+    <skos:scopeNote xml:lang="en">{"id": "9e823de1-3096-4509-87d8-cc28ace7a209", "value": "A report providing an objective analysis of the elements which together define the special architectural or historic interest of a specific area."}</skos:scopeNote>
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/1d8bd761-4aba-3221-ad21-9c1567a6eeb6"/>
+    <skos:prefLabel xml:lang="en">{"id": "63a96a56-7e20-4e0d-891c-de6bb097a49a", "value": "Conservation Area Appraisal Report"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "ec61f8c5-7eaf-4efe-ba84-57a39ba4df32", "value": "http://purl.org/heritagedata/schemes/547/concepts/170846"}</dcterms:identifier>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/8c547eac-2426-3ec3-a144-bd9694279c66">
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/1d8bd761-4aba-3221-ad21-9c1567a6eeb6"/>
+    <skos:scopeNote xml:lang="en">{"id": "3109b627-2238-4673-84fe-a79c7b17ff00", "value": "A service is a system that provides one or more functions of value to the end-user.  Examples include: a photocopying service, a banking service, an authentication service, inter-library loans, a Z39.50 or Web server. [DC]"}</skos:scopeNote>
+    <skos:prefLabel xml:lang="en">{"id": "9645a833-52c5-40dd-a85c-8d46bb64323c", "value": "Service"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "b8bd75d5-771f-4a7b-82ac-80defb2364c7", "value": "http://purl.org/heritagedata/schemes/547/concepts/138707"}</dcterms:identifier>
+    <skos:narrower>
+      <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/b8a486c0-5f26-397e-83ef-3958a0f6c000">
+        <skos:scopeNote xml:lang="en">{"id": "2cb6290d-45bd-4983-b4c0-b4a6ef3dc83f", "value": "A database stored on a computer linked to the internet, which can be queried and browsed by remote users using the internet."}</skos:scopeNote>
+        <skos:prefLabel xml:lang="en">{"id": "e8c2501a-83ca-4089-a5a3-cc271ff9c44f", "value": "Online Database"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/1d8bd761-4aba-3221-ad21-9c1567a6eeb6"/>
+        <dcterms:identifier xml:lang="en">{"id": "0fa889c3-4a48-465d-88ff-1b24a8020154", "value": "http://purl.org/heritagedata/schemes/547/concepts/138752"}</dcterms:identifier>
+      </skos:Concept>
+    </skos:narrower>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/223b42ce-09f8-39b2-bfe8-b8d4c71847ad">
+    <skos:prefLabel xml:lang="en">{"id": "26f9d065-8498-46d7-9ebe-e5df3612f1dd", "value": "Map"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/1d8bd761-4aba-3221-ad21-9c1567a6eeb6"/>
+    <skos:narrower rdf:resource="https://nmhr.historicengland.org.uk/a49f0599-01d0-3008-b673-066c4b51f14b"/>
+    <skos:narrower rdf:resource="https://nmhr.historicengland.org.uk/0ef22908-0ea7-36ed-b843-6de785be5663"/>
+    <skos:scopeNote xml:lang="en">{"id": "e4dc7c6d-fbd1-4305-8f03-8720a6735583", "value": "A pictoral depiction of an area of landscape."}</skos:scopeNote>
+    <dcterms:identifier xml:lang="en">{"id": "5e6b1680-edd3-4c18-a6f6-2b121a078584", "value": "http://purl.org/heritagedata/schemes/547/concepts/138732"}</dcterms:identifier>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/9fc5617f-5fac-367a-b7fe-a2b66b15b57e">
+    <dcterms:identifier xml:lang="en">{"id": "7520bb3e-8fb6-4217-b2bb-88f7e3148f27", "value": "http://purl.org/heritagedata/schemes/547/concepts/138746"}</dcterms:identifier>
+    <skos:scopeNote xml:lang="en">{"id": "bfbbd9c9-16c9-412e-af1f-a3ae6d3a9c92", "value": "A scaled drawing based on measurements taken from life."}</skos:scopeNote>
+    <skos:prefLabel xml:lang="en">{"id": "b5d752ed-a3f4-4880-80c3-ed20c80825a7", "value": "Scale Drawing"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/1d8bd761-4aba-3221-ad21-9c1567a6eeb6"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/c43792ce-73d7-342c-a8b1-9e27d75af682">
+    <skos:narrower rdf:resource="https://nmhr.historicengland.org.uk/f0552a91-4fc6-3c9f-b7c0-ec56dd39f5b5"/>
+    <dcterms:identifier xml:lang="en">{"id": "fca4ad72-e681-4f41-9259-11f893b62fb6", "value": "http://purl.org/heritagedata/schemes/547/concepts/138706"}</dcterms:identifier>
+    <skos:narrower>
+      <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/adfe4ef9-283a-3b14-9b1a-41b4e0fb782e">
+        <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/1d8bd761-4aba-3221-ad21-9c1567a6eeb6"/>
+        <skos:prefLabel xml:lang="en">{"id": "5d6bbc4a-5edd-4fbf-aad2-9329d863791c", "value": "Teachers Pack"}</skos:prefLabel>
+        <dcterms:identifier xml:lang="en">{"id": "dfc53dba-408b-4892-bbb2-025828bf4d22", "value": "http://purl.org/heritagedata/schemes/547/concepts/138750"}</dcterms:identifier>
+        <skos:scopeNote xml:lang="en">{"id": "000457d9-3cbe-4808-b000-f448e761159c", "value": "Materials selected and organised to be of use to teachers for use in education."}</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/1d8bd761-4aba-3221-ad21-9c1567a6eeb6"/>
+    <skos:scopeNote xml:lang="en">{"id": "b79e9968-1383-4de3-9417-e881ce373c19", "value": "A resource which requires interaction from the user to be understood, executed, or experienced.  [DC]"}</skos:scopeNote>
+    <skos:prefLabel xml:lang="en">{"id": "750f5fa3-4f39-4e7c-9b9b-4051f1054fee", "value": "Interactive Resource"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/7e9e8380-0de9-3f38-8a95-99d32c9121fc">
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/1d8bd761-4aba-3221-ad21-9c1567a6eeb6"/>
+    <skos:scopeNote xml:lang="en">{"id": "bbdfe3f6-038c-4c18-acd4-a23714507e6a", "value": "An outline of the circumstances to be addressed, with an indication of the scope of work which will be required (Scottish term)"}</skos:scopeNote>
+    <skos:prefLabel xml:lang="en">{"id": "a65169c2-3ed8-4f7d-8a37-27b70afd13b4", "value": "Project Outline"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "137a5ff9-cd5d-449b-9cdf-0d2c151364f2", "value": "http://purl.org/heritagedata/schemes/547/concepts/139572"}</dcterms:identifier>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/f2ad8e82-87d5-32f2-a3a8-f0e15c43d1ab">
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/1d8bd761-4aba-3221-ad21-9c1567a6eeb6"/>
+    <skos:scopeNote xml:lang="en">{"id": "30cace33-2151-4c12-b440-d3e56232d630", "value": "Factual information conveyed orally to a recipient.  Where this has been transcribed, use an appropriate term from the TEXT hierarchy."}</skos:scopeNote>
+    <dcterms:identifier xml:lang="en">{"id": "fe6dead3-5b2d-4d7c-9e30-623b683a8868", "value": "http://purl.org/heritagedata/schemes/547/concepts/138710"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="en">{"id": "2a31d378-90c3-4150-b088-2d132eb3393f", "value": "Verbal Communication"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/ad56a695-7e73-3f1d-983e-8e0aa67598a9">
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/1d8bd761-4aba-3221-ad21-9c1567a6eeb6"/>
+    <dcterms:identifier xml:lang="en">{"id": "149a2694-fa51-4e55-8dbd-c8919a7ea672", "value": "http://purl.org/heritagedata/schemes/547/concepts/138747"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="en">{"id": "a2e4fe90-e5d3-436f-bfe6-409aab376815", "value": "Floorplan"}</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">{"id": "320f1c24-3b4e-458f-a63e-d85ee962f2e5", "value": "Plan showing a horizontal section, size and arrangement of rooms within a building, may include location of doors, windows and other features."}</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/7b96e812-e663-3063-954e-f0e733ad30f5">
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/1d8bd761-4aba-3221-ad21-9c1567a6eeb6"/>
+    <skos:prefLabel xml:lang="en">{"id": "7b2f01de-0a87-4c57-a240-b9679fcb7fdf", "value": "Overlay"}</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">{"id": "c2e1fb5a-8140-4e7f-a9b1-9405b138aee4", "value": "A drawing, generally on a transparent sheet, which can be placed on top of another image to combine information from both."}</skos:scopeNote>
+    <dcterms:identifier xml:lang="en">{"id": "30af5904-bb0b-4862-97a8-37b758315f49", "value": "http://purl.org/heritagedata/schemes/547/concepts/138748"}</dcterms:identifier>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/7bf05b75-b815-31e0-8eb9-f6cedc6ef88e">
+    <skos:scopeNote xml:lang="en">{"id": "57a7f55e-08a1-4039-8ada-dbbc89b0c6b8", "value": "A drawing used to convey information about the arrangement and size of features in a defined location under study."}</skos:scopeNote>
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/1d8bd761-4aba-3221-ad21-9c1567a6eeb6"/>
+    <dcterms:identifier xml:lang="en">{"id": "a718e917-0568-4b3d-a0e0-1dbc0416f1ea", "value": "http://purl.org/heritagedata/schemes/547/concepts/138749"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="en">{"id": "6b381c32-a3e6-45a9-885c-e3b6d0876838", "value": "Topographical Drawing"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/403aa55d-b68e-39ba-9e17-4aa67ed446f3">
+    <dcterms:identifier xml:lang="en">{"id": "1cbf7081-c722-44ee-ade7-894d959b0338", "value": "http://purl.org/heritagedata/schemes/547/concepts/138830"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="en">{"id": "a2cc4050-0597-4fde-baee-d1502887fd7d", "value": "Video Tape"}</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">{"id": "fefc78ca-b2f6-4453-bbb6-ef8b9d69fdee", "value": "A magnetic tape used to record moving images and sound. Use for both cassette and reel tapes."}</skos:scopeNote>
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/1d8bd761-4aba-3221-ad21-9c1567a6eeb6"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/129c5918-9f8a-376e-9007-c594175f99fe">
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/1d8bd761-4aba-3221-ad21-9c1567a6eeb6"/>
+    <skos:prefLabel xml:lang="en">{"id": "17c3e4c1-80f5-450d-b1ad-33c6cc9d1677", "value": "Monograph"}</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">{"id": "b3b2ba6f-6611-407a-8e94-9fae4464c52f", "value": "Publication on a specific topic, or limited scope of subject matter. Complete in itself, though may form part of a series."}</skos:scopeNote>
+    <dcterms:identifier xml:lang="en">{"id": "c6d78121-5697-4857-a02b-e18b5e3306a5", "value": "http://purl.org/heritagedata/schemes/547/concepts/138758"}</dcterms:identifier>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/25ba2da7-fef9-3afe-a12f-2f4301fe9ca6">
+    <skos:scopeNote xml:lang="en">{"id": "520288f0-f322-4c33-aec2-7313060e3a59", "value": "A report detailing the results of an archaeological evaluation"}</skos:scopeNote>
+    <skos:prefLabel xml:lang="en">{"id": "b32af047-89b9-4a84-a9eb-d4567add461b", "value": "Evaluation Report"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/1d8bd761-4aba-3221-ad21-9c1567a6eeb6"/>
+    <dcterms:identifier xml:lang="en">{"id": "a0b49511-1a8f-4ed5-96bd-b29138f9f769", "value": "http://purl.org/heritagedata/schemes/547/concepts/167880"}</dcterms:identifier>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/3ab2c024-df99-3fb4-af6e-9f25670a46d7">
+    <skos:narrower rdf:resource="https://nmhr.historicengland.org.uk/223b42ce-09f8-39b2-bfe8-b8d4c71847ad"/>
+    <dcterms:identifier xml:lang="en">{"id": "86065ad1-05d2-4067-96d2-b23db7bf8ee9", "value": "http://purl.org/heritagedata/schemes/547/concepts/138705"}</dcterms:identifier>
+    <skos:narrower>
+      <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/37a8840e-1750-38d1-887c-fb4bccc6251e">
+        <skos:narrower rdf:resource="https://nmhr.historicengland.org.uk/66bdfe53-d161-343a-b912-02466112592b"/>
+        <skos:scopeNote xml:lang="en">{"id": "7974303f-62ab-4e54-a7b2-101cc8e52df5", "value": "Broad term for all types of animated or live action images."}</skos:scopeNote>
+        <dcterms:identifier xml:lang="en">{"id": "e5b57e8c-0c8c-4d3a-a2d3-00c3e42099ab", "value": "http://purl.org/heritagedata/schemes/547/concepts/138724"}</dcterms:identifier>
+        <skos:narrower rdf:resource="https://nmhr.historicengland.org.uk/4dee28b0-f037-3f30-9548-9ec286f6da40"/>
+        <skos:prefLabel xml:lang="en">{"id": "dc1383ef-5232-496d-9353-d27ea2f3c422", "value": "Moving Image"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/1d8bd761-4aba-3221-ad21-9c1567a6eeb6"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower rdf:resource="https://nmhr.historicengland.org.uk/b3430b08-9624-397d-a086-bc4fbd579a5a"/>
+    <skos:scopeNote xml:lang="en">{"id": "a67972e4-934c-44ae-ad9b-cc676f2703be", "value": "A visual representation of a physical object, place or person. [DC] Use a more specific term where appropriate."}</skos:scopeNote>
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/1d8bd761-4aba-3221-ad21-9c1567a6eeb6"/>
+    <skos:narrower rdf:resource="https://nmhr.historicengland.org.uk/50f2136f-7423-3e1c-a596-5d88d0ae51ee"/>
+    <skos:prefLabel xml:lang="en">{"id": "916943be-fc13-4aac-9284-e0e45b965cc5", "value": "Image"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/a801327e-e2e3-3842-bd7b-5249f7fb27b4">
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/1d8bd761-4aba-3221-ad21-9c1567a6eeb6"/>
+    <skos:prefLabel xml:lang="en">{"id": "51881579-81be-482d-af20-b23deee0a4a4", "value": "Engraving"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "c02cec57-c278-407d-9fa5-5f22ff67bb87", "value": "http://purl.org/heritagedata/schemes/547/concepts/138742"}</dcterms:identifier>
+    <skos:scopeNote xml:lang="en">{"id": "68c5b59c-1880-49f4-b31a-7fd1f70f2c5d", "value": "An image produced by creating marks on a hard material from which a print is then taken."}</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/fc74c8fc-9d8d-3034-86de-8e9a05aea5d8">
+    <skos:scopeNote xml:lang="en">{"id": "a9b976f4-ebec-4a97-b480-ef35b9e88403", "value": "A drawn representation of an archaeological 'find' or other cultural object."}</skos:scopeNote>
+    <skos:prefLabel xml:lang="en">{"id": "0e8a1970-a2f7-444d-93bb-03f6208c6510", "value": "Artefact Drawing"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/1d8bd761-4aba-3221-ad21-9c1567a6eeb6"/>
+    <dcterms:identifier xml:lang="en">{"id": "d89a163a-148c-4de5-9d2d-33abd49df405", "value": "http://purl.org/heritagedata/schemes/547/concepts/138796"}</dcterms:identifier>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/66500478-51e4-39d3-8a46-f2dcbdf7600a">
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/1d8bd761-4aba-3221-ad21-9c1567a6eeb6"/>
+    <skos:narrower rdf:resource="https://nmhr.historicengland.org.uk/6eee9995-c310-3830-9e03-0ea4c9bac70f"/>
+    <skos:narrower rdf:resource="https://nmhr.historicengland.org.uk/c968538d-405a-359c-8081-6b96b9153d16"/>
+    <skos:narrower rdf:resource="https://nmhr.historicengland.org.uk/6aa30242-940e-30d5-8137-2173ebd68fd1"/>
+    <skos:narrower rdf:resource="https://nmhr.historicengland.org.uk/c07bf327-86df-3ef7-85c9-4fcc645d4a37"/>
+    <dcterms:identifier xml:lang="en">{"id": "c916c955-efc0-48c7-b5d1-a50cd45d8786", "value": "http://purl.org/heritagedata/schemes/547/concepts/139046"}</dcterms:identifier>
+    <skos:narrower rdf:resource="https://nmhr.historicengland.org.uk/c43792ce-73d7-342c-a8b1-9e27d75af682"/>
+    <skos:prefLabel xml:lang="en">{"id": "ecee6a8b-c8a7-4435-b405-3314de947cea", "value": "Resource Type"}</skos:prefLabel>
+    <skos:narrower rdf:resource="https://nmhr.historicengland.org.uk/3ab2c024-df99-3fb4-af6e-9f25670a46d7"/>
+    <skos:scopeNote xml:lang="en">{"id": "87678ad8-6475-45df-b6cb-7d2cf65b9bd2", "value": "-"}</skos:scopeNote>
+    <skos:narrower rdf:resource="https://nmhr.historicengland.org.uk/8c547eac-2426-3ec3-a144-bd9694279c66"/>
+    <skos:narrower rdf:resource="https://nmhr.historicengland.org.uk/f2ad8e82-87d5-32f2-a3a8-f0e15c43d1ab"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/488569a6-63f9-3d6b-ada8-27e1f43c8fff">
+    <skos:prefLabel xml:lang="en">{"id": "97e36654-efc9-4e0b-a64a-35bd0e728a53", "value": "Guide Book"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "25d49076-5b5c-4e42-a8ed-d21c64fe9ca3", "value": "http://purl.org/heritagedata/schemes/547/concepts/167915"}</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/1d8bd761-4aba-3221-ad21-9c1567a6eeb6"/>
+    <skos:scopeNote xml:lang="en">{"id": "43f38be5-e3b3-4352-9fef-0bd57e7326a7", "value": "A book containing information about a place that has been produced for the use of visitors or tourists."}</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/bd7c1987-9985-3e0c-a093-22a2cdae5fee">
+    <skos:prefLabel xml:lang="en">{"id": "9adecde5-e493-4acc-aede-3e8cd2d972b7", "value": "Oblique Aerial Photograph"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/1d8bd761-4aba-3221-ad21-9c1567a6eeb6"/>
+    <dcterms:identifier xml:lang="en">{"id": "f89f715d-1394-47b2-92be-ee0aebf6f9dd", "value": "http://purl.org/heritagedata/schemes/547/concepts/138790"}</dcterms:identifier>
+    <skos:scopeNote xml:lang="en">{"id": "793ee3f9-4c1a-4ff3-9b1b-87a96e584da2", "value": "An aerial photograph taken at an angle other than 90 degrees to a feature in the landscape."}</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/5e18199e-80f2-39c0-86cf-069074b2abc8">
+    <skos:prefLabel xml:lang="en">{"id": "a24c44e3-0d09-4e8a-8cff-43f6e1d67800", "value": "Film Reel"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/1d8bd761-4aba-3221-ad21-9c1567a6eeb6"/>
+    <skos:scopeNote xml:lang="en">{"id": "32cf5845-3c58-4e4d-8dd5-047c89f9eaab", "value": "Positive image on continuous film strip suitable for projection of moving images."}</skos:scopeNote>
+    <dcterms:identifier xml:lang="en">{"id": "72b281d5-e654-4b45-8c86-92fb0d3e04e4", "value": "http://purl.org/heritagedata/schemes/547/concepts/138831"}</dcterms:identifier>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/a84f79f7-fe71-3d3b-8bc8-992184dc4580">
+    <skos:prefLabel xml:lang="en">{"id": "f3c6200d-0370-4408-afb1-3f228e240e9a", "value": "Book"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/1d8bd761-4aba-3221-ad21-9c1567a6eeb6"/>
+    <skos:scopeNote xml:lang="en">{"id": "62f1f144-85ff-44cd-a73d-320f75821a5e", "value": "A written or printed work consisting of pages glued or sewn together along one side and bound in covers."}</skos:scopeNote>
+    <dcterms:identifier xml:lang="en">{"id": "ffabb68d-60c8-42ec-92e1-b9743e15ee11", "value": "http://purl.org/heritagedata/schemes/547/concepts/138757"}</dcterms:identifier>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/e6780b97-c37b-3afc-80aa-de9de5270ee2">
+    <dcterms:identifier xml:lang="en">{"id": "43e7d3e2-fee0-4811-83e3-62bbf70156c1", "value": "http://purl.org/heritagedata/schemes/547/concepts/139583"}</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/1d8bd761-4aba-3221-ad21-9c1567a6eeb6"/>
+    <skos:scopeNote xml:lang="en">{"id": "d6639fce-6f76-4221-8fe0-16852db1407b", "value": "A list of buildings of special architectural or historic interest. This list confers a statutory level of protection status to the buildings contained within it and usually includes a description of each building."}</skos:scopeNote>
+    <skos:prefLabel xml:lang="en">{"id": "b5603c18-d27c-447e-87eb-94c0e7533d57", "value": "List Of Buildings"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/94a2197f-e619-3591-bb59-54cebb306984">
+    <dcterms:identifier xml:lang="en">{"id": "e7fdded2-ac15-4642-9d99-c52eed8064c4", "value": "http://purl.org/heritagedata/schemes/547/concepts/138795"}</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/1d8bd761-4aba-3221-ad21-9c1567a6eeb6"/>
+    <skos:scopeNote xml:lang="en">{"id": "5e962954-f9da-4b0f-9146-17dc0a43de20", "value": "A representation of a monument or landscape based on historical or archaeological information."}</skos:scopeNote>
+    <skos:prefLabel xml:lang="en">{"id": "48389625-dd5e-4b96-ba38-1c639c3684f2", "value": "Reconstruction Drawing"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/d3629ee3-aeed-3cc2-87f0-b58bdaa10fde">
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/1d8bd761-4aba-3221-ad21-9c1567a6eeb6"/>
+    <dcterms:identifier xml:lang="en">{"id": "66831deb-3225-4ebc-ae0b-d37bdf7474d8", "value": "http://purl.org/heritagedata/schemes/547/concepts/167882"}</dcterms:identifier>
+    <skos:scopeNote xml:lang="en">{"id": "afd5585b-df19-43ca-971b-6d5a8f5373cd", "value": "A report detailing the results of a study of the fabric of a standing building."}</skos:scopeNote>
+    <skos:prefLabel xml:lang="en">{"id": "fd2b5c41-7f09-4d82-b3fe-0450961cbe00", "value": "Building Recording Report"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/0e0bb652-5a29-39b7-8be3-e7be4f996aa9">
+    <skos:scopeNote xml:lang="en">{"id": "c7bf3f40-65e4-40b9-bb0b-921307b4323b", "value": "The process of transcribing the features on an aerial photograph onto a map or plan."}</skos:scopeNote>
+    <dcterms:identifier xml:lang="en">{"id": "404b7d14-863d-49d8-9d34-4441ab8b0750", "value": "http://purl.org/heritagedata/schemes/547/concepts/138797"}</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/1d8bd761-4aba-3221-ad21-9c1567a6eeb6"/>
+    <skos:prefLabel xml:lang="en">{"id": "873abde7-1b6b-4da7-99e8-0a302ef19eed", "value": "Aerial Photograph Transcription"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/c055d432-46a4-31d1-ae87-f4b5ad137c87">
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/1d8bd761-4aba-3221-ad21-9c1567a6eeb6"/>
+    <dcterms:identifier xml:lang="en">{"id": "dde67697-475a-4eb4-a8d4-55543287c547", "value": "http://purl.org/heritagedata/schemes/547/concepts/139012"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="en">{"id": "1573dd48-f4b7-442a-8a15-fd43605e0213", "value": "Volume"}</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">{"id": "34ac5888-88eb-4bfd-9aa7-bfe8976a35d9", "value": "A bound written work."}</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/116f8bca-6068-3b01-a35b-85a07c996f0c">
+    <dcterms:identifier xml:lang="en">{"id": "01802eea-e79c-4884-8a96-32ba6c4d8ba8", "value": "http://purl.org/heritagedata/schemes/547/concepts/138798"}</dcterms:identifier>
+    <skos:narrower rdf:resource="https://nmhr.historicengland.org.uk/381d45a2-f98d-3bf5-ac8f-66e0d343f655"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/3c78ed74-538a-3753-b95c-401e8643a258">
+        <dcterms:identifier xml:lang="en">{"id": "80ca8364-2da7-44f1-9a3a-5f23ac14e60e", "value": "http://purl.org/heritagedata/schemes/547/concepts/139018"}</dcterms:identifier>
+        <skos:prefLabel xml:lang="en">{"id": "61f962ce-a886-4e25-b697-be4692e15a1b", "value": "Section Drawing"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/1d8bd761-4aba-3221-ad21-9c1567a6eeb6"/>
+        <skos:scopeNote xml:lang="en">{"id": "a74823f0-af0d-4d0d-8cea-b4397eecf338", "value": "Drawing of the vertical face of an excavated feature or features depicting the vertical extent and stratigraphic relationship between identified layers or deposits."}</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/1d8bd761-4aba-3221-ad21-9c1567a6eeb6"/>
+    <skos:prefLabel xml:lang="en">{"id": "d5dad01c-5454-4904-8930-ef762f347974", "value": "Excavation Drawing"}</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">{"id": "7d540af8-5f9a-47f5-a470-6f0eb41e0253", "value": "A schematic depiction of the results of an archaeological excavation."}</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/0ebb14ac-cf6c-377f-8034-78ad9ac9a8b7">
+    <dcterms:identifier xml:lang="en">{"id": "b14341e8-c6b0-4a93-9bcb-a9a8c4c6bc0f", "value": "http://purl.org/heritagedata/schemes/547/concepts/167914"}</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/1d8bd761-4aba-3221-ad21-9c1567a6eeb6"/>
+    <skos:scopeNote xml:lang="en">{"id": "deac4045-325a-4efe-82e6-c36184a8c49c", "value": "A report detailing the results of archaeological fieldwork that has been produced in advance of a full synthesis of the collected data."}</skos:scopeNote>
+    <skos:prefLabel xml:lang="en">{"id": "138a0ab7-909f-4ec1-a10f-a2cd9059c0f5", "value": "Interim Report"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/5f09c575-55f6-3d6a-b653-799aff732e33">
+    <skos:scopeNote xml:lang="en">{"id": "f1f9e793-b5d1-4639-b794-7d19f6cc3e14", "value": "A report detailing the archaeological and architectural potential of a site or locality."}</skos:scopeNote>
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/1d8bd761-4aba-3221-ad21-9c1567a6eeb6"/>
+    <dcterms:identifier xml:lang="en">{"id": "5d94619b-ce9a-41b4-9fd1-2645109198e9", "value": "http://purl.org/heritagedata/schemes/547/concepts/167913"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="en">{"id": "e3129d2d-2eba-4329-a41d-622b82e080d1", "value": "Heritage Statement"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/0b29a2e4-54b9-379c-938a-db24418c4308">
+    <skos:narrower>
+      <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/ec080b8f-320b-3ea5-bb2f-3a84d06c9e2a">
+        <dcterms:identifier xml:lang="en">{"id": "c8db5e7d-af7b-469f-87d6-3425bdd54991", "value": "http://purl.org/heritagedata/schemes/547/concepts/138735"}</dcterms:identifier>
+        <skos:prefLabel xml:lang="en">{"id": "1b197ad7-3c81-4bf6-8bef-89fc9e867586", "value": "Plan"}</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">{"id": "4187a3be-29d0-4526-81bc-66afc652acc9", "value": "Used for orthographic drawings in the horizontal plane, generally from above generally depicts localised areas."}</skos:scopeNote>
+        <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/1d8bd761-4aba-3221-ad21-9c1567a6eeb6"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:prefLabel xml:lang="en">{"id": "095b5f10-c192-4919-bda8-dec1d974ab26", "value": "Technical Drawing"}</skos:prefLabel>
+    <skos:narrower rdf:resource="https://nmhr.historicengland.org.uk/9fc5617f-5fac-367a-b7fe-a2b66b15b57e"/>
+    <skos:narrower rdf:resource="https://nmhr.historicengland.org.uk/22b54844-b55d-36a4-9f42-2d17ae9ca7e2"/>
+    <skos:altLabel xml:lang="en">{"id": "2a3c222a-8831-43a5-8361-8e20ec32ccab", "value": "Technical Illustration"}</skos:altLabel>
+    <skos:scopeNote xml:lang="en">{"id": "95653cac-2208-4ff2-9c40-6c9433c8b122", "value": "A broad class of drawing that is produced following precise conventions of scale and projection. [AAT]"}</skos:scopeNote>
+    <skos:narrower rdf:resource="https://nmhr.historicengland.org.uk/7bf05b75-b815-31e0-8eb9-f6cedc6ef88e"/>
+    <skos:narrower rdf:resource="https://nmhr.historicengland.org.uk/0e0bb652-5a29-39b7-8be3-e7be4f996aa9"/>
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/1d8bd761-4aba-3221-ad21-9c1567a6eeb6"/>
+    <skos:narrower rdf:resource="https://nmhr.historicengland.org.uk/ad56a695-7e73-3f1d-983e-8e0aa67598a9"/>
+    <skos:narrower rdf:resource="https://nmhr.historicengland.org.uk/7b96e812-e663-3063-954e-f0e733ad30f5"/>
+    <skos:narrower rdf:resource="https://nmhr.historicengland.org.uk/116f8bca-6068-3b01-a35b-85a07c996f0c"/>
+    <dcterms:identifier xml:lang="en">{"id": "8aa0658a-51c1-497f-af03-baf28de40c38", "value": "http://purl.org/heritagedata/schemes/547/concepts/139037"}</dcterms:identifier>
+    <skos:narrower rdf:resource="https://nmhr.historicengland.org.uk/2185edad-bfd3-3a9a-812d-87a2d0b54052"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/3e7e1a19-8adc-3024-99d9-8f41ef2096c4">
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/1d8bd761-4aba-3221-ad21-9c1567a6eeb6"/>
+    <skos:scopeNote xml:lang="en">{"id": "93384e9a-adcb-4401-b19c-f63c560a00fe", "value": "Magnetic tape used to record sound. Includes both cassette and reel tapes."}</skos:scopeNote>
+    <dcterms:identifier xml:lang="en">{"id": "14b6545c-b3c3-45d6-9550-14c77a07d4b4", "value": "http://purl.org/heritagedata/schemes/547/concepts/138812"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="en">{"id": "14c99aca-7a74-4f83-a9f1-56e8b6fbcd9f", "value": "Audio Tape"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/06e39756-6205-31a1-ac35-bad48f94846f">
+    <skos:prefLabel xml:lang="en">{"id": "b04e5734-056e-49ba-8657-4aa733a8a91e", "value": "Deskbased Survey Report"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/1d8bd761-4aba-3221-ad21-9c1567a6eeb6"/>
+    <dcterms:identifier xml:lang="en">{"id": "7e200238-2ee4-4620-89bb-6b9d6e29766c", "value": "http://purl.org/heritagedata/schemes/547/concepts/138776"}</dcterms:identifier>
+    <skos:scopeNote xml:lang="en">{"id": "2c56a42f-707c-4a54-96fc-7f33fe29d770", "value": "A report on the archaeology of an area, based primarily on existing records and resources."}</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/6210064d-e934-32a5-a539-804c325e75e6">
+    <skos:prefLabel xml:lang="en">{"id": "4fb02f96-b40f-446a-8f27-849eda463194", "value": "Excavation Report"}</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">{"id": "d575e925-c325-4add-bba0-7414f672d6cf", "value": "A report detailing the results of an archaeological excavation."}</skos:scopeNote>
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/1d8bd761-4aba-3221-ad21-9c1567a6eeb6"/>
+    <dcterms:identifier xml:lang="en">{"id": "0acb9709-74f7-4e8f-acca-6f62a9176ee4", "value": "http://purl.org/heritagedata/schemes/547/concepts/138775"}</dcterms:identifier>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/a186d18b-56f8-3590-b3c0-4b0b9f91e7d8">
+    <skos:prefLabel xml:lang="en">{"id": "d173e76a-da27-42ac-97e1-91e86c6f31a5", "value": "Register Of Parks And Gardens"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/1d8bd761-4aba-3221-ad21-9c1567a6eeb6"/>
+    <skos:scopeNote xml:lang="en">{"id": "e9fcdae8-5300-4b83-a830-6e83d3fe1b4b", "value": "A register which including sites retaining any evidence of pre-1750 layouts; significant evidence of pre-1820 layouts; good examples of the best gardens from 1820 to 1880; are good examples of the best gardens laid out after 1880 but before 1970."}</skos:scopeNote>
+    <dcterms:identifier xml:lang="en">{"id": "c8b4984b-0c2a-4b50-9cf5-c15924f4453f", "value": "http://purl.org/heritagedata/schemes/547/concepts/139582"}</dcterms:identifier>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/a02376f6-97ee-3501-a74c-4bb08fe9ed3b">
+    <skos:prefLabel xml:lang="en">{"id": "b93133f1-af76-43f4-8d66-4996fda42765", "value": "Excavation Diary"}</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">{"id": "180a2f04-bc2e-4068-bb2a-6d552b19a051", "value": "A diary used to record the events and activities during an excavation."}</skos:scopeNote>
+    <dcterms:identifier xml:lang="en">{"id": "dd48e195-388a-4111-9ded-7f3c7268eeb7", "value": "http://purl.org/heritagedata/schemes/547/concepts/138767"}</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/1d8bd761-4aba-3221-ad21-9c1567a6eeb6"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/f37702c2-6b11-3218-8b57-bc8feb765c4b">
+    <skos:scopeNote xml:lang="en">{"id": "19c69072-9deb-4ebf-a236-0ccfba120fb3", "value": "A specification that sets out the scope of fieldwork and post-excavation methods required to understand the extent, character and significance of any archaeological remains within a planning application area. A WSI is generally produced in response to a project brief issued by the Local Authority Archaeological Officer."}</skos:scopeNote>
+    <skos:prefLabel xml:lang="en">{"id": "e9b2e8e6-a4b2-4cf5-827e-2672e4765950", "value": "Written Scheme Of Investigation"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/1d8bd761-4aba-3221-ad21-9c1567a6eeb6"/>
+    <dcterms:identifier xml:lang="en">{"id": "d60ec590-f98d-4486-8b2f-153a05b408c3", "value": "http://purl.org/heritagedata/schemes/547/concepts/170984"}</dcterms:identifier>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/d263e36d-27d7-37b1-849c-1fcaa4cfe4c9">
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/1d8bd761-4aba-3221-ad21-9c1567a6eeb6"/>
+    <skos:prefLabel xml:lang="en">{"id": "bb2b8d0f-c3cb-4a6a-9ae3-d62350d0e320", "value": "Archaeological Science Report"}</skos:prefLabel>
+    <skos:narrower>
+      <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/d806f560-4b4d-3d53-a4ee-b8761ec8f835">
+        <skos:scopeNote xml:lang="en">{"id": "36e33325-8e7d-49c9-a5ea-3b4288dc2be4", "value": "A report that primarily details the results of attempts to assign a date to materials or deposits using scientific methods such as Palaeomagnetism, Dendrochronology or Radiocarbon Dating."}</skos:scopeNote>
+        <skos:narrower rdf:resource="https://nmhr.historicengland.org.uk/951f3751-a654-3e5d-a6a3-6512c86fb9b6"/>
+        <dcterms:identifier xml:lang="en">{"id": "634808d4-a280-4fde-b5f8-79044e581a4b", "value": "http://purl.org/heritagedata/schemes/547/concepts/164072"}</dcterms:identifier>
+        <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/1d8bd761-4aba-3221-ad21-9c1567a6eeb6"/>
+        <skos:narrower rdf:resource="https://nmhr.historicengland.org.uk/6c0a4b73-3095-38a0-ac62-6419b6122f9d"/>
+        <skos:prefLabel xml:lang="en">{"id": "89415cc6-1c5b-4aa0-8291-00fa3a5928d9", "value": "Scientific Dating Report"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:scopeNote xml:lang="en">{"id": "624ab501-f39f-49a9-b3ac-7dc2d6c51915", "value": "A report detailing the results of the application of scientific techniques to the analysis of archaeological materials."}</skos:scopeNote>
+    <dcterms:identifier xml:lang="en">{"id": "8a69c00f-3615-4898-94e6-0f305b0f2923", "value": "http://purl.org/heritagedata/schemes/547/concepts/170847"}</dcterms:identifier>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/6983dac3-6e74-33c2-a79e-908f7cb37337">
+    <skos:prefLabel xml:lang="en">{"id": "a74e8310-69c8-4141-95f0-f177a8147db2", "value": "Context Sheet"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/1d8bd761-4aba-3221-ad21-9c1567a6eeb6"/>
+    <dcterms:identifier xml:lang="en">{"id": "734c4129-3be1-41ae-8b97-547a5f10050c", "value": "http://purl.org/heritagedata/schemes/547/concepts/138780"}</dcterms:identifier>
+    <skos:scopeNote xml:lang="en">{"id": "9a4caae9-05db-4384-98f7-9b7242fef772", "value": "A form used to record the details of a feature identified by archaeological investigation, generally including location, depth, colour, texture, inclusions and stratigraphic relationship to other contexts."}</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/14e608ae-a34c-325d-9b82-48ca95d4c15f">
+    <skos:prefLabel xml:lang="en">{"id": "e41ef179-11c2-4e6f-9694-f06e14b12c16", "value": "Newsletter"}</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">{"id": "abc074d0-fa9d-49c7-ab8e-2c50f2dec926", "value": "Short publication used to disseminate information about a particular project or organisation, issued on a regular basis."}</skos:scopeNote>
+    <dcterms:identifier xml:lang="en">{"id": "bf8f6f0a-062b-4dec-98c9-d953974f7f4d", "value": "http://purl.org/heritagedata/schemes/547/concepts/138763"}</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/1d8bd761-4aba-3221-ad21-9c1567a6eeb6"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/ea566ba9-05af-32d1-a0fe-ac91c0c30104">
+    <skos:scopeNote xml:lang="en">{"id": "264d6f76-5294-43e8-bb89-19834068b274", "value": "A flexible, transparent sheet of film bearing a number of reduced images."}</skos:scopeNote>
+    <dcterms:identifier xml:lang="en">{"id": "053ce7e8-9873-42d8-8c23-16c4b743311e", "value": "http://purl.org/heritagedata/schemes/547/concepts/138828"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="en">{"id": "2f60502b-e024-43f8-ba13-30f304c8b157", "value": "Microfiche"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/1d8bd761-4aba-3221-ad21-9c1567a6eeb6"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/94662a5d-805e-3f9d-ac60-7be6718db761">
+    <dcterms:identifier xml:lang="en">{"id": "13dbc6b7-7d08-4e6a-b9e6-59c99c0fdb56", "value": "http://purl.org/heritagedata/schemes/547/concepts/138764"}</dcterms:identifier>
+    <skos:narrower rdf:resource="https://nmhr.historicengland.org.uk/35bb2d57-2b8d-367d-adbc-cbc34a918ab4"/>
+    <skos:scopeNote xml:lang="en">{"id": "5af823fb-0f27-4e0b-8b79-0b3acfb4d2b2", "value": "A written work issued at regular intervals, numbered consecutively with no intended or planned end point."}</skos:scopeNote>
+    <skos:prefLabel xml:lang="en">{"id": "660d6a00-7901-4de8-83b1-46e9122828b3", "value": "Serial"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/1d8bd761-4aba-3221-ad21-9c1567a6eeb6"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/176c3112-4087-3e1b-a328-95e9eb831847">
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/1d8bd761-4aba-3221-ad21-9c1567a6eeb6"/>
+    <skos:prefLabel xml:lang="en">{"id": "a6a4736b-597e-4d54-a96a-52970147be6e", "value": "Project Design"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "e74a970e-7c79-4494-8bab-71bcfdae382a", "value": "http://purl.org/heritagedata/schemes/547/concepts/139574"}</dcterms:identifier>
+    <skos:scopeNote xml:lang="en">{"id": "564d1ba3-9673-4a96-b525-8cec3dd0e4fc", "value": "A schedule of work set out in sufficient detail for it to be quantifiable, implemented and monitored. Can include contractual details relevant to the commissioning body. A project design may be a research proposal independent of the planning framework"}</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/4dee28b0-f037-3f30-9548-9ec286f6da40">
+    <skos:prefLabel xml:lang="en">{"id": "b0a9acf8-df90-4041-b4e5-611cdf4fadc6", "value": "Video Clip"}</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">{"id": "3cead5a7-0db6-4139-9cd9-39429455cfe7", "value": "An extract from a longer video film, used as an illustration."}</skos:scopeNote>
+    <dcterms:identifier xml:lang="en">{"id": "dabe8b61-d7fc-4751-8f2d-61fcbf1bc3d7", "value": "http://purl.org/heritagedata/schemes/547/concepts/138725"}</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/1d8bd761-4aba-3221-ad21-9c1567a6eeb6"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/66bdfe53-d161-343a-b912-02466112592b">
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/1d8bd761-4aba-3221-ad21-9c1567a6eeb6"/>
+    <skos:prefLabel xml:lang="en">{"id": "152a0849-4938-4811-8ebf-13a925b5231c", "value": "Television Programme"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "6f2cdb74-ba43-4eb7-bde1-7ac3f8e363a5", "value": "http://purl.org/heritagedata/schemes/547/concepts/139050"}</dcterms:identifier>
+    <skos:scopeNote xml:lang="en">{"id": "b446efe6-1df8-45d4-bb11-09cc7678a3bd", "value": "Recording of a complete broadcast television programme, for instance a documentary. For extracts such as items from news broadcasts use VIDEO CLIP."}</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/0092a483-dd9f-39a0-ab7c-5ef0222fb8cf">
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/1d8bd761-4aba-3221-ad21-9c1567a6eeb6"/>
+    <dcterms:identifier xml:lang="en">{"id": "dd8aa447-1388-4e98-83db-cf3194e8a323", "value": "http://purl.org/heritagedata/schemes/547/concepts/139043"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="en">{"id": "7f8a0735-511d-4cca-ba38-9b17ca8f0b79", "value": "Series"}</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">{"id": "a5bb1e09-beb4-4429-b76a-0161c859f6b0", "value": "A written work issued in parts, with the intention of creating a completed sequence."}</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/a997c972-5afc-3cc7-8e8d-e63ec6c71f97">
+    <dcterms:identifier xml:lang="en">{"id": "6881049f-9956-4979-a3b4-c043f881ad1a", "value": "http://purl.org/heritagedata/schemes/547/concepts/139575"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="en">{"id": "d2a3422e-8663-45fd-af5f-80a5e226955c", "value": "Geophysical Survey Report"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/1d8bd761-4aba-3221-ad21-9c1567a6eeb6"/>
+    <skos:scopeNote xml:lang="en">{"id": "0d445d10-a4b7-4a71-917b-389610d9ba1c", "value": "A report that primarily details the results of a survey that was conducted using remote sensing techniques such as resistivity and magnetometry."}</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/9d2166d3-6a01-3054-987a-979f4b56cc35">
+    <skos:scopeNote xml:lang="en">{"id": "ce580992-8857-4637-b298-3b43917f43d1", "value": "A schedule of work in sufficient detail for it to be quantifiable, implemented and monitored."}</skos:scopeNote>
+    <skos:prefLabel xml:lang="en">{"id": "aff32d8b-46b4-4124-9656-9db78da696af", "value": "Project Specification"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/1d8bd761-4aba-3221-ad21-9c1567a6eeb6"/>
+    <dcterms:identifier xml:lang="en">{"id": "331db3a3-e9b7-4042-8780-0c2cb1a59e7b", "value": "http://purl.org/heritagedata/schemes/547/concepts/139573"}</dcterms:identifier>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/5504e0ca-b04e-3b7f-8a3b-497309081a8d">
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/1d8bd761-4aba-3221-ad21-9c1567a6eeb6"/>
+    <skos:prefLabel xml:lang="en">{"id": "d567f0ec-c130-4141-b80a-6967681e6ff5", "value": "Fieldwalking Report"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "78967aa7-f4e8-43f0-bcdf-bdd702be1e02", "value": "http://purl.org/heritagedata/schemes/547/concepts/167883"}</dcterms:identifier>
+    <skos:scopeNote xml:lang="en">{"id": "1439ce67-51bd-4705-9c8d-5aa4b14970e4", "value": "A report detailing the results of an archaeological event were the ground surface has been studied and any visible archaeological material collected."}</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/4ccefa89-2664-3235-bd6b-f0e6319aea22">
+    <dcterms:identifier xml:lang="en">{"id": "992fb70b-550c-47b5-9549-d80eb2735af4", "value": "http://purl.org/heritagedata/schemes/547/concepts/138777"}</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/1d8bd761-4aba-3221-ad21-9c1567a6eeb6"/>
+    <skos:prefLabel xml:lang="en">{"id": "de8ea8c9-2b0b-45e6-b18a-abe8fd039527", "value": "Field Survey Report"}</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">{"id": "863edd2a-153a-420f-9dc1-fdeab9c1b441", "value": "A report detailing the results of a field survey. Usually restricted to a survey of a small or specific area or site."}</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/951f3751-a654-3e5d-a6a3-6512c86fb9b6">
+    <dcterms:identifier xml:lang="en">{"id": "ed09ece0-34af-4dcf-a2ef-230bccfdb4e6", "value": "http://purl.org/heritagedata/schemes/547/concepts/164073"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="en">{"id": "7c52547e-0d49-478d-95fb-d9c22e4b5175", "value": "Dendrochronology Report"}</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">{"id": "158565f4-0121-465e-9313-4b8911752972", "value": "A report that primarily details the results of attempts to assign a date to wooden structures or objects by the comparative study of the growth rings in trees and aged wood."}</skos:scopeNote>
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/1d8bd761-4aba-3221-ad21-9c1567a6eeb6"/>
+    <skos:altLabel xml:lang="en">{"id": "318b11b6-fb15-4a97-9c5d-9bfb88835995", "value": "Tree Ring Dating Report"}</skos:altLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/56e4cd30-0757-34eb-9ef7-09a12d37dea6">
+    <dcterms:identifier xml:lang="en">{"id": "88c57306-5e13-4a5b-9a5a-6804ee96b7f2", "value": "http://purl.org/heritagedata/schemes/547/concepts/170845"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="en">{"id": "a27bf749-5b73-4a4f-9a2a-565c1443e3ff", "value": "Geotechnical Report"}</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">{"id": "f4fefbf6-79be-4bc0-b603-85d81871a8c7", "value": "A report detailing subsurface investigations conducted to assist with the technical rather than archaeological aspects of a proposed development or extraction scheme."}</skos:scopeNote>
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/1d8bd761-4aba-3221-ad21-9c1567a6eeb6"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/0d42dd8c-6027-3c89-bea3-e4c62724dda9">
+    <dcterms:identifier xml:lang="en">{"id": "3f3f4c14-1991-46d6-a20b-202baf4a7b2e", "value": "http://purl.org/heritagedata/schemes/547/concepts/138829"}</dcterms:identifier>
+    <skos:scopeNote xml:lang="en">{"id": "0d32e91f-ab88-4fff-a968-941dcbf28d4f", "value": "A film strip or roll containing reduced images."}</skos:scopeNote>
+    <skos:prefLabel xml:lang="en">{"id": "192c1db9-3f6f-45f1-8a8c-3d088c7754b7", "value": "Microfilm"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/1d8bd761-4aba-3221-ad21-9c1567a6eeb6"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/a2958c51-034a-3898-ad42-9b892631a675">
+    <skos:prefLabel xml:lang="en">{"id": "b9a78a0f-4131-4e6a-89ed-1b04ac27c35a", "value": "Gazetteer"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/1d8bd761-4aba-3221-ad21-9c1567a6eeb6"/>
+    <skos:scopeNote xml:lang="en">{"id": "31836d92-049d-447f-8e5b-210ac97d7a39", "value": "Structured list of information about items of interest to a research project, for example monuments of a particular type."}</skos:scopeNote>
+    <dcterms:identifier xml:lang="en">{"id": "6671a660-7129-46ac-b33f-bc9639b4040c", "value": "http://purl.org/heritagedata/schemes/547/concepts/138770"}</dcterms:identifier>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/f8bd62e3-bb4a-3ad7-b300-a3645a1ff096">
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/1d8bd761-4aba-3221-ad21-9c1567a6eeb6"/>
+    <skos:scopeNote xml:lang="en">{"id": "f3502f10-9380-4675-a574-a815a6bfbaac", "value": "A form to record the details of a monument or site found during the course of a field survey or visit."}</skos:scopeNote>
+    <skos:prefLabel xml:lang="en">{"id": "bc82e01c-eb3a-4a27-bbab-70873856a678", "value": "Field Recording Form"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "028bb511-d158-4fc7-b7d9-750e1da76aab", "value": "http://purl.org/heritagedata/schemes/547/concepts/138781"}</dcterms:identifier>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/8f6cc657-3dc1-3e33-8055-da7b701414f1">
+    <skos:scopeNote xml:lang="en">{"id": "1548ca91-9892-410c-a707-f2b3b59a5fbf", "value": "A report which represents the final assessment and analysis of an archaeological intervention."}</skos:scopeNote>
+    <skos:prefLabel xml:lang="en">{"id": "25af4f8a-3eac-4a95-bbaf-f1b375d869f2", "value": "Post Excavation Full Analysis Report"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "7cef8e2a-f1e2-4ec5-ba81-695a3f9421c3", "value": "http://purl.org/heritagedata/schemes/547/concepts/170848"}</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/1d8bd761-4aba-3221-ad21-9c1567a6eeb6"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/f0af2a93-0317-3d8d-a511-ba33da9bc43b">
+    <dcterms:identifier xml:lang="en">{"id": "7ef95612-6d7c-4bde-b986-89fa64c60068", "value": "http://purl.org/heritagedata/schemes/547/concepts/138774"}</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/1d8bd761-4aba-3221-ad21-9c1567a6eeb6"/>
+    <skos:prefLabel xml:lang="en">{"id": "160735bc-cdd8-4bd0-9848-8fcc1b9e3c65", "value": "Historic Landscape Survey Report"}</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">{"id": "444834e9-9f1f-4d07-b13a-46575517a84a", "value": "A report depicting the results generated from an intensive survey of a large area of land including field recording, measured site surveys and land history."}</skos:scopeNote>
+  </skos:Concept>
+</rdf:RDF>

@@ -1,0 +1,416 @@
+{
+    "graph": [
+        {
+            "author": "",
+            "cards": [
+                {
+                    "active": true,
+                    "cardid": "3365ebe2-faea-11ed-961a-0242ac120006",
+                    "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
+                    "config": null,
+                    "constraints": [],
+                    "cssclass": null,
+                    "description": {
+                        "en": ""
+                    },
+                    "graph_id": "3365e21e-faea-11ed-961a-0242ac120006",
+                    "helpenabled": false,
+                    "helptext": {
+                        "en": null
+                    },
+                    "helptitle": {
+                        "en": null
+                    },
+                    "instructions": {
+                        "en": null
+                    },
+                    "is_editable": true,
+                    "name": {
+                        "en": "Decimal_LatLong_References"
+                    },
+                    "nodegroup_id": "3365e520-faea-11ed-961a-0242ac120006",
+                    "sortorder": 6,
+                    "visible": true
+                }
+            ],
+            "cards_x_nodes_x_widgets": [
+                {
+                    "card_id": "3365ebe2-faea-11ed-961a-0242ac120006",
+                    "config": {
+                        "defaultValue": {
+                            "en": {
+                                "direction": "ltr",
+                                "value": ""
+                            }
+                        },
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
+                        "label": "Decimal Latitude",
+                        "maxLength": null,
+                        "placeholder": {
+                            "en": "Enter text"
+                        },
+                        "uneditable": false,
+                        "width": "100%"
+                    },
+                    "id": "3365fa06-faea-11ed-961a-0242ac120006",
+                    "label": {
+                        "en": "Decimal Latitude"
+                    },
+                    "node_id": "3365efe8-faea-11ed-961a-0242ac120006",
+                    "sortorder": 0,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000001"
+                },
+                {
+                    "card_id": "3365ebe2-faea-11ed-961a-0242ac120006",
+                    "config": {
+                        "defaultValue": {
+                            "en": {
+                                "direction": "ltr",
+                                "value": ""
+                            }
+                        },
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
+                        "label": "Decimal Longitude",
+                        "maxLength": null,
+                        "placeholder": {
+                            "en": "Enter text"
+                        },
+                        "uneditable": false,
+                        "width": "100%"
+                    },
+                    "id": "3365face-faea-11ed-961a-0242ac120006",
+                    "label": {
+                        "en": "Decimal Longitude"
+                    },
+                    "node_id": "3365f556-faea-11ed-961a-0242ac120006",
+                    "sortorder": 1,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000001"
+                },
+                {
+                    "card_id": "3365ebe2-faea-11ed-961a-0242ac120006",
+                    "config": {
+                        "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
+                        "label": "Decimal Height Unit of Measurement",
+                        "options": [],
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
+                    },
+                    "id": "3365fb78-faea-11ed-961a-0242ac120006",
+                    "label": {
+                        "en": "Decimal Height Unit of Measurement"
+                    },
+                    "node_id": "3365f72c-faea-11ed-961a-0242ac120006",
+                    "sortorder": 2,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000002"
+                },
+                {
+                    "card_id": "3365ebe2-faea-11ed-961a-0242ac120006",
+                    "config": {
+                        "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
+                        "label": "Decimal Height Qualifier",
+                        "options": [],
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
+                    },
+                    "id": "3365fc18-faea-11ed-961a-0242ac120006",
+                    "label": {
+                        "en": "Decimal Height Qualifier"
+                    },
+                    "node_id": "3365f1fa-faea-11ed-961a-0242ac120006",
+                    "sortorder": 3,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000002"
+                }
+            ],
+            "color": "rgba(33,59,134,1)",
+            "config": {
+                "basemap": "streets",
+                "bearing": 0,
+                "centerX": -1.5983286851933372,
+                "centerY": 53.155430248627454,
+                "defaultValue": "",
+                "defaultValueType": 0,
+                "featureColor": "#FF0000",
+                "featureEditingDisabled": true,
+                "featureLineWidth": 1,
+                "featurePointSize": 3,
+                "geocodePlaceholder": "Search",
+                "geocodeProvider": "10000000-0000-0000-0000-010000000000",
+                "geocoderVisible": true,
+                "geometryTypes": [
+                    {
+                        "id": "Point",
+                        "text": "Point"
+                    },
+                    {
+                        "id": "Line",
+                        "text": "Line"
+                    },
+                    {
+                        "id": "Polygon",
+                        "text": "Polygon"
+                    }
+                ],
+                "mapControlsHidden": false,
+                "maxZoom": 20,
+                "minZoom": 0,
+                "overlayConfigs": [],
+                "overlayOpacity": 0,
+                "pitch": 0,
+                "zoom": 4.908319487490616
+            },
+            "deploymentdate": null,
+            "deploymentfile": null,
+            "description": {
+                "en": ""
+            },
+            "edges": [
+                {
+                    "description": null,
+                    "domainnode_id": "3365e520-faea-11ed-961a-0242ac120006",
+                    "edgeid": "33660a00-faea-11ed-961a-0242ac120006",
+                    "graph_id": "3365e21e-faea-11ed-961a-0242ac120006",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P168_place_is_defined_by",
+                    "rangenode_id": "3365f556-faea-11ed-961a-0242ac120006"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "3365e520-faea-11ed-961a-0242ac120006",
+                    "edgeid": "33660b5e-faea-11ed-961a-0242ac120006",
+                    "graph_id": "3365e21e-faea-11ed-961a-0242ac120006",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P168_place_is_defined_by",
+                    "rangenode_id": "3365efe8-faea-11ed-961a-0242ac120006"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "3365e520-faea-11ed-961a-0242ac120006",
+                    "edgeid": "33660c6c-faea-11ed-961a-0242ac120006",
+                    "graph_id": "3365e21e-faea-11ed-961a-0242ac120006",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P148_has_component",
+                    "rangenode_id": "3365f902-faea-11ed-961a-0242ac120006"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "3365f902-faea-11ed-961a-0242ac120006",
+                    "edgeid": "33660d66-faea-11ed-961a-0242ac120006",
+                    "graph_id": "3365e21e-faea-11ed-961a-0242ac120006",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "rangenode_id": "3365f1fa-faea-11ed-961a-0242ac120006"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "3365f902-faea-11ed-961a-0242ac120006",
+                    "edgeid": "33660f46-faea-11ed-961a-0242ac120006",
+                    "graph_id": "3365e21e-faea-11ed-961a-0242ac120006",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "rangenode_id": "3365f72c-faea-11ed-961a-0242ac120006"
+                }
+            ],
+            "functions_x_graphs": [],
+            "graphid": "3365e21e-faea-11ed-961a-0242ac120006",
+            "iconclass": "fa fa-ship",
+            "is_editable": true,
+            "isresource": false,
+            "jsonldcontext": null,
+            "name": {
+                "en": "Decimal_LatLong_References"
+            },
+            "nodegroups": [
+                {
+                    "cardinality": "1",
+                    "legacygroupid": null,
+                    "nodegroupid": "3365e520-faea-11ed-961a-0242ac120006",
+                    "parentnodegroup_id": null
+                }
+            ],
+            "nodes": [
+                {
+                    "alias": "decimal_latlong_references",
+                    "config": {},
+                    "datatype": "semantic",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "3365e21e-faea-11ed-961a-0242ac120006",
+                    "hascustomalias": false,
+                    "is_collector": true,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": true,
+                    "name": "Decimal_LatLong_References",
+                    "nodegroup_id": "3365e520-faea-11ed-961a-0242ac120006",
+                    "nodeid": "3365e520-faea-11ed-961a-0242ac120006",
+                    "ontologyclass": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+                    "parentproperty": "",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "decimal_latitude",
+                    "config": {},
+                    "datatype": "string",
+                    "description": null,
+                    "exportable": true,
+                    "fieldname": "DLatitude",
+                    "graph_id": "3365e21e-faea-11ed-961a-0242ac120006",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Decimal Latitude",
+                    "nodegroup_id": "3365e520-faea-11ed-961a-0242ac120006",
+                    "nodeid": "3365efe8-faea-11ed-961a-0242ac120006",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E94_Space_Primitive",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P168_place_is_defined_by",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "dec_height_qualifier",
+                    "config": {
+                        "rdmCollection": "234be8dd-aaca-48ac-bcb5-0eac8abd6572"
+                    },
+                    "datatype": "concept",
+                    "description": null,
+                    "exportable": true,
+                    "fieldname": "HeightQual",
+                    "graph_id": "3365e21e-faea-11ed-961a-0242ac120006",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Dec Height Qualifier",
+                    "nodegroup_id": "3365e520-faea-11ed-961a-0242ac120006",
+                    "nodeid": "3365f1fa-faea-11ed-961a-0242ac120006",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "decimal_longitude",
+                    "config": {},
+                    "datatype": "string",
+                    "description": null,
+                    "exportable": true,
+                    "fieldname": "DLongitude",
+                    "graph_id": "3365e21e-faea-11ed-961a-0242ac120006",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Decimal Longitude",
+                    "nodegroup_id": "3365e520-faea-11ed-961a-0242ac120006",
+                    "nodeid": "3365f556-faea-11ed-961a-0242ac120006",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E94_Space_Primitive",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P168_place_is_defined_by",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "dec_unit_of_measurement",
+                    "config": {
+                        "rdmCollection": "51407fe6-9f8d-439d-8309-d6804b4437d2"
+                    },
+                    "datatype": "concept",
+                    "description": null,
+                    "exportable": true,
+                    "fieldname": "DMeasureU",
+                    "graph_id": "3365e21e-faea-11ed-961a-0242ac120006",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Dec Unit of Measurement",
+                    "nodegroup_id": "3365e520-faea-11ed-961a-0242ac120006",
+                    "nodeid": "3365f72c-faea-11ed-961a-0242ac120006",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "dec_height_abovebelow_datum",
+                    "config": {},
+                    "datatype": "string",
+                    "description": null,
+                    "exportable": true,
+                    "fieldname": "DecHeight",
+                    "graph_id": "3365e21e-faea-11ed-961a-0242ac120006",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Dec Height AboveBelow Datum",
+                    "nodegroup_id": "3365e520-faea-11ed-961a-0242ac120006",
+                    "nodeid": "3365f902-faea-11ed-961a-0242ac120006",
+                    "ontologyclass": "http://www.ics.forth.gr/isl/CRMgeo/SP5_Geometric_Place_Expression",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P148_has_component",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                }
+            ],
+            "ontology_id": "e6e8db47-2ccf-11e6-927e-b8f6b115d7dd",
+            "publication": null,
+            "relatable_resource_model_ids": [],
+            "resource_2_resource_constraints": [],
+            "root": {
+                "alias": "decimal_latlong_references",
+                "config": {},
+                "datatype": "semantic",
+                "description": null,
+                "exportable": false,
+                "fieldname": null,
+                "graph_id": "3365e21e-faea-11ed-961a-0242ac120006",
+                "hascustomalias": false,
+                "is_collector": true,
+                "isrequired": false,
+                "issearchable": true,
+                "istopnode": true,
+                "name": "Decimal_LatLong_References",
+                "nodegroup_id": "3365e520-faea-11ed-961a-0242ac120006",
+                "nodeid": "3365e520-faea-11ed-961a-0242ac120006",
+                "ontologyclass": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+                "sortorder": 0,
+                "sourcebranchpublication_id": null
+            },
+            "slug": null,
+            "subtitle": {
+                "en": ""
+            },
+            "template_id": "50000000-0000-0000-0000-000000000002",
+            "version": ""
+        }
+    ],
+    "metadata": {
+        "db": "PostgreSQL 16.10 on x86_64-pc-linux-gnu, compiled by gcc (GCC) 11.2.0, 64-bit",
+        "git hash": "fatal: not a git repository (or any of the parent directories): .git",
+        "os": "Windows",
+        "os version": "2019Server"
+    }
+}

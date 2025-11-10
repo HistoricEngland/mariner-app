@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/af6ca7fb-fdea-4dac-9ae5-84c1ba047f68">
+    <skos:inScheme>
+      <skos:ConceptScheme rdf:about="https://nmhr.historicengland.org.uk/02ca20f5-36b6-4575-baee-b8f73993c652">
+        <skos:hasTopConcept rdf:resource="https://nmhr.historicengland.org.uk/ae4aca2b-c634-4ab6-9d61-14d56c5f860a"/>
+        <skos:hasTopConcept rdf:resource="https://nmhr.historicengland.org.uk/c64e8e7d-650e-406a-8725-8b171ad256db"/>
+        <skos:hasTopConcept rdf:resource="https://nmhr.historicengland.org.uk/7b8b0e4b-7ee2-431f-b007-bbac4a0a2e19"/>
+        <dcterms:title xml:lang="en">{"id": "ca568bc0-5cdc-4ef8-bcae-00a95ade79fa", "value": "Pretreatment processes"}</dcterms:title>
+        <skos:hasTopConcept rdf:resource="https://nmhr.historicengland.org.uk/fb2edc03-83fb-48ef-ae7f-98f013e88821"/>
+        <skos:hasTopConcept rdf:resource="https://nmhr.historicengland.org.uk/59d49ad2-eb56-448e-831c-23663f0e92d6"/>
+        <skos:hasTopConcept rdf:resource="https://nmhr.historicengland.org.uk/127f74bf-58f9-4523-a728-8b0dd3023877"/>
+        <skos:hasTopConcept rdf:resource="https://nmhr.historicengland.org.uk/12b33761-333f-4d91-936d-4eda3c584123"/>
+      </skos:ConceptScheme>
+    </skos:inScheme>
+    <skos:prefLabel xml:lang="en">{"id": "507daa04-f51e-4f17-aef3-43bb194b000c", "value": "Acid/alkali/acid - cellulose extraction"}</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">{"id": "e4f78d04-ef44-428d-99a7-754d0f6b0bb8", "value": "After a full acid/alkali/acid pretreatment, the sample for radiocarbon dating is bathed in sodium chlorite (NaClO2) under controlled conditions (pH 3 and temperature at 70\u00b0C). This procedure eliminates all components except wood cellulose."}</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/12b33761-333f-4d91-936d-4eda3c584123">
+    <skos:scopeNote xml:lang="en">{"id": "f8e0bf3b-2101-4288-a8cb-5a634aea5b0a", "value": "The sample is crushed then dispersed in deionized water. It is washed with hot HCl acid to eliminate carbonates followed by an alkali wash (NaOH) to remove secondary organic acids. The alkali wash is followed by a final acid rinse to neutralize the solution before drying.\nTypically applied to \u2013 charcoal, wood, some peat, textiles"}</skos:scopeNote>
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/02ca20f5-36b6-4575-baee-b8f73993c652"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/1e9ba362-1782-43db-8a8e-123c334bd4f7">
+        <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/02ca20f5-36b6-4575-baee-b8f73993c652"/>
+        <skos:prefLabel xml:lang="en">{"id": "7f76a376-981c-4f5a-a9fc-38a6f63df62a", "value": "Acid/alkali/acid - solubles"}</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">{"id": "22aafe96-cd58-4ab9-b556-abf80493e6cd", "value": "The sample is first pretreated with acid to remove any carbonates and to weaken organic bonds. After the alkali washes are used (see acid/alkali/acid above), the solution containing the alkali soluble fraction is isolated/filtered and combined with acid. The soluble fraction, which precipitates, is rinsed and dried prior to combustion."}</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:prefLabel xml:lang="en">{"id": "920c5102-880a-4f7d-8f33-35bd20d6c5de", "value": "Acid/alkali/acid"}</skos:prefLabel>
+    <skos:narrower rdf:resource="https://nmhr.historicengland.org.uk/af6ca7fb-fdea-4dac-9ae5-84c1ba047f68"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/c64e8e7d-650e-406a-8725-8b171ad256db">
+    <skos:scopeNote xml:lang="en">{"id": "7222ad0e-ff6c-45f6-a453-3ee85d76047c", "value": "Carbonates precipitated from groundwater are usually submitted in an alkaline condition (ammonium hydroxide or sodium hydroxide solution) prior to radiocarbon dating. Typically this solution is neutralized in the original sample container using deionized water. If larger volume dilution is required, the precipitate and solution are transferred to a sealed, separatory flask and rinsed until neutral. Exposure to atmosphere is minimal.\n\nTypically applied to \u2013 strontium carbonate, barium carbonate (i.e. precipitated groundwater samples)"}</skos:scopeNote>
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/02ca20f5-36b6-4575-baee-b8f73993c652"/>
+    <skos:prefLabel xml:lang="en">{"id": "a518d346-7898-4b4b-82dc-34f727f903e4", "value": "Neutralized"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/7b8b0e4b-7ee2-431f-b007-bbac4a0a2e19">
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/02ca20f5-36b6-4575-baee-b8f73993c652"/>
+    <skos:scopeNote xml:lang="en">{"id": "b9c850a3-fe99-475f-8b58-1173b9ea6b86", "value": "The sample for radiocarbon analysis is subjected to a series of solvent baths typically consisting of toluene, hexane, and acetone. This is usually performed prior to acid/alkali/acid pretreatments.\n\nApplied to \u2013 textiles, prevalent or suspected cases of pitch/tar contamination, conserved materials"}</skos:scopeNote>
+    <skos:prefLabel xml:lang="en">{"id": "09c2701b-cb65-4908-b4d9-3e0d3eb32201", "value": "Solvent extraction"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/fb2edc03-83fb-48ef-ae7f-98f013e88821">
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/02ca20f5-36b6-4575-baee-b8f73993c652"/>
+    <skos:prefLabel xml:lang="en">{"id": "ee323b7d-21ad-48a5-8fe5-6dba12e0cd71", "value": "Acid washes"}</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">{"id": "51bba777-2a36-48bd-b029-0f5815b84b58", "value": "Surface area of samples for carbon dating is increased as much a possible. Solid chunks are crushed, fibrous materials are shredded, and sediments are dispersed. Acid (HCl) is applied repeatedly to ensure the absence of carbonates.\n\nThe uniqueness of the sample and the degree of contamination dictate the chemical concentrations, temperatures, exposure times, and number of washings. Alkali washes are not done to ensure isolation of the primary carbon which is soluble in the alkali.\n\nCarbon 14 dating results reflect the total organic content of the analyzed material, and the accuracy depends on the researcher\u2019s ability to subjectively eliminate potential contaminants based on contextual facts.\n\nTypically applied to \u2013 organic sediments, some peats, small wood or charcoal"}</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/127f74bf-58f9-4523-a728-8b0dd3023877">
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/02ca20f5-36b6-4575-baee-b8f73993c652"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/f01161ef-c325-442c-8266-dfbcafdb9786">
+        <skos:scopeNote xml:lang="en">{"id": "cd29a1e2-2552-4365-b7b8-472a3f74bcbb", "value": "The bone samples for radiocarbon analysis is washed with deionized water, the surface scraped free of the outermost layers, and then gently crushed. Dilute, cold HCl acid is repeatedly applied and replenished until the mineral fraction (bone apatite) is eliminated. The collagen is then dissected and inspected for rootlets. Any rootlets present are also removed when replenishing the acid solutions.\n\n\u201cWith alkali\u201d refers to additional pretreatment with sodium hydroxide (NaOH) to ensure the absence of secondary organic acids. "}</skos:scopeNote>
+        <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/02ca20f5-36b6-4575-baee-b8f73993c652"/>
+        <skos:prefLabel xml:lang="en">{"id": "b127836b-0154-487d-ae85-396702d11b08", "value": "Collagen extraction with alkali"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:prefLabel xml:lang="en">{"id": "1fde7166-a8e3-4258-907b-a0ca82f9a81c", "value": "Collagen extraction"}</skos:prefLabel>
+    <skos:narrower>
+      <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/1212ef07-5f06-446e-94c5-ed76e1d5cc4a">
+        <skos:scopeNote xml:lang="en">{"id": "a53b9242-4169-4b01-9139-dce5b9e8a2f2", "value": "The bone samples for radiocarbon analysis is washed with deionized water, the surface scraped free of the outermost layers, and then gently crushed. Dilute, cold HCl acid is repeatedly applied and replenished until the mineral fraction (bone apatite) is eliminated. The collagen is then dissected and inspected for rootlets. Any rootlets present are also removed when replenishing the acid solutions.\n\u201cWithout alkali\u201d refers to the NaOH step being skipped due to poor preservation conditions, which could result in removal of all available organics if performed."}</skos:scopeNote>
+        <skos:prefLabel xml:lang="en">{"id": "bcd7de8a-eee8-4bab-a313-ac6fc7566bab", "value": "Collagen extraction without alkali"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/02ca20f5-36b6-4575-baee-b8f73993c652"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:scopeNote xml:lang="en">{"id": "873155fb-e957-4e98-b73c-1956ec3f1c85", "value": "The material for carbon dating is first tested for friability (\u201csoftness\u201d). Very soft bone material is an indication of the potential absence of the collagen fraction (basal bone protein acting as a \u201creinforcing agent\u201d within the crystalline apatite structure). The bone samples for radiocarbon analysis is washed with deionized water, the surface scraped free of the outermost layers, and then gently crushed. Dilute, cold HCl acid is repeatedly applied and replenished until the mineral fraction (bone apatite) is eliminated. The collagen is then dissected and inspected for rootlets. Any rootlets present are also removed when replenishing the acid solutions. Typically applied to \u2013 bones"}</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/59d49ad2-eb56-448e-831c-23663f0e92d6">
+    <skos:scopeNote xml:lang="en">{"id": "1701dac9-f25c-4639-ac38-6ac9ccc1aec5", "value": "The calcareous material is first washed with deionized water, removing associated organic sediments and debris, where present. The material for radiocarbon dating is then crushed/dispersed and repeatedly subjected to HCl etches to eliminate secondary carbonate components.\n\nshell samples for AMS Carbon-14 DatingIn the case of thick shells, the surfaces are physically abraded prior to etching until the hard, primary core remains. In the case of porous carbonate nodules and caliche, very long exposure times are applied to allow infiltration of the acid. Acid exposure times, concentrations, and number of repetitions are applied according to the uniqueness of the sample.\n\nTypically applied to \u2013 shells, caliche, calcareous nodules"}</skos:scopeNote>
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/02ca20f5-36b6-4575-baee-b8f73993c652"/>
+    <skos:prefLabel xml:lang="en">{"id": "2a8523b4-2f42-4eb1-85ca-0a7469dec8b8", "value": "Acid etch"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/ae4aca2b-c634-4ab6-9d61-14d56c5f860a">
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/02ca20f5-36b6-4575-baee-b8f73993c652"/>
+    <skos:prefLabel xml:lang="en">{"id": "dd00f4b0-15f8-4a22-88a5-d95a9d5ad3b7", "value": "None"}</skos:prefLabel>
+  </skos:Concept>
+</rdf:RDF>

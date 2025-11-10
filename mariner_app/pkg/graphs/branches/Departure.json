@@ -1,0 +1,1018 @@
+{
+    "graph": [
+        {
+            "author": "",
+            "cards": [
+                {
+                    "active": true,
+                    "cardid": "7aa0bd50-6dab-11ee-9d7c-0242ac120006",
+                    "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
+                    "config": null,
+                    "constraints": [],
+                    "cssclass": null,
+                    "description": {
+                        "en": ""
+                    },
+                    "graph_id": "7aa0b5e4-6dab-11ee-9d7c-0242ac120006",
+                    "helpenabled": false,
+                    "helptext": {
+                        "en": null
+                    },
+                    "helptitle": {
+                        "en": null
+                    },
+                    "instructions": {
+                        "en": null
+                    },
+                    "is_editable": true,
+                    "name": {
+                        "en": "Departure"
+                    },
+                    "nodegroup_id": "7aa0b8fa-6dab-11ee-9d7c-0242ac120006",
+                    "sortorder": 0,
+                    "visible": true
+                }
+            ],
+            "cards_x_nodes_x_widgets": [
+                {
+                    "card_id": "7aa0bd50-6dab-11ee-9d7c-0242ac120006",
+                    "config": {
+                        "defaultValue": "a0e096e2-f5ae-4579-950d-3040714713b4",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
+                        "label": "Place of Departure Name Metatype",
+                        "options": [],
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
+                    },
+                    "id": "7aa0db82-6dab-11ee-9d7c-0242ac120006",
+                    "label": {
+                        "en": "Place of Departure Name Metatype"
+                    },
+                    "node_id": "7aa0d8da-6dab-11ee-9d7c-0242ac120006",
+                    "sortorder": 2,
+                    "visible": false,
+                    "widget_id": "10000000-0000-0000-0000-000000000002"
+                },
+                {
+                    "card_id": "7aa0bd50-6dab-11ee-9d7c-0242ac120006",
+                    "config": {
+                        "dateFormat": "YYYY-MM-DD",
+                        "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
+                        "label": "Departure End Date",
+                        "maxDate": false,
+                        "minDate": false,
+                        "placeholder": {
+                            "en": "Enter date"
+                        },
+                        "viewMode": "days"
+                    },
+                    "id": "7aa0dc40-6dab-11ee-9d7c-0242ac120006",
+                    "label": {
+                        "en": "Departure End Date"
+                    },
+                    "node_id": "7aa0cbec-6dab-11ee-9d7c-0242ac120006",
+                    "sortorder": 8,
+                    "visible": false,
+                    "widget_id": "10000000-0000-0000-0000-000000000004"
+                },
+                {
+                    "card_id": "7aa0bd50-6dab-11ee-9d7c-0242ac120006",
+                    "config": {
+                        "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
+                        "label": "Place of Departure Name",
+                        "options": [],
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
+                    },
+                    "id": "7aa0dce0-6dab-11ee-9d7c-0242ac120006",
+                    "label": {
+                        "en": "Place of Departure Name"
+                    },
+                    "node_id": "7aa0ca52-6dab-11ee-9d7c-0242ac120006",
+                    "sortorder": 0,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000012"
+                },
+                {
+                    "card_id": "7aa0bd50-6dab-11ee-9d7c-0242ac120006",
+                    "config": {
+                        "dateFormat": "YYYY-MM-DD",
+                        "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
+                        "label": "Departure Date",
+                        "maxDate": false,
+                        "minDate": false,
+                        "placeholder": {
+                            "en": "Enter date"
+                        },
+                        "viewMode": "days"
+                    },
+                    "id": "7aa0dd8a-6dab-11ee-9d7c-0242ac120006",
+                    "label": {
+                        "en": "Departure Date"
+                    },
+                    "node_id": "7aa0d4e8-6dab-11ee-9d7c-0242ac120006",
+                    "sortorder": 7,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000004"
+                },
+                {
+                    "card_id": "7aa0bd50-6dab-11ee-9d7c-0242ac120006",
+                    "config": {
+                        "basemap": "streets",
+                        "bearing": 0,
+                        "centerX": -6.923476562481824,
+                        "centerY": 53.90585922914596,
+                        "defaultValue": "",
+                        "defaultValueType": "",
+                        "featureColor": "#FF0000",
+                        "featureLineWidth": 1,
+                        "featurePointSize": 3,
+                        "geocodePlaceholder": "Search",
+                        "geocodeProvider": "10000000-0000-0000-0000-010000000000",
+                        "geocoderVisible": true,
+                        "geometryTypes": [
+                            {
+                                "id": "Point",
+                                "text": "Point"
+                            },
+                            {
+                                "id": "Line",
+                                "text": "Line"
+                            },
+                            {
+                                "id": "Polygon",
+                                "text": "Polygon"
+                            }
+                        ],
+                        "label": "Geospatial Coordinates",
+                        "maxZoom": 20,
+                        "minZoom": 0,
+                        "overlayConfigs": [],
+                        "overlayOpacity": 0,
+                        "pitch": 0,
+                        "rerender": true,
+                        "zoom": 4
+                    },
+                    "id": "7aa0de20-6dab-11ee-9d7c-0242ac120006",
+                    "label": {
+                        "en": "Geospatial Coordinates"
+                    },
+                    "node_id": "7aa0c552-6dab-11ee-9d7c-0242ac120006",
+                    "sortorder": 11,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000007"
+                },
+                {
+                    "card_id": "7aa0bd50-6dab-11ee-9d7c-0242ac120006",
+                    "config": {
+                        "defaultValue": "279a8478-a5c0-4d99-a1aa-1f71cc6d3392",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
+                        "label": "Place of Departure Name Type",
+                        "options": [],
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
+                    },
+                    "id": "7aa0dec0-6dab-11ee-9d7c-0242ac120006",
+                    "label": {
+                        "en": "Place of Departure Name Type"
+                    },
+                    "node_id": "7aa0c39a-6dab-11ee-9d7c-0242ac120006",
+                    "sortorder": 1,
+                    "visible": false,
+                    "widget_id": "10000000-0000-0000-0000-000000000002"
+                },
+                {
+                    "card_id": "7aa0bd50-6dab-11ee-9d7c-0242ac120006",
+                    "config": {
+                        "defaultValue": "5a88136a-bf3a-4b48-a830-a7f42000dd24",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
+                        "label": "Place of Departure Name Currency Metatype",
+                        "options": [],
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
+                    },
+                    "id": "7aa0dfce-6dab-11ee-9d7c-0242ac120006",
+                    "label": {
+                        "en": "Place of Departure Name Currency Metatype"
+                    },
+                    "node_id": "7aa0d25e-6dab-11ee-9d7c-0242ac120006",
+                    "sortorder": 6,
+                    "visible": false,
+                    "widget_id": "10000000-0000-0000-0000-000000000002"
+                },
+                {
+                    "card_id": "7aa0bd50-6dab-11ee-9d7c-0242ac120006",
+                    "config": {
+                        "defaultValue": "59a0c936-3f60-44f9-9e37-67b6ed0f4fa4",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
+                        "label": "Timespan Date Qualifier Metatype",
+                        "options": [],
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
+                    },
+                    "id": "7aa0e06e-6dab-11ee-9d7c-0242ac120006",
+                    "label": {
+                        "en": "Timespan Date Qualifier Metatype"
+                    },
+                    "node_id": "7aa0c71e-6dab-11ee-9d7c-0242ac120006",
+                    "sortorder": 10,
+                    "visible": false,
+                    "widget_id": "10000000-0000-0000-0000-000000000002"
+                },
+                {
+                    "card_id": "7aa0bd50-6dab-11ee-9d7c-0242ac120006",
+                    "config": {
+                        "defaultValue": "2df285fa-9cf2-45e7-bc05-a67b7d7ddc2f",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
+                        "label": "Place of Departure Name Use Type",
+                        "options": [],
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
+                    },
+                    "id": "7aa0e10e-6dab-11ee-9d7c-0242ac120006",
+                    "label": {
+                        "en": "Place of Departure Name Use Type"
+                    },
+                    "node_id": "7aa0bf80-6dab-11ee-9d7c-0242ac120006",
+                    "sortorder": 3,
+                    "visible": false,
+                    "widget_id": "10000000-0000-0000-0000-000000000002"
+                },
+                {
+                    "card_id": "7aa0bd50-6dab-11ee-9d7c-0242ac120006",
+                    "config": {
+                        "defaultValue": "04a4c4d5-5a5e-4018-93aa-65abaa53fb53",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
+                        "label": "Place of Departure Name Use Metatype",
+                        "options": [],
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
+                    },
+                    "id": "7aa0e1ae-6dab-11ee-9d7c-0242ac120006",
+                    "label": {
+                        "en": "Place of Departure Name Use Metatype"
+                    },
+                    "node_id": "7aa0d0c4-6dab-11ee-9d7c-0242ac120006",
+                    "sortorder": 4,
+                    "visible": false,
+                    "widget_id": "10000000-0000-0000-0000-000000000002"
+                },
+                {
+                    "card_id": "7aa0bd50-6dab-11ee-9d7c-0242ac120006",
+                    "config": {
+                        "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
+                        "label": "Place of Departure Name Currency",
+                        "options": [
+                            {
+                                "children": [],
+                                "collector": "",
+                                "conceptid": "9f404b29-797a-44cf-8693-25089566935f",
+                                "id": "c2051d53-40e7-4a2d-a4b4-02a31da37fd1",
+                                "sortorder": "",
+                                "text": "Current"
+                            },
+                            {
+                                "children": [],
+                                "collector": "",
+                                "conceptid": "d8b0f140-9cce-482b-be4e-fbaedc4e04c2",
+                                "id": "e756530f-40af-4a88-a1d5-39b03c1b809a",
+                                "sortorder": "",
+                                "text": "Former"
+                            },
+                            {
+                                "children": [],
+                                "collector": "",
+                                "conceptid": "4ef38f1c-ff8c-4d4c-bc0b-c06231419c80",
+                                "id": "2e820298-0d7b-4810-9e46-e16f255b9631",
+                                "sortorder": "",
+                                "text": "Historic"
+                            }
+                        ],
+                        "placeholder": {
+                            "en": "Select an option"
+                        },
+                        "url": "/concepts/dropdown?conceptid=a346ee99-67f6-44cd-87f7-b564ce32cdf3"
+                    },
+                    "id": "7aa0e258-6dab-11ee-9d7c-0242ac120006",
+                    "label": {
+                        "en": "Place of Departure Name Currency"
+                    },
+                    "node_id": "7aa0cf20-6dab-11ee-9d7c-0242ac120006",
+                    "sortorder": 5,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000009"
+                },
+                {
+                    "card_id": "7aa0bd50-6dab-11ee-9d7c-0242ac120006",
+                    "config": {
+                        "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
+                        "label": "Departure Date Qualifier",
+                        "options": [],
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
+                    },
+                    "id": "7aa0e2f8-6dab-11ee-9d7c-0242ac120006",
+                    "label": {
+                        "en": "Departure Date Qualifier"
+                    },
+                    "node_id": "7aa0d72c-6dab-11ee-9d7c-0242ac120006",
+                    "sortorder": 9,
+                    "visible": false,
+                    "widget_id": "10000000-0000-0000-0000-000000000002"
+                }
+            ],
+            "color": "rgba(33,59,134,1)",
+            "config": {
+                "basemap": "streets",
+                "bearing": 0,
+                "centerX": -1.5983286851933372,
+                "centerY": 53.155430248627454,
+                "defaultValue": "",
+                "defaultValueType": 0,
+                "featureColor": "#FF0000",
+                "featureEditingDisabled": true,
+                "featureLineWidth": 1,
+                "featurePointSize": 3,
+                "geocodePlaceholder": "Search",
+                "geocodeProvider": "10000000-0000-0000-0000-010000000000",
+                "geocoderVisible": true,
+                "geometryTypes": [
+                    {
+                        "id": "Point",
+                        "text": "Point"
+                    },
+                    {
+                        "id": "Line",
+                        "text": "Line"
+                    },
+                    {
+                        "id": "Polygon",
+                        "text": "Polygon"
+                    }
+                ],
+                "mapControlsHidden": false,
+                "maxZoom": 20,
+                "minZoom": 0,
+                "overlayConfigs": [],
+                "overlayOpacity": 0,
+                "pitch": 0,
+                "zoom": 4.908319487490616
+            },
+            "deploymentdate": null,
+            "deploymentfile": null,
+            "description": {
+                "en": ""
+            },
+            "edges": [
+                {
+                    "description": null,
+                    "domainnode_id": "7aa0c8c2-6dab-11ee-9d7c-0242ac120006",
+                    "edgeid": "7aa138e8-6dab-11ee-9d7c-0242ac120006",
+                    "graph_id": "7aa0b5e4-6dab-11ee-9d7c-0242ac120006",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P82b_end_of_the_end",
+                    "rangenode_id": "7aa0cbec-6dab-11ee-9d7c-0242ac120006"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "7aa0c8c2-6dab-11ee-9d7c-0242ac120006",
+                    "edgeid": "7aa13a64-6dab-11ee-9d7c-0242ac120006",
+                    "graph_id": "7aa0b5e4-6dab-11ee-9d7c-0242ac120006",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P82a_begin_of_the_begin",
+                    "rangenode_id": "7aa0d4e8-6dab-11ee-9d7c-0242ac120006"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "7aa0c8c2-6dab-11ee-9d7c-0242ac120006",
+                    "edgeid": "7aa13b86-6dab-11ee-9d7c-0242ac120006",
+                    "graph_id": "7aa0b5e4-6dab-11ee-9d7c-0242ac120006",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "rangenode_id": "7aa0d72c-6dab-11ee-9d7c-0242ac120006"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "7aa0b8fa-6dab-11ee-9d7c-0242ac120006",
+                    "edgeid": "7aa13c94-6dab-11ee-9d7c-0242ac120006",
+                    "graph_id": "7aa0b5e4-6dab-11ee-9d7c-0242ac120006",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at",
+                    "rangenode_id": "7aa0c160-6dab-11ee-9d7c-0242ac120006"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "7aa0bf80-6dab-11ee-9d7c-0242ac120006",
+                    "edgeid": "7aa13da2-6dab-11ee-9d7c-0242ac120006",
+                    "graph_id": "7aa0b5e4-6dab-11ee-9d7c-0242ac120006",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "rangenode_id": "7aa0d0c4-6dab-11ee-9d7c-0242ac120006"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "7aa0c160-6dab-11ee-9d7c-0242ac120006",
+                    "edgeid": "7aa13e9c-6dab-11ee-9d7c-0242ac120006",
+                    "graph_id": "7aa0b5e4-6dab-11ee-9d7c-0242ac120006",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by",
+                    "rangenode_id": "7aa0cd86-6dab-11ee-9d7c-0242ac120006"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "7aa0cd86-6dab-11ee-9d7c-0242ac120006",
+                    "edgeid": "7aa13fb4-6dab-11ee-9d7c-0242ac120006",
+                    "graph_id": "7aa0b5e4-6dab-11ee-9d7c-0242ac120006",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "rangenode_id": "7aa0cf20-6dab-11ee-9d7c-0242ac120006"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "7aa0d72c-6dab-11ee-9d7c-0242ac120006",
+                    "edgeid": "7aa140c2-6dab-11ee-9d7c-0242ac120006",
+                    "graph_id": "7aa0b5e4-6dab-11ee-9d7c-0242ac120006",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "rangenode_id": "7aa0c71e-6dab-11ee-9d7c-0242ac120006"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "7aa0b8fa-6dab-11ee-9d7c-0242ac120006",
+                    "edgeid": "7aa141c6-6dab-11ee-9d7c-0242ac120006",
+                    "graph_id": "7aa0b5e4-6dab-11ee-9d7c-0242ac120006",
+                    "name": null,
+                    "ontologyproperty": "http://www.ics.forth.gr/isl/CRMdig/L54i_is_same-as",
+                    "rangenode_id": "7aa0c8c2-6dab-11ee-9d7c-0242ac120006"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "7aa0cd86-6dab-11ee-9d7c-0242ac120006",
+                    "edgeid": "7aa142c0-6dab-11ee-9d7c-0242ac120006",
+                    "graph_id": "7aa0b5e4-6dab-11ee-9d7c-0242ac120006",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "rangenode_id": "7aa0bf80-6dab-11ee-9d7c-0242ac120006"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "7aa0cd86-6dab-11ee-9d7c-0242ac120006",
+                    "edgeid": "7aa143ce-6dab-11ee-9d7c-0242ac120006",
+                    "graph_id": "7aa0b5e4-6dab-11ee-9d7c-0242ac120006",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P3_has_note",
+                    "rangenode_id": "7aa0ca52-6dab-11ee-9d7c-0242ac120006"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "7aa0c39a-6dab-11ee-9d7c-0242ac120006",
+                    "edgeid": "7aa144d2-6dab-11ee-9d7c-0242ac120006",
+                    "graph_id": "7aa0b5e4-6dab-11ee-9d7c-0242ac120006",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "rangenode_id": "7aa0d8da-6dab-11ee-9d7c-0242ac120006"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "7aa0c160-6dab-11ee-9d7c-0242ac120006",
+                    "edgeid": "7aa145d6-6dab-11ee-9d7c-0242ac120006",
+                    "graph_id": "7aa0b5e4-6dab-11ee-9d7c-0242ac120006",
+                    "name": null,
+                    "ontologyproperty": "http://www.ics.forth.gr/isl/CRMgeo/Q11i_is_approximated_by",
+                    "rangenode_id": "7aa0da7e-6dab-11ee-9d7c-0242ac120006"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "7aa0da7e-6dab-11ee-9d7c-0242ac120006",
+                    "edgeid": "7aa146d0-6dab-11ee-9d7c-0242ac120006",
+                    "graph_id": "7aa0b5e4-6dab-11ee-9d7c-0242ac120006",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P168_place_is_defined_by",
+                    "rangenode_id": "7aa0c552-6dab-11ee-9d7c-0242ac120006"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "7aa0cf20-6dab-11ee-9d7c-0242ac120006",
+                    "edgeid": "7aa147de-6dab-11ee-9d7c-0242ac120006",
+                    "graph_id": "7aa0b5e4-6dab-11ee-9d7c-0242ac120006",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "rangenode_id": "7aa0d25e-6dab-11ee-9d7c-0242ac120006"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "7aa0cd86-6dab-11ee-9d7c-0242ac120006",
+                    "edgeid": "7aa148e2-6dab-11ee-9d7c-0242ac120006",
+                    "graph_id": "7aa0b5e4-6dab-11ee-9d7c-0242ac120006",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "rangenode_id": "7aa0c39a-6dab-11ee-9d7c-0242ac120006"
+                }
+            ],
+            "functions_x_graphs": [],
+            "graphid": "7aa0b5e4-6dab-11ee-9d7c-0242ac120006",
+            "iconclass": "fa fa-ship",
+            "is_editable": true,
+            "isresource": false,
+            "jsonldcontext": null,
+            "name": {
+                "en": "Departure"
+            },
+            "nodegroups": [
+                {
+                    "cardinality": "1",
+                    "legacygroupid": null,
+                    "nodegroupid": "7aa0b8fa-6dab-11ee-9d7c-0242ac120006",
+                    "parentnodegroup_id": null
+                }
+            ],
+            "nodes": [
+                {
+                    "alias": "departure",
+                    "config": {},
+                    "datatype": "semantic",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "7aa0b5e4-6dab-11ee-9d7c-0242ac120006",
+                    "hascustomalias": false,
+                    "is_collector": true,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": true,
+                    "name": "Departure",
+                    "nodegroup_id": "7aa0b8fa-6dab-11ee-9d7c-0242ac120006",
+                    "nodeid": "7aa0b8fa-6dab-11ee-9d7c-0242ac120006",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E7_Activity",
+                    "parentproperty": "",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "place_of_departure_name_use_type",
+                    "config": {
+                        "rdmCollection": "1e4df896-992b-475e-bb5a-78817d3066d7"
+                    },
+                    "datatype": "concept",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "7aa0b5e4-6dab-11ee-9d7c-0242ac120006",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Place of Departure Name Use Type",
+                    "nodegroup_id": "7aa0b8fa-6dab-11ee-9d7c-0242ac120006",
+                    "nodeid": "7aa0bf80-6dab-11ee-9d7c-0242ac120006",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "place_of_departure",
+                    "config": {},
+                    "datatype": "semantic",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "7aa0b5e4-6dab-11ee-9d7c-0242ac120006",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Place of Departure",
+                    "nodegroup_id": "7aa0b8fa-6dab-11ee-9d7c-0242ac120006",
+                    "nodeid": "7aa0c160-6dab-11ee-9d7c-0242ac120006",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E53_Place",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "place_of_departure_name_type",
+                    "config": {
+                        "rdmCollection": "3e545767-c46c-4fe7-8754-c24528ba0842"
+                    },
+                    "datatype": "concept",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "7aa0b5e4-6dab-11ee-9d7c-0242ac120006",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Place of Departure Name Type",
+                    "nodegroup_id": "7aa0b8fa-6dab-11ee-9d7c-0242ac120006",
+                    "nodeid": "7aa0c39a-6dab-11ee-9d7c-0242ac120006",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "place_of_departure_geospatial_coordinates",
+                    "config": {
+                        "addToMap": true,
+                        "advancedStyle": "",
+                        "advancedStyling": false,
+                        "clusterDistance": 20,
+                        "clusterMaxZoom": 5,
+                        "clusterMinPoints": 3,
+                        "fillColor": "rgba(49,7,173,0.7)",
+                        "haloRadius": 4,
+                        "haloWeight": 4,
+                        "layerActivated": true,
+                        "layerIcon": "",
+                        "layerLegend": "",
+                        "layerName": "",
+                        "lineColor": "rgba(49,7,173,0.7)",
+                        "lineHaloColor": "rgba(200, 200, 200, 0.5)",
+                        "outlineColor": "rgba(200, 200, 200, 0.7)",
+                        "outlineWeight": 2,
+                        "pointColor": "rgba(49,7,173,0.7)",
+                        "pointHaloColor": "rgba(200, 200, 200, 0.5)",
+                        "radius": 2,
+                        "simplification": 0.3,
+                        "weight": 2
+                    },
+                    "datatype": "geojson-feature-collection",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "7aa0b5e4-6dab-11ee-9d7c-0242ac120006",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Place of Departure Geospatial Coordinates",
+                    "nodegroup_id": "7aa0b8fa-6dab-11ee-9d7c-0242ac120006",
+                    "nodeid": "7aa0c552-6dab-11ee-9d7c-0242ac120006",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E94_Space_Primitive",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P168_place_is_defined_by",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "departure_date_qualifier_metatype",
+                    "config": {
+                        "rdmCollection": "1e63c514-eb9d-48d3-94b5-35e060e5f368"
+                    },
+                    "datatype": "concept",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "7aa0b5e4-6dab-11ee-9d7c-0242ac120006",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": false,
+                    "istopnode": false,
+                    "name": "Departure Date Qualifier Metatype",
+                    "nodegroup_id": "7aa0b8fa-6dab-11ee-9d7c-0242ac120006",
+                    "nodeid": "7aa0c71e-6dab-11ee-9d7c-0242ac120006",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "departure_timespan",
+                    "config": {},
+                    "datatype": "semantic",
+                    "description": "",
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "7aa0b5e4-6dab-11ee-9d7c-0242ac120006",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Departure Timespan",
+                    "nodegroup_id": "7aa0b8fa-6dab-11ee-9d7c-0242ac120006",
+                    "nodeid": "7aa0c8c2-6dab-11ee-9d7c-0242ac120006",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span",
+                    "parentproperty": "http://www.ics.forth.gr/isl/CRMdig/L54i_is_same-as",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "place_of_departure_name",
+                    "config": {
+                        "rdmCollection": "c3869409-0ab4-4327-9841-be7ec1da7810"
+                    },
+                    "datatype": "concept-list",
+                    "description": null,
+                    "exportable": true,
+                    "fieldname": "Departure",
+                    "graph_id": "7aa0b5e4-6dab-11ee-9d7c-0242ac120006",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Place of Departure Name",
+                    "nodegroup_id": "7aa0b8fa-6dab-11ee-9d7c-0242ac120006",
+                    "nodeid": "7aa0ca52-6dab-11ee-9d7c-0242ac120006",
+                    "ontologyclass": "http://www.w3.org/2000/01/rdf-schema#Literal",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P3_has_note",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "departure_end_date",
+                    "config": {
+                        "fuzzy_day_padding": 1,
+                        "fuzzy_month_padding": 1,
+                        "fuzzy_season_padding": 12,
+                        "fuzzy_year_padding": 1,
+                        "multiplier_if_approximate": 1,
+                        "multiplier_if_both": 1,
+                        "multiplier_if_uncertain": 1
+                    },
+                    "datatype": "edtf",
+                    "description": null,
+                    "exportable": true,
+                    "fieldname": "DepEDate",
+                    "graph_id": "7aa0b5e4-6dab-11ee-9d7c-0242ac120006",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Departure End Date",
+                    "nodegroup_id": "7aa0b8fa-6dab-11ee-9d7c-0242ac120006",
+                    "nodeid": "7aa0cbec-6dab-11ee-9d7c-0242ac120006",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E61_Time_Primitive",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P82b_end_of_the_end",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "departure_placenames",
+                    "config": {},
+                    "datatype": "semantic",
+                    "description": "",
+                    "exportable": false,
+                    "fieldname": "",
+                    "graph_id": "7aa0b5e4-6dab-11ee-9d7c-0242ac120006",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Departure Placenames",
+                    "nodegroup_id": "7aa0b8fa-6dab-11ee-9d7c-0242ac120006",
+                    "nodeid": "7aa0cd86-6dab-11ee-9d7c-0242ac120006",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E41_Appellation",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "place_of_departure_name_currency",
+                    "config": {
+                        "rdmCollection": "a346ee99-67f6-44cd-87f7-b564ce32cdf3"
+                    },
+                    "datatype": "concept",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "7aa0b5e4-6dab-11ee-9d7c-0242ac120006",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Place of Departure Name Currency",
+                    "nodegroup_id": "7aa0b8fa-6dab-11ee-9d7c-0242ac120006",
+                    "nodeid": "7aa0cf20-6dab-11ee-9d7c-0242ac120006",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "place_of_departure_name_use_metatype",
+                    "config": {
+                        "rdmCollection": "1e63c514-eb9d-48d3-94b5-35e060e5f368"
+                    },
+                    "datatype": "concept",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "7aa0b5e4-6dab-11ee-9d7c-0242ac120006",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Place of Departure Name Use Metatype",
+                    "nodegroup_id": "7aa0b8fa-6dab-11ee-9d7c-0242ac120006",
+                    "nodeid": "7aa0d0c4-6dab-11ee-9d7c-0242ac120006",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "place_of_departure_name_currency_metatype",
+                    "config": {
+                        "rdmCollection": "1e63c514-eb9d-48d3-94b5-35e060e5f368"
+                    },
+                    "datatype": "concept",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "7aa0b5e4-6dab-11ee-9d7c-0242ac120006",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Place of Departure Name Currency Metatype",
+                    "nodegroup_id": "7aa0b8fa-6dab-11ee-9d7c-0242ac120006",
+                    "nodeid": "7aa0d25e-6dab-11ee-9d7c-0242ac120006",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "departure_start_date",
+                    "config": {
+                        "fuzzy_day_padding": 1,
+                        "fuzzy_month_padding": 1,
+                        "fuzzy_season_padding": 12,
+                        "fuzzy_year_padding": 1,
+                        "multiplier_if_approximate": 1,
+                        "multiplier_if_both": 1,
+                        "multiplier_if_uncertain": 1
+                    },
+                    "datatype": "edtf",
+                    "description": null,
+                    "exportable": true,
+                    "fieldname": "DepSDate",
+                    "graph_id": "7aa0b5e4-6dab-11ee-9d7c-0242ac120006",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Departure Start Date",
+                    "nodegroup_id": "7aa0b8fa-6dab-11ee-9d7c-0242ac120006",
+                    "nodeid": "7aa0d4e8-6dab-11ee-9d7c-0242ac120006",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E61_Time_Primitive",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P82a_begin_of_the_begin",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "departure_date_qualifier",
+                    "config": {
+                        "rdmCollection": "366686d6-deb0-4245-81a3-f94d791a388c"
+                    },
+                    "datatype": "concept",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "7aa0b5e4-6dab-11ee-9d7c-0242ac120006",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": false,
+                    "istopnode": false,
+                    "name": "Departure Date Qualifier",
+                    "nodegroup_id": "7aa0b8fa-6dab-11ee-9d7c-0242ac120006",
+                    "nodeid": "7aa0d72c-6dab-11ee-9d7c-0242ac120006",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "place_of_departure_name_metatype",
+                    "config": {
+                        "rdmCollection": "1e63c514-eb9d-48d3-94b5-35e060e5f368"
+                    },
+                    "datatype": "concept",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "7aa0b5e4-6dab-11ee-9d7c-0242ac120006",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Place of Departure Name Metatype",
+                    "nodegroup_id": "7aa0b8fa-6dab-11ee-9d7c-0242ac120006",
+                    "nodeid": "7aa0d8da-6dab-11ee-9d7c-0242ac120006",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "place_of_departure_geometry",
+                    "config": {},
+                    "datatype": "semantic",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "7aa0b5e4-6dab-11ee-9d7c-0242ac120006",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Place of Departure Geometry",
+                    "nodegroup_id": "7aa0b8fa-6dab-11ee-9d7c-0242ac120006",
+                    "nodeid": "7aa0da7e-6dab-11ee-9d7c-0242ac120006",
+                    "ontologyclass": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+                    "parentproperty": "http://www.ics.forth.gr/isl/CRMgeo/Q11i_is_approximated_by",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                }
+            ],
+            "ontology_id": "e6e8db47-2ccf-11e6-927e-b8f6b115d7dd",
+            "publication": null,
+            "relatable_resource_model_ids": [],
+            "resource_2_resource_constraints": [],
+            "root": {
+                "alias": "departure",
+                "config": {},
+                "datatype": "semantic",
+                "description": null,
+                "exportable": false,
+                "fieldname": null,
+                "graph_id": "7aa0b5e4-6dab-11ee-9d7c-0242ac120006",
+                "hascustomalias": false,
+                "is_collector": true,
+                "isrequired": false,
+                "issearchable": true,
+                "istopnode": true,
+                "name": "Departure",
+                "nodegroup_id": "7aa0b8fa-6dab-11ee-9d7c-0242ac120006",
+                "nodeid": "7aa0b8fa-6dab-11ee-9d7c-0242ac120006",
+                "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E7_Activity",
+                "sortorder": 0,
+                "sourcebranchpublication_id": null
+            },
+            "slug": null,
+            "subtitle": {
+                "en": ""
+            },
+            "template_id": "50000000-0000-0000-0000-000000000002",
+            "version": ""
+        }
+    ],
+    "metadata": {
+        "db": "PostgreSQL 16.10 on x86_64-pc-linux-gnu, compiled by gcc (GCC) 11.2.0, 64-bit",
+        "git hash": "fatal: not a git repository (or any of the parent directories): .git",
+        "os": "Windows",
+        "os version": "2019Server"
+    }
+}

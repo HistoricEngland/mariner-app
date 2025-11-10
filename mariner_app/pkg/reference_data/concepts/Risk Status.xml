@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:arches="https://nmhr.historicengland.org.uk/"
+>
+  <skos:ConceptScheme rdf:about="https://nmhr.historicengland.org.uk/3f0f2d98-ad01-4512-9a67-cad500d178a1">
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/e47c8425-1dea-47f4-8ae1-d21c1d81e61e">
+        <skos:prefLabel xml:lang="en">{"id": "22215ca1-7fdd-4dde-8a74-8b06ad5c71bc", "value": "High"}</skos:prefLabel>
+        <arches:sortorder xml:lang="en">{"id": "5730ff55-1520-416d-a458-e016361950d0", "value": "1"}</arches:sortorder>
+        <dcterms:identifier xml:lang="en">{"id": "a6ad8d88-b18d-4c1a-868d-e4fa326d1f79", "value": "http://localhost:8000/e47c8425-1dea-47f4-8ae1-d21c1d81e61e"}</dcterms:identifier>
+        <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/3f0f2d98-ad01-4512-9a67-cad500d178a1"/>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/ffa96edb-8a43-42bd-9612-39cfb2a46c1d">
+        <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/3f0f2d98-ad01-4512-9a67-cad500d178a1"/>
+        <arches:sortorder xml:lang="en">{"id": "2265580b-7778-4c4f-a6e0-6722d9b97071", "value": "3"}</arches:sortorder>
+        <skos:prefLabel xml:lang="en">{"id": "48384a82-ae7c-41e1-8bba-716e130bf27d", "value": "Low"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <dcterms:identifier xml:lang="en">{"id": "8fe0f353-95b6-4a35-af94-e1963fbd0cb0", "value": "http://localhost:8000/3f0f2d98-ad01-4512-9a67-cad500d178a1"}</dcterms:identifier>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/0b15f63a-75a7-4014-9436-8d972c8b0bcf">
+        <arches:sortorder xml:lang="en">{"id": "e1eea94d-6fe6-46e4-a0f7-eb9b21502ce8", "value": "2"}</arches:sortorder>
+        <dcterms:identifier xml:lang="en">{"id": "6173fe26-c74d-4406-8328-e73bf45420b0", "value": "http://localhost:8000/0b15f63a-75a7-4014-9436-8d972c8b0bcf"}</dcterms:identifier>
+        <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/3f0f2d98-ad01-4512-9a67-cad500d178a1"/>
+        <skos:prefLabel xml:lang="en">{"id": "227420a6-8b30-4bb5-9871-24a3109b7010", "value": "Medium"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <dcterms:title xml:lang="en">{"id": "d9de9450-d63e-49fd-9ffc-1758b93749b8", "value": "Risk Status"}</dcterms:title>
+  </skos:ConceptScheme>
+</rdf:RDF>

@@ -1,0 +1,219 @@
+{
+    "graph": [
+        {
+            "author": "",
+            "cards": [
+                {
+                    "active": true,
+                    "cardid": "34622672-ee57-11ed-8883-0242ac120006",
+                    "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
+                    "config": null,
+                    "constraints": [],
+                    "cssclass": null,
+                    "description": {
+                        "en": ""
+                    },
+                    "graph_id": "34621d30-ee57-11ed-8883-0242ac120006",
+                    "helpenabled": false,
+                    "helptext": {
+                        "en": null
+                    },
+                    "helptitle": {
+                        "en": null
+                    },
+                    "instructions": {
+                        "en": null
+                    },
+                    "is_editable": true,
+                    "name": {
+                        "en": "Technical Specification"
+                    },
+                    "nodegroup_id": "34622014-ee57-11ed-8883-0242ac120006",
+                    "sortorder": null,
+                    "visible": true
+                }
+            ],
+            "cards_x_nodes_x_widgets": [],
+            "color": "rgba(33,59,134,1)",
+            "config": {
+                "basemap": "streets",
+                "bearing": 0,
+                "centerX": -1.5983286851933372,
+                "centerY": 53.155430248627454,
+                "defaultValue": "",
+                "defaultValueType": 0,
+                "featureColor": "#FF0000",
+                "featureEditingDisabled": true,
+                "featureLineWidth": 1,
+                "featurePointSize": 3,
+                "geocodePlaceholder": "Search",
+                "geocodeProvider": "10000000-0000-0000-0000-010000000000",
+                "geocoderVisible": true,
+                "geometryTypes": [
+                    {
+                        "id": "Point",
+                        "text": "Point"
+                    },
+                    {
+                        "id": "Line",
+                        "text": "Line"
+                    },
+                    {
+                        "id": "Polygon",
+                        "text": "Polygon"
+                    }
+                ],
+                "mapControlsHidden": false,
+                "maxZoom": 20,
+                "minZoom": 0,
+                "overlayConfigs": [],
+                "overlayOpacity": 0,
+                "pitch": 0,
+                "zoom": 4.908319487490616
+            },
+            "deploymentdate": null,
+            "deploymentfile": null,
+            "description": {
+                "en": ""
+            },
+            "edges": [
+                {
+                    "description": null,
+                    "domainnode_id": "34622898-ee57-11ed-8883-0242ac120006",
+                    "edgeid": "34623252-ee57-11ed-8883-0242ac120006",
+                    "graph_id": "34621d30-ee57-11ed-8883-0242ac120006",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P135_created_type",
+                    "rangenode_id": "34622a6e-ee57-11ed-8883-0242ac120006"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "34622014-ee57-11ed-8883-0242ac120006",
+                    "edgeid": "346233e2-ee57-11ed-8883-0242ac120006",
+                    "graph_id": "34621d30-ee57-11ed-8883-0242ac120006",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P16i_was_used_for",
+                    "rangenode_id": "34622898-ee57-11ed-8883-0242ac120006"
+                }
+            ],
+            "functions_x_graphs": [],
+            "graphid": "34621d30-ee57-11ed-8883-0242ac120006",
+            "iconclass": "fa fa-ship",
+            "is_editable": true,
+            "isresource": false,
+            "jsonldcontext": null,
+            "name": {
+                "en": "Technical Specification"
+            },
+            "nodegroups": [
+                {
+                    "cardinality": "1",
+                    "legacygroupid": null,
+                    "nodegroupid": "34622014-ee57-11ed-8883-0242ac120006",
+                    "parentnodegroup_id": null
+                }
+            ],
+            "nodes": [
+                {
+                    "alias": "technical_specification",
+                    "config": {},
+                    "datatype": "semantic",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "34621d30-ee57-11ed-8883-0242ac120006",
+                    "hascustomalias": false,
+                    "is_collector": true,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": true,
+                    "name": "Technical Specification",
+                    "nodegroup_id": "34622014-ee57-11ed-8883-0242ac120006",
+                    "nodeid": "34622014-ee57-11ed-8883-0242ac120006",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E29_Design_or_Procedure",
+                    "parentproperty": "",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "vessel_class",
+                    "config": {},
+                    "datatype": "semantic",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "34621d30-ee57-11ed-8883-0242ac120006",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Vessel Class",
+                    "nodegroup_id": "34622014-ee57-11ed-8883-0242ac120006",
+                    "nodeid": "34622898-ee57-11ed-8883-0242ac120006",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E83_Type_Creation",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P16i_was_used_for",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "vessel_class_type",
+                    "config": {},
+                    "datatype": "semantic",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "34621d30-ee57-11ed-8883-0242ac120006",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Vessel Class Type",
+                    "nodegroup_id": "34622014-ee57-11ed-8883-0242ac120006",
+                    "nodeid": "34622a6e-ee57-11ed-8883-0242ac120006",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P135_created_type",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                }
+            ],
+            "ontology_id": "e6e8db47-2ccf-11e6-927e-b8f6b115d7dd",
+            "publication": null,
+            "relatable_resource_model_ids": [],
+            "resource_2_resource_constraints": [],
+            "root": {
+                "alias": "technical_specification",
+                "config": {},
+                "datatype": "semantic",
+                "description": null,
+                "exportable": false,
+                "fieldname": null,
+                "graph_id": "34621d30-ee57-11ed-8883-0242ac120006",
+                "hascustomalias": false,
+                "is_collector": true,
+                "isrequired": false,
+                "issearchable": true,
+                "istopnode": true,
+                "name": "Technical Specification",
+                "nodegroup_id": "34622014-ee57-11ed-8883-0242ac120006",
+                "nodeid": "34622014-ee57-11ed-8883-0242ac120006",
+                "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E29_Design_or_Procedure",
+                "sortorder": 0,
+                "sourcebranchpublication_id": null
+            },
+            "slug": null,
+            "subtitle": {
+                "en": ""
+            },
+            "template_id": "50000000-0000-0000-0000-000000000002",
+            "version": ""
+        }
+    ],
+    "metadata": {
+        "db": "PostgreSQL 16.10 on x86_64-pc-linux-gnu, compiled by gcc (GCC) 11.2.0, 64-bit",
+        "git hash": "fatal: not a git repository (or any of the parent directories): .git",
+        "os": "Windows",
+        "os version": "2019Server"
+    }
+}

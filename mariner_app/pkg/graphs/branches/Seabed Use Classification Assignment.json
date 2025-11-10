@@ -1,0 +1,889 @@
+{
+    "graph": [
+        {
+            "author": "",
+            "cards": [
+                {
+                    "active": true,
+                    "cardid": "9d0f20e0-b06b-11ee-a424-0242ac140006",
+                    "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
+                    "config": null,
+                    "constraints": [],
+                    "cssclass": null,
+                    "description": {
+                        "en": ""
+                    },
+                    "graph_id": "9d0f19ba-b06b-11ee-a424-0242ac140006",
+                    "helpenabled": false,
+                    "helptext": {
+                        "en": null
+                    },
+                    "helptitle": {
+                        "en": null
+                    },
+                    "instructions": {
+                        "en": null
+                    },
+                    "is_editable": true,
+                    "name": {
+                        "en": "Seabed Use Classification Assignment"
+                    },
+                    "nodegroup_id": "9d0f1c9e-b06b-11ee-a424-0242ac140006",
+                    "sortorder": null,
+                    "visible": true
+                }
+            ],
+            "cards_x_nodes_x_widgets": [
+                {
+                    "card_id": "9d0f20e0-b06b-11ee-a424-0242ac140006",
+                    "config": {
+                        "defaultValue": "f1a24b1f-7a72-4718-b54d-604644cc9e99",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
+                        "label": "Geology Metatype",
+                        "options": [],
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
+                    },
+                    "id": "9d0f423c-b06b-11ee-a424-0242ac140006",
+                    "label": {
+                        "en": "Geology Metatype"
+                    },
+                    "node_id": "9d0f4142-b06b-11ee-a424-0242ac140006",
+                    "sortorder": 10,
+                    "visible": false,
+                    "widget_id": "10000000-0000-0000-0000-000000000002"
+                },
+                {
+                    "card_id": "9d0f20e0-b06b-11ee-a424-0242ac140006",
+                    "config": {
+                        "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
+                        "label": "Seabed Use Classification",
+                        "options": [],
+                        "placeholder": {
+                            "en": "Use to record a particular status associated with the Asset."
+                        }
+                    },
+                    "id": "9d0f42fa-b06b-11ee-a424-0242ac140006",
+                    "label": {
+                        "en": "Seabed Use Classification"
+                    },
+                    "node_id": "9d0f37ba-b06b-11ee-a424-0242ac140006",
+                    "sortorder": 0,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000002"
+                },
+                {
+                    "card_id": "9d0f20e0-b06b-11ee-a424-0242ac140006",
+                    "config": {
+                        "defaultValue": "7a518871-4949-4e57-908e-eb17751a404a",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
+                        "label": "Sub-Soil Metatype",
+                        "options": [],
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
+                    },
+                    "id": "9d0f43ae-b06b-11ee-a424-0242ac140006",
+                    "label": {
+                        "en": "Sub-Soil Metatype"
+                    },
+                    "node_id": "9d0f2c8e-b06b-11ee-a424-0242ac140006",
+                    "sortorder": 12,
+                    "visible": false,
+                    "widget_id": "10000000-0000-0000-0000-000000000002"
+                },
+                {
+                    "card_id": "9d0f20e0-b06b-11ee-a424-0242ac140006",
+                    "config": {
+                        "dateFormat": "YYYY-MM-DD",
+                        "defaultValue": "",
+                        "label": "Seabed Use Assessment Start Date",
+                        "maxDate": false,
+                        "minDate": false,
+                        "placeholder": "Enter date",
+                        "viewMode": "days"
+                    },
+                    "id": "9d0f4444-b06b-11ee-a424-0242ac140006",
+                    "label": {
+                        "en": "Seabed Use Assessment Start Date"
+                    },
+                    "node_id": "9d0f2fae-b06b-11ee-a424-0242ac140006",
+                    "sortorder": 7,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000004"
+                },
+                {
+                    "card_id": "9d0f20e0-b06b-11ee-a424-0242ac140006",
+                    "config": {
+                        "dateFormat": "YYYY-MM-DD",
+                        "defaultValue": "",
+                        "label": "Seabed Use Assessment End Date",
+                        "maxDate": false,
+                        "minDate": false,
+                        "placeholder": "Enter date",
+                        "viewMode": "days"
+                    },
+                    "id": "9d0f44e4-b06b-11ee-a424-0242ac140006",
+                    "label": {
+                        "en": "Seabed Use Assessment End Date"
+                    },
+                    "node_id": "9d0f3b2a-b06b-11ee-a424-0242ac140006",
+                    "sortorder": 8,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000004"
+                },
+                {
+                    "card_id": "9d0f20e0-b06b-11ee-a424-0242ac140006",
+                    "config": {
+                        "defaultValue": null,
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
+                        "label": "Geology",
+                        "options": [],
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
+                    },
+                    "id": "9d0f4584-b06b-11ee-a424-0242ac140006",
+                    "label": {
+                        "en": "Geology"
+                    },
+                    "node_id": "9d0f3990-b06b-11ee-a424-0242ac140006",
+                    "sortorder": 9,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000002"
+                },
+                {
+                    "card_id": "9d0f20e0-b06b-11ee-a424-0242ac140006",
+                    "config": {
+                        "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
+                        "label": "Seabed Sediment",
+                        "options": [],
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
+                    },
+                    "id": "9d0f461a-b06b-11ee-a424-0242ac140006",
+                    "label": {
+                        "en": "Seabed Sediment"
+                    },
+                    "node_id": "9d0f2aea-b06b-11ee-a424-0242ac140006",
+                    "sortorder": 11,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000002"
+                },
+                {
+                    "card_id": "9d0f20e0-b06b-11ee-a424-0242ac140006",
+                    "config": {
+                        "defaultValue": {
+                            "en": {
+                                "direction": "ltr",
+                                "value": null
+                            }
+                        },
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
+                        "label": "Seabed Use Note",
+                        "maxLength": null,
+                        "placeholder": {
+                            "en": "Enter text"
+                        },
+                        "width": "100%"
+                    },
+                    "id": "9d0f46b0-b06b-11ee-a424-0242ac140006",
+                    "label": {
+                        "en": "Seabed Use Note"
+                    },
+                    "node_id": "9d0f22fc-b06b-11ee-a424-0242ac140006",
+                    "sortorder": 2,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000005"
+                },
+                {
+                    "card_id": "9d0f20e0-b06b-11ee-a424-0242ac140006",
+                    "config": {
+                        "defaultValue": "daa4cddc-8636-4842-b836-eb2e10aabe18",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
+                        "label": "Seabed Use Notes Type",
+                        "options": [],
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
+                    },
+                    "id": "9d0f4750-b06b-11ee-a424-0242ac140006",
+                    "label": {
+                        "en": "Seabed Use Notes Type"
+                    },
+                    "node_id": "9d0f3e36-b06b-11ee-a424-0242ac140006",
+                    "sortorder": 3,
+                    "visible": false,
+                    "widget_id": "10000000-0000-0000-0000-000000000002"
+                },
+                {
+                    "card_id": "9d0f20e0-b06b-11ee-a424-0242ac140006",
+                    "config": {
+                        "defaultValue": "6fbe3775-e51d-4f90-af53-5695dd204c9a",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
+                        "label": "Seabed Use Notes Metatype",
+                        "options": [],
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
+                    },
+                    "id": "9d0f47fa-b06b-11ee-a424-0242ac140006",
+                    "label": {
+                        "en": "Seabed Use Notes Metatype"
+                    },
+                    "node_id": "9d0f28ec-b06b-11ee-a424-0242ac140006",
+                    "sortorder": 4,
+                    "visible": false,
+                    "widget_id": "10000000-0000-0000-0000-000000000002"
+                },
+                {
+                    "card_id": "9d0f20e0-b06b-11ee-a424-0242ac140006",
+                    "config": {
+                        "defaultValue": "b5f1ff2d-d667-4c4e-86a1-c17fa4b9447b",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
+                        "label": "Seabed Use Notes Language",
+                        "options": [],
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
+                    },
+                    "id": "9d0f489a-b06b-11ee-a424-0242ac140006",
+                    "label": {
+                        "en": "Seabed Use Notes Language"
+                    },
+                    "node_id": "9d0f3cba-b06b-11ee-a424-0242ac140006",
+                    "sortorder": 5,
+                    "visible": false,
+                    "widget_id": "10000000-0000-0000-0000-000000000002"
+                },
+                {
+                    "card_id": "9d0f20e0-b06b-11ee-a424-0242ac140006",
+                    "config": {
+                        "defaultValue": "d079f49f-13ed-480c-87bb-e5c77ee901e2",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
+                        "label": "Seabed Use Metatype",
+                        "options": [],
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
+                    },
+                    "id": "9d0f493a-b06b-11ee-a424-0242ac140006",
+                    "label": {
+                        "en": "Seabed Use Metatype"
+                    },
+                    "node_id": "9d0f313e-b06b-11ee-a424-0242ac140006",
+                    "sortorder": 1,
+                    "visible": false,
+                    "widget_id": "10000000-0000-0000-0000-000000000002"
+                },
+                {
+                    "card_id": "9d0f20e0-b06b-11ee-a424-0242ac140006",
+                    "config": {
+                        "defaultValue": "d5366899-09ec-4db1-8a49-a32b7e4784e3",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
+                        "label": "Seabed Use Notes Language Metatype",
+                        "options": [],
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
+                    },
+                    "id": "9d0f49ee-b06b-11ee-a424-0242ac140006",
+                    "label": {
+                        "en": "Seabed Use Notes Language Metatype"
+                    },
+                    "node_id": "9d0f3fbc-b06b-11ee-a424-0242ac140006",
+                    "sortorder": 6,
+                    "visible": false,
+                    "widget_id": "10000000-0000-0000-0000-000000000002"
+                }
+            ],
+            "color": "rgba(66,137,169,1)",
+            "config": {
+                "basemap": "streets"
+            },
+            "deploymentdate": null,
+            "deploymentfile": null,
+            "description": {
+                "en": ""
+            },
+            "edges": [
+                {
+                    "description": null,
+                    "domainnode_id": "9d0f3cba-b06b-11ee-a424-0242ac140006",
+                    "edgeid": "9d0f8a44-b06b-11ee-a424-0242ac140006",
+                    "graph_id": "9d0f19ba-b06b-11ee-a424-0242ac140006",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "rangenode_id": "9d0f3fbc-b06b-11ee-a424-0242ac140006"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "9d0f2e1e-b06b-11ee-a424-0242ac140006",
+                    "edgeid": "9d0f8ba2-b06b-11ee-a424-0242ac140006",
+                    "graph_id": "9d0f19ba-b06b-11ee-a424-0242ac140006",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "rangenode_id": "9d0f3e36-b06b-11ee-a424-0242ac140006"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "9d0f33e6-b06b-11ee-a424-0242ac140006",
+                    "edgeid": "9d0f8ce2-b06b-11ee-a424-0242ac140006",
+                    "graph_id": "9d0f19ba-b06b-11ee-a424-0242ac140006",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P82a_begin_of_the_begin",
+                    "rangenode_id": "9d0f2fae-b06b-11ee-a424-0242ac140006"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "9d0f33e6-b06b-11ee-a424-0242ac140006",
+                    "edgeid": "9d0f8f62-b06b-11ee-a424-0242ac140006",
+                    "graph_id": "9d0f19ba-b06b-11ee-a424-0242ac140006",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P82b_end_of_the_end",
+                    "rangenode_id": "9d0f3b2a-b06b-11ee-a424-0242ac140006"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "9d0f2e1e-b06b-11ee-a424-0242ac140006",
+                    "edgeid": "9d0f9124-b06b-11ee-a424-0242ac140006",
+                    "graph_id": "9d0f19ba-b06b-11ee-a424-0242ac140006",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P3_has_note",
+                    "rangenode_id": "9d0f22fc-b06b-11ee-a424-0242ac140006"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "9d0f3990-b06b-11ee-a424-0242ac140006",
+                    "edgeid": "9d0f9228-b06b-11ee-a424-0242ac140006",
+                    "graph_id": "9d0f19ba-b06b-11ee-a424-0242ac140006",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "rangenode_id": "9d0f4142-b06b-11ee-a424-0242ac140006"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "9d0f2aea-b06b-11ee-a424-0242ac140006",
+                    "edgeid": "9d0f934a-b06b-11ee-a424-0242ac140006",
+                    "graph_id": "9d0f19ba-b06b-11ee-a424-0242ac140006",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "rangenode_id": "9d0f2c8e-b06b-11ee-a424-0242ac140006"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "9d0f1c9e-b06b-11ee-a424-0242ac140006",
+                    "edgeid": "9d0f9480-b06b-11ee-a424-0242ac140006",
+                    "graph_id": "9d0f19ba-b06b-11ee-a424-0242ac140006",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P141_assigned",
+                    "rangenode_id": "9d0f37ba-b06b-11ee-a424-0242ac140006"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "9d0f1c9e-b06b-11ee-a424-0242ac140006",
+                    "edgeid": "9d0f9584-b06b-11ee-a424-0242ac140006",
+                    "graph_id": "9d0f19ba-b06b-11ee-a424-0242ac140006",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P141_assigned",
+                    "rangenode_id": "9d0f2aea-b06b-11ee-a424-0242ac140006"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "9d0f2e1e-b06b-11ee-a424-0242ac140006",
+                    "edgeid": "9d0f96d8-b06b-11ee-a424-0242ac140006",
+                    "graph_id": "9d0f19ba-b06b-11ee-a424-0242ac140006",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P72_has_language",
+                    "rangenode_id": "9d0f3cba-b06b-11ee-a424-0242ac140006"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "9d0f1c9e-b06b-11ee-a424-0242ac140006",
+                    "edgeid": "9d0f97d2-b06b-11ee-a424-0242ac140006",
+                    "graph_id": "9d0f19ba-b06b-11ee-a424-0242ac140006",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P141_assigned",
+                    "rangenode_id": "9d0f2e1e-b06b-11ee-a424-0242ac140006"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "9d0f3e36-b06b-11ee-a424-0242ac140006",
+                    "edgeid": "9d0f98cc-b06b-11ee-a424-0242ac140006",
+                    "graph_id": "9d0f19ba-b06b-11ee-a424-0242ac140006",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "rangenode_id": "9d0f28ec-b06b-11ee-a424-0242ac140006"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "9d0f1c9e-b06b-11ee-a424-0242ac140006",
+                    "edgeid": "9d0f99d0-b06b-11ee-a424-0242ac140006",
+                    "graph_id": "9d0f19ba-b06b-11ee-a424-0242ac140006",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P141_assigned",
+                    "rangenode_id": "9d0f3990-b06b-11ee-a424-0242ac140006"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "9d0f1c9e-b06b-11ee-a424-0242ac140006",
+                    "edgeid": "9d0f9ad4-b06b-11ee-a424-0242ac140006",
+                    "graph_id": "9d0f19ba-b06b-11ee-a424-0242ac140006",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P141_assigned",
+                    "rangenode_id": "9d0f33e6-b06b-11ee-a424-0242ac140006"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "9d0f37ba-b06b-11ee-a424-0242ac140006",
+                    "edgeid": "9d0f9bce-b06b-11ee-a424-0242ac140006",
+                    "graph_id": "9d0f19ba-b06b-11ee-a424-0242ac140006",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "rangenode_id": "9d0f313e-b06b-11ee-a424-0242ac140006"
+                }
+            ],
+            "functions_x_graphs": [],
+            "graphid": "9d0f19ba-b06b-11ee-a424-0242ac140006",
+            "iconclass": "fa fa-anchor",
+            "is_editable": true,
+            "isresource": false,
+            "jsonldcontext": null,
+            "name": {
+                "en": "Seabed Use Classification Assignment"
+            },
+            "nodegroups": [
+                {
+                    "cardinality": "1",
+                    "legacygroupid": null,
+                    "nodegroupid": "9d0f1c9e-b06b-11ee-a424-0242ac140006",
+                    "parentnodegroup_id": null
+                }
+            ],
+            "nodes": [
+                {
+                    "alias": "seabed_use_classification_assignment",
+                    "config": {},
+                    "datatype": "semantic",
+                    "description": "Links an E13_Attribute_Assignment to an E!8_Physical_ThingUsed to record the Land Use Classification associated with a heritage asset. Included for migration purposes.Dependencies:> Land Use concept collection available in the RDM",
+                    "exportable": false,
+                    "fieldname": "",
+                    "graph_id": "9d0f19ba-b06b-11ee-a424-0242ac140006",
+                    "hascustomalias": false,
+                    "is_collector": true,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": true,
+                    "name": "Seabed Use Classification Assignment",
+                    "nodegroup_id": "9d0f1c9e-b06b-11ee-a424-0242ac140006",
+                    "nodeid": "9d0f1c9e-b06b-11ee-a424-0242ac140006",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E13_Attribute_Assignment",
+                    "parentproperty": "",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "seabed_use_notes_value",
+                    "config": {},
+                    "datatype": "string",
+                    "description": null,
+                    "exportable": true,
+                    "fieldname": "LU_Notes",
+                    "graph_id": "9d0f19ba-b06b-11ee-a424-0242ac140006",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Seabed Use Notes Value",
+                    "nodegroup_id": "9d0f1c9e-b06b-11ee-a424-0242ac140006",
+                    "nodeid": "9d0f22fc-b06b-11ee-a424-0242ac140006",
+                    "ontologyclass": "http://www.w3.org/2000/01/rdf-schema#Literal",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P3_has_note",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "seabd_use_notes_metatype",
+                    "config": {
+                        "rdmCollection": "1e63c514-eb9d-48d3-94b5-35e060e5f368"
+                    },
+                    "datatype": "concept",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "9d0f19ba-b06b-11ee-a424-0242ac140006",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Seabd Use Notes Metatype",
+                    "nodegroup_id": "9d0f1c9e-b06b-11ee-a424-0242ac140006",
+                    "nodeid": "9d0f28ec-b06b-11ee-a424-0242ac140006",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "seabed_sediment",
+                    "config": {
+                        "rdmCollection": "738f1fc6-38b4-4826-8010-77515935c86c"
+                    },
+                    "datatype": "concept-list",
+                    "description": "Allows a concept collection to be typed. Useful for data sharing.",
+                    "exportable": true,
+                    "fieldname": "Sub_Soil",
+                    "graph_id": "9d0f19ba-b06b-11ee-a424-0242ac140006",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Seabed Sediment",
+                    "nodegroup_id": "9d0f1c9e-b06b-11ee-a424-0242ac140006",
+                    "nodeid": "9d0f2aea-b06b-11ee-a424-0242ac140006",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P141_assigned",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "seabed_sediment_metatype",
+                    "config": {
+                        "rdmCollection": "1e63c514-eb9d-48d3-94b5-35e060e5f368"
+                    },
+                    "datatype": "concept",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "9d0f19ba-b06b-11ee-a424-0242ac140006",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Seabed Sediment Metatype",
+                    "nodegroup_id": "9d0f1c9e-b06b-11ee-a424-0242ac140006",
+                    "nodeid": "9d0f2c8e-b06b-11ee-a424-0242ac140006",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "seabed_use_notes",
+                    "config": {},
+                    "datatype": "semantic",
+                    "description": "",
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "9d0f19ba-b06b-11ee-a424-0242ac140006",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Seabed Use Notes",
+                    "nodegroup_id": "9d0f1c9e-b06b-11ee-a424-0242ac140006",
+                    "nodeid": "9d0f2e1e-b06b-11ee-a424-0242ac140006",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P141_assigned",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "seabed_use_assessment_start_date",
+                    "config": {
+                        "dateFormat": "YYYY-MM-DD"
+                    },
+                    "datatype": "date",
+                    "description": null,
+                    "exportable": true,
+                    "fieldname": "LU_Date",
+                    "graph_id": "9d0f19ba-b06b-11ee-a424-0242ac140006",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Seabed Use Assessment Start Date",
+                    "nodegroup_id": "9d0f1c9e-b06b-11ee-a424-0242ac140006",
+                    "nodeid": "9d0f2fae-b06b-11ee-a424-0242ac140006",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E61_Time_Primitive",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P82a_begin_of_the_begin",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "seabed_use_metatype",
+                    "config": {
+                        "rdmCollection": "1e63c514-eb9d-48d3-94b5-35e060e5f368"
+                    },
+                    "datatype": "concept",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "9d0f19ba-b06b-11ee-a424-0242ac140006",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Seabed Use Metatype",
+                    "nodegroup_id": "9d0f1c9e-b06b-11ee-a424-0242ac140006",
+                    "nodeid": "9d0f313e-b06b-11ee-a424-0242ac140006",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "seabed_use_assessment_timespan",
+                    "config": {},
+                    "datatype": "semantic",
+                    "description": "",
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "9d0f19ba-b06b-11ee-a424-0242ac140006",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Seabed Use Assessment Timespan",
+                    "nodegroup_id": "9d0f1c9e-b06b-11ee-a424-0242ac140006",
+                    "nodeid": "9d0f33e6-b06b-11ee-a424-0242ac140006",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P141_assigned",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "seabed_use_classification",
+                    "config": {
+                        "rdmCollection": "dcab7c77-02ab-4c21-9afd-ca5a5fcc1bad"
+                    },
+                    "datatype": "concept",
+                    "description": null,
+                    "exportable": true,
+                    "fieldname": "Land_Use",
+                    "graph_id": "9d0f19ba-b06b-11ee-a424-0242ac140006",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Seabed Use Classification",
+                    "nodegroup_id": "9d0f1c9e-b06b-11ee-a424-0242ac140006",
+                    "nodeid": "9d0f37ba-b06b-11ee-a424-0242ac140006",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P141_assigned",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "geology",
+                    "config": {
+                        "rdmCollection": "11e94aef-1f27-4f5a-9f0c-4a573cb1fa09"
+                    },
+                    "datatype": "concept",
+                    "description": "Allows a concept collection to be typed. Useful for data sharing.",
+                    "exportable": true,
+                    "fieldname": "Geology",
+                    "graph_id": "9d0f19ba-b06b-11ee-a424-0242ac140006",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Geology",
+                    "nodegroup_id": "9d0f1c9e-b06b-11ee-a424-0242ac140006",
+                    "nodeid": "9d0f3990-b06b-11ee-a424-0242ac140006",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P141_assigned",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "seabed_use_assessment_end_date",
+                    "config": {
+                        "dateFormat": "YYYY-MM-DD"
+                    },
+                    "datatype": "date",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "9d0f19ba-b06b-11ee-a424-0242ac140006",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Seabed Use Assessment End Date",
+                    "nodegroup_id": "9d0f1c9e-b06b-11ee-a424-0242ac140006",
+                    "nodeid": "9d0f3b2a-b06b-11ee-a424-0242ac140006",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E61_Time_Primitive",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P82b_end_of_the_end",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "seabed_use_notes_language",
+                    "config": {
+                        "rdmCollection": "daacadea-1454-4cf4-8b14-9ade8069f4d7"
+                    },
+                    "datatype": "concept",
+                    "description": "",
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "9d0f19ba-b06b-11ee-a424-0242ac140006",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Seabed Use Notes Language",
+                    "nodegroup_id": "9d0f1c9e-b06b-11ee-a424-0242ac140006",
+                    "nodeid": "9d0f3cba-b06b-11ee-a424-0242ac140006",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E56_Language",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P72_has_language",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "seabed_use_notes_type",
+                    "config": {
+                        "rdmCollection": "0ff39ed3-cc95-4c60-9321-6d4e65fb1f2d"
+                    },
+                    "datatype": "concept",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "9d0f19ba-b06b-11ee-a424-0242ac140006",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Seabed Use Notes Type",
+                    "nodegroup_id": "9d0f1c9e-b06b-11ee-a424-0242ac140006",
+                    "nodeid": "9d0f3e36-b06b-11ee-a424-0242ac140006",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "land_use_notes_language_metatype",
+                    "config": {
+                        "rdmCollection": "1e63c514-eb9d-48d3-94b5-35e060e5f368"
+                    },
+                    "datatype": "concept",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "9d0f19ba-b06b-11ee-a424-0242ac140006",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Land Use Notes Language Metatype",
+                    "nodegroup_id": "9d0f1c9e-b06b-11ee-a424-0242ac140006",
+                    "nodeid": "9d0f3fbc-b06b-11ee-a424-0242ac140006",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "geology_metatype",
+                    "config": {
+                        "rdmCollection": "1e63c514-eb9d-48d3-94b5-35e060e5f368"
+                    },
+                    "datatype": "concept",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "9d0f19ba-b06b-11ee-a424-0242ac140006",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Geology Metatype",
+                    "nodegroup_id": "9d0f1c9e-b06b-11ee-a424-0242ac140006",
+                    "nodeid": "9d0f4142-b06b-11ee-a424-0242ac140006",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                }
+            ],
+            "ontology_id": "e6e8db47-2ccf-11e6-927e-b8f6b115d7dd",
+            "publication": null,
+            "relatable_resource_model_ids": [],
+            "resource_2_resource_constraints": [],
+            "root": {
+                "alias": "seabed_use_classification_assignment",
+                "config": {},
+                "datatype": "semantic",
+                "description": "Links an E13_Attribute_Assignment to an E!8_Physical_ThingUsed to record the Land Use Classification associated with a heritage asset. Included for migration purposes.Dependencies:> Land Use concept collection available in the RDM",
+                "exportable": false,
+                "fieldname": "",
+                "graph_id": "9d0f19ba-b06b-11ee-a424-0242ac140006",
+                "hascustomalias": false,
+                "is_collector": true,
+                "isrequired": false,
+                "issearchable": true,
+                "istopnode": true,
+                "name": "Seabed Use Classification Assignment",
+                "nodegroup_id": "9d0f1c9e-b06b-11ee-a424-0242ac140006",
+                "nodeid": "9d0f1c9e-b06b-11ee-a424-0242ac140006",
+                "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E13_Attribute_Assignment",
+                "sortorder": 0,
+                "sourcebranchpublication_id": null
+            },
+            "slug": null,
+            "subtitle": {
+                "en": ""
+            },
+            "template_id": "50000000-0000-0000-0000-000000000002",
+            "version": ""
+        }
+    ],
+    "metadata": {
+        "db": "PostgreSQL 16.10 on x86_64-pc-linux-gnu, compiled by gcc (GCC) 11.2.0, 64-bit",
+        "git hash": "fatal: not a git repository (or any of the parent directories): .git",
+        "os": "Windows",
+        "os version": "2019Server"
+    }
+}

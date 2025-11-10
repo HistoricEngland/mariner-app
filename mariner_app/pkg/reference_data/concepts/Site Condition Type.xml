@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:arches="https://nmhr.historicengland.org.uk/"
+>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/7ebf5a11-52a6-45b4-aa0a-3403e929ddb4">
+    <skos:narrower>
+      <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/1b5c8783-f172-443f-b116-0767c977c069">
+        <skos:prefLabel xml:lang="en">{"id": "3fe4d25f-6fcb-42f9-a4b6-09c46e7e6bd1", "value": "Poor"}</skos:prefLabel>
+        <arches:sortorder xml:lang="en">{"id": "59bb0204-5ccb-42c0-a275-e959dbe4357a", "value": "2"}</arches:sortorder>
+        <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/f041cf39-6d7d-42b8-9aaf-7372f9d182ef"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/2f6d9802-eb68-4feb-ac9b-9e9c1beccac7">
+        <arches:sortorder xml:lang="en">{"id": "5fe80afb-1d3d-43f5-b55f-47bfe9d0edf9", "value": "1"}</arches:sortorder>
+        <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/f041cf39-6d7d-42b8-9aaf-7372f9d182ef"/>
+        <skos:prefLabel xml:lang="en">{"id": "9c38d9b8-77bc-49fc-9dae-fbc4d0662db6", "value": "Very bad"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:prefLabel xml:lang="en">{"id": "f6d1f300-bda8-4b45-9fc0-f306dcd77ec2", "value": "Conservation Area Condition Type"}</skos:prefLabel>
+    <skos:narrower>
+      <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/21fde90b-69da-4d9e-bd21-779afa5dd018">
+        <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/f041cf39-6d7d-42b8-9aaf-7372f9d182ef"/>
+        <skos:prefLabel xml:lang="en">{"id": "89682520-4c4a-4435-8e5a-f897404c4ed8", "value": "Fair"}</skos:prefLabel>
+        <arches:sortorder xml:lang="en">{"id": "324aaba3-69d3-4fa7-b024-d4274946285e", "value": "3"}</arches:sortorder>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/2f238210-8a62-4ac6-96b4-0a3bdb596644">
+        <skos:prefLabel xml:lang="en">{"id": "7306a75a-2957-48cc-8af8-d20f63150145", "value": "Optimal"}</skos:prefLabel>
+        <arches:sortorder xml:lang="en">{"id": "b11b08c7-5ad7-4988-8109-26fadde87a86", "value": "4"}</arches:sortorder>
+        <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/f041cf39-6d7d-42b8-9aaf-7372f9d182ef"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:inScheme>
+      <skos:ConceptScheme rdf:about="https://nmhr.historicengland.org.uk/f041cf39-6d7d-42b8-9aaf-7372f9d182ef">
+        <skos:hasTopConcept rdf:resource="https://nmhr.historicengland.org.uk/a6e3550b-eb4c-47ce-b6ed-be37bfd1a12c"/>
+        <skos:hasTopConcept rdf:resource="https://nmhr.historicengland.org.uk/b4f68d65-b3bc-4e9b-807a-84d510fb120e"/>
+        <skos:hasTopConcept rdf:resource="https://nmhr.historicengland.org.uk/7ebf5a11-52a6-45b4-aa0a-3403e929ddb4"/>
+        <dcterms:title xml:lang="en">{"id": "13d93428-9ca7-40bd-90cf-122705916058", "value": "Site Condition Type"}</dcterms:title>
+      </skos:ConceptScheme>
+    </skos:inScheme>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/ffa9d0b0-ef0f-4445-8061-3c305940a9c0">
+    <arches:sortorder xml:lang="en">{"id": "805c5ede-fc52-48b3-93e1-794bf6c6a76f", "value": "6"}</arches:sortorder>
+    <skos:prefLabel xml:lang="en">{"id": "170aef8f-71eb-4da8-afa2-7c65ebbf2a71", "value": "Unknown"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/f041cf39-6d7d-42b8-9aaf-7372f9d182ef"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/ab64ffd5-66d7-4844-8ce8-bf0f07a73377">
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/f041cf39-6d7d-42b8-9aaf-7372f9d182ef"/>
+    <skos:prefLabel xml:lang="en">{"id": "fa9eae23-7bb5-49e3-a53e-49bc2de44b4b", "value": "Very bad"}</skos:prefLabel>
+    <arches:sortorder xml:lang="en">{"id": "b06add92-ea04-4fd7-8914-a3f1c59a9cf9", "value": "1"}</arches:sortorder>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/b4f68d65-b3bc-4e9b-807a-84d510fb120e">
+    <skos:narrower rdf:resource="https://nmhr.historicengland.org.uk/ffa9d0b0-ef0f-4445-8061-3c305940a9c0"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/0932d8c9-aa2a-4511-a46b-31cc6ca22c9d">
+        <skos:prefLabel xml:lang="en">{"id": "952dd4f4-5fcc-488e-a620-c531b7a06192", "value": "Extensive significant problems"}</skos:prefLabel>
+        <arches:sortorder xml:lang="en">{"id": "65816f48-d850-45d5-b0ee-4bbe8e0d7d45", "value": "1"}</arches:sortorder>
+        <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/f041cf39-6d7d-42b8-9aaf-7372f9d182ef"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/0a4cde19-1413-492a-bc69-e2dbf29c369b">
+        <arches:sortorder xml:lang="en">{"id": "0f2f2579-1498-416c-b782-a29f61e007c3", "value": "4"}</arches:sortorder>
+        <skos:prefLabel xml:lang="en">{"id": "c1a60ea0-af0f-426a-aa1f-e89af9a05e9e", "value": "Generally satisfactory but with minor localised problems"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/f041cf39-6d7d-42b8-9aaf-7372f9d182ef"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/cee2fbee-eaea-46e1-b28d-4c3a9df61247">
+        <arches:sortorder xml:lang="en">{"id": "bb192c3d-d5e4-4aab-85f2-d2d9214fad25", "value": "2"}</arches:sortorder>
+        <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/f041cf39-6d7d-42b8-9aaf-7372f9d182ef"/>
+        <skos:prefLabel xml:lang="en">{"id": "2c2fbcea-52cb-4daa-8ac1-b325830d458f", "value": "Generally unsatisfactory with major localised problems"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:prefLabel xml:lang="en">{"id": "fc7159d7-497a-4ee5-b8cb-c19112b99f72", "value": "Area Condition Type"}</skos:prefLabel>
+    <skos:narrower>
+      <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/40ad8904-f471-42ef-b4e1-09e5842ff036">
+        <skos:prefLabel xml:lang="en">{"id": "c0794276-4f5b-4b6e-aa0e-0e29d7560a45", "value": "Generally satisfactory but with significant localised problems"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/f041cf39-6d7d-42b8-9aaf-7372f9d182ef"/>
+        <arches:sortorder xml:lang="en">{"id": "9b5549b6-e870-40ea-94bf-738de88ecc96", "value": "3"}</arches:sortorder>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/f041cf39-6d7d-42b8-9aaf-7372f9d182ef"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/04397f89-ce1c-4289-afb7-00cc9530470d">
+        <skos:prefLabel xml:lang="en">{"id": "ecfff06e-2fd7-4b99-8dcd-ae30b6b1f0cc", "value": "Optimal"}</skos:prefLabel>
+        <arches:sortorder xml:lang="en">{"id": "c11b0c79-3101-4dec-8580-93a1e77d1060", "value": "5"}</arches:sortorder>
+        <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/f041cf39-6d7d-42b8-9aaf-7372f9d182ef"/>
+      </skos:Concept>
+    </skos:narrower>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/6e1bf48c-33c7-47b3-bc6e-ab43c33528c7">
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/f041cf39-6d7d-42b8-9aaf-7372f9d182ef"/>
+    <arches:sortorder xml:lang="en">{"id": "718bded4-2979-4569-81a6-c33c9fcfd1bb", "value": "2"}</arches:sortorder>
+    <skos:prefLabel xml:lang="en">{"id": "7153a46a-f9eb-4ed7-a807-446fe38ca045", "value": "Poor"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/a6e3550b-eb4c-47ce-b6ed-be37bfd1a12c">
+    <skos:prefLabel xml:lang="en">{"id": "ac8aefbe-3097-4d30-890b-35e98ffca968", "value": "Building Condition Type"}</skos:prefLabel>
+    <skos:narrower rdf:resource="https://nmhr.historicengland.org.uk/6e1bf48c-33c7-47b3-bc6e-ab43c33528c7"/>
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/f041cf39-6d7d-42b8-9aaf-7372f9d182ef"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/be78fa58-345d-4063-b47a-ea3a4e2b1d65">
+        <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/f041cf39-6d7d-42b8-9aaf-7372f9d182ef"/>
+        <arches:sortorder xml:lang="en">{"id": "068654cb-fdc6-493c-870b-e98e277cbf37", "value": "4"}</arches:sortorder>
+        <skos:prefLabel xml:lang="en">{"id": "1af5dc09-84a5-4bb9-8d67-9bce2c6ebddc", "value": "Good"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/1d261d83-c6d5-4a87-904f-e28aabb76b1f">
+        <arches:sortorder xml:lang="en">{"id": "b29ddd62-b50f-44a7-9ee4-f65ad3553737", "value": "3"}</arches:sortorder>
+        <skos:prefLabel xml:lang="en">{"id": "c431b0d6-7a03-4623-938a-d0e0fd574ba6", "value": "Fair"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/f041cf39-6d7d-42b8-9aaf-7372f9d182ef"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower rdf:resource="https://nmhr.historicengland.org.uk/ab64ffd5-66d7-4844-8ce8-bf0f07a73377"/>
+  </skos:Concept>
+</rdf:RDF>
