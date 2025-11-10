@@ -21,6 +21,8 @@ For development purposes, you can treat this app as a standard Arches project. E
   This installs the app in editable mode, allowing you to make changes and see them reflected immediately without needing to reinstall.
 
 - **For development using included arches-container configuration:**
+
+  > arches-containers is a tool developed by Historic England to enable the quick set up of development environments.  You can find out more about arches-containers and how to install and use it, please see the [arches-containers documentation on PyPI](https://pypi.org/project/arches-containers/)
   
   Please ensure that you clone the mariner-app repository into a directory that uses underscores instead of hyphens, as the arches-containers configuration expects this format. For example, clone it to `mariner_app`.
 
@@ -52,7 +54,6 @@ For development purposes, you can treat this app as a standard Arches project. E
 
   6. Once setup and webpack builds are complete, open a browser and navigate to `http://localhost:8002` or use `act view` in a termainal to open the project in your default browser.
 
-  For more details, see the [arches-containers documentation](../arches-containers/readme.md).
 
 
 ## Using This App in Your Arches Project
