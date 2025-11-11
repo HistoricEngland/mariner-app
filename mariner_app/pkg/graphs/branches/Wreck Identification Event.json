@@ -1,0 +1,1123 @@
+{
+    "graph": [
+        {
+            "author": "",
+            "cards": [
+                {
+                    "active": true,
+                    "cardid": "3b224c30-68eb-11ee-8e1d-0242ac120006",
+                    "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
+                    "config": null,
+                    "constraints": [],
+                    "cssclass": null,
+                    "description": "",
+                    "graph_id": "3b22433e-68eb-11ee-8e1d-0242ac120006",
+                    "helpenabled": false,
+                    "helptext": {
+                        "en": null
+                    },
+                    "helptitle": {
+                        "en": null
+                    },
+                    "instructions": {
+                        "en": "Used to record the dimensions of the wrecked vessel/crashed aircraft for comparative purposes with the original dimensions of a known vessel/aircraft."
+                    },
+                    "is_editable": true,
+                    "name": {
+                        "en": "Wreck Dimensions"
+                    },
+                    "nodegroup_id": "3b224622-68eb-11ee-8e1d-0242ac120006",
+                    "sortorder": null,
+                    "visible": true
+                },
+                {
+                    "active": true,
+                    "cardid": "3b225540-68eb-11ee-8e1d-0242ac120006",
+                    "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
+                    "config": null,
+                    "constraints": [],
+                    "cssclass": null,
+                    "description": {
+                        "en": ""
+                    },
+                    "graph_id": "3b22433e-68eb-11ee-8e1d-0242ac120006",
+                    "helpenabled": false,
+                    "helptext": {
+                        "en": null
+                    },
+                    "helptitle": {
+                        "en": null
+                    },
+                    "instructions": {
+                        "en": "Use to record the details of the initial wreck identification"
+                    },
+                    "is_editable": true,
+                    "name": {
+                        "en": "Wreck Identification Event"
+                    },
+                    "nodegroup_id": "3b2250a4-68eb-11ee-8e1d-0242ac120006",
+                    "sortorder": 3,
+                    "visible": true
+                }
+            ],
+            "cards_x_nodes_x_widgets": [
+                {
+                    "card_id": "3b225540-68eb-11ee-8e1d-0242ac120006",
+                    "config": {
+                        "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
+                        "label": "Wreck Dimension Measurement Unit",
+                        "options": [],
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
+                    },
+                    "id": "3b226f44-68eb-11ee-8e1d-0242ac120006",
+                    "label": {
+                        "en": "Wreck Dimension Measurement Unit"
+                    },
+                    "node_id": "3b226dd2-68eb-11ee-8e1d-0242ac120006",
+                    "sortorder": 8,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000002"
+                },
+                {
+                    "card_id": "3b225540-68eb-11ee-8e1d-0242ac120006",
+                    "config": {
+                        "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
+                        "label": "Wreck Dimension Type Qualifier",
+                        "options": [],
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
+                    },
+                    "id": "3b227106-68eb-11ee-8e1d-0242ac120006",
+                    "label": {
+                        "en": "Wreck Dimension Type Qualifier"
+                    },
+                    "node_id": "3b225c7a-68eb-11ee-8e1d-0242ac120006",
+                    "sortorder": 10,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000002"
+                },
+                {
+                    "card_id": "3b225540-68eb-11ee-8e1d-0242ac120006",
+                    "config": {
+                        "defaultValue": {
+                            "en": {
+                                "direction": "ltr",
+                                "value": ""
+                            }
+                        },
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
+                        "label": "Wreck Dimension Value",
+                        "maxLength": null,
+                        "placeholder": {
+                            "en": "Enter text"
+                        },
+                        "uneditable": false,
+                        "width": "100%"
+                    },
+                    "id": "3b2271e2-68eb-11ee-8e1d-0242ac120006",
+                    "label": {
+                        "en": "Wreck Dimension Value"
+                    },
+                    "node_id": "3b226134-68eb-11ee-8e1d-0242ac120006",
+                    "sortorder": 12,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000001"
+                },
+                {
+                    "card_id": "3b225540-68eb-11ee-8e1d-0242ac120006",
+                    "config": {
+                        "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
+                        "label": "Wreck Dimension Type",
+                        "options": [],
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
+                    },
+                    "id": "3b227282-68eb-11ee-8e1d-0242ac120006",
+                    "label": {
+                        "en": "Wreck Dimension Type"
+                    },
+                    "node_id": "3b226ab2-68eb-11ee-8e1d-0242ac120006",
+                    "sortorder": 6,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000002"
+                },
+                {
+                    "card_id": "3b225540-68eb-11ee-8e1d-0242ac120006",
+                    "config": {
+                        "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
+                        "label": "Orientation (compass points)",
+                        "options": [],
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
+                    },
+                    "id": "3b22732c-68eb-11ee-8e1d-0242ac120006",
+                    "label": {
+                        "en": "Orientation (compass points)"
+                    },
+                    "node_id": "3b2262ce-68eb-11ee-8e1d-0242ac120006",
+                    "sortorder": 10,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000002"
+                },
+                {
+                    "card_id": "3b225540-68eb-11ee-8e1d-0242ac120006",
+                    "config": {
+                        "defaultValue": {
+                            "en": {
+                                "direction": "ltr",
+                                "value": ""
+                            }
+                        },
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
+                        "label": "Orientation (degrees)",
+                        "maxLength": null,
+                        "placeholder": {
+                            "en": "Enter text"
+                        },
+                        "uneditable": false,
+                        "width": "100%"
+                    },
+                    "id": "3b2273cc-68eb-11ee-8e1d-0242ac120006",
+                    "label": {
+                        "en": "Orientation (degrees)"
+                    },
+                    "node_id": "3b225ae0-68eb-11ee-8e1d-0242ac120006",
+                    "sortorder": 9,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000001"
+                },
+                {
+                    "card_id": "3b225540-68eb-11ee-8e1d-0242ac120006",
+                    "config": {
+                        "defaultValue": "20aa84bf-c35a-43c2-9b23-68b6f9eac5c9",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
+                        "label": "Possible Aircraft Metatype",
+                        "options": [],
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
+                    },
+                    "id": "3b2274d0-68eb-11ee-8e1d-0242ac120006",
+                    "label": {
+                        "en": "Possible Aircraft Metatype"
+                    },
+                    "node_id": "3b225766-68eb-11ee-8e1d-0242ac120006",
+                    "sortorder": 3,
+                    "visible": false,
+                    "widget_id": "10000000-0000-0000-0000-000000000002"
+                },
+                {
+                    "card_id": "3b225540-68eb-11ee-8e1d-0242ac120006",
+                    "config": {
+                        "defaultValue": "495ecc6a-a265-434b-8708-d6b76bd9a30e",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
+                        "label": "Wreck Measurement Unit Metatype",
+                        "options": [],
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
+                    },
+                    "id": "3b227570-68eb-11ee-8e1d-0242ac120006",
+                    "label": {
+                        "en": "Wreck Measurement Unit Metatype"
+                    },
+                    "node_id": "3b226454-68eb-11ee-8e1d-0242ac120006",
+                    "sortorder": 9,
+                    "visible": false,
+                    "widget_id": "10000000-0000-0000-0000-000000000002"
+                },
+                {
+                    "card_id": "3b225540-68eb-11ee-8e1d-0242ac120006",
+                    "config": {
+                        "defaultValue": "823d2c4f-39ad-47d4-89b4-726ef167534b",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
+                        "label": "Wreck Dimension Metatype",
+                        "options": [],
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
+                    },
+                    "id": "3b22761a-68eb-11ee-8e1d-0242ac120006",
+                    "label": {
+                        "en": "Wreck Dimension Metatype"
+                    },
+                    "node_id": "3b226c42-68eb-11ee-8e1d-0242ac120006",
+                    "sortorder": 7,
+                    "visible": false,
+                    "widget_id": "10000000-0000-0000-0000-000000000002"
+                },
+                {
+                    "card_id": "3b225540-68eb-11ee-8e1d-0242ac120006",
+                    "config": {
+                        "defaultValue": "62f3f620-ea25-46c8-9a7b-dbadf23aa874",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
+                        "label": "Wreck Dimension Type Qualifier Metatype",
+                        "options": [],
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
+                    },
+                    "id": "3b2276ba-68eb-11ee-8e1d-0242ac120006",
+                    "label": {
+                        "en": "Wreck Dimension Type Qualifier Metatype"
+                    },
+                    "node_id": "3b2265f8-68eb-11ee-8e1d-0242ac120006",
+                    "sortorder": 11,
+                    "visible": false,
+                    "widget_id": "10000000-0000-0000-0000-000000000002"
+                },
+                {
+                    "card_id": "3b225540-68eb-11ee-8e1d-0242ac120006",
+                    "config": {
+                        "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
+                        "label": "Possible Vessel Type",
+                        "options": [],
+                        "placeholder": {
+                            "en": "Select a maritime vessel type. Multiple types may be selected where uncertain."
+                        }
+                    },
+                    "id": "3b227750-68eb-11ee-8e1d-0242ac120006",
+                    "label": {
+                        "en": "Possible Vessel Type"
+                    },
+                    "node_id": "3b226922-68eb-11ee-8e1d-0242ac120006",
+                    "sortorder": 0,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000012"
+                },
+                {
+                    "card_id": "3b225540-68eb-11ee-8e1d-0242ac120006",
+                    "config": {
+                        "defaultValue": "c9f3250e-55bc-4ebb-b0cc-573d6de94884",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
+                        "label": "Possible Vessel Metatype",
+                        "options": [],
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
+                    },
+                    "id": "3b2277e6-68eb-11ee-8e1d-0242ac120006",
+                    "label": {
+                        "en": "Possible Vessel Metatype"
+                    },
+                    "node_id": "3b226788-68eb-11ee-8e1d-0242ac120006",
+                    "sortorder": 1,
+                    "visible": false,
+                    "widget_id": "10000000-0000-0000-0000-000000000002"
+                },
+                {
+                    "card_id": "3b225540-68eb-11ee-8e1d-0242ac120006",
+                    "config": {
+                        "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
+                        "label": "Possible Aircraft Type",
+                        "options": [],
+                        "placeholder": {
+                            "en": "Select a historic aircraft type. Multiple types may be selected where uncertain."
+                        }
+                    },
+                    "id": "3b227890-68eb-11ee-8e1d-0242ac120006",
+                    "label": {
+                        "en": "Possible Aircraft Type"
+                    },
+                    "node_id": "3b22593c-68eb-11ee-8e1d-0242ac120006",
+                    "sortorder": 2,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000012"
+                },
+                {
+                    "card_id": "3b224c30-68eb-11ee-8e1d-0242ac120006",
+                    "config": {
+                        "defaultValue": "823d2c4f-39ad-47d4-89b4-726ef167534b",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
+                        "label": "Wreck Dimension Metatype",
+                        "options": [],
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
+                    },
+                    "id": "3b227926-68eb-11ee-8e1d-0242ac120006",
+                    "label": {
+                        "en": "Wreck Dimension Metatype"
+                    },
+                    "node_id": "3b226c42-68eb-11ee-8e1d-0242ac120006",
+                    "sortorder": 1,
+                    "visible": false,
+                    "widget_id": "10000000-0000-0000-0000-000000000002"
+                },
+                {
+                    "card_id": "3b224c30-68eb-11ee-8e1d-0242ac120006",
+                    "config": {
+                        "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
+                        "label": "Wreck Dimension Measurement Unit",
+                        "options": [],
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
+                    },
+                    "id": "3b2279bc-68eb-11ee-8e1d-0242ac120006",
+                    "label": {
+                        "en": "Wreck Dimension Measurement Unit"
+                    },
+                    "node_id": "3b226dd2-68eb-11ee-8e1d-0242ac120006",
+                    "sortorder": 5,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000002"
+                },
+                {
+                    "card_id": "3b224c30-68eb-11ee-8e1d-0242ac120006",
+                    "config": {
+                        "defaultValue": {
+                            "en": {
+                                "direction": "ltr",
+                                "value": ""
+                            }
+                        },
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
+                        "label": "Wreck Dimension Value",
+                        "maxLength": null,
+                        "placeholder": {
+                            "en": "Enter text"
+                        },
+                        "uneditable": false,
+                        "width": "100%"
+                    },
+                    "id": "3b227a52-68eb-11ee-8e1d-0242ac120006",
+                    "label": {
+                        "en": "Wreck Dimension Value"
+                    },
+                    "node_id": "3b226134-68eb-11ee-8e1d-0242ac120006",
+                    "sortorder": 4,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000001"
+                },
+                {
+                    "card_id": "3b224c30-68eb-11ee-8e1d-0242ac120006",
+                    "config": {
+                        "defaultValue": "495ecc6a-a265-434b-8708-d6b76bd9a30e",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
+                        "label": "Wreck Measurement Unit Metatype",
+                        "options": [],
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
+                    },
+                    "id": "3b227af2-68eb-11ee-8e1d-0242ac120006",
+                    "label": {
+                        "en": "Wreck Measurement Unit Metatype"
+                    },
+                    "node_id": "3b226454-68eb-11ee-8e1d-0242ac120006",
+                    "sortorder": 6,
+                    "visible": false,
+                    "widget_id": "10000000-0000-0000-0000-000000000002"
+                },
+                {
+                    "card_id": "3b224c30-68eb-11ee-8e1d-0242ac120006",
+                    "config": {
+                        "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
+                        "label": "Wreck Dimension Type",
+                        "options": [],
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
+                    },
+                    "id": "3b227b92-68eb-11ee-8e1d-0242ac120006",
+                    "label": {
+                        "en": "Wreck Dimension Type"
+                    },
+                    "node_id": "3b226ab2-68eb-11ee-8e1d-0242ac120006",
+                    "sortorder": 0,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000002"
+                },
+                {
+                    "card_id": "3b224c30-68eb-11ee-8e1d-0242ac120006",
+                    "config": {
+                        "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
+                        "label": "Wreck Dimension Type Qualifier",
+                        "options": [],
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
+                    },
+                    "id": "3b227c28-68eb-11ee-8e1d-0242ac120006",
+                    "label": {
+                        "en": "Wreck Dimension Type Qualifier"
+                    },
+                    "node_id": "3b225c7a-68eb-11ee-8e1d-0242ac120006",
+                    "sortorder": 2,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000002"
+                },
+                {
+                    "card_id": "3b224c30-68eb-11ee-8e1d-0242ac120006",
+                    "config": {
+                        "defaultValue": "62f3f620-ea25-46c8-9a7b-dbadf23aa874",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
+                        "label": "Wreck Dimension Type Qualifier Metatype",
+                        "options": [],
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
+                    },
+                    "id": "3b227cbe-68eb-11ee-8e1d-0242ac120006",
+                    "label": {
+                        "en": "Wreck Dimension Type Qualifier Metatype"
+                    },
+                    "node_id": "3b2265f8-68eb-11ee-8e1d-0242ac120006",
+                    "sortorder": 3,
+                    "visible": false,
+                    "widget_id": "10000000-0000-0000-0000-000000000002"
+                }
+            ],
+            "color": "rgba(66,137,169,1)",
+            "config": {
+                "basemap": "streets"
+            },
+            "deploymentdate": null,
+            "deploymentfile": null,
+            "description": {
+                "en": ""
+            },
+            "edges": [
+                {
+                    "description": null,
+                    "domainnode_id": "3b226dd2-68eb-11ee-8e1d-0242ac120006",
+                    "edgeid": "3b22c656-68eb-11ee-8e1d-0242ac120006",
+                    "graph_id": "3b22433e-68eb-11ee-8e1d-0242ac120006",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "rangenode_id": "3b226454-68eb-11ee-8e1d-0242ac120006"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "3b225c7a-68eb-11ee-8e1d-0242ac120006",
+                    "edgeid": "3b22c7be-68eb-11ee-8e1d-0242ac120006",
+                    "graph_id": "3b22433e-68eb-11ee-8e1d-0242ac120006",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "rangenode_id": "3b2265f8-68eb-11ee-8e1d-0242ac120006"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "3b226ab2-68eb-11ee-8e1d-0242ac120006",
+                    "edgeid": "3b22c8cc-68eb-11ee-8e1d-0242ac120006",
+                    "graph_id": "3b22433e-68eb-11ee-8e1d-0242ac120006",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "rangenode_id": "3b226c42-68eb-11ee-8e1d-0242ac120006"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "3b225e14-68eb-11ee-8e1d-0242ac120006",
+                    "edgeid": "3b22c9da-68eb-11ee-8e1d-0242ac120006",
+                    "graph_id": "3b22433e-68eb-11ee-8e1d-0242ac120006",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "rangenode_id": "3b226ab2-68eb-11ee-8e1d-0242ac120006"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "3b225e14-68eb-11ee-8e1d-0242ac120006",
+                    "edgeid": "3b22cade-68eb-11ee-8e1d-0242ac120006",
+                    "graph_id": "3b22433e-68eb-11ee-8e1d-0242ac120006",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "rangenode_id": "3b225c7a-68eb-11ee-8e1d-0242ac120006"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "3b225e14-68eb-11ee-8e1d-0242ac120006",
+                    "edgeid": "3b22cbe2-68eb-11ee-8e1d-0242ac120006",
+                    "graph_id": "3b22433e-68eb-11ee-8e1d-0242ac120006",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P91_has_unit",
+                    "rangenode_id": "3b226dd2-68eb-11ee-8e1d-0242ac120006"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "3b225e14-68eb-11ee-8e1d-0242ac120006",
+                    "edgeid": "3b22ccdc-68eb-11ee-8e1d-0242ac120006",
+                    "graph_id": "3b22433e-68eb-11ee-8e1d-0242ac120006",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P90_has_value",
+                    "rangenode_id": "3b226134-68eb-11ee-8e1d-0242ac120006"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "3b224622-68eb-11ee-8e1d-0242ac120006",
+                    "edgeid": "3b22cde0-68eb-11ee-8e1d-0242ac120006",
+                    "graph_id": "3b22433e-68eb-11ee-8e1d-0242ac120006",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P40_observed_dimension",
+                    "rangenode_id": "3b225e14-68eb-11ee-8e1d-0242ac120006"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "3b225fa4-68eb-11ee-8e1d-0242ac120006",
+                    "edgeid": "3b22ceee-68eb-11ee-8e1d-0242ac120006",
+                    "graph_id": "3b22433e-68eb-11ee-8e1d-0242ac120006",
+                    "name": null,
+                    "ontologyproperty": "http://www.ics.forth.gr/isl/CRMsci/O12_has_dimension",
+                    "rangenode_id": "3b225ae0-68eb-11ee-8e1d-0242ac120006"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "3b2250a4-68eb-11ee-8e1d-0242ac120006",
+                    "edgeid": "3b22cfe8-68eb-11ee-8e1d-0242ac120006",
+                    "graph_id": "3b22433e-68eb-11ee-8e1d-0242ac120006",
+                    "name": null,
+                    "ontologyproperty": "http://www.ics.forth.gr/isl/CRMsci/O8_observed",
+                    "rangenode_id": "3b224622-68eb-11ee-8e1d-0242ac120006"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "3b225fa4-68eb-11ee-8e1d-0242ac120006",
+                    "edgeid": "3b22d0ec-68eb-11ee-8e1d-0242ac120006",
+                    "graph_id": "3b22433e-68eb-11ee-8e1d-0242ac120006",
+                    "name": null,
+                    "ontologyproperty": "http://www.ics.forth.gr/isl/CRMsci/O12_has_dimension",
+                    "rangenode_id": "3b2262ce-68eb-11ee-8e1d-0242ac120006"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "3b226922-68eb-11ee-8e1d-0242ac120006",
+                    "edgeid": "3b22d1e6-68eb-11ee-8e1d-0242ac120006",
+                    "graph_id": "3b22433e-68eb-11ee-8e1d-0242ac120006",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "rangenode_id": "3b226788-68eb-11ee-8e1d-0242ac120006"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "3b2250a4-68eb-11ee-8e1d-0242ac120006",
+                    "edgeid": "3b22d2f4-68eb-11ee-8e1d-0242ac120006",
+                    "graph_id": "3b22433e-68eb-11ee-8e1d-0242ac120006",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P141_assigned",
+                    "rangenode_id": "3b226922-68eb-11ee-8e1d-0242ac120006"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "3b22593c-68eb-11ee-8e1d-0242ac120006",
+                    "edgeid": "3b22d3f8-68eb-11ee-8e1d-0242ac120006",
+                    "graph_id": "3b22433e-68eb-11ee-8e1d-0242ac120006",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "rangenode_id": "3b225766-68eb-11ee-8e1d-0242ac120006"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "3b2250a4-68eb-11ee-8e1d-0242ac120006",
+                    "edgeid": "3b22d4fc-68eb-11ee-8e1d-0242ac120006",
+                    "graph_id": "3b22433e-68eb-11ee-8e1d-0242ac120006",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P141_assigned",
+                    "rangenode_id": "3b22593c-68eb-11ee-8e1d-0242ac120006"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "3b2250a4-68eb-11ee-8e1d-0242ac120006",
+                    "edgeid": "3b22d5f6-68eb-11ee-8e1d-0242ac120006",
+                    "graph_id": "3b22433e-68eb-11ee-8e1d-0242ac120006",
+                    "name": null,
+                    "ontologyproperty": "http://www.ics.forth.gr/isl/CRMsci/O8_observed",
+                    "rangenode_id": "3b225fa4-68eb-11ee-8e1d-0242ac120006"
+                }
+            ],
+            "functions_x_graphs": [],
+            "graphid": "3b22433e-68eb-11ee-8e1d-0242ac120006",
+            "iconclass": "fa fa-anchor",
+            "is_editable": true,
+            "isresource": false,
+            "jsonldcontext": null,
+            "name": {
+                "en": "Wreck Identification Event"
+            },
+            "nodegroups": [
+                {
+                    "cardinality": "n",
+                    "legacygroupid": null,
+                    "nodegroupid": "3b224622-68eb-11ee-8e1d-0242ac120006",
+                    "parentnodegroup_id": "3b2250a4-68eb-11ee-8e1d-0242ac120006"
+                },
+                {
+                    "cardinality": "n",
+                    "legacygroupid": null,
+                    "nodegroupid": "3b2250a4-68eb-11ee-8e1d-0242ac120006",
+                    "parentnodegroup_id": null
+                }
+            ],
+            "nodes": [
+                {
+                    "alias": "wreck_dimensions",
+                    "config": {},
+                    "datatype": "semantic",
+                    "description": "",
+                    "exportable": false,
+                    "fieldname": "",
+                    "graph_id": "3b22433e-68eb-11ee-8e1d-0242ac120006",
+                    "hascustomalias": false,
+                    "is_collector": true,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Wreck Dimensions",
+                    "nodegroup_id": "3b224622-68eb-11ee-8e1d-0242ac120006",
+                    "nodeid": "3b224622-68eb-11ee-8e1d-0242ac120006",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E16_Measurement",
+                    "parentproperty": "http://www.ics.forth.gr/isl/CRMsci/O8_observed",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "wreck_identification_event",
+                    "config": {},
+                    "datatype": "semantic",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "3b22433e-68eb-11ee-8e1d-0242ac120006",
+                    "hascustomalias": false,
+                    "is_collector": true,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": true,
+                    "name": "Wreck Identification Event",
+                    "nodegroup_id": "3b2250a4-68eb-11ee-8e1d-0242ac120006",
+                    "nodeid": "3b2250a4-68eb-11ee-8e1d-0242ac120006",
+                    "ontologyclass": "http://www.ics.forth.gr/isl/CRMsci/S4_Observation",
+                    "parentproperty": "",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "possible_aircraft_metatype",
+                    "config": {
+                        "rdmCollection": "1e63c514-eb9d-48d3-94b5-35e060e5f368"
+                    },
+                    "datatype": "concept",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "3b22433e-68eb-11ee-8e1d-0242ac120006",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": false,
+                    "istopnode": false,
+                    "name": "Possible Aircraft Metatype",
+                    "nodegroup_id": "3b2250a4-68eb-11ee-8e1d-0242ac120006",
+                    "nodeid": "3b225766-68eb-11ee-8e1d-0242ac120006",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "possible_aircraft_type",
+                    "config": {
+                        "rdmCollection": "0cc2d18d-e107-4c1a-8442-743835dd636a"
+                    },
+                    "datatype": "concept-list",
+                    "description": "Allows a concept collection to be typed. Useful for data sharing.",
+                    "exportable": true,
+                    "fieldname": "PAircrType",
+                    "graph_id": "3b22433e-68eb-11ee-8e1d-0242ac120006",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Possible Aircraft Type",
+                    "nodegroup_id": "3b2250a4-68eb-11ee-8e1d-0242ac120006",
+                    "nodeid": "3b22593c-68eb-11ee-8e1d-0242ac120006",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P141_assigned",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "orientation_degrees_",
+                    "config": {},
+                    "datatype": "string",
+                    "description": null,
+                    "exportable": true,
+                    "fieldname": "O_degrees",
+                    "graph_id": "3b22433e-68eb-11ee-8e1d-0242ac120006",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Orientation (degrees)",
+                    "nodegroup_id": "3b2250a4-68eb-11ee-8e1d-0242ac120006",
+                    "nodeid": "3b225ae0-68eb-11ee-8e1d-0242ac120006",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E54_Dimension",
+                    "parentproperty": "http://www.ics.forth.gr/isl/CRMsci/O12_has_dimension",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "wreck_dimension_type_qualifier",
+                    "config": {
+                        "rdmCollection": "6668bac2-f40d-4481-aea7-63cb79b4c1c2"
+                    },
+                    "datatype": "concept",
+                    "description": null,
+                    "exportable": true,
+                    "fieldname": "Dim_TyQual",
+                    "graph_id": "3b22433e-68eb-11ee-8e1d-0242ac120006",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Wreck Dimension Type Qualifier",
+                    "nodegroup_id": "3b224622-68eb-11ee-8e1d-0242ac120006",
+                    "nodeid": "3b225c7a-68eb-11ee-8e1d-0242ac120006",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "wreck_dimension",
+                    "config": {},
+                    "datatype": "semantic",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": "",
+                    "graph_id": "3b22433e-68eb-11ee-8e1d-0242ac120006",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Wreck Dimension",
+                    "nodegroup_id": "3b224622-68eb-11ee-8e1d-0242ac120006",
+                    "nodeid": "3b225e14-68eb-11ee-8e1d-0242ac120006",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E54_Dimension",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P40_observed_dimension",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "wreck_orientation",
+                    "config": {},
+                    "datatype": "semantic",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "3b22433e-68eb-11ee-8e1d-0242ac120006",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Wreck Orientation",
+                    "nodegroup_id": "3b2250a4-68eb-11ee-8e1d-0242ac120006",
+                    "nodeid": "3b225fa4-68eb-11ee-8e1d-0242ac120006",
+                    "ontologyclass": "http://www.ics.forth.gr/isl/CRMsci/S16_State",
+                    "parentproperty": "http://www.ics.forth.gr/isl/CRMsci/O8_observed",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "wreck_dimension_value",
+                    "config": {},
+                    "datatype": "string",
+                    "description": null,
+                    "exportable": true,
+                    "fieldname": "Dim_Value",
+                    "graph_id": "3b22433e-68eb-11ee-8e1d-0242ac120006",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Wreck Dimension Value",
+                    "nodegroup_id": "3b224622-68eb-11ee-8e1d-0242ac120006",
+                    "nodeid": "3b226134-68eb-11ee-8e1d-0242ac120006",
+                    "ontologyclass": "http://www.w3.org/2000/01/rdf-schema#Literal",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P90_has_value",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "orientation_compass_points_",
+                    "config": {
+                        "rdmCollection": "3280641d-ae1a-4c35-9015-9a9b0a6a2dd6"
+                    },
+                    "datatype": "concept",
+                    "description": null,
+                    "exportable": true,
+                    "fieldname": "O_Compass",
+                    "graph_id": "3b22433e-68eb-11ee-8e1d-0242ac120006",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Orientation (compass points)",
+                    "nodegroup_id": "3b2250a4-68eb-11ee-8e1d-0242ac120006",
+                    "nodeid": "3b2262ce-68eb-11ee-8e1d-0242ac120006",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E54_Dimension",
+                    "parentproperty": "http://www.ics.forth.gr/isl/CRMsci/O12_has_dimension",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "wreck_measurement_unit_metatype",
+                    "config": {
+                        "rdmCollection": "1e63c514-eb9d-48d3-94b5-35e060e5f368"
+                    },
+                    "datatype": "concept",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "3b22433e-68eb-11ee-8e1d-0242ac120006",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": false,
+                    "istopnode": false,
+                    "name": "Wreck Measurement Unit Metatype",
+                    "nodegroup_id": "3b224622-68eb-11ee-8e1d-0242ac120006",
+                    "nodeid": "3b226454-68eb-11ee-8e1d-0242ac120006",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "wreck_dimension_type_qualifier_metatype",
+                    "config": {
+                        "rdmCollection": "1e63c514-eb9d-48d3-94b5-35e060e5f368"
+                    },
+                    "datatype": "concept",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "3b22433e-68eb-11ee-8e1d-0242ac120006",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": false,
+                    "istopnode": false,
+                    "name": "Wreck Dimension Type Qualifier Metatype",
+                    "nodegroup_id": "3b224622-68eb-11ee-8e1d-0242ac120006",
+                    "nodeid": "3b2265f8-68eb-11ee-8e1d-0242ac120006",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "possible_vessel_metatype",
+                    "config": {
+                        "rdmCollection": "1e63c514-eb9d-48d3-94b5-35e060e5f368"
+                    },
+                    "datatype": "concept",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "3b22433e-68eb-11ee-8e1d-0242ac120006",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": false,
+                    "istopnode": false,
+                    "name": "Possible Vessel Metatype",
+                    "nodegroup_id": "3b2250a4-68eb-11ee-8e1d-0242ac120006",
+                    "nodeid": "3b226788-68eb-11ee-8e1d-0242ac120006",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "possible_vessel_type",
+                    "config": {
+                        "rdmCollection": "8860d3cd-582c-442b-8a73-1aea8694be53"
+                    },
+                    "datatype": "concept-list",
+                    "description": "Allows a concept collection to be typed. Useful for data sharing.",
+                    "exportable": true,
+                    "fieldname": "PVessType",
+                    "graph_id": "3b22433e-68eb-11ee-8e1d-0242ac120006",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Possible Vessel Type",
+                    "nodegroup_id": "3b2250a4-68eb-11ee-8e1d-0242ac120006",
+                    "nodeid": "3b226922-68eb-11ee-8e1d-0242ac120006",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P141_assigned",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "wreck_dimension_type",
+                    "config": {
+                        "rdmCollection": "df735209-a20a-483b-a1ec-6ca3790de557"
+                    },
+                    "datatype": "concept",
+                    "description": null,
+                    "exportable": true,
+                    "fieldname": "Dim_Type",
+                    "graph_id": "3b22433e-68eb-11ee-8e1d-0242ac120006",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Wreck Dimension Type",
+                    "nodegroup_id": "3b224622-68eb-11ee-8e1d-0242ac120006",
+                    "nodeid": "3b226ab2-68eb-11ee-8e1d-0242ac120006",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "wreck_dimension_metatype",
+                    "config": {
+                        "rdmCollection": "1e63c514-eb9d-48d3-94b5-35e060e5f368"
+                    },
+                    "datatype": "concept",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "3b22433e-68eb-11ee-8e1d-0242ac120006",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": false,
+                    "istopnode": false,
+                    "name": "Wreck Dimension Metatype",
+                    "nodegroup_id": "3b224622-68eb-11ee-8e1d-0242ac120006",
+                    "nodeid": "3b226c42-68eb-11ee-8e1d-0242ac120006",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "wreck_dimension_measurement_unit",
+                    "config": {
+                        "rdmCollection": "2c6c90ff-0e4f-42f6-a62f-23a0b0a549e1"
+                    },
+                    "datatype": "concept",
+                    "description": null,
+                    "exportable": true,
+                    "fieldname": "Dim_Unit",
+                    "graph_id": "3b22433e-68eb-11ee-8e1d-0242ac120006",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Wreck Dimension Measurement Unit",
+                    "nodegroup_id": "3b224622-68eb-11ee-8e1d-0242ac120006",
+                    "nodeid": "3b226dd2-68eb-11ee-8e1d-0242ac120006",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P91_has_unit",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                }
+            ],
+            "ontology_id": "e6e8db47-2ccf-11e6-927e-b8f6b115d7dd",
+            "publication": null,
+            "relatable_resource_model_ids": [],
+            "resource_2_resource_constraints": [],
+            "root": {
+                "alias": "wreck_identification_event",
+                "config": {},
+                "datatype": "semantic",
+                "description": null,
+                "exportable": false,
+                "fieldname": null,
+                "graph_id": "3b22433e-68eb-11ee-8e1d-0242ac120006",
+                "hascustomalias": false,
+                "is_collector": true,
+                "isrequired": false,
+                "issearchable": true,
+                "istopnode": true,
+                "name": "Wreck Identification Event",
+                "nodegroup_id": "3b2250a4-68eb-11ee-8e1d-0242ac120006",
+                "nodeid": "3b2250a4-68eb-11ee-8e1d-0242ac120006",
+                "ontologyclass": "http://www.ics.forth.gr/isl/CRMsci/S4_Observation",
+                "sortorder": 0,
+                "sourcebranchpublication_id": null
+            },
+            "slug": null,
+            "subtitle": {
+                "en": ""
+            },
+            "template_id": "50000000-0000-0000-0000-000000000002",
+            "version": ""
+        }
+    ],
+    "metadata": {
+        "db": "PostgreSQL 16.10 on x86_64-pc-linux-gnu, compiled by gcc (GCC) 11.2.0, 64-bit",
+        "git hash": "fatal: not a git repository (or any of the parent directories): .git",
+        "os": "Windows",
+        "os version": "2019Server"
+    }
+}

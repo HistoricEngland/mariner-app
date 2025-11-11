@@ -1,0 +1,896 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/5b5c158c-eaf2-3ceb-a9aa-1f48013745fd">
+    <skos:prefLabel xml:lang="en">{"id": "18252662-2127-49ab-8ccc-f0225d578d02", "value": "Mean air temperture"}</skos:prefLabel>
+    <skos:narrower>
+      <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/81ac62f4-8e75-3b9e-943d-4230e5d34031">
+        <skos:altLabel xml:lang="en">{"id": "babeb8f3-9efd-43a0-b3f4-a9c3de8b3c1b", "value": "Biological colonization"}</skos:altLabel>
+        <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/7170e499-04a4-39af-8c4d-59d2f9bcc6e6"/>
+        <skos:altLabel xml:lang="en">{"id": "5c54ba15-2661-4566-a0aa-a5938c0d9a76", "value": "Biological colonisation"}</skos:altLabel>
+        <skos:prefLabel xml:lang="en">{"id": "7430057e-5214-49eb-aafe-8a109f5ebad6", "value": "Biological growth"}</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">{"id": "2f55b901-efc4-4382-b53c-efc28e51d547", "value": "Change in typical biological growth patterns, such as changing levels of organisms, and mould, fungi, algae, and lichen growth. Does not include changing species distribution."}</skos:scopeNote>
+        <dcterms:identifier xml:lang="en">{"id": "974dd4e4-4a36-4a7e-bb73-71da47bd6017", "value": "http://purl.org/heritagedata/schemes/38076/concepts/10103"}</dcterms:identifier>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/f20e3135-1500-3097-8676-afffe137188f">
+        <skos:prefLabel xml:lang="en">{"id": "4e95fd9c-fb04-4e7e-9336-0574a1b5d7db", "value": "Average humidity patterns"}</skos:prefLabel>
+        <skos:altLabel xml:lang="en">{"id": "62ba497e-468a-4651-b0fd-a8c154cd3c86", "value": "Increasing humidity"}</skos:altLabel>
+        <dcterms:identifier xml:lang="en">{"id": "3c686c95-19d9-4d9d-8587-898839199da6", "value": "http://purl.org/heritagedata/schemes/38076/concepts/10101"}</dcterms:identifier>
+        <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/7170e499-04a4-39af-8c4d-59d2f9bcc6e6"/>
+        <skos:altLabel xml:lang="en">{"id": "f071d99a-6226-4c33-a43e-cc5a9f1d21cd", "value": "Changing humidity"}</skos:altLabel>
+        <skos:scopeNote xml:lang="en">{"id": "d2ca3993-ed06-423c-af75-4f2c7fe49912", "value": "Changing diurnal and seasonal humidity patterns, including sustained high and low humidity events."}</skos:scopeNote>
+        <skos:altLabel xml:lang="en">{"id": "bc2c77be-0163-408f-b6ce-52567471c9cc", "value": "Decreasing humidity"}</skos:altLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/a7b0c6d3-dff3-37a8-8ebd-655c065f5c98">
+        <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/7170e499-04a4-39af-8c4d-59d2f9bcc6e6"/>
+        <skos:altLabel xml:lang="en">{"id": "576abc95-fa2e-49e3-b20e-4fef064da385", "value": "Increasing temperature"}</skos:altLabel>
+        <skos:prefLabel xml:lang="en">{"id": "af0ec19c-116f-490a-8569-dddf89273dcf", "value": "Average temperature patterns"}</skos:prefLabel>
+        <skos:altLabel xml:lang="en">{"id": "89c1d9de-7f13-4f93-a5a3-6d6784aff880", "value": "Changing temperature"}</skos:altLabel>
+        <skos:altLabel xml:lang="en">{"id": "f4b4c552-35ea-40c7-9e38-4651d36d84a0", "value": "Decreasing temperature"}</skos:altLabel>
+        <dcterms:identifier xml:lang="en">{"id": "fde8a143-cc7e-48a5-b087-38052ef0e925", "value": "http://purl.org/heritagedata/schemes/38076/concepts/10100"}</dcterms:identifier>
+        <skos:scopeNote xml:lang="en">{"id": "a460dec0-fa1f-4d55-996f-9bb03f879604", "value": "Changing diurnal and seasonal temperature patterns."}</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/50be179a-d6ec-3a03-be81-a5955e3edcd7">
+        <skos:prefLabel xml:lang="en">{"id": "5fa1c337-d873-4fee-9930-6855ca71595f", "value": "Salt crystallization cycles"}</skos:prefLabel>
+        <dcterms:identifier xml:lang="en">{"id": "ca77f9cb-51bf-49a5-a9be-5383e877dd91", "value": "http://purl.org/heritagedata/schemes/38076/concepts/10102"}</dcterms:identifier>
+        <skos:altLabel xml:lang="en">{"id": "ea281074-b97f-4581-8ebe-a0375dac510b", "value": "Salt crystallisation cycles"}</skos:altLabel>
+        <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/7170e499-04a4-39af-8c4d-59d2f9bcc6e6"/>
+        <skos:scopeNote xml:lang="en">{"id": "c72a5d41-3538-416a-82bf-67e11bddc46b", "value": "Crystallization and dissolution of salts caused by wetting and drying cycles, temperature, and humidity fluctuations."}</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:scopeNote xml:lang="en">{"id": "05c7906d-cd0d-4dc9-8fa7-ca9b0f205f82", "value": "Mean surface air temperature and its diurnal and seasonal cycles."}</skos:scopeNote>
+    <skos:inScheme>
+      <skos:ConceptScheme rdf:about="https://nmhr.historicengland.org.uk/7170e499-04a4-39af-8c4d-59d2f9bcc6e6">
+        <skos:hasTopConcept rdf:resource="https://nmhr.historicengland.org.uk/d9d21f6d-efdc-3dfc-98a1-d9b15ab3c606"/>
+        <skos:hasTopConcept rdf:resource="https://nmhr.historicengland.org.uk/cb6bb4ef-837f-3836-98f4-7632ab2a1fb2"/>
+        <dcterms:identifier xml:lang="en">{"id": "fc644f99-3e41-4fd2-9d4a-39b76e7c35b1", "value": "http://purl.org/heritagedata/schemes/38076"}</dcterms:identifier>
+        <dcterms:description xml:lang="en">{"id": "e0df801e-74f8-46f1-a119-cadab1c1ba2e", "value": "This vocabulary of climate change hazards, the potential negative climate events that may cause damage or loss, builds on the Climatic Impact-Drivers defined by the Intergovernmental Panel on Climate Change creating a list of climate hazards for heritage."}</dcterms:description>
+        <skos:hasTopConcept rdf:resource="https://nmhr.historicengland.org.uk/4b39990c-ef62-3af3-bccc-28d66bb6bdfe"/>
+        <skos:hasTopConcept rdf:resource="https://nmhr.historicengland.org.uk/0e764eb8-f35a-3ab3-95ce-6a9394b2005b"/>
+        <dcterms:title xml:lang="en">{"id": "918b7a91-dd8e-452d-a6cb-a562285a8d96", "value": "FISH Climate Hazards Vocabulary"}</dcterms:title>
+        <skos:hasTopConcept rdf:resource="https://nmhr.historicengland.org.uk/490c4534-8a55-364b-b274-f5d22968d47b"/>
+        <skos:hasTopConcept rdf:resource="https://nmhr.historicengland.org.uk/17cbf9fc-78e6-3742-9e50-4b87823c5385"/>
+        <skos:hasTopConcept rdf:resource="https://nmhr.historicengland.org.uk/c290e6e9-7655-3ae0-8bb4-82aa694d8df1"/>
+      </skos:ConceptScheme>
+    </skos:inScheme>
+    <skos:narrower>
+      <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/2bf250c6-ff7e-3a9c-b3ea-2e621bd99040">
+        <skos:prefLabel xml:lang="en">{"id": "daaa7452-e030-4bdb-8e99-9c7e281920d4", "value": "Species distribution"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/7170e499-04a4-39af-8c4d-59d2f9bcc6e6"/>
+        <skos:altLabel xml:lang="en">{"id": "18c587fe-0b33-4ca7-9124-dd7327a0b4cf", "value": "Invasive species"}</skos:altLabel>
+        <skos:scopeNote xml:lang="en">{"id": "2e9162c3-dc19-431f-82c2-8cca9c72c096", "value": "Expansion and contraction of typical species distribution patterns, includes invasive species."}</skos:scopeNote>
+        <dcterms:identifier xml:lang="en">{"id": "ebe776fc-05f3-49f8-816b-f9924dd0951b", "value": "http://purl.org/heritagedata/schemes/38076/concepts/10104"}</dcterms:identifier>
+      </skos:Concept>
+    </skos:narrower>
+    <dcterms:identifier xml:lang="en">{"id": "bb0f5080-3c84-4ffa-9fc2-8b8f4d927280", "value": "http://purl.org/heritagedata/schemes/38076/concepts/1010"}</dcterms:identifier>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/3755c726-2e2a-3a64-9396-6eec6a47eca3">
+    <skos:scopeNote xml:lang="en">{"id": "0c5c879e-3c47-4098-8203-0e22daeee02c", "value": "Wind speed above typical levels."}</skos:scopeNote>
+    <dcterms:identifier xml:lang="en">{"id": "6b48afe2-9286-41fa-9999-1fc30940b286", "value": "http://purl.org/heritagedata/schemes/38076/concepts/40200"}</dcterms:identifier>
+    <skos:altLabel xml:lang="en">{"id": "04562be0-5f4f-469e-982e-bc9670f2d806", "value": "Wind gusts"}</skos:altLabel>
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/7170e499-04a4-39af-8c4d-59d2f9bcc6e6"/>
+    <skos:altLabel xml:lang="en">{"id": "d27ebfba-daea-44f5-bd82-52c47ca48f4c", "value": "High winds"}</skos:altLabel>
+    <skos:prefLabel xml:lang="en">{"id": "f7e21f53-fc92-4d4c-8c98-61e4e1ef762e", "value": "Extreme wind speed"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/55887b95-d429-3a29-9f1a-fb20e7c1415d">
+    <skos:narrower rdf:resource="https://nmhr.historicengland.org.uk/81ac62f4-8e75-3b9e-943d-4230e5d34031"/>
+    <dcterms:identifier xml:lang="en">{"id": "09f88792-9adf-4ac5-a76c-068c6427d595", "value": "http://purl.org/heritagedata/schemes/38076/concepts/7020"}</dcterms:identifier>
+    <skos:scopeNote xml:lang="en">{"id": "1ff70dc2-92ae-41c4-9741-890ae97acaa7", "value": "Concentration of atmospheric carbon dioxide (CO2) at the surface. Note: distinct from overall radiative effect of CO2 as greenhouse gas."}</skos:scopeNote>
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/7170e499-04a4-39af-8c4d-59d2f9bcc6e6"/>
+    <skos:prefLabel xml:lang="en">{"id": "c6e90ce1-a732-419a-b2c4-566672ff8732", "value": "Atmospheric CO2 at surface"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/cb6bb4ef-837f-3836-98f4-7632ab2a1fb2">
+    <skos:narrower>
+      <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/248b0b69-e8f1-391b-9b6f-783ae015401d">
+        <skos:narrower rdf:resource="https://nmhr.historicengland.org.uk/f4ede3bc-a1f8-3465-aef8-a6251c73c1af"/>
+        <skos:scopeNote xml:lang="en">{"id": "c54ed4f4-8816-40a8-9fa4-603bbb2b7fc8", "value": "Episodic high water levels in streams and rivers driven by basin runoff and the expected seasonal cycle of flooding."}</skos:scopeNote>
+        <skos:prefLabel xml:lang="en">{"id": "68366e64-6a48-4b1f-b716-839e37e59f0e", "value": "River flood"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/7170e499-04a4-39af-8c4d-59d2f9bcc6e6"/>
+        <dcterms:identifier xml:lang="en">{"id": "0c370f31-7bf7-420d-86f2-e3e7d866865f", "value": "http://purl.org/heritagedata/schemes/38076/concepts/2020"}</dcterms:identifier>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/7ab75bf4-c8ca-3485-94ec-6f5193118675">
+        <skos:narrower rdf:resource="https://nmhr.historicengland.org.uk/81ac62f4-8e75-3b9e-943d-4230e5d34031"/>
+        <skos:scopeNote xml:lang="en">{"id": "b6d647a9-eb3b-409c-8100-0ab51625fc89", "value": "Episodic combination of soil moisture supply deficit and atmospheric demand requirements that challenge the vegetation's ability to meet its water needs for transpiration and growth. Note:'agricultural' versus 'ecological' term depends on affected biome."}</skos:scopeNote>
+        <dcterms:identifier xml:lang="en">{"id": "f453cb34-d52e-441f-aff7-b6a58ec5b57d", "value": "http://purl.org/heritagedata/schemes/38076/concepts/2070"}</dcterms:identifier>
+        <skos:narrower rdf:resource="https://nmhr.historicengland.org.uk/0e2b3e90-bcca-34da-8c46-46e073065c25"/>
+        <skos:prefLabel xml:lang="en">{"id": "c1a6ad00-229d-4003-8933-cf5d99d26a4e", "value": "Agricultural and ecological drought"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/7170e499-04a4-39af-8c4d-59d2f9bcc6e6"/>
+      </skos:Concept>
+    </skos:narrower>
+    <dcterms:identifier xml:lang="en">{"id": "de43cbe5-8b57-42bb-8ae1-166af556e543", "value": "http://purl.org/heritagedata/schemes/38076/concepts/2000"}</dcterms:identifier>
+    <skos:narrower>
+      <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/1efaadd1-b7f2-320d-8063-1e64ae687c04">
+        <skos:prefLabel xml:lang="en">{"id": "959fb617-6cf3-448c-ba92-e554e6941ca5", "value": "Fire weather (CID type)"}</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">{"id": "745697ad-d68a-42e7-a3b3-5f5b93e94019", "value": "Weather conditions conducive to triggering and sustaining wildfires, usually based on a set of indicators and combinations of indicators including temperature, soil moisture, humidity and wind. Fire weather does not include the presence or absence of fuel load. Note: distinct from wildfire occurrence and area burned."}</skos:scopeNote>
+        <skos:narrower rdf:resource="https://nmhr.historicengland.org.uk/faa069b0-68bd-3633-89ef-a4f8770992f0"/>
+        <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/7170e499-04a4-39af-8c4d-59d2f9bcc6e6"/>
+        <skos:narrower rdf:resource="https://nmhr.historicengland.org.uk/ee69d1c8-07a8-3465-bd8c-c25b3d457691"/>
+        <dcterms:identifier xml:lang="en">{"id": "99738348-6938-4e9b-b501-c6ff96086538", "value": "http://purl.org/heritagedata/schemes/38076/concepts/2080"}</dcterms:identifier>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/7170e499-04a4-39af-8c4d-59d2f9bcc6e6"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/5249ced7-6ee7-386e-86a3-abb7228c4f04">
+        <skos:narrower rdf:resource="https://nmhr.historicengland.org.uk/f0adebce-dcf4-390b-966f-5716d4869d93"/>
+        <skos:narrower rdf:resource="https://nmhr.historicengland.org.uk/45fda2cf-848f-3a4f-8620-24620f8dae02"/>
+        <skos:narrower rdf:resource="https://nmhr.historicengland.org.uk/1ea0bd91-4142-31df-9bfa-73e59d198de1"/>
+        <skos:prefLabel xml:lang="en">{"id": "42e87546-63bd-44dd-a144-4a6ba0875614", "value": "Mean precipitation"}</skos:prefLabel>
+        <skos:narrower rdf:resource="https://nmhr.historicengland.org.uk/f20e3135-1500-3097-8676-afffe137188f"/>
+        <skos:narrower rdf:resource="https://nmhr.historicengland.org.uk/50be179a-d6ec-3a03-be81-a5955e3edcd7"/>
+        <dcterms:identifier xml:lang="en">{"id": "9b1a00e8-d3c3-4508-8db3-f97e37b43cf2", "value": "http://purl.org/heritagedata/schemes/38076/concepts/2010"}</dcterms:identifier>
+        <skos:scopeNote xml:lang="en">{"id": "73377282-8347-48c5-9ac7-735d0ac727ff", "value": "Mean precipitation and its diurnal and seasonal cycles."}</skos:scopeNote>
+        <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/7170e499-04a4-39af-8c4d-59d2f9bcc6e6"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/1dacb308-fd4f-3d72-bad9-d60754db0ce9">
+        <skos:prefLabel xml:lang="en">{"id": "c283ad22-e43b-433a-9831-8f176afd6978", "value": "Landslide (CID type)"}</skos:prefLabel>
+        <skos:narrower rdf:resource="https://nmhr.historicengland.org.uk/419e650f-83dc-3150-874e-dfa988591ab0"/>
+        <skos:narrower rdf:resource="https://nmhr.historicengland.org.uk/cd88769f-6616-34c7-9023-7d2092a131f4"/>
+        <dcterms:identifier xml:lang="en">{"id": "1060e95f-ce93-4b3c-9d4d-efd372f2c42f", "value": "http://purl.org/heritagedata/schemes/38076/concepts/2040"}</dcterms:identifier>
+        <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/7170e499-04a4-39af-8c4d-59d2f9bcc6e6"/>
+        <skos:scopeNote xml:lang="en">{"id": "ebb92274-c282-4d84-8925-247562de5f74", "value": "Ground and atmospheric conditions that lead to geological mass movements, including landslide, mudslide and rockfall."}</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:scopeNote xml:lang="en">{"id": "d9b72fd5-646d-4d1d-84c6-8e2d32f4f5bf", "value": "Climatic Impact-Drivers associated with precipitation or lack thereof."}</skos:scopeNote>
+    <skos:narrower>
+      <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/4e0903ac-5581-3185-a04d-c25efa684adb">
+        <skos:narrower rdf:resource="https://nmhr.historicengland.org.uk/45fda2cf-848f-3a4f-8620-24620f8dae02"/>
+        <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/7170e499-04a4-39af-8c4d-59d2f9bcc6e6"/>
+        <skos:narrower rdf:resource="https://nmhr.historicengland.org.uk/0e2b3e90-bcca-34da-8c46-46e073065c25"/>
+        <skos:prefLabel xml:lang="en">{"id": "3465b79a-4fef-44f8-bc29-e4fed6fcb0a6", "value": "Hydrological drought"}</skos:prefLabel>
+        <dcterms:identifier xml:lang="en">{"id": "95f77c71-2899-4aa6-a9dc-087815e4c7d2", "value": "http://purl.org/heritagedata/schemes/38076/concepts/2060"}</dcterms:identifier>
+        <skos:scopeNote xml:lang="en">{"id": "32a98551-9c48-42dd-8c6b-848e0b0c3549", "value": "Episodic combination of runoff deficit and evaporative demand that affects surface water or groundwater availability."}</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/438b1c57-0acf-3f04-96e6-d8fa8d427030">
+        <skos:narrower rdf:resource="https://nmhr.historicengland.org.uk/f20e3135-1500-3097-8676-afffe137188f"/>
+        <skos:narrower rdf:resource="https://nmhr.historicengland.org.uk/a2b54fb6-2e32-3f7c-8b6a-18533118f3cb"/>
+        <skos:narrower rdf:resource="https://nmhr.historicengland.org.uk/0952dded-73e9-34c4-beeb-eed88b79dd7d"/>
+        <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/7170e499-04a4-39af-8c4d-59d2f9bcc6e6"/>
+        <skos:prefLabel xml:lang="en">{"id": "27da891f-008a-4e92-9c67-886d8ef1a1b4", "value": "Aridity"}</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">{"id": "b0bd3156-370a-4d2d-b15e-8aca6e36e1a5", "value": "Mean conditions of precipitation and evapotranspiration compared to potential atmospheric and surface water demand, resulting in low mean surface water, low soil moisture and/or low relative humidity."}</skos:scopeNote>
+        <dcterms:identifier xml:lang="en">{"id": "7dda7aed-eb3a-487a-a66e-128d76c85aca", "value": "http://purl.org/heritagedata/schemes/38076/concepts/2050"}</dcterms:identifier>
+        <skos:narrower rdf:resource="https://nmhr.historicengland.org.uk/45fda2cf-848f-3a4f-8620-24620f8dae02"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:prefLabel xml:lang="en">{"id": "8d21a095-1a2d-4438-ac75-5e7ff88da88b", "value": "Wet and Dry"}</skos:prefLabel>
+    <skos:narrower>
+      <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/bd828dc7-5825-3753-aed3-442b0773726e">
+        <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/7170e499-04a4-39af-8c4d-59d2f9bcc6e6"/>
+        <skos:narrower rdf:resource="https://nmhr.historicengland.org.uk/c1dfeb91-24bb-3a15-93a8-6ee0e8fcbe86"/>
+        <skos:scopeNote xml:lang="en">{"id": "a38ea5fd-5f54-484a-8bed-7e6e56d666f5", "value": "Episodic high rates of precipitation and resulting localized flooding of streams and flat lands."}</skos:scopeNote>
+        <skos:prefLabel xml:lang="en">{"id": "3a2130a8-b499-4aff-9d09-a42f32bd4e68", "value": "Heavy precipitation and pluvial flood"}</skos:prefLabel>
+        <skos:narrower rdf:resource="https://nmhr.historicengland.org.uk/4a958cab-bc9f-37da-9f97-e58845ecad89"/>
+        <dcterms:identifier xml:lang="en">{"id": "78e3d6b7-d398-4e3c-a5ad-b625359dbd70", "value": "http://purl.org/heritagedata/schemes/38076/concepts/2030"}</dcterms:identifier>
+      </skos:Concept>
+    </skos:narrower>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/4a958cab-bc9f-37da-9f97-e58845ecad89">
+    <skos:altLabel xml:lang="en">{"id": "7c71989e-5628-4a5c-a1e2-11bae39346d3", "value": "Heavy rainfall"}</skos:altLabel>
+    <skos:altLabel xml:lang="en">{"id": "bb04c41e-c1fa-4a0f-8071-4cb770193e7c", "value": "Extreme rainfall"}</skos:altLabel>
+    <skos:prefLabel xml:lang="en">{"id": "9ccd6cd8-4ce6-4288-9b17-9b1e34749fec", "value": "Heavy precipitation event"}</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">{"id": "2be93a98-f27e-4541-8d81-92b2754e87d6", "value": "Episodic events of heavy precipitation."}</skos:scopeNote>
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/7170e499-04a4-39af-8c4d-59d2f9bcc6e6"/>
+    <dcterms:identifier xml:lang="en">{"id": "f9a5d69b-3ded-43cb-b94e-681e9fe1de5d", "value": "http://purl.org/heritagedata/schemes/38076/concepts/20300"}</dcterms:identifier>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/b3e430c4-151c-3236-8c3e-1a806d0cd6f4">
+    <dcterms:identifier xml:lang="en">{"id": "adac2c2b-09fe-4e38-af73-24cb74e8c8f7", "value": "http://purl.org/heritagedata/schemes/38076/concepts/50200"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="en">{"id": "2673ca55-45f4-407a-8c2a-fd896b057267", "value": "Permafrost thaw"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/7170e499-04a4-39af-8c4d-59d2f9bcc6e6"/>
+    <skos:scopeNote xml:lang="en">{"id": "ab476aac-3894-4601-8d03-7f2e5d93657b", "value": "Melting of the permafrost due to increasing global temperatures."}</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/90660c2d-3287-3205-9f09-4cd18bc7ca6e">
+    <dcterms:identifier xml:lang="en">{"id": "9960f92b-1b27-4278-ae25-085e844a8b41", "value": "http://purl.org/heritagedata/schemes/38076/concepts/4020"}</dcterms:identifier>
+    <skos:narrower rdf:resource="https://nmhr.historicengland.org.uk/3755c726-2e2a-3a64-9396-6eec6a47eca3"/>
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/7170e499-04a4-39af-8c4d-59d2f9bcc6e6"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/d0e5d1d0-ad4e-34ca-8c95-f08943eb1d22">
+        <dcterms:identifier xml:lang="en">{"id": "decbe568-bf9f-4aa8-9e6c-b568b9b503be", "value": "http://purl.org/heritagedata/schemes/38076/concepts/30101"}</dcterms:identifier>
+        <skos:altLabel xml:lang="en">{"id": "fe733991-e6e4-4a78-b3ce-71a56112a626", "value": "Storm flood"}</skos:altLabel>
+        <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/7170e499-04a4-39af-8c4d-59d2f9bcc6e6"/>
+        <skos:prefLabel xml:lang="en">{"id": "31a2bc90-356c-49b0-bab2-c0bd7211a778", "value": "Storm surge"}</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">{"id": "fd2d5e42-f4cf-4972-b06c-0c84d0cbd674", "value": "Rise of sea level due to high storm winds."}</skos:scopeNote>
+        <skos:altLabel xml:lang="en">{"id": "592c86a8-5552-4728-80bf-0341092ad631", "value": "Storm tide"}</skos:altLabel>
+        <skos:altLabel xml:lang="en">{"id": "afca20fb-10f7-4c64-90e8-77bec1368a0c", "value": "Tidal surge"}</skos:altLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:prefLabel xml:lang="en">{"id": "73bebd00-64a3-4d09-b309-6f0577cb4f4a", "value": "Severe wind storm"}</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">{"id": "dc4ad2f1-03b0-4885-b5c8-9ae2683c1bf2", "value": "Episodic severe storms including extratropical cyclones, thunderstorms, wind gusts, derechos and tornados."}</skos:scopeNote>
+    <skos:narrower>
+      <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/aa426a7b-2336-341d-9278-2f4033c290fe">
+        <skos:scopeNote xml:lang="en">{"id": "7e0ceb2e-4b6f-432f-8ac7-daa111edcf6f", "value": "A group of thunderstorms causing long-lived straight-lined wind storms."}</skos:scopeNote>
+        <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/7170e499-04a4-39af-8c4d-59d2f9bcc6e6"/>
+        <skos:prefLabel xml:lang="en">{"id": "3557eb51-58b8-45a9-97bb-2379838e841e", "value": "Derecho"}</skos:prefLabel>
+        <dcterms:identifier xml:lang="en">{"id": "01431507-c7c5-495b-b55a-e5631f08b745", "value": "http://purl.org/heritagedata/schemes/38076/concepts/40204"}</dcterms:identifier>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/cd95cd9b-40a4-32ec-aa71-233bf262c4b9">
+        <skos:prefLabel xml:lang="en">{"id": "317ce9f0-f222-4562-a30f-b168e769c40b", "value": "Tornado"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/7170e499-04a4-39af-8c4d-59d2f9bcc6e6"/>
+        <skos:scopeNote xml:lang="en">{"id": "abc5522a-1abd-4374-9e4f-84ae9835200b", "value": "A rotating column of air, connecting a cloud to the surface of the Earth."}</skos:scopeNote>
+        <dcterms:identifier xml:lang="en">{"id": "40ff1b2b-530e-476a-82e2-ff69a6e09383", "value": "http://purl.org/heritagedata/schemes/38076/concepts/40203"}</dcterms:identifier>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/1b7ccb1f-8222-359e-a50f-c1698a6732f0">
+        <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/7170e499-04a4-39af-8c4d-59d2f9bcc6e6"/>
+        <skos:prefLabel xml:lang="en">{"id": "69753812-711f-44ec-9bec-c9c243645ddb", "value": "Thunderstorm"}</skos:prefLabel>
+        <dcterms:identifier xml:lang="en">{"id": "cdb406bd-c75f-427c-9657-418e04017449", "value": "http://purl.org/heritagedata/schemes/38076/concepts/40202"}</dcterms:identifier>
+        <skos:scopeNote xml:lang="en">{"id": "386add29-024f-47b2-ae79-b3e876182cd3", "value": "A storm with thunder and lightning. Sometimes causes hail, heavy rain, and high winds."}</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/40bbab1c-475e-3691-88f0-f4a0fc6ee8dd">
+        <skos:altLabel xml:lang="en">{"id": "047b5bce-a353-4696-b1dc-6e745e5dd615", "value": "Hail storm"}</skos:altLabel>
+        <dcterms:identifier xml:lang="en">{"id": "4a884c94-e53c-480e-a24e-59af73740b64", "value": "http://purl.org/heritagedata/schemes/38076/concepts/40201"}</dcterms:identifier>
+        <skos:prefLabel xml:lang="en">{"id": "71c12e55-ea1e-47f7-bede-7097ce3d5754", "value": "Hail"}</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">{"id": "a4418c2d-3080-48de-8a2b-65139929fad1", "value": "Pellets of solid precipitation."}</skos:scopeNote>
+        <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/7170e499-04a4-39af-8c4d-59d2f9bcc6e6"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/d95d29fc-914e-3d2d-a73f-0d8c32779ab8">
+        <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/7170e499-04a4-39af-8c4d-59d2f9bcc6e6"/>
+        <dcterms:identifier xml:lang="en">{"id": "feb7944c-1b55-4629-b2c7-ce26764ad756", "value": "http://purl.org/heritagedata/schemes/38076/concepts/40205"}</dcterms:identifier>
+        <skos:scopeNote xml:lang="en">{"id": "74a82131-3aed-433d-adda-ab91ae2036d0", "value": "Low-pressure systems occuring in middle latitutdes, capable of causing extreme precipitation, storm surges, extreme winds, sea level and wave build up."}</skos:scopeNote>
+        <skos:prefLabel xml:lang="en">{"id": "f073a402-f504-4064-bf90-c2546805b73b", "value": "Extratropical cyclone"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/106068e3-1187-36db-9d22-51f0593ddbab">
+        <dcterms:identifier xml:lang="en">{"id": "84e25af0-52b5-4b72-bff4-b5b64ceb68b7", "value": "http://purl.org/heritagedata/schemes/38076/concepts/40206"}</dcterms:identifier>
+        <skos:prefLabel xml:lang="en">{"id": "059f5d80-e0d9-437d-b893-784d7fa26ba5", "value": "Wave action"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/7170e499-04a4-39af-8c4d-59d2f9bcc6e6"/>
+        <skos:scopeNote xml:lang="en">{"id": "ec1fc762-1e04-4f0b-8205-c7eac3cc1f5a", "value": "Wave movement and the related changes in connected forces (for example, buoyancy or hydrostatic force)."}</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower rdf:resource="https://nmhr.historicengland.org.uk/4a958cab-bc9f-37da-9f97-e58845ecad89"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/675190cb-c22b-3204-9693-7d7cdeda2e98">
+        <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/7170e499-04a4-39af-8c4d-59d2f9bcc6e6"/>
+        <dcterms:identifier xml:lang="en">{"id": "9cf5d1cc-f41b-450d-9755-e6976550975b", "value": "http://purl.org/heritagedata/schemes/38076/concepts/30200"}</dcterms:identifier>
+        <skos:prefLabel xml:lang="en">{"id": "9585ba42-a512-4f41-b3c2-41cded178c00", "value": "Coastal flooding"}</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">{"id": "63cd6648-9ef9-4a6b-8799-6e3848388542", "value": "Episodic flooding of coastal areas. Connected to rising sea levels, storm surges, wave action, and high tides."}</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/9602b342-526f-30f7-9d0b-51c7f30e4973">
+    <dcterms:identifier xml:lang="en">{"id": "6d713f93-76b9-452f-bb2c-8ba43e02dc16", "value": "http://purl.org/heritagedata/schemes/38076/concepts/1030"}</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/7170e499-04a4-39af-8c4d-59d2f9bcc6e6"/>
+    <skos:prefLabel xml:lang="en">{"id": "3a07e297-9673-4b79-8e82-567a3c79b42e", "value": "Cold spell"}</skos:prefLabel>
+    <skos:narrower>
+      <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/1a708c9d-8bed-3889-9959-27dfe6cbf93b">
+        <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/7170e499-04a4-39af-8c4d-59d2f9bcc6e6"/>
+        <skos:prefLabel xml:lang="en">{"id": "9fdfc060-e2c7-48e5-a8ce-932be3df8584", "value": "Low temperature events"}</skos:prefLabel>
+        <skos:narrower rdf:resource="https://nmhr.historicengland.org.uk/926bdbeb-81f6-3828-a449-9f672e67368a"/>
+        <skos:scopeNote xml:lang="en">{"id": "fb49cb45-0e87-4c60-95ec-bbb8281e711f", "value": "Low temperature events. Includes the effects of wind-chill, does not include snow and ice conditions."}</skos:scopeNote>
+        <dcterms:identifier xml:lang="en">{"id": "a03cb650-d5bf-4683-a1c3-dc9e8dc74952", "value": "http://purl.org/heritagedata/schemes/38076/concepts/10300"}</dcterms:identifier>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:scopeNote xml:lang="en">{"id": "36f087b2-f09e-4eea-9a04-014d6a539c6e", "value": "Episodic cold air temperature events potentially exacerbated by wind."}</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/03da93bd-43b9-3311-8e8f-a8ee2a03dad8">
+    <skos:scopeNote xml:lang="en">{"id": "a5505bda-afcb-4f18-b3a0-0b617c61e793", "value": "Rapid changes in relative humidity levels, can be due to diurnal cycles or fast-moving weather systems."}</skos:scopeNote>
+    <skos:prefLabel xml:lang="en">{"id": "11b9171e-162e-40ca-b6cb-6fcdd8479acf", "value": "Rapid humidity fluctuations"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "d468262f-6608-43e5-8adb-f91de579b11a", "value": "http://purl.org/heritagedata/schemes/38076/concepts/10200"}</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/7170e499-04a4-39af-8c4d-59d2f9bcc6e6"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/934e1120-a294-3605-ad99-c3309096936b">
+    <skos:narrower>
+      <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/84cf4a94-2e83-39a4-9c18-8dc0073ac8cf">
+        <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/7170e499-04a4-39af-8c4d-59d2f9bcc6e6"/>
+        <skos:prefLabel xml:lang="en">{"id": "ea32f39b-de71-4938-81b3-34d59810805a", "value": "Ice extent"}</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">{"id": "687bc73a-a2ef-44cf-a774-e691e1889c43", "value": "Changing patterns of ice formations, often leading to previously frozen areas becoming ice-free."}</skos:scopeNote>
+        <dcterms:identifier xml:lang="en">{"id": "a68b021f-4a39-49a5-9de8-864ac817695b", "value": "http://purl.org/heritagedata/schemes/38076/concepts/50300"}</dcterms:identifier>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower rdf:resource="https://nmhr.historicengland.org.uk/81ac62f4-8e75-3b9e-943d-4230e5d34031"/>
+    <dcterms:identifier xml:lang="en">{"id": "3fab0cc7-2313-473e-a583-f9e01e7d43fb", "value": "http://purl.org/heritagedata/schemes/38076/concepts/5030"}</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/7170e499-04a4-39af-8c4d-59d2f9bcc6e6"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/8844a5e7-c2c8-318a-98cc-4485d3836e5b">
+        <skos:scopeNote xml:lang="en">{"id": "3ba40820-4afb-4f2a-b877-424858bb4b68", "value": "Destabilisation of shorelines."}</skos:scopeNote>
+        <skos:prefLabel xml:lang="en">{"id": "87869a99-8bad-454b-89ea-471872b09a06", "value": "Shoreline erosion"}</skos:prefLabel>
+        <dcterms:identifier xml:lang="en">{"id": "7d9f5900-0ff3-4fc3-a97b-e94b13ed1fef", "value": "http://purl.org/heritagedata/schemes/38076/concepts/50104"}</dcterms:identifier>
+        <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/7170e499-04a4-39af-8c4d-59d2f9bcc6e6"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:scopeNote xml:lang="en">{"id": "a22d8df7-f319-4755-a868-fb1f00e082a5", "value": "The characteristics and seasonality of ice formations on the ocean and freshwater bodies of water."}</skos:scopeNote>
+    <skos:prefLabel xml:lang="en">{"id": "c667c147-8cd3-4069-86c3-ec8a0075037b", "value": "Lake, river and sea ice"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/ac3287e1-f2a5-387f-8a19-c0344e57f9db">
+    <skos:prefLabel xml:lang="en">{"id": "760809ce-1f0a-442d-a0f9-a5c8586cd13b", "value": "Extreme melt event"}</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">{"id": "b18dd268-e227-44d0-8d0c-24e57834f07a", "value": "Rapid melting of ice or snowpack."}</skos:scopeNote>
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/7170e499-04a4-39af-8c4d-59d2f9bcc6e6"/>
+    <dcterms:identifier xml:lang="en">{"id": "9cf1277f-6365-4a95-ad12-62d7768200c5", "value": "http://purl.org/heritagedata/schemes/38076/concepts/50101"}</dcterms:identifier>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/c290e6e9-7655-3ae0-8bb4-82aa694d8df1">
+    <skos:narrower>
+      <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/284a4ecd-4096-308c-ad6e-e79b463c37ac">
+        <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/7170e499-04a4-39af-8c4d-59d2f9bcc6e6"/>
+        <skos:prefLabel xml:lang="en">{"id": "1e81d98b-ef80-416d-8f4f-1bb576dcd49c", "value": "Hail (CID type)"}</skos:prefLabel>
+        <skos:narrower rdf:resource="https://nmhr.historicengland.org.uk/6f7702b9-6722-3918-a7d9-6471540d041d"/>
+        <dcterms:identifier xml:lang="en">{"id": "eba7bec2-2216-4cd1-8e4a-258318fd166c", "value": "http://purl.org/heritagedata/schemes/38076/concepts/5050"}</dcterms:identifier>
+        <skos:scopeNote xml:lang="en">{"id": "3107dc9e-d783-48e4-a8e0-0822236a3ebc", "value": "Storms producing solid hailstones."}</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/6f04a73c-0d66-3680-bf3f-6405be1307b0">
+        <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/7170e499-04a4-39af-8c4d-59d2f9bcc6e6"/>
+        <dcterms:identifier xml:lang="en">{"id": "a071c1dc-1b9f-4e18-a270-a71efd8c8f32", "value": "http://purl.org/heritagedata/schemes/38076/concepts/5060"}</dcterms:identifier>
+        <skos:narrower rdf:resource="https://nmhr.historicengland.org.uk/c6bae3f9-a149-37b4-86f9-fd6dc62c638c"/>
+        <skos:prefLabel xml:lang="en">{"id": "62625286-94d6-4b75-bc18-1b5929b8dbf1", "value": "Snow avalanche"}</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">{"id": "28d49c52-e576-4693-8d5e-9b9c373a3a36", "value": "Cryospheric mass movements and the conditions of collapsing snowpack."}</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/7170e499-04a4-39af-8c4d-59d2f9bcc6e6"/>
+    <dcterms:identifier xml:lang="en">{"id": "7f25d61f-0def-4102-bd5f-31787d4f4b94", "value": "http://purl.org/heritagedata/schemes/38076/concepts/5000"}</dcterms:identifier>
+    <skos:narrower>
+      <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/904d3a38-712a-3fd4-994d-6ab45fac3509">
+        <skos:narrower rdf:resource="https://nmhr.historicengland.org.uk/b3e430c4-151c-3236-8c3e-1a806d0cd6f4"/>
+        <skos:scopeNote xml:lang="en">{"id": "673d4fac-ada5-497f-b28d-ce735e8ff62b", "value": "Permanently frozen deep soil layers, their ice characteristics, and the characteristics of seasonally frozen soils above."}</skos:scopeNote>
+        <skos:narrower rdf:resource="https://nmhr.historicengland.org.uk/233c39d6-ead0-3e8a-9859-c060d5c9bed1"/>
+        <dcterms:identifier xml:lang="en">{"id": "9db5dcee-e5e0-4b9e-b471-1c8bbfc38091", "value": "http://purl.org/heritagedata/schemes/38076/concepts/5020"}</dcterms:identifier>
+        <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/7170e499-04a4-39af-8c4d-59d2f9bcc6e6"/>
+        <skos:prefLabel xml:lang="en">{"id": "cb65b6f3-81c1-41ca-b6e9-5528265bbe39", "value": "Permafrost"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:prefLabel xml:lang="en">{"id": "986eabd4-7f9b-481d-85c9-bab3bd6f37a7", "value": "Snow and Ice"}</skos:prefLabel>
+    <skos:narrower rdf:resource="https://nmhr.historicengland.org.uk/934e1120-a294-3605-ad99-c3309096936b"/>
+    <skos:scopeNote xml:lang="en">{"id": "1bfae7a6-e57a-4a43-9b4a-ea6001d56575", "value": "Climatic Impact-Drivers associated with many aspects of the cryosphere which are regions with snow and ice."}</skos:scopeNote>
+    <skos:narrower>
+      <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/24936b6b-b4a3-36ce-8f36-cf9f7e5df4ef">
+        <dcterms:identifier xml:lang="en">{"id": "b663fa19-6360-4df9-aa7d-4f75553679d9", "value": "http://purl.org/heritagedata/schemes/38076/concepts/5040"}</dcterms:identifier>
+        <skos:narrower rdf:resource="https://nmhr.historicengland.org.uk/140ecc3f-a058-324e-923d-3c504def215d"/>
+        <skos:narrower rdf:resource="https://nmhr.historicengland.org.uk/f1fcab54-2c21-3ec6-9dc8-b81a4cefccae"/>
+        <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/7170e499-04a4-39af-8c4d-59d2f9bcc6e6"/>
+        <skos:narrower rdf:resource="https://nmhr.historicengland.org.uk/41e0d976-259e-38d6-806a-f1a19da52ca1"/>
+        <skos:narrower rdf:resource="https://nmhr.historicengland.org.uk/c1dfeb91-24bb-3a15-93a8-6ee0e8fcbe86"/>
+        <skos:scopeNote xml:lang="en">{"id": "51ec7755-5271-430d-9640-6c020bee004e", "value": "High snowfall and ice storm events including freezing rain and rain-on-snow conditions."}</skos:scopeNote>
+        <skos:prefLabel xml:lang="en">{"id": "8b720558-c579-4c6e-84c1-6d43247c43ce", "value": "Heavy snowfall and ice storm"}</skos:prefLabel>
+        <skos:narrower rdf:resource="https://nmhr.historicengland.org.uk/f4ede3bc-a1f8-3465-aef8-a6251c73c1af"/>
+        <skos:narrower rdf:resource="https://nmhr.historicengland.org.uk/77a11b0e-212a-3b19-afc5-6889fe94a2b7"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/0bc6568e-4957-3994-86a0-e697cb8e8fdd">
+        <skos:narrower rdf:resource="https://nmhr.historicengland.org.uk/9999c38a-40dc-389a-8142-6c01f07711a6"/>
+        <skos:narrower rdf:resource="https://nmhr.historicengland.org.uk/9d2d8ba5-e846-35a4-83fc-65053be639de"/>
+        <dcterms:identifier xml:lang="en">{"id": "7be44ddd-82e3-456b-8bd5-a7dcbe3af23b", "value": "http://purl.org/heritagedata/schemes/38076/concepts/5010"}</dcterms:identifier>
+        <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/7170e499-04a4-39af-8c4d-59d2f9bcc6e6"/>
+        <skos:scopeNote xml:lang="en">{"id": "d09e82a0-1be6-48ca-8c86-29f5b12ac7ef", "value": "Snowpack seasonality and characteristics of glaciers and ice sheets including calving events and meltwater."}</skos:scopeNote>
+        <skos:narrower rdf:resource="https://nmhr.historicengland.org.uk/8844a5e7-c2c8-318a-98cc-4485d3836e5b"/>
+        <skos:narrower rdf:resource="https://nmhr.historicengland.org.uk/40046b02-2cdb-3b94-bb3a-b09505572ebc"/>
+        <skos:narrower rdf:resource="https://nmhr.historicengland.org.uk/62cdb962-0a6f-323a-bb75-03b02b892e07"/>
+        <skos:narrower rdf:resource="https://nmhr.historicengland.org.uk/f4ede3bc-a1f8-3465-aef8-a6251c73c1af"/>
+        <skos:narrower rdf:resource="https://nmhr.historicengland.org.uk/3b47d530-c8e6-3462-bc32-6ecce183d849"/>
+        <skos:narrower rdf:resource="https://nmhr.historicengland.org.uk/45fda2cf-848f-3a4f-8620-24620f8dae02"/>
+        <skos:narrower rdf:resource="https://nmhr.historicengland.org.uk/1ea0bd91-4142-31df-9bfa-73e59d198de1"/>
+        <skos:narrower rdf:resource="https://nmhr.historicengland.org.uk/ac3287e1-f2a5-387f-8a19-c0344e57f9db"/>
+        <skos:prefLabel xml:lang="en">{"id": "ec794102-8133-4170-b9ee-d35efbe8952d", "value": "Snow, glacier and ice sheet"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/86ee1d28-494a-3156-8913-bdc990ce0f7b">
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/7170e499-04a4-39af-8c4d-59d2f9bcc6e6"/>
+    <skos:prefLabel xml:lang="en">{"id": "763a17a9-cd3a-47f9-854c-9c26827fa121", "value": "Coastal landslide"}</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">{"id": "aad9257d-439e-45e7-b012-223476084d74", "value": "Rapid loss or movement of coastlines."}</skos:scopeNote>
+    <skos:altLabel xml:lang="en">{"id": "ebad7963-fd07-4880-adf9-da94058bd2d7", "value": "Coastal instability"}</skos:altLabel>
+    <dcterms:identifier xml:lang="en">{"id": "0ae6dad9-82a2-4a3b-85af-d0a8e5ddb7b7", "value": "http://purl.org/heritagedata/schemes/38076/concepts/30301"}</dcterms:identifier>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/d9d21f6d-efdc-3dfc-98a1-d9b15ab3c606">
+    <skos:narrower>
+      <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/88785492-2386-351b-a17b-fbd93a2f699d">
+        <dcterms:identifier xml:lang="en">{"id": "d34c4529-700d-498c-a720-c0a28897dca1", "value": "http://purl.org/heritagedata/schemes/38076/concepts/1040"}</dcterms:identifier>
+        <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/7170e499-04a4-39af-8c4d-59d2f9bcc6e6"/>
+        <skos:prefLabel xml:lang="en">{"id": "e3cef35f-c392-47ed-80ec-98be23c1e1ae", "value": "Frost"}</skos:prefLabel>
+        <skos:narrower rdf:resource="https://nmhr.historicengland.org.uk/233c39d6-ead0-3e8a-9859-c060d5c9bed1"/>
+        <skos:narrower rdf:resource="https://nmhr.historicengland.org.uk/580fe615-f98d-3672-87b1-90a7aa9bd802"/>
+        <skos:narrower rdf:resource="https://nmhr.historicengland.org.uk/96379345-a212-3778-9f39-9cba4bd77a25"/>
+        <skos:scopeNote xml:lang="en">{"id": "7c5d2b8a-a94e-4072-9665-62ac13627071", "value": "Freeze and thaw events near the land surface and their seasonality."}</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:scopeNote xml:lang="en">{"id": "f24f15f0-1cf1-4d75-9e74-a4b46c70cc21", "value": "Climatic Impact-Drivers associated with air temperature."}</skos:scopeNote>
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/7170e499-04a4-39af-8c4d-59d2f9bcc6e6"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/efcb6a6d-e03c-3f8a-9e71-b248df772883">
+        <skos:narrower rdf:resource="https://nmhr.historicengland.org.uk/f39c29df-af7e-3d9f-9a06-667d677534d3"/>
+        <skos:scopeNote xml:lang="en">{"id": "9a574c62-3dde-4190-89d4-7c93076287aa", "value": "Episodic high air temperature events potentially exacerbated by humidity."}</skos:scopeNote>
+        <skos:narrower rdf:resource="https://nmhr.historicengland.org.uk/03da93bd-43b9-3311-8e8f-a8ee2a03dad8"/>
+        <skos:prefLabel xml:lang="en">{"id": "c587bf42-37dd-4751-b5ea-dca6ea83fa23", "value": "Extreme heat"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/7170e499-04a4-39af-8c4d-59d2f9bcc6e6"/>
+        <dcterms:identifier xml:lang="en">{"id": "83d16be9-0c66-4410-a6cd-0f65b41086aa", "value": "http://purl.org/heritagedata/schemes/38076/concepts/1020"}</dcterms:identifier>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:prefLabel xml:lang="en">{"id": "d5907d09-cde2-4716-b38b-2d08f58bdcbc", "value": "Heat and Cold"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "9d6829d9-5080-4033-9e8f-0adf46842e48", "value": "http://purl.org/heritagedata/schemes/38076/concepts/1000"}</dcterms:identifier>
+    <skos:narrower rdf:resource="https://nmhr.historicengland.org.uk/5b5c158c-eaf2-3ceb-a9aa-1f48013745fd"/>
+    <skos:narrower rdf:resource="https://nmhr.historicengland.org.uk/9602b342-526f-30f7-9d0b-51c7f30e4973"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/17cbf9fc-78e6-3742-9e50-4b87823c5385">
+    <skos:narrower rdf:resource="https://nmhr.historicengland.org.uk/90660c2d-3287-3205-9f09-4cd18bc7ca6e"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/d1a71408-e4db-3c7f-a221-2c69c10192cd">
+        <skos:narrower rdf:resource="https://nmhr.historicengland.org.uk/f3f7378e-cc33-3afb-a170-93355678a172"/>
+        <skos:prefLabel xml:lang="en">{"id": "37508d53-cd0e-49ec-8ab0-5c429b89c7f4", "value": "Sand and dust storm"}</skos:prefLabel>
+        <skos:narrower rdf:resource="https://nmhr.historicengland.org.uk/0dee03fc-55fa-35fd-b93f-01fbd83ac662"/>
+        <dcterms:identifier xml:lang="en">{"id": "b933db5e-1226-4730-83a4-9502393bb7ab", "value": "http://purl.org/heritagedata/schemes/38076/concepts/4040"}</dcterms:identifier>
+        <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/7170e499-04a4-39af-8c4d-59d2f9bcc6e6"/>
+        <skos:scopeNote xml:lang="en">{"id": "6b3201c4-a376-4d4d-a9cd-618849e023b1", "value": "Storms causing the tranpsort of soil and fine dust particles."}</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:scopeNote xml:lang="en">{"id": "4b7e495e-f295-4eb4-8a58-bbaadc9fbe0f", "value": "Climatic Impact-Drivers associated with atmospheric circulation and storms"}</skos:scopeNote>
+    <dcterms:identifier xml:lang="en">{"id": "bea511a6-d172-4322-8784-7605deaef0f9", "value": "http://purl.org/heritagedata/schemes/38076/concepts/4000"}</dcterms:identifier>
+    <skos:narrower>
+      <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/531a7862-45e6-34c9-b394-55ca2464a19e">
+        <dcterms:identifier xml:lang="en">{"id": "02a2a1a7-6ade-4e8e-9a40-049e2dfcca45", "value": "http://purl.org/heritagedata/schemes/38076/concepts/4010"}</dcterms:identifier>
+        <skos:scopeNote xml:lang="en">{"id": "ba4440a1-4fd9-416c-bf45-47a8654dbdf3", "value": "Mean wind speeds and transport patterns and their diurnal and seasonal cycles,"}</skos:scopeNote>
+        <skos:narrower rdf:resource="https://nmhr.historicengland.org.uk/f20e3135-1500-3097-8676-afffe137188f"/>
+        <skos:narrower rdf:resource="https://nmhr.historicengland.org.uk/5216ea4a-0b70-36ca-a96c-e1ffcdd260b7"/>
+        <skos:narrower rdf:resource="https://nmhr.historicengland.org.uk/bb5b056c-a398-3b63-8833-ff43c391f2f3"/>
+        <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/7170e499-04a4-39af-8c4d-59d2f9bcc6e6"/>
+        <skos:narrower rdf:resource="https://nmhr.historicengland.org.uk/dec2e432-68d9-34a4-9b77-9b7b8d2485a2"/>
+        <skos:prefLabel xml:lang="en">{"id": "0d2ee1a1-abd1-47a5-abbd-02ad6b835eca", "value": "Mean wind speed"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:prefLabel xml:lang="en">{"id": "b600bc90-40f3-4c1e-9997-4346c82a234c", "value": "Wind"}</skos:prefLabel>
+    <skos:narrower>
+      <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/c69f2d8b-d86a-39ae-b112-89db1f799dbf">
+        <skos:narrower rdf:resource="https://nmhr.historicengland.org.uk/eeb64f19-97d1-3e01-9b9f-902922c75e67"/>
+        <skos:scopeNote xml:lang="en">{"id": "473d53dd-209e-48e5-bb47-e96c047ad316", "value": "Strong, rotating storm originating over tropical oceans with high winds, rainfall and storm surges."}</skos:scopeNote>
+        <dcterms:identifier xml:lang="en">{"id": "508a3f63-ccee-4774-8c33-174610cd6eaf", "value": "http://purl.org/heritagedata/schemes/38076/concepts/4030"}</dcterms:identifier>
+        <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/7170e499-04a4-39af-8c4d-59d2f9bcc6e6"/>
+        <skos:prefLabel xml:lang="en">{"id": "a25e7258-3f02-453e-b7ca-8b991d393f2c", "value": "Tropical cyclone (CID type)"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/7170e499-04a4-39af-8c4d-59d2f9bcc6e6"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/ad5e55f2-9f4d-3a21-aba4-de85ebdeaa94">
+    <skos:narrower rdf:resource="https://nmhr.historicengland.org.uk/81ac62f4-8e75-3b9e-943d-4230e5d34031"/>
+    <skos:narrower rdf:resource="https://nmhr.historicengland.org.uk/106068e3-1187-36db-9d22-51f0593ddbab"/>
+    <skos:scopeNote xml:lang="en">{"id": "f6f0af5a-0a69-4f80-9ef1-437dd3e13267", "value": "Mean temperature profile of ocean through the seasons, including heat content at different depths and associated stratification."}</skos:scopeNote>
+    <skos:narrower>
+      <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/268d8359-2fd0-3403-96be-5d5deeef0b6d">
+        <skos:prefLabel xml:lang="en">{"id": "7d1e3ddf-76cb-4cc1-9f88-564b6e56df59", "value": "Ocean currents"}</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">{"id": "369ea6fa-7542-44a5-b989-d496d7c182b0", "value": "The continuous patterns of seawater movement."}</skos:scopeNote>
+        <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/7170e499-04a4-39af-8c4d-59d2f9bcc6e6"/>
+        <dcterms:identifier xml:lang="en">{"id": "c34b9b78-3540-480c-89df-71328dabca68", "value": "http://purl.org/heritagedata/schemes/38076/concepts/60100"}</dcterms:identifier>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/7170e499-04a4-39af-8c4d-59d2f9bcc6e6"/>
+    <skos:narrower rdf:resource="https://nmhr.historicengland.org.uk/2bf250c6-ff7e-3a9c-b3ea-2e621bd99040"/>
+    <dcterms:identifier xml:lang="en">{"id": "7d5b407a-3990-41b9-affc-e4d5ec247776", "value": "http://purl.org/heritagedata/schemes/38076/concepts/6010"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="en">{"id": "331d16d6-e184-405f-9caf-a39d7a405b60", "value": "Mean ocean temperatures"}</skos:prefLabel>
+    <skos:narrower>
+      <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/62cdb962-0a6f-323a-bb75-03b02b892e07">
+        <skos:prefLabel xml:lang="en">{"id": "1b7adee3-33da-429c-87f2-50adcf9c73b5", "value": "Water temperature"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/7170e499-04a4-39af-8c4d-59d2f9bcc6e6"/>
+        <skos:scopeNote xml:lang="en">{"id": "2b7ede31-2094-489a-b85e-1f6a31ea7ebd", "value": "Changing water temperatures."}</skos:scopeNote>
+        <dcterms:identifier xml:lang="en">{"id": "8001529c-7f17-4fec-8917-5e90c66bdbf3", "value": "http://purl.org/heritagedata/schemes/38076/concepts/50103"}</dcterms:identifier>
+      </skos:Concept>
+    </skos:narrower>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/0e764eb8-f35a-3ab3-95ce-6a9394b2005b">
+    <skos:narrower>
+      <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/f2ab97cd-8e29-3948-8c2a-cc919ce6dd61">
+        <skos:narrower rdf:resource="https://nmhr.historicengland.org.uk/81ac62f4-8e75-3b9e-943d-4230e5d34031"/>
+        <skos:prefLabel xml:lang="en">{"id": "97c2e3ad-61fd-48d1-9a7e-36bc1e8803da", "value": "Dissolved Oxygen (CID type)"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/7170e499-04a4-39af-8c4d-59d2f9bcc6e6"/>
+        <skos:scopeNote xml:lang="en">{"id": "990d2cf8-d345-4484-b9fc-b36c6196637b", "value": "Profile of ocean water-dissolved oxygen and episodic low oxygen events."}</skos:scopeNote>
+        <skos:narrower rdf:resource="https://nmhr.historicengland.org.uk/757abc20-5efd-3cb3-84a2-2a4278340e88"/>
+        <skos:narrower rdf:resource="https://nmhr.historicengland.org.uk/3e1622ef-b93a-3a87-bacd-527019c25378"/>
+        <skos:narrower rdf:resource="https://nmhr.historicengland.org.uk/2bf250c6-ff7e-3a9c-b3ea-2e621bd99040"/>
+        <dcterms:identifier xml:lang="en">{"id": "ea609115-34a2-4a3d-a392-e928f6b19ce7", "value": "http://purl.org/heritagedata/schemes/38076/concepts/6050"}</dcterms:identifier>
+      </skos:Concept>
+    </skos:narrower>
+    <dcterms:identifier xml:lang="en">{"id": "bd5be919-d885-4ae8-bef4-8db96b02043c", "value": "http://purl.org/heritagedata/schemes/38076/concepts/6000"}</dcterms:identifier>
+    <skos:scopeNote xml:lang="en">{"id": "342825c6-d45c-4d03-8bf5-d23ce7111e18", "value": "Climatic Impact-Drivers associated with ocean thermal structure and chemistry."}</skos:scopeNote>
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/7170e499-04a4-39af-8c4d-59d2f9bcc6e6"/>
+    <skos:narrower rdf:resource="https://nmhr.historicengland.org.uk/ad5e55f2-9f4d-3a21-aba4-de85ebdeaa94"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/9ee9d031-a138-3432-b533-ebdeec9332d8">
+        <skos:narrower rdf:resource="https://nmhr.historicengland.org.uk/2bf250c6-ff7e-3a9c-b3ea-2e621bd99040"/>
+        <dcterms:identifier xml:lang="en">{"id": "ee869726-8dec-42df-b97d-df3c4f70c24e", "value": "http://purl.org/heritagedata/schemes/38076/concepts/6040"}</dcterms:identifier>
+        <skos:narrower rdf:resource="https://nmhr.historicengland.org.uk/b6004100-c44d-3efd-bb8d-ea7fe7b66f97"/>
+        <skos:prefLabel xml:lang="en">{"id": "86cc22a2-4dc5-434e-8983-1b3d03569adb", "value": "Ocean salinity (CID type)"}</skos:prefLabel>
+        <skos:narrower rdf:resource="https://nmhr.historicengland.org.uk/81ac62f4-8e75-3b9e-943d-4230e5d34031"/>
+        <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/7170e499-04a4-39af-8c4d-59d2f9bcc6e6"/>
+        <skos:scopeNote xml:lang="en">{"id": "b359bd08-a7ea-4e48-9db5-b77be4af1fca", "value": "Profile of ocean salinity and assoicated seasonal stratification. Note: distinct from salinization of freshwater resources."}</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/a87b01f6-d659-36f5-8e26-979dba6efd08">
+        <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/7170e499-04a4-39af-8c4d-59d2f9bcc6e6"/>
+        <skos:prefLabel xml:lang="en">{"id": "fd0e1a2b-d78d-4975-a149-48daccda021f", "value": "Marine heatwaves (CID type)"}</skos:prefLabel>
+        <dcterms:identifier xml:lang="en">{"id": "48e6bcce-d3cd-40a4-a4ee-35da3209719e", "value": "http://purl.org/heritagedata/schemes/38076/concepts/6020"}</dcterms:identifier>
+        <skos:scopeNote xml:lang="en">{"id": "ac64f130-29e0-428f-ab0b-8a951e908df8", "value": "Episodic extreme ocena temperatures."}</skos:scopeNote>
+        <skos:narrower rdf:resource="https://nmhr.historicengland.org.uk/2bf250c6-ff7e-3a9c-b3ea-2e621bd99040"/>
+        <skos:narrower rdf:resource="https://nmhr.historicengland.org.uk/8f2f7b68-26f0-3aa7-a1b8-28b56e509a55"/>
+        <skos:narrower rdf:resource="https://nmhr.historicengland.org.uk/81ac62f4-8e75-3b9e-943d-4230e5d34031"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/0719b3c0-8739-3312-8ef9-e38867e97087">
+        <skos:narrower rdf:resource="https://nmhr.historicengland.org.uk/40046b02-2cdb-3b94-bb3a-b09505572ebc"/>
+        <skos:narrower rdf:resource="https://nmhr.historicengland.org.uk/81ac62f4-8e75-3b9e-943d-4230e5d34031"/>
+        <skos:prefLabel xml:lang="en">{"id": "c2521ae4-4667-414c-b9a1-41c39efdc879", "value": "Ocean acidity"}</skos:prefLabel>
+        <dcterms:identifier xml:lang="en">{"id": "fdcfa8f3-774f-4697-a4df-465c28af4743", "value": "http://purl.org/heritagedata/schemes/38076/concepts/6030"}</dcterms:identifier>
+        <skos:scopeNote xml:lang="en">{"id": "2bbdb8b7-6627-406d-9db3-ea963fc3e08a", "value": "Profile of ocean water pH levels and accompanying concentrations of carbonate and bicarbonate ions."}</skos:scopeNote>
+        <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/7170e499-04a4-39af-8c4d-59d2f9bcc6e6"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:prefLabel xml:lang="en">{"id": "bc9d8ca3-197a-4890-b645-13379876608e", "value": "Open Ocean"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/a2b54fb6-2e32-3f7c-8b6a-18533118f3cb">
+    <skos:prefLabel xml:lang="en">{"id": "4878e35c-fdce-4777-8ca1-7a62a41eed5f", "value": "Desiccation"}</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">{"id": "52ee11bc-eabe-4dbe-8dcc-509fca2711d1", "value": "Extreme drying of hygroscopic materials."}</skos:scopeNote>
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/7170e499-04a4-39af-8c4d-59d2f9bcc6e6"/>
+    <dcterms:identifier xml:lang="en">{"id": "917b39ef-0073-44b3-9a75-0ab5f273087c", "value": "http://purl.org/heritagedata/schemes/38076/concepts/20501"}</dcterms:identifier>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/4b39990c-ef62-3af3-bccc-28d66bb6bdfe">
+    <skos:scopeNote xml:lang="en">{"id": "cba2470f-be8f-4471-b2a0-2889b355f637", "value": "Climatic Impact-Drivers associated primarily with the land and sea interface."}</skos:scopeNote>
+    <skos:narrower>
+      <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/6a28b6a1-faf2-3e4f-a19d-30aa6e9d3d43">
+        <dcterms:identifier xml:lang="en">{"id": "7175dda1-9a24-40e1-a67b-15304f5cad04", "value": "http://purl.org/heritagedata/schemes/38076/concepts/3020"}</dcterms:identifier>
+        <skos:scopeNote xml:lang="en">{"id": "07f38afb-f3a5-4f96-beab-46e51856defc", "value": "Flooding driven by episodic high coastal water levels that result from a combination of relative sea level rise, tides, storm surge and wave setup."}</skos:scopeNote>
+        <skos:narrower rdf:resource="https://nmhr.historicengland.org.uk/675190cb-c22b-3204-9693-7d7cdeda2e98"/>
+        <skos:narrower rdf:resource="https://nmhr.historicengland.org.uk/a92b91d7-833b-3df6-be2c-c690ed6f600b"/>
+        <skos:prefLabel xml:lang="en">{"id": "fbaaf1c1-5b5a-477a-892a-15b12ff61f98", "value": "Coastal flood"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/7170e499-04a4-39af-8c4d-59d2f9bcc6e6"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:prefLabel xml:lang="en">{"id": "b913088a-7665-459f-a154-f25ab44dcc4f", "value": "Coastal"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "4050d00d-e0c6-4000-98d0-95a54e283722", "value": "http://purl.org/heritagedata/schemes/38076/concepts/3000"}</dcterms:identifier>
+    <skos:narrower>
+      <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/958922bd-3a86-3f9e-937f-12569baa25a2">
+        <skos:scopeNote xml:lang="en">{"id": "2b4b4b3d-f2e7-43a5-92f9-e71a5e1ba356", "value": "Long term or episodic change in shoreline position caused by relative sea level rise, nearshore currents, waves and storm surge."}</skos:scopeNote>
+        <skos:prefLabel xml:lang="en">{"id": "ec3a52be-b585-48d8-8381-a33289e5d1fe", "value": "Coastal erosion (CID type)"}</skos:prefLabel>
+        <skos:narrower rdf:resource="https://nmhr.historicengland.org.uk/3b47d530-c8e6-3462-bc32-6ecce183d849"/>
+        <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/7170e499-04a4-39af-8c4d-59d2f9bcc6e6"/>
+        <skos:narrower rdf:resource="https://nmhr.historicengland.org.uk/86ee1d28-494a-3156-8913-bdc990ce0f7b"/>
+        <dcterms:identifier xml:lang="en">{"id": "8d615c9b-4f66-4106-8b3d-86ab7395a50d", "value": "http://purl.org/heritagedata/schemes/38076/concepts/3030"}</dcterms:identifier>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/7170e499-04a4-39af-8c4d-59d2f9bcc6e6"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/8671ce0b-d46d-30b2-85e8-4e6ed7889872">
+        <skos:scopeNote xml:lang="en">{"id": "048e3602-43b1-4cd9-ae22-9547e02a56f9", "value": "The local mean sea surface height relative to the local solid surface."}</skos:scopeNote>
+        <dcterms:identifier xml:lang="en">{"id": "0e7b6378-b295-4325-9a28-14fe7e660048", "value": "http://purl.org/heritagedata/schemes/38076/concepts/3010"}</dcterms:identifier>
+        <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/7170e499-04a4-39af-8c4d-59d2f9bcc6e6"/>
+        <skos:prefLabel xml:lang="en">{"id": "15895160-7ec3-4c23-ab00-b83efee6e440", "value": "Relative sea level"}</skos:prefLabel>
+        <skos:narrower rdf:resource="https://nmhr.historicengland.org.uk/9d2d8ba5-e846-35a4-83fc-65053be639de"/>
+        <skos:narrower rdf:resource="https://nmhr.historicengland.org.uk/a92b91d7-833b-3df6-be2c-c690ed6f600b"/>
+        <skos:narrower rdf:resource="https://nmhr.historicengland.org.uk/d0e5d1d0-ad4e-34ca-8c95-f08943eb1d22"/>
+      </skos:Concept>
+    </skos:narrower>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/419e650f-83dc-3150-874e-dfa988591ab0">
+    <dcterms:identifier xml:lang="en">{"id": "8c25494a-6d58-491f-886d-ab841d5749a9", "value": "http://purl.org/heritagedata/schemes/38076/concepts/20401"}</dcterms:identifier>
+    <skos:altLabel xml:lang="en">{"id": "3989560e-df6c-4ffa-a8b7-ed07d9db2ff9", "value": "Ground instability"}</skos:altLabel>
+    <skos:prefLabel xml:lang="en">{"id": "629ed2a2-a802-4b13-8397-888d5eb3a8d6", "value": "Shrink-swell"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/7170e499-04a4-39af-8c4d-59d2f9bcc6e6"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/e67aaaf5-e0d4-3670-ac63-e1f649434b7c">
+        <skos:prefLabel xml:lang="en">{"id": "fd5bb8d2-0dd3-482f-be0c-9f1c150c2a57", "value": "Soil heave"}</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">{"id": "150026a9-71ef-46e7-8ed7-686de5a520ff", "value": "Lifting of the ground due to the swelling of the soil."}</skos:scopeNote>
+        <dcterms:identifier xml:lang="en">{"id": "5d0c11ed-d718-4047-9e1c-f4101f1cab77", "value": "http://purl.org/heritagedata/schemes/38076/concepts/204012"}</dcterms:identifier>
+        <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/7170e499-04a4-39af-8c4d-59d2f9bcc6e6"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/fbf584e5-4875-3b65-b1d0-8db3d18f68d4">
+        <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/7170e499-04a4-39af-8c4d-59d2f9bcc6e6"/>
+        <skos:altLabel xml:lang="en">{"id": "445b7e41-113a-4663-b110-635212b35fba", "value": "Settling"}</skos:altLabel>
+        <dcterms:identifier xml:lang="en">{"id": "81218b4e-4808-4a42-8822-2d2365b9b468", "value": "http://purl.org/heritagedata/schemes/38076/concepts/204011"}</dcterms:identifier>
+        <skos:scopeNote xml:lang="en">{"id": "031e4ec8-0711-41c8-9d62-ce5434c13265", "value": "Collapse or lowering of the ground due to soil shrinkage."}</skos:scopeNote>
+        <skos:prefLabel xml:lang="en">{"id": "169bc4f1-171f-472b-9838-b1a901f6b888", "value": "Subsidence"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:scopeNote xml:lang="en">{"id": "adc70814-66f1-49c6-8485-ae9f2a0ebb4c", "value": "Volume changes in the soil as a result of changes in moisture content."}</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/eeb64f19-97d1-3e01-9b9f-902922c75e67">
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/7170e499-04a4-39af-8c4d-59d2f9bcc6e6"/>
+    <skos:altLabel xml:lang="en">{"id": "82d7e74d-11e6-4b76-85fd-3f677442dea6", "value": "Hurricane"}</skos:altLabel>
+    <skos:altLabel xml:lang="en">{"id": "e8d4e727-f615-44d5-8f5c-5d393ec9fa8d", "value": "Typhoon"}</skos:altLabel>
+    <skos:scopeNote xml:lang="en">{"id": "eed9026a-7a80-4576-9870-41a1fc2ae448", "value": "Low-pressure systems forming over oceans characterised by high winds, heavy precipitation, and storm surge."}</skos:scopeNote>
+    <skos:altLabel xml:lang="en">{"id": "f7effd7b-b9f9-4be4-8d39-e08b8cbde5c2", "value": "Cyclone"}</skos:altLabel>
+    <skos:prefLabel xml:lang="en">{"id": "c7b82049-1bec-44ec-bd38-7d9be5f2eac6", "value": "Tropical cyclone"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "cfb9e17c-9a5d-4ae5-8ac0-d827215d6165", "value": "http://purl.org/heritagedata/schemes/38076/concepts/40300"}</dcterms:identifier>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/0952dded-73e9-34c4-beeb-eed88b79dd7d">
+    <skos:prefLabel xml:lang="en">{"id": "bb8ceeaf-0f66-4fe7-83ca-21edd7ff9ca1", "value": "Desertification"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/7170e499-04a4-39af-8c4d-59d2f9bcc6e6"/>
+    <dcterms:identifier xml:lang="en">{"id": "ae3671ea-b0a6-416a-9d5a-e53670252e2a", "value": "http://purl.org/heritagedata/schemes/38076/concepts/20500"}</dcterms:identifier>
+    <skos:scopeNote xml:lang="en">{"id": "9ec02427-acb9-4c4f-8857-576afd53f3df", "value": "Long-term land degradation in which one of the three (biological productivity, ecological integrity or value to humans) is reduced or lost."}</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/f3f7378e-cc33-3afb-a170-93355678a172">
+    <dcterms:identifier xml:lang="en">{"id": "df43e1f6-bf64-40f6-b7ae-48d0bcc5e15a", "value": "http://purl.org/heritagedata/schemes/38076/concepts/40400"}</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/7170e499-04a4-39af-8c4d-59d2f9bcc6e6"/>
+    <skos:prefLabel xml:lang="en">{"id": "62e7c467-583e-4e5d-a3ec-761b7a22fafa", "value": "Sand storm"}</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">{"id": "cbb13012-a7fe-48e6-9251-abf9412bf9e1", "value": "Strong winds causing the transportation of sand and soil."}</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/18bd728b-b5cb-3b25-b0be-697c61b97735">
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/7170e499-04a4-39af-8c4d-59d2f9bcc6e6"/>
+    <dcterms:identifier xml:lang="en">{"id": "07fb8c95-05d0-4df3-8fef-6224e4923e33", "value": "http://purl.org/heritagedata/schemes/38076/concepts/7010"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="en">{"id": "e2b70578-0881-4444-a2c0-580330e213db", "value": "Air pollution weather (CID type)"}</skos:prefLabel>
+    <skos:narrower>
+      <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/4826ac90-21c2-3e8f-8898-2094f5df4f0f">
+        <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/7170e499-04a4-39af-8c4d-59d2f9bcc6e6"/>
+        <dcterms:identifier xml:lang="en">{"id": "267c06f1-dd99-45e6-98aa-08a6fd08b0cb", "value": "http://purl.org/heritagedata/schemes/38076/concepts/70100"}</dcterms:identifier>
+        <skos:prefLabel xml:lang="en">{"id": "b6478b15-6e17-4144-bbcb-0121ee777138", "value": "Air pollution weather"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:scopeNote xml:lang="en">{"id": "7afd6b6e-1d02-4e90-84ec-f8e37518a23e", "value": "Atmospheric conditions that increase the likelihood of high particulate matter or ozone concentrations or chemical processes generating air pollutants. Note: distinct from aerosol emissions or air pollution concentrations themselves."}</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/926bdbeb-81f6-3828-a449-9f672e67368a">
+    <skos:altLabel xml:lang="en">{"id": "739fdceb-fd23-4ca1-8b0b-2d90c7cb2f06", "value": "Cold spell"}</skos:altLabel>
+    <skos:altLabel xml:lang="en">{"id": "0cf398a5-0f04-413f-b4ba-893e83f9b675", "value": "Cold snap"}</skos:altLabel>
+    <skos:prefLabel xml:lang="en">{"id": "0546ccfa-04b9-4d34-a537-40e8d0ff6682", "value": "Cold wave"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/7170e499-04a4-39af-8c4d-59d2f9bcc6e6"/>
+    <dcterms:identifier xml:lang="en">{"id": "aeb2d852-cb3f-40d8-b846-889b89cff503", "value": "http://purl.org/heritagedata/schemes/38076/concepts/103000"}</dcterms:identifier>
+    <skos:scopeNote xml:lang="en">{"id": "b4a96d1c-40d0-42ec-84c9-c5486c3e1bda", "value": "A rapid fall in temperature."}</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/cd88769f-6616-34c7-9023-7d2092a131f4">
+    <skos:scopeNote xml:lang="en">{"id": "35f39a1f-94a2-461a-8280-77bb7cd1d507", "value": "A geological mass movement of soil, debris, mud or rocks"}</skos:scopeNote>
+    <skos:prefLabel xml:lang="en">{"id": "dc9df875-5753-44fd-853d-e3975622e7a8", "value": "Landslide"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "d58c04ac-c88c-46e9-8b4a-b4eac66c891e", "value": "http://purl.org/heritagedata/schemes/38076/concepts/20400"}</dcterms:identifier>
+    <skos:narrower>
+      <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/b0efe4d8-607b-367c-8d8d-b4cfea0a655b">
+        <dcterms:identifier xml:lang="en">{"id": "7e262f25-a6da-4ec9-abce-a08e397b6fc4", "value": "http://purl.org/heritagedata/schemes/38076/concepts/204000"}</dcterms:identifier>
+        <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/7170e499-04a4-39af-8c4d-59d2f9bcc6e6"/>
+        <skos:prefLabel xml:lang="en">{"id": "fbe48119-7cbb-4132-87eb-83cfb44e4177", "value": "Mudslide"}</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">{"id": "4767a3a0-1e20-4a53-9bc6-a217245db5b8", "value": "Mass movement of fine or liquified debris."}</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/7170e499-04a4-39af-8c4d-59d2f9bcc6e6"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/074f8da8-b90b-3715-b1ce-0e6a39cdcf7c">
+        <skos:altLabel xml:lang="en">{"id": "d030b43d-efb7-46e0-8a1e-3d584b545060", "value": "Rockslide"}</skos:altLabel>
+        <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/7170e499-04a4-39af-8c4d-59d2f9bcc6e6"/>
+        <skos:prefLabel xml:lang="en">{"id": "9285d819-c2e0-4cff-b7e3-ccdb5fe9791b", "value": "Rockfall"}</skos:prefLabel>
+        <dcterms:identifier xml:lang="en">{"id": "01004b49-0cc2-4ddb-a962-625bb115fd93", "value": "http://purl.org/heritagedata/schemes/38076/concepts/204001"}</dcterms:identifier>
+        <skos:scopeNote xml:lang="en">{"id": "11d51fa7-2e7e-4f4f-99d3-77899d6f9027", "value": "Rockslide or fall due to geological mass movement."}</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/140ecc3f-a058-324e-923d-3c504def215d">
+    <skos:prefLabel xml:lang="en">{"id": "9e83414f-89b4-401f-8808-498958d94200", "value": "Rain-on-snow"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/7170e499-04a4-39af-8c4d-59d2f9bcc6e6"/>
+    <skos:scopeNote xml:lang="en">{"id": "6ab5162e-dcff-427b-b57c-a5be58e85dba", "value": "Rainfall on existing snowpack."}</skos:scopeNote>
+    <dcterms:identifier xml:lang="en">{"id": "7fe93f9a-d4c0-404c-b66e-93f76916fb41", "value": "http://purl.org/heritagedata/schemes/38076/concepts/50403"}</dcterms:identifier>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/580fe615-f98d-3672-87b1-90a7aa9bd802">
+    <skos:scopeNote xml:lang="en">{"id": "61c37eea-3d0f-4dbb-9cd6-4535133f129c", "value": "Diurnal or seasonal changes of freeze-thaw cycles."}</skos:scopeNote>
+    <dcterms:identifier xml:lang="en">{"id": "b1b230dc-0071-4d48-bba4-10a87c6cd50f", "value": "http://purl.org/heritagedata/schemes/38076/concepts/10400"}</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/7170e499-04a4-39af-8c4d-59d2f9bcc6e6"/>
+    <skos:prefLabel xml:lang="en">{"id": "237e74f4-eee4-4e20-9677-595c561acdfb", "value": "Freeze-thaw cycles"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/490c4534-8a55-364b-b274-f5d22968d47b">
+    <dcterms:identifier xml:lang="en">{"id": "d1a7ff3f-1202-439e-a85b-d2ba05d8d4fc", "value": "http://purl.org/heritagedata/schemes/38076/concepts/7000"}</dcterms:identifier>
+    <skos:scopeNote xml:lang="en">{"id": "5f876357-18f1-40c6-a8c9-45f9c7afeb30", "value": "Climatic Impact-Drivers associated with atmospheric chemistry and radiation."}</skos:scopeNote>
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/7170e499-04a4-39af-8c4d-59d2f9bcc6e6"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/172bb150-8acb-305e-a390-9a6df2bbf2ae">
+        <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/7170e499-04a4-39af-8c4d-59d2f9bcc6e6"/>
+        <skos:narrower rdf:resource="https://nmhr.historicengland.org.uk/81ac62f4-8e75-3b9e-943d-4230e5d34031"/>
+        <dcterms:identifier xml:lang="en">{"id": "451cacc4-c322-46a5-900c-51836702120c", "value": "http://purl.org/heritagedata/schemes/38076/concepts/7030"}</dcterms:identifier>
+        <skos:scopeNote xml:lang="en">{"id": "dbc68819-1341-4be2-8f60-156ace38241d", "value": "Balanace of net shortwave, longwave and ultraviolet radiation at the Earth's surface and their diurnal and seasonal patterns."}</skos:scopeNote>
+        <skos:prefLabel xml:lang="en">{"id": "5e87f41f-8af8-454d-82e7-62e39b1f6398", "value": "Radiation at surface"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower rdf:resource="https://nmhr.historicengland.org.uk/18bd728b-b5cb-3b25-b0be-697c61b97735"/>
+    <skos:narrower rdf:resource="https://nmhr.historicengland.org.uk/55887b95-d429-3a29-9f1a-fb20e7c1415d"/>
+    <skos:prefLabel xml:lang="en">{"id": "60a29467-2dd2-43af-b460-341d4f71fe29", "value": "Other"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/757abc20-5efd-3cb3-84a2-2a4278340e88">
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/7170e499-04a4-39af-8c4d-59d2f9bcc6e6"/>
+    <skos:scopeNote xml:lang="en">{"id": "58d5023d-50b0-46ce-954c-b08489c49af0", "value": "Fluctuations in concentration of dissolved oxygen in seawater."}</skos:scopeNote>
+    <skos:prefLabel xml:lang="en">{"id": "33803624-36f9-4fa8-8821-94e23057e279", "value": "Dissolved Oxygen"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "b4b752a6-b4e7-45a5-8373-89fb0cf40d49", "value": "http://purl.org/heritagedata/schemes/38076/concepts/60501"}</dcterms:identifier>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/ee69d1c8-07a8-3465-bd8c-c25b3d457691">
+    <skos:scopeNote xml:lang="en">{"id": "a24d88d6-c5fc-4af6-a949-2b463dee470d", "value": "Diurnal and seasonal periods when fires are likely to start and spread."}</skos:scopeNote>
+    <dcterms:identifier xml:lang="en">{"id": "1541da50-296d-4b44-aef0-7618558d4c08", "value": "http://purl.org/heritagedata/schemes/38076/concepts/20801"}</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/7170e499-04a4-39af-8c4d-59d2f9bcc6e6"/>
+    <skos:altLabel xml:lang="en">{"id": "c86beec0-5ed7-4fcf-9c0f-7fe0d1ddb177", "value": "Fire season"}</skos:altLabel>
+    <skos:prefLabel xml:lang="en">{"id": "9cbc18aa-a279-4b0c-ab38-3df4d7d2f57a", "value": "Fire weather"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/c6bae3f9-a149-37b4-86f9-fd6dc62c638c">
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/7170e499-04a4-39af-8c4d-59d2f9bcc6e6"/>
+    <skos:scopeNote xml:lang="en">{"id": "3d7fadf2-f5a4-41d2-b101-70d03f24c079", "value": "Mass movement of snow, ice and rocks, often in mountainous areas."}</skos:scopeNote>
+    <skos:prefLabel xml:lang="en">{"id": "dccc5e81-8319-487f-8abf-7b3c6da6bea1", "value": "Avalanche"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "ec754329-8942-488c-8ed3-b244ba3fac3f", "value": "http://purl.org/heritagedata/schemes/38076/concepts/50600"}</dcterms:identifier>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/dec2e432-68d9-34a4-9b77-9b7b8d2485a2">
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/7170e499-04a4-39af-8c4d-59d2f9bcc6e6"/>
+    <skos:prefLabel xml:lang="en">{"id": "8c16f97a-51fb-445d-8fcc-8e915096bd13", "value": "Average wind transportation patterns"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "a3cdb508-c890-4ee3-b213-253f55416a74", "value": "http://purl.org/heritagedata/schemes/38076/concepts/40101"}</dcterms:identifier>
+    <skos:scopeNote xml:lang="en">{"id": "785b39da-6357-4047-8617-3ee8aabb8197", "value": "Changing patterns in average wind movement, such as changing directions of prevailing winds."}</skos:scopeNote>
+    <skos:altLabel xml:lang="en">{"id": "0785e438-6e33-408f-a584-9a746a7fa9ca", "value": "Changing prevailing winds"}</skos:altLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/faa069b0-68bd-3633-89ef-a4f8770992f0">
+    <skos:scopeNote xml:lang="en">{"id": "296d8e58-2161-4506-ad3a-f6c2cf4982a5", "value": "A large unplanned fire, often spreading quickly."}</skos:scopeNote>
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/7170e499-04a4-39af-8c4d-59d2f9bcc6e6"/>
+    <dcterms:identifier xml:lang="en">{"id": "28307bd7-a6cf-42c3-9d73-399d8db5a1ae", "value": "http://purl.org/heritagedata/schemes/38076/concepts/20800"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="en">{"id": "96bc426d-5b3e-4ba2-b2d2-e7772822ce27", "value": "Uncontrolled fire"}</skos:prefLabel>
+    <skos:altLabel xml:lang="en">{"id": "f366aded-d8d0-4fff-8c4e-5a9532b7bb0e", "value": "Forest fire"}</skos:altLabel>
+    <skos:altLabel xml:lang="en">{"id": "8f7b6f78-6072-4d8f-ae38-a303d61dee67", "value": "Wildfire"}</skos:altLabel>
+    <skos:altLabel xml:lang="en">{"id": "146b0a35-bbb7-4966-8d6e-ca17b03b51f1", "value": "Bush fire"}</skos:altLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/0e2b3e90-bcca-34da-8c46-46e073065c25">
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/7170e499-04a4-39af-8c4d-59d2f9bcc6e6"/>
+    <skos:scopeNote xml:lang="en">{"id": "3c7af441-b4eb-4aaa-b6be-42d07efacbda", "value": "A period of drier-than-normal conditions for the area and season."}</skos:scopeNote>
+    <skos:prefLabel xml:lang="en">{"id": "92b8eae9-c83d-442e-a020-d9bbb4a97999", "value": "Drought"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "75cfcdc0-07b5-4f09-a5e7-4347b5da3743", "value": "http://purl.org/heritagedata/schemes/38076/concepts/20601"}</dcterms:identifier>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/96379345-a212-3778-9f39-9cba4bd77a25">
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/7170e499-04a4-39af-8c4d-59d2f9bcc6e6"/>
+    <skos:scopeNote xml:lang="en">{"id": "3e8dcfdb-f450-4129-bc8c-22ac185e1286", "value": "Freeze-thaw events."}</skos:scopeNote>
+    <dcterms:identifier xml:lang="en">{"id": "596148b6-f8a0-4942-ae0a-03bd4d81f76a", "value": "http://purl.org/heritagedata/schemes/38076/concepts/10401"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="en">{"id": "3b0c13d0-10b0-45ca-8328-dfe24fa72e42", "value": "Freeze-thaw events"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/bb5b056c-a398-3b63-8833-ff43c391f2f3">
+    <dcterms:identifier xml:lang="en">{"id": "daa13b96-14c2-4b9e-84a9-509fe1e8c924", "value": "http://purl.org/heritagedata/schemes/38076/concepts/40100"}</dcterms:identifier>
+    <skos:scopeNote xml:lang="en">{"id": "b4c0b506-741c-4eb0-8645-d1168b1b4356", "value": "Changing patterns in average wind speed."}</skos:scopeNote>
+    <skos:prefLabel xml:lang="en">{"id": "4033777b-7560-4f47-9733-9f8a00646289", "value": "Average wind speed"}</skos:prefLabel>
+    <skos:altLabel xml:lang="en">{"id": "8ffa7c9c-5c8f-4c23-a8cf-369fc12d98a1", "value": "Decreasing wind speed"}</skos:altLabel>
+    <skos:altLabel xml:lang="en">{"id": "b246f975-eb6b-4d9e-b607-49576c4e9391", "value": "Increasing wind speed"}</skos:altLabel>
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/7170e499-04a4-39af-8c4d-59d2f9bcc6e6"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/84b8d3d0-cc19-3ffb-89fb-29f89b5e91a8">
+    <skos:prefLabel xml:lang="en">{"id": "85f46e98-bf3e-4e47-8758-bc3e6d79e565", "value": "Heat wave"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "94238169-782a-4a75-85a0-fe3a92619286", "value": "http://purl.org/heritagedata/schemes/38076/concepts/102000"}</dcterms:identifier>
+    <skos:scopeNote xml:lang="en">{"id": "f50cf62a-93e4-4ba8-a128-75f50534f760", "value": "An extended period of high temperatures."}</skos:scopeNote>
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/7170e499-04a4-39af-8c4d-59d2f9bcc6e6"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/9d2d8ba5-e846-35a4-83fc-65053be639de">
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/7170e499-04a4-39af-8c4d-59d2f9bcc6e6"/>
+    <dcterms:identifier xml:lang="en">{"id": "b755f619-9240-4805-b81a-17b060f370aa", "value": "http://purl.org/heritagedata/schemes/38076/concepts/30100"}</dcterms:identifier>
+    <skos:altLabel xml:lang="en">{"id": "57ffe7eb-353f-420c-81e6-f707c3ae99d6", "value": "Sea-level rise"}</skos:altLabel>
+    <skos:prefLabel xml:lang="en">{"id": "5f0f0544-5151-4127-b29a-6d5f0d31bde4", "value": "Sea level rise"}</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">{"id": "481c8daa-7aa8-4d85-86b1-e8d751baedaf", "value": "Rising mean sea surface height. Caused by melting ice sheets and glaciers and the expansion of seawater as it warms."}</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/a92b91d7-833b-3df6-be2c-c690ed6f600b">
+    <skos:scopeNote xml:lang="en">{"id": "4dbb0eb1-a542-4bed-b9be-70a1c35dc4eb", "value": "Movement of saline waters into freshwater zones"}</skos:scopeNote>
+    <skos:altLabel xml:lang="en">{"id": "e6f87683-7eed-4840-af80-62b69e5ab2ba", "value": "Saltwater inundation"}</skos:altLabel>
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/7170e499-04a4-39af-8c4d-59d2f9bcc6e6"/>
+    <dcterms:identifier xml:lang="en">{"id": "087b7d58-be25-4703-ab6d-dca3e75ae2d0", "value": "http://purl.org/heritagedata/schemes/38076/concepts/30102"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="en">{"id": "ca8b6138-8e45-4414-be3b-36ee963938d9", "value": "Saltwater incursion"}</skos:prefLabel>
+    <skos:altLabel xml:lang="en">{"id": "9aeb8074-4bb4-4c28-817a-4b3dde3e6f8b", "value": "Salt-water inundation"}</skos:altLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/41e0d976-259e-38d6-806a-f1a19da52ca1">
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/7170e499-04a4-39af-8c4d-59d2f9bcc6e6"/>
+    <skos:prefLabel xml:lang="en">{"id": "b9639959-bb73-4095-9da2-cdf99fe0a01e", "value": "Ice storm"}</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">{"id": "df04a991-d4f4-4652-a74f-3d2ba15e59ad", "value": "Storm characterized by freezing rain."}</skos:scopeNote>
+    <dcterms:identifier xml:lang="en">{"id": "043259cd-9bac-4c98-8220-d7a22edd23da", "value": "http://purl.org/heritagedata/schemes/38076/concepts/50402"}</dcterms:identifier>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/9999c38a-40dc-389a-8142-6c01f07711a6">
+    <skos:scopeNote xml:lang="en">{"id": "1ce4a963-0ea8-43e4-8b0e-ed8812894837", "value": "Melting, shrinking, and calving of glaciers."}</skos:scopeNote>
+    <skos:prefLabel xml:lang="en">{"id": "a8bc123c-ba11-44ec-960f-ef956b77df9a", "value": "Glacial melt"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "536fc73d-91c8-4142-8bda-e68c5d729989", "value": "http://purl.org/heritagedata/schemes/38076/concepts/50100"}</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/7170e499-04a4-39af-8c4d-59d2f9bcc6e6"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/f39c29df-af7e-3d9f-9a06-667d677534d3">
+    <skos:narrower rdf:resource="https://nmhr.historicengland.org.uk/84b8d3d0-cc19-3ffb-89fb-29f89b5e91a8"/>
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/7170e499-04a4-39af-8c4d-59d2f9bcc6e6"/>
+    <skos:prefLabel xml:lang="en">{"id": "2628462a-5486-4eae-8f8e-bdf10b0d61e6", "value": "High temperature events"}</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">{"id": "97280d4f-3665-4f3a-bbcf-6e009001955f", "value": "High temperature events, including heat waves."}</skos:scopeNote>
+    <dcterms:identifier xml:lang="en">{"id": "4766d562-994c-4c6e-84d6-4d1d188d4731", "value": "http://purl.org/heritagedata/schemes/38076/concepts/10201"}</dcterms:identifier>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/f4ede3bc-a1f8-3465-aef8-a6251c73c1af">
+    <skos:altLabel xml:lang="en">{"id": "e6968466-9b07-4b56-a524-540c78d4ec77", "value": "River flooding"}</skos:altLabel>
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/7170e499-04a4-39af-8c4d-59d2f9bcc6e6"/>
+    <skos:prefLabel xml:lang="en">{"id": "488dfbfa-1b49-41bf-808f-870d4654d7e6", "value": "Fluvial flood"}</skos:prefLabel>
+    <skos:altLabel xml:lang="en">{"id": "a79e0f02-8ccc-4d76-929d-879a38c85e9f", "value": "Riverine flooding"}</skos:altLabel>
+    <dcterms:identifier xml:lang="en">{"id": "a6d6f159-739f-47fa-b169-ab9f2ab15bf8", "value": "http://purl.org/heritagedata/schemes/38076/concepts/20200"}</dcterms:identifier>
+    <skos:scopeNote xml:lang="en">{"id": "489129e1-7360-402f-9259-25d3c2475e29", "value": "Rising levels of water in rivers, streams or creeks."}</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/f1fcab54-2c21-3ec6-9dc8-b81a4cefccae">
+    <dcterms:identifier xml:lang="en">{"id": "15d23fed-fb5b-440a-8673-75140cbd4a3b", "value": "http://purl.org/heritagedata/schemes/38076/concepts/50400"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="en">{"id": "7c028872-7130-4f5b-acec-cc13f698513a", "value": "Heavy snowfall"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/7170e499-04a4-39af-8c4d-59d2f9bcc6e6"/>
+    <skos:scopeNote xml:lang="en">{"id": "f28c7a9b-b2c0-48e1-8864-150c7a0f5c09", "value": "Higher than average snowfall events."}</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/233c39d6-ead0-3e8a-9859-c060d5c9bed1">
+    <dcterms:identifier xml:lang="en">{"id": "4ea05d4c-430f-4042-b94c-feaa4ac28af8", "value": "http://purl.org/heritagedata/schemes/38076/concepts/10402"}</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/7170e499-04a4-39af-8c4d-59d2f9bcc6e6"/>
+    <skos:scopeNote xml:lang="en">{"id": "f1433aac-176a-45df-a91f-fad649f962d8", "value": "Lifting of the soil due to swelling caused by the pressure of ice moving towards the surface of the ground."}</skos:scopeNote>
+    <skos:prefLabel xml:lang="en">{"id": "77fb4925-5346-4d1c-af26-e5dfbf2d45b4", "value": "Frost heave"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/b6004100-c44d-3efd-bb8d-ea7fe7b66f97">
+    <skos:scopeNote xml:lang="en">{"id": "d9ff5890-e6bb-474d-9cc1-9f7bb2db1fc9", "value": "Amount of salt dissolved in sea water."}</skos:scopeNote>
+    <skos:prefLabel xml:lang="en">{"id": "9904d0aa-9079-4255-80f0-9dabf4850d54", "value": "Ocean salinity"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "417d7ebf-1951-43b8-bf2d-c74c24fc2b71", "value": "http://purl.org/heritagedata/schemes/38076/concepts/60400"}</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/7170e499-04a4-39af-8c4d-59d2f9bcc6e6"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/0dee03fc-55fa-35fd-b93f-01fbd83ac662">
+    <skos:scopeNote xml:lang="en">{"id": "27fa28e5-ba4b-435a-97d5-206b90b33205", "value": "Strong winds causing the transportation of dust and soil."}</skos:scopeNote>
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/7170e499-04a4-39af-8c4d-59d2f9bcc6e6"/>
+    <dcterms:identifier xml:lang="en">{"id": "9633834c-86a0-470f-b207-3af36bf0e518", "value": "http://purl.org/heritagedata/schemes/38076/concepts/40401"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="en">{"id": "86443e2d-192b-401f-b7a6-1ac122c3b9d5", "value": "Dust storm"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/f0adebce-dcf4-390b-966f-5716d4869d93">
+    <skos:altLabel xml:lang="en">{"id": "8c2181af-d947-4ab6-9f24-683d59992a79", "value": "Average rainfall"}</skos:altLabel>
+    <skos:altLabel xml:lang="en">{"id": "fa8fae40-df63-4047-818e-8f3a4dfd7c76", "value": "Increasing rainfall"}</skos:altLabel>
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/7170e499-04a4-39af-8c4d-59d2f9bcc6e6"/>
+    <dcterms:identifier xml:lang="en">{"id": "aa543eca-45c8-4078-b8c2-2384efe5bd1a", "value": "http://purl.org/heritagedata/schemes/38076/concepts/20100"}</dcterms:identifier>
+    <skos:altLabel xml:lang="en">{"id": "1c6f972d-1786-4156-b132-da3ea63ff8c5", "value": "Average rainfall patterns"}</skos:altLabel>
+    <skos:prefLabel xml:lang="en">{"id": "2359a496-0175-422c-9eaf-7ce80846cb7c", "value": "Average precipitation patterns"}</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">{"id": "8a726e99-caf5-4338-a678-35f25615ac2c", "value": "Changing diurnal and seasonal patterns of precipitation. Does not include high precipitation events."}</skos:scopeNote>
+    <skos:altLabel xml:lang="en">{"id": "2eca8fa0-4745-4b2d-9ab3-82e314d3f5bc", "value": "Decreasing rainfall"}</skos:altLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/77a11b0e-212a-3b19-afc5-6889fe94a2b7">
+    <skos:scopeNote xml:lang="en">{"id": "920d819f-14ad-4d0f-b2fd-b69cdac87d57", "value": "Rain that freezes upon contact with cold surfaces."}</skos:scopeNote>
+    <dcterms:identifier xml:lang="en">{"id": "081b3617-4ace-404a-94b7-0d49f3af1337", "value": "http://purl.org/heritagedata/schemes/38076/concepts/50401"}</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/7170e499-04a4-39af-8c4d-59d2f9bcc6e6"/>
+    <skos:prefLabel xml:lang="en">{"id": "b53b2706-9d86-4a54-8c5f-73d0abc0e5b0", "value": "Freezing rain"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/3e1622ef-b93a-3a87-bacd-527019c25378">
+    <skos:prefLabel xml:lang="en">{"id": "0a964940-6098-41d9-8e20-e5b1776c3abc", "value": "Low oxygen events"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "400090ca-9e7b-4fbb-a53a-b325f7487562", "value": "http://purl.org/heritagedata/schemes/38076/concepts/60500"}</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/7170e499-04a4-39af-8c4d-59d2f9bcc6e6"/>
+    <skos:scopeNote xml:lang="en">{"id": "181a9445-4e8e-41e4-aac8-08d92699f1d6", "value": "Episodes of extreme low oxygen levels in the ocean."}</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/1ea0bd91-4142-31df-9bfa-73e59d198de1">
+    <skos:scopeNote xml:lang="en">{"id": "fc857dd2-71c8-4666-b0cf-6f909185490d", "value": "Flooding caused by sustained high water table levels."}</skos:scopeNote>
+    <skos:prefLabel xml:lang="en">{"id": "7982e9c8-2193-4fef-9ef8-f48da5f3fda1", "value": "Groundwater flooding"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "947a9a32-67e6-4dd3-8d75-dd9fa892b1e6", "value": "http://purl.org/heritagedata/schemes/38076/concepts/20101"}</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/7170e499-04a4-39af-8c4d-59d2f9bcc6e6"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/6f7702b9-6722-3918-a7d9-6471540d041d">
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/7170e499-04a4-39af-8c4d-59d2f9bcc6e6"/>
+    <skos:prefLabel xml:lang="en">{"id": "dff49af7-79a2-41fa-85be-2d99c877d47d", "value": "Hail"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "dc6dae8e-2003-4c2d-b884-4c7d9bc12c88", "value": "http://purl.org/heritagedata/schemes/38076/concepts/50500"}</dcterms:identifier>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/8f2f7b68-26f0-3aa7-a1b8-28b56e509a55">
+    <skos:prefLabel xml:lang="en">{"id": "7c8a8717-a88f-4ace-abfc-9abe19edb990", "value": "Marine heatwaves"}</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">{"id": "a078e50e-756b-475d-8ec4-8cc49f70b79e", "value": "Episodes of extreme high ocean temperatures."}</skos:scopeNote>
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/7170e499-04a4-39af-8c4d-59d2f9bcc6e6"/>
+    <dcterms:identifier xml:lang="en">{"id": "4e561645-1617-4ccc-ac9b-5a48d1e5f318", "value": "http://purl.org/heritagedata/schemes/38076/concepts/60200"}</dcterms:identifier>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/c1dfeb91-24bb-3a15-93a8-6ee0e8fcbe86">
+    <skos:scopeNote xml:lang="en">{"id": "c019ba12-770d-4aad-bb92-712f6fb1b87e", "value": "Localised flooding of low-lying areas due to heavy precipitation. Independent of nearby bodies of water."}</skos:scopeNote>
+    <skos:altLabel xml:lang="en">{"id": "d97eae23-7fe5-49ef-bc91-edb4b0a39f99", "value": "Surface water flooding"}</skos:altLabel>
+    <dcterms:identifier xml:lang="en">{"id": "af7587f0-de62-4c9d-9a8b-33b5f09fec8e", "value": "http://purl.org/heritagedata/schemes/38076/concepts/20301"}</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/7170e499-04a4-39af-8c4d-59d2f9bcc6e6"/>
+    <skos:prefLabel xml:lang="en">{"id": "016c6470-f0f9-4964-83a5-9702febbdac0", "value": "Pluvial flood"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/40046b02-2cdb-3b94-bb3a-b09505572ebc">
+    <skos:prefLabel xml:lang="en">{"id": "e5429bbc-00ec-404c-b653-4f798ca13266", "value": "Acidification"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "e4b07c9d-79f6-46c6-a644-eb65b0e1f511", "value": "http://purl.org/heritagedata/schemes/38076/concepts/50102"}</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/7170e499-04a4-39af-8c4d-59d2f9bcc6e6"/>
+    <skos:scopeNote xml:lang="en">{"id": "cdb0d1c1-7e8e-4440-8641-16d1cb9cf13a", "value": "Changing levels of water pH."}</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/45fda2cf-848f-3a4f-8620-24620f8dae02">
+    <dcterms:identifier xml:lang="en">{"id": "615e2d8d-c4b8-484c-ba0d-4604d0d60b0a", "value": "http://purl.org/heritagedata/schemes/38076/concepts/20102"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="en">{"id": "8d178b53-433f-46d6-a482-e3cfa3459d6a", "value": "Water table"}</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">{"id": "0a1e3987-c118-4ef0-bf03-b6b728c7b4ec", "value": "Fluctuation in water table levels."}</skos:scopeNote>
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/7170e499-04a4-39af-8c4d-59d2f9bcc6e6"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/5216ea4a-0b70-36ca-a96c-e1ffcdd260b7">
+    <skos:prefLabel xml:lang="en">{"id": "ad47a782-6f57-4ea3-ae05-d41e518e5921", "value": "Wind-driven rain"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "d5aa09f8-7549-4f23-bd79-327a6d001ad9", "value": "http://purl.org/heritagedata/schemes/38076/concepts/40102"}</dcterms:identifier>
+    <skos:scopeNote xml:lang="en">{"id": "a6f158e4-3b66-44c0-9d77-1ed4755871fc", "value": "Rain and wind occurring together, giving rain a horizontal velocity."}</skos:scopeNote>
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/7170e499-04a4-39af-8c4d-59d2f9bcc6e6"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/3b47d530-c8e6-3462-bc32-6ecce183d849">
+    <dcterms:identifier xml:lang="en">{"id": "a443b7ab-85b0-4278-9363-6593842fa5a0", "value": "http://purl.org/heritagedata/schemes/38076/concepts/30300"}</dcterms:identifier>
+    <skos:scopeNote xml:lang="en">{"id": "145be20f-9af6-43cc-868a-6d7d50edbdd7", "value": "Long term or episodic changes of shorelines. Caused by storms, rising sea levels, wave action, tides, wind-driven rain, ocean currents, and ice."}</skos:scopeNote>
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/7170e499-04a4-39af-8c4d-59d2f9bcc6e6"/>
+    <skos:prefLabel xml:lang="en">{"id": "b3c5e610-b7df-405b-9bf4-5b04cd134bae", "value": "Coastal erosion"}</skos:prefLabel>
+  </skos:Concept>
+</rdf:RDF>

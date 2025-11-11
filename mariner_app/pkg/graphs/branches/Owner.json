@@ -1,0 +1,617 @@
+{
+    "graph": [
+        {
+            "author": "",
+            "cards": [
+                {
+                    "active": true,
+                    "cardid": "dad2deee-f879-11ed-985e-0242ac120006",
+                    "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
+                    "config": null,
+                    "constraints": [
+                        {
+                            "card_id": "dad2deee-f879-11ed-985e-0242ac120006",
+                            "constraintid": "7b6795b9-0039-4b69-bed3-1ad8a121b964",
+                            "nodes": [],
+                            "uniquetoallinstances": false
+                        }
+                    ],
+                    "cssclass": null,
+                    "description": {
+                        "en": ""
+                    },
+                    "graph_id": "dad2d6ec-f879-11ed-985e-0242ac120006",
+                    "helpenabled": false,
+                    "helptext": {
+                        "en": null
+                    },
+                    "helptitle": {
+                        "en": null
+                    },
+                    "instructions": {
+                        "en": "Used to record the ownership of a known wreck site. Where disputed enter all owners."
+                    },
+                    "is_editable": true,
+                    "name": {
+                        "en": "Owner"
+                    },
+                    "nodegroup_id": "dad2da48-f879-11ed-985e-0242ac120006",
+                    "sortorder": 2,
+                    "visible": true
+                }
+            ],
+            "cards_x_nodes_x_widgets": [
+                {
+                    "card_id": "dad2deee-f879-11ed-985e-0242ac120006",
+                    "config": {
+                        "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
+                        "label": "Ownership Start Date",
+                        "placeholder": {
+                            "en": ""
+                        }
+                    },
+                    "id": "b158d3fa-d624-11ee-b970-0242ac130007",
+                    "label": {
+                        "en": "Ownership Start Date"
+                    },
+                    "node_id": "74e4f3a4-d624-11ee-8283-0242ac130007",
+                    "sortorder": 1,
+                    "visible": true,
+                    "widget_id": "adfd15ce-dbab-11e7-86d1-0fcf08612b27"
+                },
+                {
+                    "card_id": "dad2deee-f879-11ed-985e-0242ac120006",
+                    "config": {
+                        "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
+                        "label": "Ownership End Date",
+                        "placeholder": {
+                            "en": ""
+                        }
+                    },
+                    "id": "b15a831c-d624-11ee-b970-0242ac130007",
+                    "label": {
+                        "en": "Ownership End Date"
+                    },
+                    "node_id": "90f18d8c-d624-11ee-82f2-0242ac130007",
+                    "sortorder": 2,
+                    "visible": true,
+                    "widget_id": "adfd15ce-dbab-11e7-86d1-0fcf08612b27"
+                },
+                {
+                    "card_id": "dad2deee-f879-11ed-985e-0242ac120006",
+                    "config": {
+                        "defaultValue": {
+                            "en": {
+                                "direction": "ltr",
+                                "value": ""
+                            }
+                        },
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
+                        "label": "Ownership Display Date",
+                        "maxLength": null,
+                        "placeholder": {
+                            "en": "Enter text"
+                        },
+                        "uneditable": false,
+                        "width": "100%"
+                    },
+                    "id": "dad2f104-f879-11ed-985e-0242ac120006",
+                    "label": {
+                        "en": "Ownership Display Date"
+                    },
+                    "node_id": "dad2e312-f879-11ed-985e-0242ac120006",
+                    "sortorder": 3,
+                    "visible": false,
+                    "widget_id": "10000000-0000-0000-0000-000000000001"
+                },
+                {
+                    "card_id": "dad2deee-f879-11ed-985e-0242ac120006",
+                    "config": {
+                        "defaultValue": "59a0c936-3f60-44f9-9e37-67b6ed0f4fa4",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
+                        "label": "Ownership Date Qualifier Metatype",
+                        "options": [],
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
+                    },
+                    "id": "dad2f26c-f879-11ed-985e-0242ac120006",
+                    "label": {
+                        "en": "Ownership Date Qualifier Metatype"
+                    },
+                    "node_id": "dad2e4c0-f879-11ed-985e-0242ac120006",
+                    "sortorder": 5,
+                    "visible": false,
+                    "widget_id": "10000000-0000-0000-0000-000000000002"
+                },
+                {
+                    "card_id": "dad2deee-f879-11ed-985e-0242ac120006",
+                    "config": {
+                        "defaultResourceInstance": [],
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
+                        "label": "Owner",
+                        "placeholder": {
+                            "en": ""
+                        }
+                    },
+                    "id": "dad2f320-f879-11ed-985e-0242ac120006",
+                    "label": {
+                        "en": "Owner"
+                    },
+                    "node_id": "dad2da48-f879-11ed-985e-0242ac120006",
+                    "sortorder": 0,
+                    "visible": true,
+                    "widget_id": "ff3c400a-76ec-11e7-a793-784f435179ea"
+                },
+                {
+                    "card_id": "dad2deee-f879-11ed-985e-0242ac120006",
+                    "config": {
+                        "defaultValue": null,
+                        "label": "Disputed?"
+                    },
+                    "id": "dad2f3ca-f879-11ed-985e-0242ac120006",
+                    "label": {
+                        "en": "Disputed?"
+                    },
+                    "node_id": "dad2e9d4-f879-11ed-985e-0242ac120006",
+                    "sortorder": 6,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000006"
+                },
+                {
+                    "card_id": "dad2deee-f879-11ed-985e-0242ac120006",
+                    "config": {
+                        "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
+                        "label": "Ownership Date Qualifier",
+                        "options": [],
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
+                    },
+                    "id": "dad2f46a-f879-11ed-985e-0242ac120006",
+                    "label": {
+                        "en": "Ownership Date Qualifier"
+                    },
+                    "node_id": "dad2e830-f879-11ed-985e-0242ac120006",
+                    "sortorder": 4,
+                    "visible": false,
+                    "widget_id": "10000000-0000-0000-0000-000000000002"
+                }
+            ],
+            "color": "rgba(33,59,134,1)",
+            "config": {
+                "basemap": "streets",
+                "bearing": 0,
+                "centerX": -1.5983286851933372,
+                "centerY": 53.155430248627454,
+                "defaultValue": "",
+                "defaultValueType": 0,
+                "featureColor": "#FF0000",
+                "featureEditingDisabled": true,
+                "featureLineWidth": 1,
+                "featurePointSize": 3,
+                "geocodePlaceholder": "Search",
+                "geocodeProvider": "10000000-0000-0000-0000-010000000000",
+                "geocoderVisible": true,
+                "geometryTypes": [
+                    {
+                        "id": "Point",
+                        "text": "Point"
+                    },
+                    {
+                        "id": "Line",
+                        "text": "Line"
+                    },
+                    {
+                        "id": "Polygon",
+                        "text": "Polygon"
+                    }
+                ],
+                "mapControlsHidden": false,
+                "maxZoom": 20,
+                "minZoom": 0,
+                "overlayConfigs": [],
+                "overlayOpacity": 0,
+                "pitch": 0,
+                "zoom": 4.908319487490616
+            },
+            "deploymentdate": null,
+            "deploymentfile": null,
+            "description": {
+                "en": ""
+            },
+            "edges": [
+                {
+                    "description": null,
+                    "domainnode_id": "dad2e11e-f879-11ed-985e-0242ac120006",
+                    "edgeid": "74e4fd90-d624-11ee-8283-0242ac130007",
+                    "graph_id": "dad2d6ec-f879-11ed-985e-0242ac120006",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P82a_begin_of_the_begin",
+                    "rangenode_id": "74e4f3a4-d624-11ee-8283-0242ac130007"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "dad2e11e-f879-11ed-985e-0242ac120006",
+                    "edgeid": "90f1958e-d624-11ee-82f2-0242ac130007",
+                    "graph_id": "dad2d6ec-f879-11ed-985e-0242ac120006",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P82b_end_of_the_end",
+                    "rangenode_id": "90f18d8c-d624-11ee-82f2-0242ac130007"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "dad2e11e-f879-11ed-985e-0242ac120006",
+                    "edgeid": "dad3112a-f879-11ed-985e-0242ac120006",
+                    "graph_id": "dad2d6ec-f879-11ed-985e-0242ac120006",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "rangenode_id": "dad2e830-f879-11ed-985e-0242ac120006"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "dad2e11e-f879-11ed-985e-0242ac120006",
+                    "edgeid": "dad3124c-f879-11ed-985e-0242ac120006",
+                    "graph_id": "dad2d6ec-f879-11ed-985e-0242ac120006",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P3_has_note",
+                    "rangenode_id": "dad2e312-f879-11ed-985e-0242ac120006"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "dad2e830-f879-11ed-985e-0242ac120006",
+                    "edgeid": "dad3135a-f879-11ed-985e-0242ac120006",
+                    "graph_id": "dad2d6ec-f879-11ed-985e-0242ac120006",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "rangenode_id": "dad2e4c0-f879-11ed-985e-0242ac120006"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "dad2ed3a-f879-11ed-985e-0242ac120006",
+                    "edgeid": "dad31486-f879-11ed-985e-0242ac120006",
+                    "graph_id": "dad2d6ec-f879-11ed-985e-0242ac120006",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span",
+                    "rangenode_id": "dad2e11e-f879-11ed-985e-0242ac120006"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "dad2ed3a-f879-11ed-985e-0242ac120006",
+                    "edgeid": "dad3177e-f879-11ed-985e-0242ac120006",
+                    "graph_id": "dad2d6ec-f879-11ed-985e-0242ac120006",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "rangenode_id": "dad2e9d4-f879-11ed-985e-0242ac120006"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "dad2da48-f879-11ed-985e-0242ac120006",
+                    "edgeid": "dad318f0-f879-11ed-985e-0242ac120006",
+                    "graph_id": "dad2d6ec-f879-11ed-985e-0242ac120006",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P11i_participated_in",
+                    "rangenode_id": "dad2ed3a-f879-11ed-985e-0242ac120006"
+                }
+            ],
+            "functions_x_graphs": [],
+            "graphid": "dad2d6ec-f879-11ed-985e-0242ac120006",
+            "iconclass": "fa fa-ship",
+            "is_editable": true,
+            "isresource": false,
+            "jsonldcontext": null,
+            "name": {
+                "en": "Owner"
+            },
+            "nodegroups": [
+                {
+                    "cardinality": "n",
+                    "legacygroupid": null,
+                    "nodegroupid": "dad2da48-f879-11ed-985e-0242ac120006",
+                    "parentnodegroup_id": null
+                }
+            ],
+            "nodes": [
+                {
+                    "alias": "ownership_start_date",
+                    "config": {
+                        "dateFormat": "YYYY-MM-DD",
+                        "fuzzy_day_padding": 1,
+                        "fuzzy_month_padding": 1,
+                        "fuzzy_season_padding": 12,
+                        "fuzzy_year_padding": 1,
+                        "multiplier_if_approximate": 1,
+                        "multiplier_if_both": 1,
+                        "multiplier_if_uncertain": 1
+                    },
+                    "datatype": "edtf",
+                    "description": null,
+                    "exportable": true,
+                    "fieldname": "OwnerSDate",
+                    "graph_id": "dad2d6ec-f879-11ed-985e-0242ac120006",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Ownership Start Date",
+                    "nodegroup_id": "dad2da48-f879-11ed-985e-0242ac120006",
+                    "nodeid": "74e4f3a4-d624-11ee-8283-0242ac130007",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E61_Time_Primitive",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P82a_begin_of_the_begin",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "ownership_end_date",
+                    "config": {
+                        "dateFormat": "YYYY-MM-DD",
+                        "fuzzy_day_padding": 1,
+                        "fuzzy_month_padding": 1,
+                        "fuzzy_season_padding": 12,
+                        "fuzzy_year_padding": 1,
+                        "multiplier_if_approximate": 1,
+                        "multiplier_if_both": 1,
+                        "multiplier_if_uncertain": 1
+                    },
+                    "datatype": "edtf",
+                    "description": null,
+                    "exportable": true,
+                    "fieldname": "OwnerEDate",
+                    "graph_id": "dad2d6ec-f879-11ed-985e-0242ac120006",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Ownership End Date",
+                    "nodegroup_id": "dad2da48-f879-11ed-985e-0242ac120006",
+                    "nodeid": "90f18d8c-d624-11ee-82f2-0242ac130007",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E61_Time_Primitive",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P82b_end_of_the_end",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "owner",
+                    "config": {
+                        "graphs": [
+                            {
+                                "graphid": "22477f01-1a44-11e9-b0a9-000d3ab1e588",
+                                "name": "Person"
+                            },
+                            {
+                                "graphid": "d4a88461-5463-11e9-90d9-000d3ab1e588",
+                                "name": "Organization"
+                            }
+                        ],
+                        "searchDsl": "",
+                        "searchString": ""
+                    },
+                    "datatype": "resource-instance-list",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "dad2d6ec-f879-11ed-985e-0242ac120006",
+                    "hascustomalias": false,
+                    "is_collector": true,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": true,
+                    "name": "Owner",
+                    "nodegroup_id": "dad2da48-f879-11ed-985e-0242ac120006",
+                    "nodeid": "dad2da48-f879-11ed-985e-0242ac120006",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E39_Actor",
+                    "parentproperty": "",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "ownership_timespan",
+                    "config": {},
+                    "datatype": "semantic",
+                    "description": "",
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "dad2d6ec-f879-11ed-985e-0242ac120006",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Ownership Timespan",
+                    "nodegroup_id": "dad2da48-f879-11ed-985e-0242ac120006",
+                    "nodeid": "dad2e11e-f879-11ed-985e-0242ac120006",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "ownership_display_date",
+                    "config": {},
+                    "datatype": "string",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "dad2d6ec-f879-11ed-985e-0242ac120006",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Ownership Display Date",
+                    "nodegroup_id": "dad2da48-f879-11ed-985e-0242ac120006",
+                    "nodeid": "dad2e312-f879-11ed-985e-0242ac120006",
+                    "ontologyclass": "http://www.w3.org/2000/01/rdf-schema#Literal",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P3_has_note",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "ownership_date_qualifier_metatype",
+                    "config": {
+                        "rdmCollection": "1e63c514-eb9d-48d3-94b5-35e060e5f368"
+                    },
+                    "datatype": "concept",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "dad2d6ec-f879-11ed-985e-0242ac120006",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Ownership Date Qualifier Metatype",
+                    "nodegroup_id": "dad2da48-f879-11ed-985e-0242ac120006",
+                    "nodeid": "dad2e4c0-f879-11ed-985e-0242ac120006",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "ownership_date_qualifier",
+                    "config": {
+                        "rdmCollection": "366686d6-deb0-4245-81a3-f94d791a388c"
+                    },
+                    "datatype": "concept",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "dad2d6ec-f879-11ed-985e-0242ac120006",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Ownership Date Qualifier",
+                    "nodegroup_id": "dad2da48-f879-11ed-985e-0242ac120006",
+                    "nodeid": "dad2e830-f879-11ed-985e-0242ac120006",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "disputed",
+                    "config": {
+                        "falseLabel": {
+                            "en": "No"
+                        },
+                        "i18n_properties": [
+                            "trueLabel",
+                            "falseLabel"
+                        ],
+                        "trueLabel": {
+                            "en": "Yes"
+                        }
+                    },
+                    "datatype": "boolean",
+                    "description": null,
+                    "exportable": true,
+                    "fieldname": "Disputed",
+                    "graph_id": "dad2d6ec-f879-11ed-985e-0242ac120006",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Disputed",
+                    "nodegroup_id": "dad2da48-f879-11ed-985e-0242ac120006",
+                    "nodeid": "dad2e9d4-f879-11ed-985e-0242ac120006",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "ownership_n1",
+                    "config": {},
+                    "datatype": "semantic",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "dad2d6ec-f879-11ed-985e-0242ac120006",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Ownership",
+                    "nodegroup_id": "dad2da48-f879-11ed-985e-0242ac120006",
+                    "nodeid": "dad2ed3a-f879-11ed-985e-0242ac120006",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E7_Activity",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P11i_participated_in",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                }
+            ],
+            "ontology_id": "e6e8db47-2ccf-11e6-927e-b8f6b115d7dd",
+            "publication": null,
+            "relatable_resource_model_ids": [],
+            "resource_2_resource_constraints": [],
+            "root": {
+                "alias": "owner",
+                "config": {
+                    "graphs": [
+                        {
+                            "graphid": "22477f01-1a44-11e9-b0a9-000d3ab1e588",
+                            "name": "Person"
+                        },
+                        {
+                            "graphid": "d4a88461-5463-11e9-90d9-000d3ab1e588",
+                            "name": "Organization"
+                        }
+                    ],
+                    "searchDsl": "",
+                    "searchString": ""
+                },
+                "datatype": "resource-instance-list",
+                "description": null,
+                "exportable": false,
+                "fieldname": null,
+                "graph_id": "dad2d6ec-f879-11ed-985e-0242ac120006",
+                "hascustomalias": false,
+                "is_collector": true,
+                "isrequired": false,
+                "issearchable": true,
+                "istopnode": true,
+                "name": "Owner",
+                "nodegroup_id": "dad2da48-f879-11ed-985e-0242ac120006",
+                "nodeid": "dad2da48-f879-11ed-985e-0242ac120006",
+                "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E39_Actor",
+                "sortorder": 0,
+                "sourcebranchpublication_id": null
+            },
+            "slug": null,
+            "subtitle": {
+                "en": ""
+            },
+            "template_id": "50000000-0000-0000-0000-000000000002",
+            "version": ""
+        }
+    ],
+    "metadata": {
+        "db": "PostgreSQL 16.10 on x86_64-pc-linux-gnu, compiled by gcc (GCC) 11.2.0, 64-bit",
+        "git hash": "fatal: not a git repository (or any of the parent directories): .git",
+        "os": "Windows",
+        "os version": "2019Server"
+    }
+}

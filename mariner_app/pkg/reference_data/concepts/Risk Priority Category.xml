@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/d2f54464-e7f7-448e-81b8-78e14aa85b45">
+    <skos:inScheme>
+      <skos:ConceptScheme rdf:about="https://nmhr.historicengland.org.uk/7a6eac0f-23f8-4201-b306-bc2c7345dc4d">
+        <skos:hasTopConcept rdf:resource="https://nmhr.historicengland.org.uk/2156162b-5476-40c3-baac-94852a9e9991"/>
+        <skos:hasTopConcept rdf:resource="https://nmhr.historicengland.org.uk/8b073fc0-c4ad-45c2-bbd3-31b19535c307"/>
+        <dcterms:title xml:lang="en">{"id": "59a51c1b-4283-4fa0-b078-24168cadcd41", "value": "Risk Priority Category"}</dcterms:title>
+      </skos:ConceptScheme>
+    </skos:inScheme>
+    <skos:prefLabel xml:lang="en">{"id": "cf3f9d26-2193-4adc-9b9f-633b4c900196", "value": "D - Slow decay; solution agreed but not yet implemented"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/419b30d7-bf23-4770-9e79-eb36189a7b6a">
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/7a6eac0f-23f8-4201-b306-bc2c7345dc4d"/>
+    <skos:prefLabel xml:lang="en">{"id": "64ad5e59-f563-4a61-a3f5-ede39f2fc5d6", "value": "F - Repair scheme in progress and (where applicable) end use or user identified; or functionally redundant buildings with new use agreed but not yet implemented"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/a9fe7a3a-3e9e-47d9-9167-158f35ed923c">
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/7a6eac0f-23f8-4201-b306-bc2c7345dc4d"/>
+    <skos:prefLabel xml:lang="en">{"id": "03746896-3d99-45ba-a953-486892ae74bf", "value": "B - Action/strategy agreed but not yet implemented (where trend is declining or unknown)"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/df90b58e-71d3-4cca-a972-32a005174bf6">
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/7a6eac0f-23f8-4201-b306-bc2c7345dc4d"/>
+    <skos:prefLabel xml:lang="en">{"id": "3843e446-86f4-4314-8660-cf8b3293b1d4", "value": "B - Immediate risk of further rapid deterioration or loss of fabric; solution agreed but not yet implemented"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/bfe57733-12d3-4493-b5ce-d2e6feedfe77">
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/7a6eac0f-23f8-4201-b306-bc2c7345dc4d"/>
+    <skos:prefLabel xml:lang="en">{"id": "de3edffe-8a73-4db0-88ad-9e8b5490aec8", "value": "C - Slow decay; no solution agreed"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/8b073fc0-c4ad-45c2-bbd3-31b19535c307">
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/7a6eac0f-23f8-4201-b306-bc2c7345dc4d"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/caf518f2-f651-46b1-8518-f42c958209b9">
+        <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/7a6eac0f-23f8-4201-b306-bc2c7345dc4d"/>
+        <skos:prefLabel xml:lang="en">{"id": "c4d64311-3b23-4155-a4a9-00fc1db60cf1", "value": "A - No action/strategy identified or agreed (where trend is declining or unknown)"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/b2b74643-72bf-40a4-9186-d9f184e5bfe9">
+        <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/7a6eac0f-23f8-4201-b306-bc2c7345dc4d"/>
+        <skos:prefLabel xml:lang="en">{"id": "9bcb439b-4872-4d0e-aaa1-3a0e041cb700", "value": "F - Action implemented/strategy underway/scheme in progress (any trend)"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/8ab23301-2506-4eb2-9893-5dc533e3f1e3">
+        <skos:prefLabel xml:lang="en">{"id": "c08aa926-136a-4004-864e-9f77ce26a2d0", "value": "C - No action/strategy identified or agreed (where trend is stable or improving)"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/7a6eac0f-23f8-4201-b306-bc2c7345dc4d"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/a2a8bfb3-42ed-49e1-80f2-1d52b9171542">
+        <skos:prefLabel xml:lang="en">{"id": "158ea3d5-510f-4ea1-9c17-41d054fc98d2", "value": "E - Monitoring as appropriate (any trend)"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/7a6eac0f-23f8-4201-b306-bc2c7345dc4d"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/a39fb32b-6aad-4535-81bb-4f4c551e7b91">
+        <skos:prefLabel xml:lang="en">{"id": "bd4a1e1e-e432-472a-a1f8-4aed758ca8cd", "value": "D - Action/strategy agreed but not yet implemented (where trend is stable or improving)"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/7a6eac0f-23f8-4201-b306-bc2c7345dc4d"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:prefLabel xml:lang="en">{"id": "f55e11b1-a88f-48fc-885f-e6e7364d49c0", "value": "Wreck Priority Category"}</skos:prefLabel>
+    <skos:narrower rdf:resource="https://nmhr.historicengland.org.uk/a9fe7a3a-3e9e-47d9-9167-158f35ed923c"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/2156162b-5476-40c3-baac-94852a9e9991">
+    <skos:narrower rdf:resource="https://nmhr.historicengland.org.uk/419b30d7-bf23-4770-9e79-eb36189a7b6a"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/219e6771-8417-42f4-81cc-6bbcd3e47ba9">
+        <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/7a6eac0f-23f8-4201-b306-bc2c7345dc4d"/>
+        <skos:prefLabel xml:lang="en">{"id": "1293f9f1-217c-40d3-8327-480be6eb77fc", "value": "E - Under repair or in fair to good repair, but no user identified; or under threat of vacancy with no obvious new user (applicable only to buildings capable of beneficial use)"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/a3b714b7-eba2-4250-8822-e1ae2d89e0ce">
+        <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/7a6eac0f-23f8-4201-b306-bc2c7345dc4d"/>
+        <skos:prefLabel xml:lang="en">{"id": "589af9ef-e681-48df-a671-d84107d03163", "value": "A - Immediate risk of further rapid deterioration or loss of fabric; no solution agreed"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/7a6eac0f-23f8-4201-b306-bc2c7345dc4d"/>
+    <skos:narrower rdf:resource="https://nmhr.historicengland.org.uk/d2f54464-e7f7-448e-81b8-78e14aa85b45"/>
+    <skos:narrower rdf:resource="https://nmhr.historicengland.org.uk/df90b58e-71d3-4cca-a972-32a005174bf6"/>
+    <skos:prefLabel xml:lang="en">{"id": "cb5ab57c-9cba-4c38-9682-b942500f1bcb", "value": "Monument Priority Category"}</skos:prefLabel>
+    <skos:narrower rdf:resource="https://nmhr.historicengland.org.uk/bfe57733-12d3-4493-b5ce-d2e6feedfe77"/>
+  </skos:Concept>
+</rdf:RDF>

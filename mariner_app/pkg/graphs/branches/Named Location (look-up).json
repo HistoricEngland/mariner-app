@@ -1,0 +1,326 @@
+{
+    "graph": [
+        {
+            "author": "",
+            "cards": [
+                {
+                    "active": true,
+                    "cardid": "1058250c-26f0-11ee-8d77-0242ac130006",
+                    "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
+                    "config": null,
+                    "constraints": [],
+                    "cssclass": null,
+                    "description": {
+                        "en": ""
+                    },
+                    "graph_id": "10581c7e-26f0-11ee-8d77-0242ac130006",
+                    "helpenabled": false,
+                    "helptext": {
+                        "en": null
+                    },
+                    "helptitle": {
+                        "en": null
+                    },
+                    "instructions": {
+                        "en": null
+                    },
+                    "is_editable": true,
+                    "name": {
+                        "en": "Named Location (look-up)"
+                    },
+                    "nodegroup_id": "10581f8a-26f0-11ee-8d77-0242ac130006",
+                    "sortorder": null,
+                    "visible": true
+                }
+            ],
+            "cards_x_nodes_x_widgets": [
+                {
+                    "card_id": "1058250c-26f0-11ee-8d77-0242ac130006",
+                    "config": {
+                        "defaultValue": {
+                            "en": {
+                                "direction": "ltr",
+                                "value": ""
+                            }
+                        },
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
+                        "label": "Named Location Longitude",
+                        "maxLength": null,
+                        "placeholder": {
+                            "en": "Enter text"
+                        },
+                        "uneditable": false,
+                        "width": "100%"
+                    },
+                    "id": "10582d68-26f0-11ee-8d77-0242ac130006",
+                    "label": {
+                        "en": "Named Location Longitude"
+                    },
+                    "node_id": "1058273c-26f0-11ee-8d77-0242ac130006",
+                    "sortorder": 0,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000001"
+                },
+                {
+                    "card_id": "1058250c-26f0-11ee-8d77-0242ac130006",
+                    "config": {
+                        "defaultValue": {
+                            "en": {
+                                "direction": "ltr",
+                                "value": ""
+                            }
+                        },
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
+                        "label": "Named Location Latitude",
+                        "maxLength": null,
+                        "placeholder": {
+                            "en": "Enter text"
+                        },
+                        "uneditable": false,
+                        "width": "100%"
+                    },
+                    "id": "10582e26-26f0-11ee-8d77-0242ac130006",
+                    "label": {
+                        "en": "Named Location Latitude"
+                    },
+                    "node_id": "10582912-26f0-11ee-8d77-0242ac130006",
+                    "sortorder": 1,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000001"
+                },
+                {
+                    "card_id": "1058250c-26f0-11ee-8d77-0242ac130006",
+                    "config": {
+                        "defaultValue": "",
+                        "label": "Named Location Name",
+                        "maxLength": null,
+                        "placeholder": "Enter text",
+                        "uneditable": false,
+                        "width": "100%"
+                    },
+                    "id": "10582ff2-26f0-11ee-8d77-0242ac130006",
+                    "label": {
+                        "en": "Named Location Name"
+                    },
+                    "node_id": "10582aca-26f0-11ee-8d77-0242ac130006",
+                    "sortorder": 2,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000001"
+                }
+            ],
+            "color": "rgba(66,137,169,1)",
+            "config": {
+                "basemap": "streets"
+            },
+            "deploymentdate": null,
+            "deploymentfile": null,
+            "description": {
+                "en": ""
+            },
+            "edges": [
+                {
+                    "description": null,
+                    "domainnode_id": "10581f8a-26f0-11ee-8d77-0242ac130006",
+                    "edgeid": "10583b00-26f0-11ee-8d77-0242ac130006",
+                    "graph_id": "10581c7e-26f0-11ee-8d77-0242ac130006",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by",
+                    "rangenode_id": "10582aca-26f0-11ee-8d77-0242ac130006"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "10581f8a-26f0-11ee-8d77-0242ac130006",
+                    "edgeid": "10583c4a-26f0-11ee-8d77-0242ac130006",
+                    "graph_id": "10581c7e-26f0-11ee-8d77-0242ac130006",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by",
+                    "rangenode_id": "10582912-26f0-11ee-8d77-0242ac130006"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "10581f8a-26f0-11ee-8d77-0242ac130006",
+                    "edgeid": "10583d58-26f0-11ee-8d77-0242ac130006",
+                    "graph_id": "10581c7e-26f0-11ee-8d77-0242ac130006",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by",
+                    "rangenode_id": "1058273c-26f0-11ee-8d77-0242ac130006"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "10582aca-26f0-11ee-8d77-0242ac130006",
+                    "edgeid": "10583e52-26f0-11ee-8d77-0242ac130006",
+                    "graph_id": "10581c7e-26f0-11ee-8d77-0242ac130006",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P3_has_note",
+                    "rangenode_id": "10582c64-26f0-11ee-8d77-0242ac130006"
+                }
+            ],
+            "functions_x_graphs": [],
+            "graphid": "10581c7e-26f0-11ee-8d77-0242ac130006",
+            "iconclass": "fa fa-anchor",
+            "is_editable": true,
+            "isresource": false,
+            "jsonldcontext": null,
+            "name": {
+                "en": "Named Location (look-up)"
+            },
+            "nodegroups": [
+                {
+                    "cardinality": "n",
+                    "legacygroupid": null,
+                    "nodegroupid": "10581f8a-26f0-11ee-8d77-0242ac130006",
+                    "parentnodegroup_id": null
+                }
+            ],
+            "nodes": [
+                {
+                    "alias": "named_location_look_up_",
+                    "config": {},
+                    "datatype": "semantic",
+                    "description": "Currently controlled in AMIE by a reference data list",
+                    "exportable": false,
+                    "fieldname": "",
+                    "graph_id": "10581c7e-26f0-11ee-8d77-0242ac130006",
+                    "hascustomalias": false,
+                    "is_collector": true,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": true,
+                    "name": "Named Location (look-up)",
+                    "nodegroup_id": "10581f8a-26f0-11ee-8d77-0242ac130006",
+                    "nodeid": "10581f8a-26f0-11ee-8d77-0242ac130006",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E53_Place",
+                    "parentproperty": "",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "named_location_lu_longitude",
+                    "config": {},
+                    "datatype": "string",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": "",
+                    "graph_id": "10581c7e-26f0-11ee-8d77-0242ac130006",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Named Location LU Longitude",
+                    "nodegroup_id": "10581f8a-26f0-11ee-8d77-0242ac130006",
+                    "nodeid": "1058273c-26f0-11ee-8d77-0242ac130006",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E47_Spatial_Coordinates",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "named_location_lu_latitude",
+                    "config": {},
+                    "datatype": "string",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": "",
+                    "graph_id": "10581c7e-26f0-11ee-8d77-0242ac130006",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Named Location LU Latitude",
+                    "nodegroup_id": "10581f8a-26f0-11ee-8d77-0242ac130006",
+                    "nodeid": "10582912-26f0-11ee-8d77-0242ac130006",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E47_Spatial_Coordinates",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "named_location_lu_names",
+                    "config": {},
+                    "datatype": "semantic",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": "",
+                    "graph_id": "10581c7e-26f0-11ee-8d77-0242ac130006",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Named Location LU Names",
+                    "nodegroup_id": "10581f8a-26f0-11ee-8d77-0242ac130006",
+                    "nodeid": "10582aca-26f0-11ee-8d77-0242ac130006",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E41_Appellation",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "named_location_lu_name",
+                    "config": {
+                        "rdmCollection": "c3869409-0ab4-4327-9841-be7ec1da7810"
+                    },
+                    "datatype": "concept-list",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "10581c7e-26f0-11ee-8d77-0242ac130006",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Named Location LU Name",
+                    "nodegroup_id": "10581f8a-26f0-11ee-8d77-0242ac130006",
+                    "nodeid": "10582c64-26f0-11ee-8d77-0242ac130006",
+                    "ontologyclass": "http://www.w3.org/2000/01/rdf-schema#Literal",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P3_has_note",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                }
+            ],
+            "ontology_id": "e6e8db47-2ccf-11e6-927e-b8f6b115d7dd",
+            "publication": null,
+            "relatable_resource_model_ids": [],
+            "resource_2_resource_constraints": [],
+            "root": {
+                "alias": "named_location_look_up_",
+                "config": {},
+                "datatype": "semantic",
+                "description": "Currently controlled in AMIE by a reference data list",
+                "exportable": false,
+                "fieldname": "",
+                "graph_id": "10581c7e-26f0-11ee-8d77-0242ac130006",
+                "hascustomalias": false,
+                "is_collector": true,
+                "isrequired": false,
+                "issearchable": true,
+                "istopnode": true,
+                "name": "Named Location (look-up)",
+                "nodegroup_id": "10581f8a-26f0-11ee-8d77-0242ac130006",
+                "nodeid": "10581f8a-26f0-11ee-8d77-0242ac130006",
+                "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E53_Place",
+                "sortorder": 0,
+                "sourcebranchpublication_id": null
+            },
+            "slug": null,
+            "subtitle": {
+                "en": ""
+            },
+            "template_id": "50000000-0000-0000-0000-000000000002",
+            "version": ""
+        }
+    ],
+    "metadata": {
+        "db": "PostgreSQL 16.10 on x86_64-pc-linux-gnu, compiled by gcc (GCC) 11.2.0, 64-bit",
+        "git hash": "fatal: not a git repository (or any of the parent directories): .git",
+        "os": "Windows",
+        "os version": "2019Server"
+    }
+}
