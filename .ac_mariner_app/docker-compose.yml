@@ -1,0 +1,93 @@
+
+services:
+    marinerapp:
+      container_name: marinerapp
+      image: he/mariner_app:dev_build
+      build:
+        args:
+          - "PROJ_NAME=mariner_app"
+          - "DOCKER_PATH=./mariner_app/.ac_mariner_app/docker"
+        context: ../..
+        dockerfile: ./mariner_app/.ac_mariner_app/Dockerfile
+      command: run_arches
+      volumes:
+        - ../../arches:/web_root/arches
+        - ../../mariner_app:/web_root/mariner_app
+        - ./docker:/web_root/docker
+        - ../../mariner_app-package:/web_root/mariner_app_package
+        - ../../mariner_app-data:/web_root/mariner_app_data
+        #- ./docker/settings_local.py:/web_root/docker/settings_local.py
+        #- ./docker/conf.d:/web_root/docker/conf.d
+        #- ./docker/supervisor.conf:/web_root/docker/supervisor.conf
+      env_file:
+        - ./docker/env_file.env
+      ports:
+        - 8002:8000
+        - 5678:5678
+      stdin_open: true
+      tty: true
+    
+    ## - possible 
+    #marinerapp-bash:
+    #  profiles:
+    #    - livereload
+    #  container_name: marinerapp-bash
+    #  image: he/mariner_app:dev_build
+    #  command: ["bash"]
+    #  volumes:
+    #    - ../../arches:/web_root/arches
+    #    - ../../mariner_app:/web_root/mariner_app
+    #    - ./docker:/web_root/docker
+    #    - ../../mariner_app-package:/web_root/mariner_app_package
+    #    - ../../mariner_app-data:/web_root/mariner_app_data
+    #  env_file:
+    #    - ./docker/env_file.env
+    #  ports:
+    #    - 35729:35729      
+    #  depends_on:
+    #      - marinerapp
+    #  stdin_open: true
+    #  tty: true
+
+    marinerapp-livereload:
+      profiles:
+        - livereload
+      container_name: marinerapp-livereload
+      image: he/mariner_app:dev_build
+      command: run_livereload
+      volumes:
+        - ../../arches:/web_root/arches
+        - ../../mariner_app:/web_root/mariner_app
+      env_file:
+        - ./docker/env_file.env
+      ports:
+        - 35729:35729      
+      depends_on:
+          - marinerapp
+      stdin_open: true
+      tty: true
+    
+    marinerapp-webpack:
+      container_name: marinerapp-webpack
+      image: he/mariner_app:dev_build
+      command: run_webpack
+      volumes:
+        - ../../arches:/web_root/arches
+        - ../../mariner_app:/web_root/mariner_app
+      env_file:
+        - ./docker/env_file.env
+      ports:
+        - 8028:8021
+      depends_on:
+          - marinerapp
+      stdin_open: true
+      tty: true
+
+networks:
+  default:
+    external: true
+    name: marinerapp-network
+
+volumes:
+    arches-log:
+    arches-static:

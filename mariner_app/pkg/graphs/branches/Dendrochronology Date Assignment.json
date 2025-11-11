@@ -1,0 +1,1312 @@
+{
+    "graph": [
+        {
+            "author": "",
+            "cards": [
+                {
+                    "active": true,
+                    "cardid": "5c49ab4e-1a6f-11ee-8cc5-0242ac120006",
+                    "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
+                    "config": null,
+                    "constraints": [
+                        {
+                            "card_id": "5c49ab4e-1a6f-11ee-8cc5-0242ac120006",
+                            "constraintid": "1947dab1-d9fb-46c2-9ec5-cce4737561ed",
+                            "nodes": [],
+                            "uniquetoallinstances": false
+                        }
+                    ],
+                    "cssclass": null,
+                    "description": {
+                        "en": ""
+                    },
+                    "graph_id": "5c49a04a-1a6f-11ee-8cc5-0242ac120006",
+                    "helpenabled": false,
+                    "helptext": {
+                        "en": null
+                    },
+                    "helptitle": {
+                        "en": null
+                    },
+                    "instructions": {
+                        "en": null
+                    },
+                    "is_editable": true,
+                    "name": {
+                        "en": "Dendrochronology Date Assignment"
+                    },
+                    "nodegroup_id": "5c49a3f6-1a6f-11ee-8cc5-0242ac120006",
+                    "sortorder": 10,
+                    "visible": true
+                }
+            ],
+            "cards_x_nodes_x_widgets": [
+                {
+                    "card_id": "5c49ab4e-1a6f-11ee-8cc5-0242ac120006",
+                    "config": {
+                        "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
+                        "label": "Dendro Calendar End Date",
+                        "placeholder": {
+                            "en": ""
+                        }
+                    },
+                    "id": "5c49e8ca-1a6f-11ee-8cc5-0242ac120006",
+                    "label": {
+                        "en": "Dendro Calendar End Date"
+                    },
+                    "node_id": "5c49d4d4-1a6f-11ee-8cc5-0242ac120006",
+                    "sortorder": 11,
+                    "visible": true,
+                    "widget_id": "adfd15ce-dbab-11e7-86d1-0fcf08612b27"
+                },
+                {
+                    "card_id": "5c49ab4e-1a6f-11ee-8cc5-0242ac120006",
+                    "config": {
+                        "defaultValue": "84283ac9-c985-4e94-966e-b4bd78c658c3",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
+                        "label": "Dating Method Metatype",
+                        "options": [],
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
+                    },
+                    "id": "5c49e988-1a6f-11ee-8cc5-0242ac120006",
+                    "label": {
+                        "en": "Dating Method Metatype"
+                    },
+                    "node_id": "5c49c69c-1a6f-11ee-8cc5-0242ac120006",
+                    "sortorder": 8,
+                    "visible": false,
+                    "widget_id": "10000000-0000-0000-0000-000000000002"
+                },
+                {
+                    "card_id": "5c49ab4e-1a6f-11ee-8cc5-0242ac120006",
+                    "config": {
+                        "defaultValue": "59a0c936-3f60-44f9-9e37-67b6ed0f4fa4",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
+                        "label": "Scientific Date Qualifier Metatype",
+                        "options": [],
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
+                    },
+                    "id": "5c49eaf0-1a6f-11ee-8cc5-0242ac120006",
+                    "label": {
+                        "en": "Scientific Date Qualifier Metatype"
+                    },
+                    "node_id": "5c49bff8-1a6f-11ee-8cc5-0242ac120006",
+                    "sortorder": 13,
+                    "visible": false,
+                    "widget_id": "10000000-0000-0000-0000-000000000002"
+                },
+                {
+                    "card_id": "5c49ab4e-1a6f-11ee-8cc5-0242ac120006",
+                    "config": {
+                        "defaultValue": "6fbe3775-e51d-4f90-af53-5695dd204c9a",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
+                        "label": "Laboratory Reference Metatype",
+                        "options": [],
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
+                    },
+                    "id": "5c49ed8e-1a6f-11ee-8cc5-0242ac120006",
+                    "label": {
+                        "en": "Laboratory Reference Metatype"
+                    },
+                    "node_id": "5c49cb38-1a6f-11ee-8cc5-0242ac120006",
+                    "sortorder": 6,
+                    "visible": false,
+                    "widget_id": "10000000-0000-0000-0000-000000000002"
+                },
+                {
+                    "card_id": "5c49ab4e-1a6f-11ee-8cc5-0242ac120006",
+                    "config": {
+                        "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
+                        "label": "Dendro Calendar Start Date",
+                        "placeholder": {
+                            "en": ""
+                        }
+                    },
+                    "id": "5c49eed8-1a6f-11ee-8cc5-0242ac120006",
+                    "label": {
+                        "en": "Dendro Calendar Start Date"
+                    },
+                    "node_id": "5c49c822-1a6f-11ee-8cc5-0242ac120006",
+                    "sortorder": 10,
+                    "visible": true,
+                    "widget_id": "adfd15ce-dbab-11e7-86d1-0fcf08612b27"
+                },
+                {
+                    "card_id": "5c49ab4e-1a6f-11ee-8cc5-0242ac120006",
+                    "config": {
+                        "defaultValue": {
+                            "en": {
+                                "direction": "ltr",
+                                "value": ""
+                            }
+                        },
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
+                        "label": "Notes",
+                        "maxLength": null,
+                        "placeholder": {
+                            "en": "Enter text"
+                        },
+                        "width": "100%"
+                    },
+                    "id": "5c49f0ea-1a6f-11ee-8cc5-0242ac120006",
+                    "label": {
+                        "en": "Notes"
+                    },
+                    "node_id": "5c49b2b0-1a6f-11ee-8cc5-0242ac120006",
+                    "sortorder": 17,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000005"
+                },
+                {
+                    "card_id": "5c49ab4e-1a6f-11ee-8cc5-0242ac120006",
+                    "config": {
+                        "defaultValue": "47368a30-6ce1-4646-866b-951db2f628f8",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
+                        "label": "Technique",
+                        "options": [],
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
+                    },
+                    "id": "5c49f194-1a6f-11ee-8cc5-0242ac120006",
+                    "label": {
+                        "en": "Technique"
+                    },
+                    "node_id": "5c49d2e0-1a6f-11ee-8cc5-0242ac120006",
+                    "sortorder": 7,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000002"
+                },
+                {
+                    "card_id": "5c49ab4e-1a6f-11ee-8cc5-0242ac120006",
+                    "config": {
+                        "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
+                        "label": "Calendar Date Qualifier",
+                        "options": [],
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
+                    },
+                    "id": "5c49f234-1a6f-11ee-8cc5-0242ac120006",
+                    "label": {
+                        "en": "Calendar Date Qualifier"
+                    },
+                    "node_id": "5c49c516-1a6f-11ee-8cc5-0242ac120006",
+                    "sortorder": 12,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000002"
+                },
+                {
+                    "card_id": "5c49ab4e-1a6f-11ee-8cc5-0242ac120006",
+                    "config": {
+                        "defaultValue": {
+                            "en": {
+                                "direction": "ltr",
+                                "value": ""
+                            }
+                        },
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
+                        "label": "Laboratory Reference",
+                        "maxLength": null,
+                        "placeholder": {
+                            "en": "Enter the unique lab-code identifier for the sample"
+                        },
+                        "uneditable": false,
+                        "width": "100%"
+                    },
+                    "id": "5c49f306-1a6f-11ee-8cc5-0242ac120006",
+                    "label": {
+                        "en": "Laboratory Reference"
+                    },
+                    "node_id": "5c49b986-1a6f-11ee-8cc5-0242ac120006",
+                    "sortorder": 1,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000001"
+                },
+                {
+                    "card_id": "5c49ab4e-1a6f-11ee-8cc5-0242ac120006",
+                    "config": {
+                        "defaultValue": "b29ec4bd-8cbf-4a00-9762-4f51ba013469",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
+                        "label": "Laboratory Reference Type",
+                        "options": [],
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
+                    },
+                    "id": "5c49f3a6-1a6f-11ee-8cc5-0242ac120006",
+                    "label": {
+                        "en": "Laboratory Reference Type"
+                    },
+                    "node_id": "5c49d146-1a6f-11ee-8cc5-0242ac120006",
+                    "sortorder": 5,
+                    "visible": false,
+                    "widget_id": "10000000-0000-0000-0000-000000000002"
+                },
+                {
+                    "card_id": "5c49ab4e-1a6f-11ee-8cc5-0242ac120006",
+                    "config": {
+                        "defaultValue": "",
+                        "format": "",
+                        "i18n_properties": [
+                            "placeholder",
+                            "prefix",
+                            "suffix"
+                        ],
+                        "label": "Confidence (%)",
+                        "max": "",
+                        "min": "",
+                        "placeholder": {
+                            "en": "State the confidence (eg 68%, 95%)"
+                        },
+                        "precision": "",
+                        "prefix": {
+                            "en": ""
+                        },
+                        "step": "",
+                        "suffix": {
+                            "en": ""
+                        },
+                        "uneditable": false,
+                        "width": "100%"
+                    },
+                    "id": "5c49f61c-1a6f-11ee-8cc5-0242ac120006",
+                    "label": {
+                        "en": "Confidence (%)"
+                    },
+                    "node_id": "5c49d812-1a6f-11ee-8cc5-0242ac120006",
+                    "sortorder": 14,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000008"
+                },
+                {
+                    "card_id": "5c49ab4e-1a6f-11ee-8cc5-0242ac120006",
+                    "config": {
+                        "defaultValue": {
+                            "en": {
+                                "direction": "ltr",
+                                "value": ""
+                            }
+                        },
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
+                        "label": "Dendrochronology Date Result (Years)",
+                        "maxLength": null,
+                        "placeholder": {
+                            "en": "Enter the date result as originally reported; specify if a date span or felling date."
+                        },
+                        "uneditable": false,
+                        "width": "100%"
+                    },
+                    "id": "5c49f6d0-1a6f-11ee-8cc5-0242ac120006",
+                    "label": {
+                        "en": "Dendrochronology Date Result (Years)"
+                    },
+                    "node_id": "5c49d9d4-1a6f-11ee-8cc5-0242ac120006",
+                    "sortorder": 9,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000001"
+                },
+                {
+                    "card_id": "5c49ab4e-1a6f-11ee-8cc5-0242ac120006",
+                    "config": {
+                        "defaultResourceInstance": [],
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
+                        "label": "Dendrochronology Analyst",
+                        "placeholder": {
+                            "en": ""
+                        }
+                    },
+                    "id": "5c49f766-1a6f-11ee-8cc5-0242ac120006",
+                    "label": {
+                        "en": "Dendrochronology Analyst"
+                    },
+                    "node_id": "5c49e7a8-1a6f-11ee-8cc5-0242ac120006",
+                    "sortorder": 16,
+                    "visible": true,
+                    "widget_id": "31f3728c-7613-11e7-a139-784f435179ea"
+                },
+                {
+                    "card_id": "5c49ab4e-1a6f-11ee-8cc5-0242ac120006",
+                    "config": {
+                        "defaultResourceInstance": [],
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
+                        "label": "Dendrochronology Laboratory ",
+                        "placeholder": {
+                            "en": ""
+                        }
+                    },
+                    "id": "5c49f806-1a6f-11ee-8cc5-0242ac120006",
+                    "label": {
+                        "en": "Dendrochronology Laboratory "
+                    },
+                    "node_id": "5c49dc0e-1a6f-11ee-8cc5-0242ac120006",
+                    "sortorder": 15,
+                    "visible": true,
+                    "widget_id": "31f3728c-7613-11e7-a139-784f435179ea"
+                },
+                {
+                    "card_id": "5c49ab4e-1a6f-11ee-8cc5-0242ac120006",
+                    "config": {
+                        "displayOnlySelectedNode": false,
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
+                        "label": "Dendrochcronology Source",
+                        "placeholder": {
+                            "en": ""
+                        }
+                    },
+                    "id": "be7d6b70-1a6f-11ee-8178-0242ac120006",
+                    "label": {
+                        "en": "Dendrochcronology Source"
+                    },
+                    "node_id": "5c49adb0-1a6f-11ee-8cc5-0242ac120006",
+                    "sortorder": 0,
+                    "visible": true,
+                    "widget_id": "f5d6b190-bbf0-4dc9-b991-1debab8cb4a9"
+                },
+                {
+                    "card_id": "5c49ab4e-1a6f-11ee-8cc5-0242ac120006",
+                    "config": {
+                        "defaultValue": {
+                            "en": {
+                                "direction": "ltr",
+                                "value": ""
+                            }
+                        },
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
+                        "label": "Material Description",
+                        "maxLength": null,
+                        "placeholder": {
+                            "en": "Enter text"
+                        },
+                        "uneditable": false,
+                        "width": "100%"
+                    },
+                    "id": "be7e7a06-1a6f-11ee-8178-0242ac120006",
+                    "label": {
+                        "en": "Material Description"
+                    },
+                    "node_id": "5c49df92-1a6f-11ee-8cc5-0242ac120006",
+                    "sortorder": 2,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000005"
+                },
+                {
+                    "card_id": "5c49ab4e-1a6f-11ee-8cc5-0242ac120006",
+                    "config": {
+                        "defaultValue": "39a21ebf-7dd6-4a7f-a211-9453202f60aa",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
+                        "label": "Material Description Type",
+                        "options": [],
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
+                    },
+                    "id": "be7f839c-1a6f-11ee-8178-0242ac120006",
+                    "label": {
+                        "en": "Material Description Type"
+                    },
+                    "node_id": "5c49e140-1a6f-11ee-8cc5-0242ac120006",
+                    "sortorder": 3,
+                    "visible": false,
+                    "widget_id": "10000000-0000-0000-0000-000000000002"
+                },
+                {
+                    "card_id": "5c49ab4e-1a6f-11ee-8cc5-0242ac120006",
+                    "config": {
+                        "defaultValue": "d03ff048-0234-49c0-919b-c0c2376d7cb0",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
+                        "label": "Material Description Metatype",
+                        "options": [],
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
+                    },
+                    "id": "be815d2a-1a6f-11ee-8178-0242ac120006",
+                    "label": {
+                        "en": "Material Description Metatype"
+                    },
+                    "node_id": "5c49e46a-1a6f-11ee-8cc5-0242ac120006",
+                    "sortorder": 4,
+                    "visible": false,
+                    "widget_id": "10000000-0000-0000-0000-000000000002"
+                }
+            ],
+            "color": "rgba(187,212,169,1)",
+            "config": {
+                "basemap": "streets",
+                "bearing": 0,
+                "centerX": "-0.5386290125902633",
+                "centerY": "53.22925936111753",
+                "defaultValue": "",
+                "defaultValueType": 0,
+                "featureColor": "rgba(119,156,16,0.67)",
+                "featureEditingDisabled": true,
+                "featureLineWidth": 1,
+                "featurePointSize": 6,
+                "geocodePlaceholder": "Search",
+                "geocodeProvider": "10000000-0000-0000-0000-010000000000",
+                "geocoderVisible": true,
+                "geometryTypes": [
+                    {
+                        "id": "Point",
+                        "text": "Point"
+                    },
+                    {
+                        "id": "Line",
+                        "text": "Line"
+                    },
+                    {
+                        "id": "Polygon",
+                        "text": "Polygon"
+                    }
+                ],
+                "mapControlsHidden": false,
+                "maxZoom": "18",
+                "minZoom": 0,
+                "overlayConfigs": [],
+                "overlayOpacity": 0,
+                "pitch": 0,
+                "zoom": "12.25666880448824"
+            },
+            "deploymentdate": null,
+            "deploymentfile": null,
+            "description": {
+                "en": ""
+            },
+            "edges": [
+                {
+                    "description": null,
+                    "domainnode_id": "5c49d146-1a6f-11ee-8cc5-0242ac120006",
+                    "edgeid": "5c4af6f2-1a6f-11ee-8cc5-0242ac120006",
+                    "graph_id": "5c49a04a-1a6f-11ee-8cc5-0242ac120006",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "rangenode_id": "5c49cb38-1a6f-11ee-8cc5-0242ac120006"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "5c49cd7c-1a6f-11ee-8cc5-0242ac120006",
+                    "edgeid": "5c4afa62-1a6f-11ee-8cc5-0242ac120006",
+                    "graph_id": "5c49a04a-1a6f-11ee-8cc5-0242ac120006",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P3_has_note",
+                    "rangenode_id": "5c49b2b0-1a6f-11ee-8cc5-0242ac120006"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "5c49c188-1a6f-11ee-8cc5-0242ac120006",
+                    "edgeid": "5c4afbde-1a6f-11ee-8cc5-0242ac120006",
+                    "graph_id": "5c49a04a-1a6f-11ee-8cc5-0242ac120006",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "rangenode_id": "5c49d146-1a6f-11ee-8cc5-0242ac120006"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "5c49a3f6-1a6f-11ee-8cc5-0242ac120006",
+                    "edgeid": "5c4afdf0-1a6f-11ee-8cc5-0242ac120006",
+                    "graph_id": "5c49a04a-1a6f-11ee-8cc5-0242ac120006",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P129i_is_subject_of",
+                    "rangenode_id": "5c49c188-1a6f-11ee-8cc5-0242ac120006"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "5c49d2e0-1a6f-11ee-8cc5-0242ac120006",
+                    "edgeid": "5c4b02d2-1a6f-11ee-8cc5-0242ac120006",
+                    "graph_id": "5c49a04a-1a6f-11ee-8cc5-0242ac120006",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "rangenode_id": "5c49c69c-1a6f-11ee-8cc5-0242ac120006"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "5c49a3f6-1a6f-11ee-8cc5-0242ac120006",
+                    "edgeid": "5c4b06d8-1a6f-11ee-8cc5-0242ac120006",
+                    "graph_id": "5c49a04a-1a6f-11ee-8cc5-0242ac120006",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P32_used_general_technique",
+                    "rangenode_id": "5c49d2e0-1a6f-11ee-8cc5-0242ac120006"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "5c49d664-1a6f-11ee-8cc5-0242ac120006",
+                    "edgeid": "5c4b07c8-1a6f-11ee-8cc5-0242ac120006",
+                    "graph_id": "5c49a04a-1a6f-11ee-8cc5-0242ac120006",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "rangenode_id": "5c49c516-1a6f-11ee-8cc5-0242ac120006"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "5c49c516-1a6f-11ee-8cc5-0242ac120006",
+                    "edgeid": "5c4b0ac0-1a6f-11ee-8cc5-0242ac120006",
+                    "graph_id": "5c49a04a-1a6f-11ee-8cc5-0242ac120006",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "rangenode_id": "5c49bff8-1a6f-11ee-8cc5-0242ac120006"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "5c49d664-1a6f-11ee-8cc5-0242ac120006",
+                    "edgeid": "5c4b0bc4-1a6f-11ee-8cc5-0242ac120006",
+                    "graph_id": "5c49a04a-1a6f-11ee-8cc5-0242ac120006",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P82a_begin_of_the_begin",
+                    "rangenode_id": "5c49c822-1a6f-11ee-8cc5-0242ac120006"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "5c49a3f6-1a6f-11ee-8cc5-0242ac120006",
+                    "edgeid": "5c4b0dc2-1a6f-11ee-8cc5-0242ac120006",
+                    "graph_id": "5c49a04a-1a6f-11ee-8cc5-0242ac120006",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P141_assigned",
+                    "rangenode_id": "5c49d664-1a6f-11ee-8cc5-0242ac120006"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "5c49d664-1a6f-11ee-8cc5-0242ac120006",
+                    "edgeid": "5c4b0ebc-1a6f-11ee-8cc5-0242ac120006",
+                    "graph_id": "5c49a04a-1a6f-11ee-8cc5-0242ac120006",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P82b_end_of_the_end",
+                    "rangenode_id": "5c49d4d4-1a6f-11ee-8cc5-0242ac120006"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "5c49a3f6-1a6f-11ee-8cc5-0242ac120006",
+                    "edgeid": "5c4b0fb6-1a6f-11ee-8cc5-0242ac120006",
+                    "graph_id": "5c49a04a-1a6f-11ee-8cc5-0242ac120006",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P129i_is_subject_of",
+                    "rangenode_id": "5c49cd7c-1a6f-11ee-8cc5-0242ac120006"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "5c49c188-1a6f-11ee-8cc5-0242ac120006",
+                    "edgeid": "5c4b11be-1a6f-11ee-8cc5-0242ac120006",
+                    "graph_id": "5c49a04a-1a6f-11ee-8cc5-0242ac120006",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P3_has_note",
+                    "rangenode_id": "5c49b986-1a6f-11ee-8cc5-0242ac120006"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "5c49d664-1a6f-11ee-8cc5-0242ac120006",
+                    "edgeid": "5c4b12e0-1a6f-11ee-8cc5-0242ac120006",
+                    "graph_id": "5c49a04a-1a6f-11ee-8cc5-0242ac120006",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P3_has_note",
+                    "rangenode_id": "5c49d812-1a6f-11ee-8cc5-0242ac120006"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "5c49a3f6-1a6f-11ee-8cc5-0242ac120006",
+                    "edgeid": "5c4b1650-1a6f-11ee-8cc5-0242ac120006",
+                    "graph_id": "5c49a04a-1a6f-11ee-8cc5-0242ac120006",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P3_has_note",
+                    "rangenode_id": "5c49d9d4-1a6f-11ee-8cc5-0242ac120006"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "5c49a3f6-1a6f-11ee-8cc5-0242ac120006",
+                    "edgeid": "5c4b17f4-1a6f-11ee-8cc5-0242ac120006",
+                    "graph_id": "5c49a04a-1a6f-11ee-8cc5-0242ac120006",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P14_carried_out_by",
+                    "rangenode_id": "5c49dc0e-1a6f-11ee-8cc5-0242ac120006"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "5c49ddee-1a6f-11ee-8cc5-0242ac120006",
+                    "edgeid": "5c4b1a38-1a6f-11ee-8cc5-0242ac120006",
+                    "graph_id": "5c49a04a-1a6f-11ee-8cc5-0242ac120006",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P3_has_note",
+                    "rangenode_id": "5c49df92-1a6f-11ee-8cc5-0242ac120006"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "5c49ddee-1a6f-11ee-8cc5-0242ac120006",
+                    "edgeid": "5c4b1b32-1a6f-11ee-8cc5-0242ac120006",
+                    "graph_id": "5c49a04a-1a6f-11ee-8cc5-0242ac120006",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "rangenode_id": "5c49e140-1a6f-11ee-8cc5-0242ac120006"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "5c49e140-1a6f-11ee-8cc5-0242ac120006",
+                    "edgeid": "5c4b1c2c-1a6f-11ee-8cc5-0242ac120006",
+                    "graph_id": "5c49a04a-1a6f-11ee-8cc5-0242ac120006",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "rangenode_id": "5c49e46a-1a6f-11ee-8cc5-0242ac120006"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "5c49a3f6-1a6f-11ee-8cc5-0242ac120006",
+                    "edgeid": "5c4b1e20-1a6f-11ee-8cc5-0242ac120006",
+                    "graph_id": "5c49a04a-1a6f-11ee-8cc5-0242ac120006",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P129i_is_subject_of",
+                    "rangenode_id": "5c49ddee-1a6f-11ee-8cc5-0242ac120006"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "5c49a3f6-1a6f-11ee-8cc5-0242ac120006",
+                    "edgeid": "5c4b1f1a-1a6f-11ee-8cc5-0242ac120006",
+                    "graph_id": "5c49a04a-1a6f-11ee-8cc5-0242ac120006",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P14_carried_out_by",
+                    "rangenode_id": "5c49e7a8-1a6f-11ee-8cc5-0242ac120006"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "5c49a3f6-1a6f-11ee-8cc5-0242ac120006",
+                    "edgeid": "5c4b2014-1a6f-11ee-8cc5-0242ac120006",
+                    "graph_id": "5c49a04a-1a6f-11ee-8cc5-0242ac120006",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P129i_is_subject_of",
+                    "rangenode_id": "5c49adb0-1a6f-11ee-8cc5-0242ac120006"
+                }
+            ],
+            "functions_x_graphs": [],
+            "graphid": "5c49a04a-1a6f-11ee-8cc5-0242ac120006",
+            "iconclass": "fa fa-calendar",
+            "is_editable": true,
+            "isresource": false,
+            "jsonldcontext": null,
+            "name": {
+                "en": "Dendrochronology Date Assignment"
+            },
+            "nodegroups": [
+                {
+                    "cardinality": "n",
+                    "legacygroupid": null,
+                    "nodegroupid": "5c49a3f6-1a6f-11ee-8cc5-0242ac120006",
+                    "parentnodegroup_id": null
+                }
+            ],
+            "nodes": [
+                {
+                    "alias": "scientific_date_assignment",
+                    "config": {},
+                    "datatype": "semantic",
+                    "description": "",
+                    "exportable": false,
+                    "fieldname": "",
+                    "graph_id": "5c49a04a-1a6f-11ee-8cc5-0242ac120006",
+                    "hascustomalias": false,
+                    "is_collector": true,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": true,
+                    "name": "Dendrochronology Date Assignment",
+                    "nodegroup_id": "5c49a3f6-1a6f-11ee-8cc5-0242ac120006",
+                    "nodeid": "5c49a3f6-1a6f-11ee-8cc5-0242ac120006",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E13_Attribute_Assignment",
+                    "parentproperty": "",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "dendrochronology_source",
+                    "config": {
+                        "nodeid": null,
+                        "property": null
+                    },
+                    "datatype": "node-value",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "5c49a04a-1a6f-11ee-8cc5-0242ac120006",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Dendrochronology Source",
+                    "nodegroup_id": "5c49a3f6-1a6f-11ee-8cc5-0242ac120006",
+                    "nodeid": "5c49adb0-1a6f-11ee-8cc5-0242ac120006",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P129i_is_subject_of",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "dendrochronology_notes",
+                    "config": {},
+                    "datatype": "string",
+                    "description": null,
+                    "exportable": true,
+                    "fieldname": "DendroNote",
+                    "graph_id": "5c49a04a-1a6f-11ee-8cc5-0242ac120006",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Dendrochronology Notes",
+                    "nodegroup_id": "5c49a3f6-1a6f-11ee-8cc5-0242ac120006",
+                    "nodeid": "5c49b2b0-1a6f-11ee-8cc5-0242ac120006",
+                    "ontologyclass": "http://www.w3.org/2000/01/rdf-schema#Literal",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P3_has_note",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "dendro_laboratory_reference",
+                    "config": {},
+                    "datatype": "string",
+                    "description": null,
+                    "exportable": true,
+                    "fieldname": "DenLab_ref",
+                    "graph_id": "5c49a04a-1a6f-11ee-8cc5-0242ac120006",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Dendro Laboratory Reference",
+                    "nodegroup_id": "5c49a3f6-1a6f-11ee-8cc5-0242ac120006",
+                    "nodeid": "5c49b986-1a6f-11ee-8cc5-0242ac120006",
+                    "ontologyclass": "http://www.w3.org/2000/01/rdf-schema#Literal",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P3_has_note",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "scientific_date_qualifier_metatype",
+                    "config": {
+                        "rdmCollection": "1e63c514-eb9d-48d3-94b5-35e060e5f368"
+                    },
+                    "datatype": "concept",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "5c49a04a-1a6f-11ee-8cc5-0242ac120006",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": false,
+                    "istopnode": false,
+                    "name": "Scientific Date Qualifier Metatype",
+                    "nodegroup_id": "5c49a3f6-1a6f-11ee-8cc5-0242ac120006",
+                    "nodeid": "5c49bff8-1a6f-11ee-8cc5-0242ac120006",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "dendro_laboratory_references",
+                    "config": {},
+                    "datatype": "semantic",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "5c49a04a-1a6f-11ee-8cc5-0242ac120006",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Dendro Laboratory References",
+                    "nodegroup_id": "5c49a3f6-1a6f-11ee-8cc5-0242ac120006",
+                    "nodeid": "5c49c188-1a6f-11ee-8cc5-0242ac120006",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P129i_is_subject_of",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "dendrochronology_date_qualifier",
+                    "config": {
+                        "rdmCollection": "366686d6-deb0-4245-81a3-f94d791a388c"
+                    },
+                    "datatype": "concept",
+                    "description": null,
+                    "exportable": true,
+                    "fieldname": "DenDat_qua",
+                    "graph_id": "5c49a04a-1a6f-11ee-8cc5-0242ac120006",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Dendrochronology Date Qualifier",
+                    "nodegroup_id": "5c49a3f6-1a6f-11ee-8cc5-0242ac120006",
+                    "nodeid": "5c49c516-1a6f-11ee-8cc5-0242ac120006",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "dating_method_metatype",
+                    "config": {
+                        "rdmCollection": "1e63c514-eb9d-48d3-94b5-35e060e5f368"
+                    },
+                    "datatype": "concept",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "5c49a04a-1a6f-11ee-8cc5-0242ac120006",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": false,
+                    "istopnode": false,
+                    "name": "Dating Method Metatype",
+                    "nodegroup_id": "5c49a3f6-1a6f-11ee-8cc5-0242ac120006",
+                    "nodeid": "5c49c69c-1a6f-11ee-8cc5-0242ac120006",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "dendrochronology_date",
+                    "config": {
+                        "fuzzy_day_padding": 1,
+                        "fuzzy_month_padding": 1,
+                        "fuzzy_season_padding": 12,
+                        "fuzzy_year_padding": 1,
+                        "multiplier_if_approximate": 1,
+                        "multiplier_if_both": 1,
+                        "multiplier_if_uncertain": 1
+                    },
+                    "datatype": "edtf",
+                    "description": null,
+                    "exportable": true,
+                    "fieldname": "DenDat_sta",
+                    "graph_id": "5c49a04a-1a6f-11ee-8cc5-0242ac120006",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Dendrochronology Date",
+                    "nodegroup_id": "5c49a3f6-1a6f-11ee-8cc5-0242ac120006",
+                    "nodeid": "5c49c822-1a6f-11ee-8cc5-0242ac120006",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E61_Time_Primitive",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P82a_begin_of_the_begin",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "dendro_laboratory_reference_metatype",
+                    "config": {
+                        "rdmCollection": "1e63c514-eb9d-48d3-94b5-35e060e5f368"
+                    },
+                    "datatype": "concept",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "5c49a04a-1a6f-11ee-8cc5-0242ac120006",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": false,
+                    "istopnode": false,
+                    "name": "Dendro Laboratory Reference Metatype",
+                    "nodegroup_id": "5c49a3f6-1a6f-11ee-8cc5-0242ac120006",
+                    "nodeid": "5c49cb38-1a6f-11ee-8cc5-0242ac120006",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "dendro_notes",
+                    "config": {},
+                    "datatype": "semantic",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "5c49a04a-1a6f-11ee-8cc5-0242ac120006",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Dendro Notes",
+                    "nodegroup_id": "5c49a3f6-1a6f-11ee-8cc5-0242ac120006",
+                    "nodeid": "5c49cd7c-1a6f-11ee-8cc5-0242ac120006",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P129i_is_subject_of",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "dendro_laboratory_reference_type",
+                    "config": {
+                        "rdmCollection": "0ff39ed3-cc95-4c60-9321-6d4e65fb1f2d"
+                    },
+                    "datatype": "concept",
+                    "description": null,
+                    "exportable": true,
+                    "fieldname": "DenLabRefT",
+                    "graph_id": "5c49a04a-1a6f-11ee-8cc5-0242ac120006",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": false,
+                    "istopnode": false,
+                    "name": "Dendro Laboratory Reference Type",
+                    "nodegroup_id": "5c49a3f6-1a6f-11ee-8cc5-0242ac120006",
+                    "nodeid": "5c49d146-1a6f-11ee-8cc5-0242ac120006",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "technique",
+                    "config": {
+                        "rdmCollection": "c6a5328f-cae7-4984-a446-6f89edbeb49b"
+                    },
+                    "datatype": "concept",
+                    "description": null,
+                    "exportable": true,
+                    "fieldname": "DateMeth",
+                    "graph_id": "5c49a04a-1a6f-11ee-8cc5-0242ac120006",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Technique",
+                    "nodegroup_id": "5c49a3f6-1a6f-11ee-8cc5-0242ac120006",
+                    "nodeid": "5c49d2e0-1a6f-11ee-8cc5-0242ac120006",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P32_used_general_technique",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "dendrochronology_date_end_date",
+                    "config": {
+                        "fuzzy_day_padding": 1,
+                        "fuzzy_month_padding": 1,
+                        "fuzzy_season_padding": 12,
+                        "fuzzy_year_padding": 1,
+                        "multiplier_if_approximate": 1,
+                        "multiplier_if_both": 1,
+                        "multiplier_if_uncertain": 1
+                    },
+                    "datatype": "edtf",
+                    "description": null,
+                    "exportable": true,
+                    "fieldname": "DenDat_end",
+                    "graph_id": "5c49a04a-1a6f-11ee-8cc5-0242ac120006",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Dendrochronology Date End Date",
+                    "nodegroup_id": "5c49a3f6-1a6f-11ee-8cc5-0242ac120006",
+                    "nodeid": "5c49d4d4-1a6f-11ee-8cc5-0242ac120006",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E61_Time_Primitive",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P82b_end_of_the_end",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "dendrochronology_date_timespan",
+                    "config": {},
+                    "datatype": "semantic",
+                    "description": "",
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "5c49a04a-1a6f-11ee-8cc5-0242ac120006",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Dendrochronology Date Timespan",
+                    "nodegroup_id": "5c49a3f6-1a6f-11ee-8cc5-0242ac120006",
+                    "nodeid": "5c49d664-1a6f-11ee-8cc5-0242ac120006",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P141_assigned",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "dendrochronology_confidence",
+                    "config": {},
+                    "datatype": "number",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "5c49a04a-1a6f-11ee-8cc5-0242ac120006",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Dendrochronology Confidence",
+                    "nodegroup_id": "5c49a3f6-1a6f-11ee-8cc5-0242ac120006",
+                    "nodeid": "5c49d812-1a6f-11ee-8cc5-0242ac120006",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E60_Number",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P3_has_note",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "dendrochronology_date_result",
+                    "config": {},
+                    "datatype": "string",
+                    "description": null,
+                    "exportable": true,
+                    "fieldname": "DendroDate",
+                    "graph_id": "5c49a04a-1a6f-11ee-8cc5-0242ac120006",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Dendrochronology Date Result",
+                    "nodegroup_id": "5c49a3f6-1a6f-11ee-8cc5-0242ac120006",
+                    "nodeid": "5c49d9d4-1a6f-11ee-8cc5-0242ac120006",
+                    "ontologyclass": "http://www.w3.org/2000/01/rdf-schema#Literal",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P3_has_note",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "dendrochronology_laboratory_",
+                    "config": {
+                        "graphs": [
+                            {
+                                "graphid": "d4a88461-5463-11e9-90d9-000d3ab1e588",
+                                "name": "Organization"
+                            }
+                        ],
+                        "searchDsl": "",
+                        "searchString": ""
+                    },
+                    "datatype": "resource-instance",
+                    "description": null,
+                    "exportable": true,
+                    "fieldname": "Dendro_Lab",
+                    "graph_id": "5c49a04a-1a6f-11ee-8cc5-0242ac120006",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Dendrochronology Laboratory ",
+                    "nodegroup_id": "5c49a3f6-1a6f-11ee-8cc5-0242ac120006",
+                    "nodeid": "5c49dc0e-1a6f-11ee-8cc5-0242ac120006",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E74_Group",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P14_carried_out_by",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "dendro_material_descriptions",
+                    "config": {},
+                    "datatype": "semantic",
+                    "description": "",
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "5c49a04a-1a6f-11ee-8cc5-0242ac120006",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Dendro Material Descriptions",
+                    "nodegroup_id": "5c49a3f6-1a6f-11ee-8cc5-0242ac120006",
+                    "nodeid": "5c49ddee-1a6f-11ee-8cc5-0242ac120006",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P129i_is_subject_of",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "material_description",
+                    "config": {},
+                    "datatype": "string",
+                    "description": null,
+                    "exportable": true,
+                    "fieldname": "Wood_Desc",
+                    "graph_id": "5c49a04a-1a6f-11ee-8cc5-0242ac120006",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Material Description",
+                    "nodegroup_id": "5c49a3f6-1a6f-11ee-8cc5-0242ac120006",
+                    "nodeid": "5c49df92-1a6f-11ee-8cc5-0242ac120006",
+                    "ontologyclass": "http://www.w3.org/2000/01/rdf-schema#Literal",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P3_has_note",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "dendro_material_description_type",
+                    "config": {
+                        "rdmCollection": "0ff39ed3-cc95-4c60-9321-6d4e65fb1f2d"
+                    },
+                    "datatype": "concept",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "5c49a04a-1a6f-11ee-8cc5-0242ac120006",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Dendro Material Description Type",
+                    "nodegroup_id": "5c49a3f6-1a6f-11ee-8cc5-0242ac120006",
+                    "nodeid": "5c49e140-1a6f-11ee-8cc5-0242ac120006",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "dendro_material_description_metatype",
+                    "config": {
+                        "rdmCollection": "1e63c514-eb9d-48d3-94b5-35e060e5f368"
+                    },
+                    "datatype": "concept",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "5c49a04a-1a6f-11ee-8cc5-0242ac120006",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": false,
+                    "istopnode": false,
+                    "name": "Dendro Material Description Metatype",
+                    "nodegroup_id": "5c49a3f6-1a6f-11ee-8cc5-0242ac120006",
+                    "nodeid": "5c49e46a-1a6f-11ee-8cc5-0242ac120006",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "dendrochronology_analyst",
+                    "config": {
+                        "graphs": [
+                            {
+                                "graphid": "22477f01-1a44-11e9-b0a9-000d3ab1e588",
+                                "name": "Person"
+                            }
+                        ],
+                        "searchDsl": "",
+                        "searchString": ""
+                    },
+                    "datatype": "resource-instance",
+                    "description": null,
+                    "exportable": true,
+                    "fieldname": "D_Analyst",
+                    "graph_id": "5c49a04a-1a6f-11ee-8cc5-0242ac120006",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Dendrochronology Analyst",
+                    "nodegroup_id": "5c49a3f6-1a6f-11ee-8cc5-0242ac120006",
+                    "nodeid": "5c49e7a8-1a6f-11ee-8cc5-0242ac120006",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E39_Actor",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P14_carried_out_by",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                }
+            ],
+            "ontology_id": "e6e8db47-2ccf-11e6-927e-b8f6b115d7dd",
+            "publication": null,
+            "relatable_resource_model_ids": [],
+            "resource_2_resource_constraints": [],
+            "root": {
+                "alias": "scientific_date_assignment",
+                "config": {},
+                "datatype": "semantic",
+                "description": "",
+                "exportable": false,
+                "fieldname": "",
+                "graph_id": "5c49a04a-1a6f-11ee-8cc5-0242ac120006",
+                "hascustomalias": false,
+                "is_collector": true,
+                "isrequired": false,
+                "issearchable": true,
+                "istopnode": true,
+                "name": "Dendrochronology Date Assignment",
+                "nodegroup_id": "5c49a3f6-1a6f-11ee-8cc5-0242ac120006",
+                "nodeid": "5c49a3f6-1a6f-11ee-8cc5-0242ac120006",
+                "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E13_Attribute_Assignment",
+                "sortorder": 0,
+                "sourcebranchpublication_id": null
+            },
+            "slug": null,
+            "subtitle": {
+                "en": ""
+            },
+            "template_id": "50000000-0000-0000-0000-000000000002",
+            "version": ""
+        }
+    ],
+    "metadata": {
+        "db": "PostgreSQL 16.10 on x86_64-pc-linux-gnu, compiled by gcc (GCC) 11.2.0, 64-bit",
+        "git hash": "fatal: not a git repository (or any of the parent directories): .git",
+        "os": "Windows",
+        "os version": "2019Server"
+    }
+}

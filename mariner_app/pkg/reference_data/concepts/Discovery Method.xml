@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/88f123ca-dbeb-4b3d-9864-6a715355ec4d">
+    <skos:prefLabel xml:lang="en">{"id": "2457635f-ced1-4a86-a220-4df2c63094e2", "value": "Commercial activity"}</skos:prefLabel>
+    <skos:inScheme>
+      <skos:ConceptScheme rdf:about="https://nmhr.historicengland.org.uk/9122b57c-2ee4-4dd9-8c98-ef6013d3d4cb">
+        <skos:hasTopConcept rdf:resource="https://nmhr.historicengland.org.uk/16f48216-4d87-4eef-a34f-8fd989cc5f9c"/>
+        <skos:hasTopConcept rdf:resource="https://nmhr.historicengland.org.uk/7928d3cb-a1f6-4140-81fb-3ec1e5479364"/>
+        <skos:hasTopConcept rdf:resource="https://nmhr.historicengland.org.uk/1ac95221-c7c1-4ab2-a904-fe737f456515"/>
+        <skos:hasTopConcept rdf:resource="https://nmhr.historicengland.org.uk/513405a4-f4de-4d5b-8282-fee4a00a905e"/>
+        <skos:hasTopConcept rdf:resource="https://nmhr.historicengland.org.uk/d0e39ff0-17b5-4445-b2ac-ad0f14885537"/>
+        <skos:hasTopConcept rdf:resource="https://nmhr.historicengland.org.uk/88f123ca-dbeb-4b3d-9864-6a715355ec4d"/>
+        <skos:hasTopConcept rdf:resource="https://nmhr.historicengland.org.uk/67ee2f05-943c-43fb-a98b-45a2f9442e24"/>
+        <dcterms:identifier xml:lang="en">{"id": "2a45c9c2-c587-4048-b512-7c58c9b33b51", "value": "http://localhost:8000/9122b57c-2ee4-4dd9-8c98-ef6013d3d4cb"}</dcterms:identifier>
+        <dcterms:title xml:lang="en">{"id": "7be0d25d-31ef-449b-9387-4313bc448e26", "value": "Discovery Method"}</dcterms:title>
+      </skos:ConceptScheme>
+    </skos:inScheme>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/1ac95221-c7c1-4ab2-a904-fe737f456515">
+    <skos:prefLabel xml:lang="en">{"id": "aab54d74-ecc8-4609-ab3a-f7c7925ca6dd", "value": "Fishing activity"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/9122b57c-2ee4-4dd9-8c98-ef6013d3d4cb"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/7928d3cb-a1f6-4140-81fb-3ec1e5479364">
+    <skos:prefLabel xml:lang="en">{"id": "5204dd4b-ad45-48f7-8e65-353b7df797b5", "value": "Chance discovery"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/9122b57c-2ee4-4dd9-8c98-ef6013d3d4cb"/>
+    <dcterms:identifier xml:lang="en">{"id": "a9f37aee-4523-49aa-b8aa-94e057fa0b94", "value": "http://localhost:8000/7928d3cb-a1f6-4140-81fb-3ec1e5479364"}</dcterms:identifier>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/16f48216-4d87-4eef-a34f-8fd989cc5f9c">
+    <skos:prefLabel xml:lang="en">{"id": "f5e1acd0-a956-4bf8-b3e3-416c45997d56", "value": "Hydrographic survey"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/9122b57c-2ee4-4dd9-8c98-ef6013d3d4cb"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/d0e39ff0-17b5-4445-b2ac-ad0f14885537">
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/9122b57c-2ee4-4dd9-8c98-ef6013d3d4cb"/>
+    <skos:prefLabel xml:lang="en">{"id": "405bd110-30ae-4459-b192-ada0897ae60d", "value": "Metal detecting"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "772032fc-a34c-454d-a1ac-37f0f2d53ee5", "value": "http://localhost:8000/d0e39ff0-17b5-4445-b2ac-ad0f14885537"}</dcterms:identifier>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/67ee2f05-943c-43fb-a98b-45a2f9442e24">
+    <skos:prefLabel xml:lang="en">{"id": "16317858-07c1-43aa-b0ff-706fd3fef915", "value": "Weather or climate event"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/9122b57c-2ee4-4dd9-8c98-ef6013d3d4cb"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/513405a4-f4de-4d5b-8282-fee4a00a905e">
+    <skos:prefLabel xml:lang="en">{"id": "73dc0a1d-1c79-40be-a7d6-e676c9d822a1", "value": "Archaeological activity"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "e7d02d44-520e-4485-a328-7ad30858a90d", "value": "http://localhost:8000/513405a4-f4de-4d5b-8282-fee4a00a905e"}</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/9122b57c-2ee4-4dd9-8c98-ef6013d3d4cb"/>
+  </skos:Concept>
+</rdf:RDF>

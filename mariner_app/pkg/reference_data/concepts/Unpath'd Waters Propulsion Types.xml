@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:arches="https://nmhr.historicengland.org.uk/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/d423fddf-3a38-3baf-9bdb-f30bc1c57dc6">
+    <skos:narrower>
+      <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/efc913ec-6006-3b2c-92b3-961581561f4f">
+        <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/35c47c9e-4f43-3294-8aa8-052ee5c55cbe"/>
+        <skos:prefLabel xml:lang="en">{"id": "10d371cf-ba8e-47b4-88be-f140eb820bc4", "value": "Electric Motor"}</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">{"id": "e8517937-08cb-4d87-b0d8-fec264d9146d", "value": "A motor powered by batteries or electrical cells."}</skos:scopeNote>
+        <dcterms:identifier xml:lang="en">{"id": "107436f6-9104-4668-a787-1eafee639d06", "value": "http://purl.org/heritagedata/schemes/7145/concepts/13403"}</dcterms:identifier>
+        <arches:notation xml:lang="en">{"id": "3a0bb3b9-4df6-4fb3-9578-7ed38b95f348", "value": "Liquid error: Object reference not set to an instance of an object."}</arches:notation>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:inScheme>
+      <skos:ConceptScheme rdf:about="https://nmhr.historicengland.org.uk/35c47c9e-4f43-3294-8aa8-052ee5c55cbe">
+        <skos:hasTopConcept rdf:resource="https://nmhr.historicengland.org.uk/eca04a6c-2b7f-3dca-bda7-44bdb1d61947"/>
+        <dcterms:description xml:lang="en">{"id": "b4dbb5fd-4079-4d15-92b0-c6107b871f41", "value": "Terminology developed as part of the Unpath'd Waters project. Used for recording methods of propulsion of craft."}</dcterms:description>
+        <dcterms:title xml:lang="en">{"id": "0dc6ae31-0e75-4556-81b7-a499307432fd", "value": "Unpath'd Waters Propulsion Types"}</dcterms:title>
+        <skos:hasTopConcept rdf:resource="https://nmhr.historicengland.org.uk/4218e694-b7c5-31a9-8f65-86c7211015f2"/>
+        <dcterms:identifier xml:lang="en">{"id": "13c4225d-39c2-4cb9-ad31-effc799e369d", "value": "http://purl.org/heritagedata/schemes/7145"}</dcterms:identifier>
+        <skos:hasTopConcept rdf:resource="https://nmhr.historicengland.org.uk/e418b78d-7ebc-38f7-9091-2af7883c04f9"/>
+        <skos:hasTopConcept rdf:resource="https://nmhr.historicengland.org.uk/3833a2fb-fccc-36f7-865d-4163cba600de"/>
+        <skos:hasTopConcept rdf:resource="https://nmhr.historicengland.org.uk/fa0527db-b74f-3122-9854-e701a8e45e2d"/>
+      </skos:ConceptScheme>
+    </skos:inScheme>
+    <skos:narrower>
+      <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/2edf0f47-2816-3ae0-b165-b281a3fce7a7">
+        <arches:notation xml:lang="en">{"id": "a3870abe-93fb-4d4b-9717-bf91318616d2", "value": "Liquid error: Object reference not set to an instance of an object."}</arches:notation>
+        <skos:scopeNote xml:lang="en">{"id": "54c61cfc-b5d0-4fe0-950c-e2933b242e27", "value": "A motor powered by diesel."}</skos:scopeNote>
+        <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/35c47c9e-4f43-3294-8aa8-052ee5c55cbe"/>
+        <dcterms:identifier xml:lang="en">{"id": "216affd6-c9be-4e99-a9c8-4cfd160ce2ab", "value": "http://purl.org/heritagedata/schemes/7145/concepts/13402"}</dcterms:identifier>
+        <skos:prefLabel xml:lang="en">{"id": "efeba153-a757-481f-abe4-4858d54d832d", "value": "Diesel Motor"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:prefLabel xml:lang="en">{"id": "75aef932-3192-4fe1-bc3f-99995766cde4", "value": "Motor"}</skos:prefLabel>
+    <arches:notation xml:lang="en">{"id": "02438728-d26e-4b1a-99c3-e01b4b218a42", "value": "Liquid error: Object reference not set to an instance of an object."}</arches:notation>
+    <skos:narrower>
+      <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/811c1848-154e-3c5f-9fa3-e8e11de8d080">
+        <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/35c47c9e-4f43-3294-8aa8-052ee5c55cbe"/>
+        <skos:prefLabel xml:lang="en">{"id": "623b949c-a63c-47e2-b0d9-2a5afd3c35f8", "value": "Petrol Motor"}</skos:prefLabel>
+        <dcterms:identifier xml:lang="en">{"id": "d0512ca9-f25d-4a28-9b52-c918eed69d0e", "value": "http://purl.org/heritagedata/schemes/7145/concepts/13401"}</dcterms:identifier>
+        <arches:notation xml:lang="en">{"id": "e8af6fed-558a-4d02-b69c-2403098d57aa", "value": "Liquid error: Object reference not set to an instance of an object."}</arches:notation>
+        <skos:scopeNote xml:lang="en">{"id": "fcbcbe7d-55a7-4d8a-a837-82af028294cf", "value": "A motor powered by petrol."}</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+    <dcterms:identifier xml:lang="en">{"id": "b338404a-7f4a-4674-9cf1-ad9cd12b9186", "value": "http://purl.org/heritagedata/schemes/7145/concepts/13400"}</dcterms:identifier>
+    <skos:scopeNote xml:lang="en">{"id": "d18466ee-2e7c-479e-872a-0d6dedfd0775", "value": "Use for smaller forms of mechanical propulsion, such as diesel, electric and outboard motors, where the fuel type is unknown. Use more specific term where known."}</skos:scopeNote>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/04b6cfb6-7602-3125-9e3d-3223b684a522">
+    <dcterms:identifier xml:lang="en">{"id": "9529480e-c3aa-4e46-9958-de320a0a3e7e", "value": "http://purl.org/heritagedata/schemes/7145/concepts/13301"}</dcterms:identifier>
+    <skos:scopeNote xml:lang="en">{"id": "6ac00f58-78d2-4441-9d2f-c1e0a2b69092", "value": "An internal combustion engine powered by petrol fuel."}</skos:scopeNote>
+    <skos:prefLabel xml:lang="en">{"id": "42bd4cc2-b1bc-4d21-aae1-b31d6b50061f", "value": "Petrol Engine"}</skos:prefLabel>
+    <arches:notation xml:lang="en">{"id": "fa71277b-91cd-49fd-aefe-a15343bfa9a8", "value": "Liquid error: Object reference not set to an instance of an object."}</arches:notation>
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/35c47c9e-4f43-3294-8aa8-052ee5c55cbe"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/4218e694-b7c5-31a9-8f65-86c7211015f2">
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/35c47c9e-4f43-3294-8aa8-052ee5c55cbe"/>
+    <skos:prefLabel xml:lang="en">{"id": "d37a6a67-5daf-421f-8b38-4ae2e5b39baf", "value": "Human"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "e5f540f7-7dcd-4a7a-a281-5b23b9d6bcf8", "value": "http://purl.org/heritagedata/schemes/7145/concepts/11000"}</dcterms:identifier>
+    <skos:narrower>
+      <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/3bf2919f-4fef-36f8-8e45-4dccbb0ec1f6">
+        <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/35c47c9e-4f43-3294-8aa8-052ee5c55cbe"/>
+        <arches:notation xml:lang="en">{"id": "183509a6-c171-48fc-8d84-96c921fa4c48", "value": "Liquid error: Object reference not set to an instance of an object."}</arches:notation>
+        <skos:prefLabel xml:lang="en">{"id": "eb9395a5-b25a-43e7-9ec5-af4766c2fd02", "value": "Oar"}</skos:prefLabel>
+        <dcterms:identifier xml:lang="en">{"id": "58f60a6a-a9eb-4ff7-8db3-a75d53632d87", "value": "http://purl.org/heritagedata/schemes/7145/concepts/11300"}</dcterms:identifier>
+        <skos:scopeNote xml:lang="en">{"id": "f7bfc6f3-b0aa-4531-b3e6-9ba7fa1de37b", "value": "A manpowered watercraft operated by wooden oars."}</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/b85365ad-0d78-3d4b-bceb-80556ef632f6">
+        <dcterms:identifier xml:lang="en">{"id": "32a84834-2398-45f4-a919-74656d826f6e", "value": "http://purl.org/heritagedata/schemes/7145/concepts/11200"}</dcterms:identifier>
+        <arches:notation xml:lang="en">{"id": "bd38a78a-d066-4470-b2d5-a1111dcc4492", "value": "Liquid error: Object reference not set to an instance of an object."}</arches:notation>
+        <skos:prefLabel xml:lang="en">{"id": "3226f38a-6ca9-4807-9f67-39ce9f2a37dd", "value": "Paddle"}</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">{"id": "461816c1-bfc3-4293-bb22-dbc91c947799", "value": "A means of propelling a craft, such as a logboat or  canoe, using a human-powered paddle."}</skos:scopeNote>
+        <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/35c47c9e-4f43-3294-8aa8-052ee5c55cbe"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/cb08a70e-ce55-36d8-939e-5796d8abdd2b">
+        <arches:notation xml:lang="en">{"id": "67690774-51ea-444a-9573-76cbfe2323f6", "value": "Liquid error: Object reference not set to an instance of an object."}</arches:notation>
+        <dcterms:identifier xml:lang="en">{"id": "27d4d8e1-1462-42c6-ae02-81e4f122fb92", "value": "http://purl.org/heritagedata/schemes/7145/concepts/11100"}</dcterms:identifier>
+        <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/35c47c9e-4f43-3294-8aa8-052ee5c55cbe"/>
+        <skos:prefLabel xml:lang="en">{"id": "8a873d8e-5f0e-46b3-a386-f7b9794be868", "value": "Pole"}</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">{"id": "79cce559-1485-4701-b3d5-6524801ed2b0", "value": "A means of propelling a craft using a long pole, pushed against the bed of a watercourse or body of water.  Primarily used in inland waters by craft such as logboats and punts."}</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/c1000bfc-18d7-3560-abde-db804b82f8b6">
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/35c47c9e-4f43-3294-8aa8-052ee5c55cbe"/>
+    <arches:notation xml:lang="en">{"id": "3629cbf7-97e0-40cb-85ae-6a1a5df66886", "value": "Liquid error: Object reference not set to an instance of an object."}</arches:notation>
+    <dcterms:identifier xml:lang="en">{"id": "25aff3bc-bbac-40f3-b6c2-89bdfad41835", "value": "http://purl.org/heritagedata/schemes/7145/concepts/13100"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="en">{"id": "a287cdc4-92c5-4dc5-a6e0-26ebcbbd9e2c", "value": "Steam Engine"}</skos:prefLabel>
+    <skos:narrower>
+      <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/8d66a553-9853-38ca-a96a-b25824f28a0c">
+        <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/35c47c9e-4f43-3294-8aa8-052ee5c55cbe"/>
+        <skos:prefLabel xml:lang="en">{"id": "c022f072-e0b5-483e-8cd2-f89ae1bbc7b7", "value": "Paddle Steamer"}</skos:prefLabel>
+        <skos:scopeNote xml:lang="en">{"id": "c6f5ef5f-30b3-4d7a-85fd-ce63780b7150", "value": "A paddle-wheel-driven craft using a steam engine as its primary source of motive power."}</skos:scopeNote>
+        <arches:notation xml:lang="en">{"id": "6ae63850-3352-4367-b39b-8f22a2e7c1dd", "value": "Liquid error: Object reference not set to an instance of an object."}</arches:notation>
+        <dcterms:identifier xml:lang="en">{"id": "4bd532b6-82d7-420a-a71d-9ac1fc4a9473", "value": "http://purl.org/heritagedata/schemes/7145/concepts/13102"}</dcterms:identifier>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:scopeNote xml:lang="en">{"id": "dd3012f6-63b9-4b2e-bb7a-1b6482671f20", "value": "a marine steam engine. Use also for a vessel employing a steam engine as its principle source of motive power."}</skos:scopeNote>
+    <skos:narrower>
+      <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/805c3e75-4edc-33aa-9150-a17ad8b388ce">
+        <skos:narrower rdf:resource="https://nmhr.historicengland.org.uk/40b882e5-e205-3b4d-887a-54e8dacbbbc8"/>
+        <arches:notation xml:lang="en">{"id": "dc7d4f73-841a-4c2d-94e5-e1cb6fca9b86", "value": "Liquid error: Object reference not set to an instance of an object."}</arches:notation>
+        <skos:prefLabel xml:lang="en">{"id": "1aae78bf-f663-4855-9be4-03c7d1a0b349", "value": "Screw Steamer"}</skos:prefLabel>
+        <dcterms:identifier xml:lang="en">{"id": "2b659f49-933d-4855-ab4e-ac2b1de40a34", "value": "http://purl.org/heritagedata/schemes/7145/concepts/13101"}</dcterms:identifier>
+        <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/35c47c9e-4f43-3294-8aa8-052ee5c55cbe"/>
+        <skos:narrower rdf:resource="https://nmhr.historicengland.org.uk/b9c73fd7-1f1d-3e5d-9c4d-5335cb3ede90"/>
+        <skos:scopeNote xml:lang="en">{"id": "3d41e360-326a-40d9-97e4-9f71e8d20bb1", "value": "A screw-driven craft using a steam engine as its primary source of motive power."}</skos:scopeNote>
+      </skos:Concept>
+    </skos:narrower>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/78a92a47-9372-3ae8-b805-ee88ea101942">
+    <skos:narrower>
+      <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/bdd0e6a3-12de-3d8f-883b-cdac5cfc1d00">
+        <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/35c47c9e-4f43-3294-8aa8-052ee5c55cbe"/>
+        <skos:scopeNote xml:lang="en">{"id": "1ce63550-3238-41b1-bb17-8539ce47b79f", "value": "An internal combustion engine powered by diesel fuel."}</skos:scopeNote>
+        <skos:prefLabel xml:lang="en">{"id": "3e3dab7a-3b5d-41d1-8a5e-51402823e06c", "value": "Diesel Engine"}</skos:prefLabel>
+        <dcterms:identifier xml:lang="en">{"id": "ff75daf8-eeca-41a0-beef-b7ae9f8c5be2", "value": "http://purl.org/heritagedata/schemes/7145/concepts/13304"}</dcterms:identifier>
+        <arches:notation xml:lang="en">{"id": "30904229-6c6b-4eb1-854d-0d923e77345e", "value": "Liquid error: Object reference not set to an instance of an object."}</arches:notation>
+      </skos:Concept>
+    </skos:narrower>
+    <dcterms:identifier xml:lang="en">{"id": "d5852c5d-aa87-4963-8d32-67460a5bef7b", "value": "http://purl.org/heritagedata/schemes/7145/concepts/13300"}</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/35c47c9e-4f43-3294-8aa8-052ee5c55cbe"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/1a163377-b4f1-3ba4-ace8-b2e5f18ada10">
+        <arches:notation xml:lang="en">{"id": "a20449a9-988b-4cc9-8ee8-f30459edb6d7", "value": "Liquid error: Object reference not set to an instance of an object."}</arches:notation>
+        <dcterms:identifier xml:lang="en">{"id": "ef94d5c8-1ade-4648-977d-afd3731d8935", "value": "http://purl.org/heritagedata/schemes/7145/concepts/13302"}</dcterms:identifier>
+        <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/35c47c9e-4f43-3294-8aa8-052ee5c55cbe"/>
+        <skos:scopeNote xml:lang="en">{"id": "fe581e89-0018-4a4a-bbb4-561b6a776b7c", "value": "An  engine, which provides forward thrust by pulling in air, heating and compressing it, then expelling it along with exhaust gasses."}</skos:scopeNote>
+        <skos:prefLabel xml:lang="en">{"id": "f9b2b560-52c7-4f48-b662-a08cba002547", "value": "Jet Engine"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower rdf:resource="https://nmhr.historicengland.org.uk/04b6cfb6-7602-3125-9e3d-3223b684a522"/>
+    <skos:prefLabel xml:lang="en">{"id": "9b44953a-9cc3-4f3a-af45-36c21b1f6973", "value": "Combustion Engine"}</skos:prefLabel>
+    <skos:narrower>
+      <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/9a8c6ec8-1085-371c-ba3e-e0203e26091b">
+        <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/35c47c9e-4f43-3294-8aa8-052ee5c55cbe"/>
+        <skos:scopeNote xml:lang="en">{"id": "e569320a-0190-464c-80e2-7395351e949d", "value": "Use where the motive power behind the turbine is unknown."}</skos:scopeNote>
+        <skos:prefLabel xml:lang="en">{"id": "1ca24187-7468-482e-b0c1-820dcd3c134c", "value": "Turbine Engine"}</skos:prefLabel>
+        <dcterms:identifier xml:lang="en">{"id": "72017f9d-5388-4c76-8750-7552377e16e8", "value": "http://purl.org/heritagedata/schemes/7145/concepts/13303"}</dcterms:identifier>
+        <arches:notation xml:lang="en">{"id": "7a1c0966-fcb8-4d82-8946-4771bdbbcd8b", "value": "Liquid error: Object reference not set to an instance of an object."}</arches:notation>
+      </skos:Concept>
+    </skos:narrower>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/eca04a6c-2b7f-3dca-bda7-44bdb1d61947">
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/35c47c9e-4f43-3294-8aa8-052ee5c55cbe"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/fceee19a-a505-30d2-853c-30ef7011a6a9">
+        <skos:prefLabel xml:lang="en">{"id": "11950789-8afc-4d34-ba41-9a6b88ecd26b", "value": "Towed (by Human)"}</skos:prefLabel>
+        <dcterms:identifier xml:lang="en">{"id": "d4b04f64-208b-42bd-b2c7-511d92cb694d", "value": "http://purl.org/heritagedata/schemes/7145/concepts/14001"}</dcterms:identifier>
+        <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/35c47c9e-4f43-3294-8aa8-052ee5c55cbe"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/4c028874-7df3-3366-aa39-d9e2632b154c">
+        <dcterms:identifier xml:lang="en">{"id": "bb5e754a-661e-4021-af03-ef066c4b527f", "value": "http://purl.org/heritagedata/schemes/7145/concepts/14002"}</dcterms:identifier>
+        <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/35c47c9e-4f43-3294-8aa8-052ee5c55cbe"/>
+        <skos:prefLabel xml:lang="en">{"id": "cbe9fbc0-9019-4b64-acfe-f16726eef660", "value": "Towed (by Animal)"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/d7791630-fbe1-3a24-b782-ff78c7b620c7">
+        <skos:prefLabel xml:lang="en">{"id": "fe9326d9-417b-492f-ba7f-12317246ee83", "value": "Towed (by Craft)"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/35c47c9e-4f43-3294-8aa8-052ee5c55cbe"/>
+        <dcterms:identifier xml:lang="en">{"id": "bedfaad2-6aaf-4367-8cc9-1ffc35fca4a3", "value": "http://purl.org/heritagedata/schemes/7145/concepts/14003"}</dcterms:identifier>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:prefLabel xml:lang="en">{"id": "78928a9d-9991-4ab3-b0b9-582c99e56a9b", "value": "Towed"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "0d8a3089-e10b-4f3c-b704-9ab8f9aab504", "value": "http://purl.org/heritagedata/schemes/7145/concepts/14000"}</dcterms:identifier>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/b9c73fd7-1f1d-3e5d-9c4d-5335cb3ede90">
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/35c47c9e-4f43-3294-8aa8-052ee5c55cbe"/>
+    <dcterms:identifier xml:lang="en">{"id": "cdd9eb12-eeab-4753-ac96-383d6d5bceca", "value": "http://purl.org/heritagedata/schemes/7145/concepts/13111"}</dcterms:identifier>
+    <arches:notation xml:lang="en">{"id": "e5512e77-9d31-4b87-ab5b-bbc7116d097d", "value": "Liquid error: Object reference not set to an instance of an object."}</arches:notation>
+    <skos:scopeNote xml:lang="en">{"id": "904b02e9-abe3-42a8-a768-d95685a9f3b7", "value": "A steam engine that uses three expansion stages of progressively lower pressure, to extract further energy from the steam."}</skos:scopeNote>
+    <skos:prefLabel xml:lang="en">{"id": "5b4c61e9-dae6-4c59-8a11-431ada8675c5", "value": "Triple-Expansion Steam Engine"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/91148b8c-db57-3d69-9791-be234a19aabe">
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/35c47c9e-4f43-3294-8aa8-052ee5c55cbe"/>
+    <skos:scopeNote xml:lang="en">{"id": "1617afbb-0b96-4118-b935-b86d4ade94f2", "value": "A watercraft powered by wind caught in an assemblage of cloth sails and masts."}</skos:scopeNote>
+    <skos:prefLabel xml:lang="en">{"id": "23fe3b40-f7cb-4ada-966c-1fd5c4e7b7f0", "value": "Sail"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "3a450df7-8965-40b9-aa83-a742235754a3", "value": "http://purl.org/heritagedata/schemes/7145/concepts/12100"}</dcterms:identifier>
+    <arches:notation xml:lang="en">{"id": "4a76d4f4-7766-4080-ab70-0ad7ab296ed7", "value": "Liquid error: Object reference not set to an instance of an object."}</arches:notation>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/3833a2fb-fccc-36f7-865d-4163cba600de">
+    <skos:prefLabel xml:lang="en">{"id": "a635b5c6-e69a-4610-a7b8-2c220afee59f", "value": "Wind"}</skos:prefLabel>
+    <dcterms:identifier xml:lang="en">{"id": "5c984911-83d7-4113-9f94-183b14bd330f", "value": "http://purl.org/heritagedata/schemes/7145/concepts/12000"}</dcterms:identifier>
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/35c47c9e-4f43-3294-8aa8-052ee5c55cbe"/>
+    <skos:narrower rdf:resource="https://nmhr.historicengland.org.uk/91148b8c-db57-3d69-9791-be234a19aabe"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/fa0527db-b74f-3122-9854-e701a8e45e2d">
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/35c47c9e-4f43-3294-8aa8-052ee5c55cbe"/>
+    <dcterms:identifier xml:lang="en">{"id": "22458fe0-6ce1-4809-b228-0d99358c4776", "value": "http://purl.org/heritagedata/schemes/7145/concepts/13000"}</dcterms:identifier>
+    <skos:narrower rdf:resource="https://nmhr.historicengland.org.uk/c1000bfc-18d7-3560-abde-db804b82f8b6"/>
+    <skos:narrower rdf:resource="https://nmhr.historicengland.org.uk/78a92a47-9372-3ae8-b805-ee88ea101942"/>
+    <skos:narrower rdf:resource="https://nmhr.historicengland.org.uk/d423fddf-3a38-3baf-9bdb-f30bc1c57dc6"/>
+    <skos:prefLabel xml:lang="en">{"id": "805d212d-5300-47f0-9bf9-c6b798005a5d", "value": "Machine"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/e418b78d-7ebc-38f7-9091-2af7883c04f9">
+    <dcterms:identifier xml:lang="en">{"id": "06a5cd16-aa71-45cc-b57f-c8fa99a8d430", "value": "http://purl.org/heritagedata/schemes/7145/concepts/15000"}</dcterms:identifier>
+    <skos:prefLabel xml:lang="en">{"id": "7403c2ec-5865-4ada-a202-6f32e6f8c46c", "value": "Unknown"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/35c47c9e-4f43-3294-8aa8-052ee5c55cbe"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/40b882e5-e205-3b4d-887a-54e8dacbbbc8">
+    <skos:prefLabel xml:lang="en">{"id": "c90f495c-e981-49c1-90cd-0bb8b703c4ef", "value": "Compound Steam Engine"}</skos:prefLabel>
+    <arches:notation xml:lang="en">{"id": "bc5090ad-1d80-4776-adb9-49ecc2829943", "value": "Liquid error: Object reference not set to an instance of an object."}</arches:notation>
+    <skos:scopeNote xml:lang="en">{"id": "db8fdbd2-ca60-48c3-a3f5-595efa481ce7", "value": "A type of steam engine where the steam is first expanded in a high-pressure cylinder, then having given up heat and losing pressure, it exhausts directly into one or more larger volume low-pressure cylinders."}</skos:scopeNote>
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/35c47c9e-4f43-3294-8aa8-052ee5c55cbe"/>
+    <dcterms:identifier xml:lang="en">{"id": "456cec91-f579-4568-88b9-5988b7a45f4b", "value": "http://purl.org/heritagedata/schemes/7145/concepts/13110"}</dcterms:identifier>
+  </skos:Concept>
+</rdf:RDF>

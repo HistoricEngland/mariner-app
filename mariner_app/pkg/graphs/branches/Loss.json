@@ -1,0 +1,1687 @@
+{
+    "graph": [
+        {
+            "author": "",
+            "cards": [
+                {
+                    "active": true,
+                    "cardid": "21076292-2fdb-11ef-bb1d-0242ac130006",
+                    "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
+                    "config": null,
+                    "constraints": [],
+                    "cssclass": null,
+                    "description": {
+                        "en": ""
+                    },
+                    "graph_id": "21075798-2fdb-11ef-bb1d-0242ac130006",
+                    "helpenabled": false,
+                    "helptext": {
+                        "en": null
+                    },
+                    "helptitle": {
+                        "en": null
+                    },
+                    "instructions": {
+                        "en": null
+                    },
+                    "is_editable": true,
+                    "name": {
+                        "en": "Loss"
+                    },
+                    "nodegroup_id": "21075ce8-2fdb-11ef-bb1d-0242ac130006",
+                    "sortorder": null,
+                    "visible": true
+                }
+            ],
+            "cards_x_nodes_x_widgets": [
+                {
+                    "card_id": "21076292-2fdb-11ef-bb1d-0242ac130006",
+                    "config": {
+                        "defaultValue": "",
+                        "format": "",
+                        "i18n_properties": [
+                            "placeholder",
+                            "prefix",
+                            "suffix"
+                        ],
+                        "label": "Passengers Lost",
+                        "max": "",
+                        "min": "",
+                        "placeholder": {
+                            "en": "Enter number"
+                        },
+                        "precision": "",
+                        "prefix": {
+                            "en": ""
+                        },
+                        "step": "",
+                        "suffix": {
+                            "en": ""
+                        },
+                        "uneditable": false,
+                        "width": "100%"
+                    },
+                    "id": "2107ac84-2fdb-11ef-bb1d-0242ac130006",
+                    "label": {
+                        "en": "Passengers Lost"
+                    },
+                    "node_id": "21076814-2fdb-11ef-bb1d-0242ac130006",
+                    "sortorder": null,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000008"
+                },
+                {
+                    "card_id": "21076292-2fdb-11ef-bb1d-0242ac130006",
+                    "config": {
+                        "defaultValue": "",
+                        "format": "",
+                        "i18n_properties": [
+                            "placeholder",
+                            "prefix",
+                            "suffix"
+                        ],
+                        "label": "Crew Lost",
+                        "max": "",
+                        "min": "",
+                        "placeholder": {
+                            "en": "Enter number"
+                        },
+                        "precision": "",
+                        "prefix": {
+                            "en": ""
+                        },
+                        "step": "",
+                        "suffix": {
+                            "en": ""
+                        },
+                        "uneditable": false,
+                        "width": "100%"
+                    },
+                    "id": "2107ad74-2fdb-11ef-bb1d-0242ac130006",
+                    "label": {
+                        "en": "Crew Lost"
+                    },
+                    "node_id": "21076a44-2fdb-11ef-bb1d-0242ac130006",
+                    "sortorder": null,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000008"
+                },
+                {
+                    "card_id": "21076292-2fdb-11ef-bb1d-0242ac130006",
+                    "config": {
+                        "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
+                        "label": "Place of Loss Name",
+                        "options": [],
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
+                    },
+                    "id": "2107ae50-2fdb-11ef-bb1d-0242ac130006",
+                    "label": {
+                        "en": "Place of Loss Name"
+                    },
+                    "node_id": "210789d4-2fdb-11ef-bb1d-0242ac130006",
+                    "sortorder": 0,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000002"
+                },
+                {
+                    "card_id": "21076292-2fdb-11ef-bb1d-0242ac130006",
+                    "config": {
+                        "defaultResourceInstance": [],
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
+                        "label": "Associated Wreck Site",
+                        "placeholder": {
+                            "en": ""
+                        }
+                    },
+                    "id": "2107af2c-2fdb-11ef-bb1d-0242ac130006",
+                    "label": {
+                        "en": "Associated Wreck Site"
+                    },
+                    "node_id": "2107a19e-2fdb-11ef-bb1d-0242ac130006",
+                    "sortorder": 1,
+                    "visible": true,
+                    "widget_id": "ff3c400a-76ec-11e7-a793-784f435179ea"
+                },
+                {
+                    "card_id": "21076292-2fdb-11ef-bb1d-0242ac130006",
+                    "config": {
+                        "defaultResourceInstance": [],
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
+                        "label": "Associated Event",
+                        "placeholder": {
+                            "en": ""
+                        }
+                    },
+                    "id": "2107aff4-2fdb-11ef-bb1d-0242ac130006",
+                    "label": {
+                        "en": "Associated Event"
+                    },
+                    "node_id": "2107a3ba-2fdb-11ef-bb1d-0242ac130006",
+                    "sortorder": 2,
+                    "visible": true,
+                    "widget_id": "ff3c400a-76ec-11e7-a793-784f435179ea"
+                },
+                {
+                    "card_id": "21076292-2fdb-11ef-bb1d-0242ac130006",
+                    "config": {
+                        "defaultValue": "279a8478-a5c0-4d99-a1aa-1f71cc6d3392",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
+                        "label": "Place of Loss Name Type",
+                        "options": [],
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
+                    },
+                    "id": "2107b0d0-2fdb-11ef-bb1d-0242ac130006",
+                    "label": {
+                        "en": "Place of Loss Name Type"
+                    },
+                    "node_id": "21079050-2fdb-11ef-bb1d-0242ac130006",
+                    "sortorder": 3,
+                    "visible": false,
+                    "widget_id": "10000000-0000-0000-0000-000000000002"
+                },
+                {
+                    "card_id": "21076292-2fdb-11ef-bb1d-0242ac130006",
+                    "config": {
+                        "defaultValue": "a0e096e2-f5ae-4579-950d-3040714713b4",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
+                        "label": "Place of Loss Name Metatype",
+                        "options": [],
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
+                    },
+                    "id": "2107b1a2-2fdb-11ef-bb1d-0242ac130006",
+                    "label": {
+                        "en": "Place of Loss Name Metatype"
+                    },
+                    "node_id": "21077e30-2fdb-11ef-bb1d-0242ac130006",
+                    "sortorder": 4,
+                    "visible": false,
+                    "widget_id": "10000000-0000-0000-0000-000000000002"
+                },
+                {
+                    "card_id": "21076292-2fdb-11ef-bb1d-0242ac130006",
+                    "config": {
+                        "defaultValue": "2df285fa-9cf2-45e7-bc05-a67b7d7ddc2f",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
+                        "label": "Place of Loss Name Use Type",
+                        "options": [],
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
+                    },
+                    "id": "2107b26a-2fdb-11ef-bb1d-0242ac130006",
+                    "label": {
+                        "en": "Place of Loss Name Use Type"
+                    },
+                    "node_id": "210784c0-2fdb-11ef-bb1d-0242ac130006",
+                    "sortorder": 5,
+                    "visible": false,
+                    "widget_id": "10000000-0000-0000-0000-000000000002"
+                },
+                {
+                    "card_id": "21076292-2fdb-11ef-bb1d-0242ac130006",
+                    "config": {
+                        "defaultValue": "04a4c4d5-5a5e-4018-93aa-65abaa53fb53",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
+                        "label": "Place of Loss Name Use Metatype",
+                        "options": [],
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
+                    },
+                    "id": "2107b33c-2fdb-11ef-bb1d-0242ac130006",
+                    "label": {
+                        "en": "Place of Loss Name Use Metatype"
+                    },
+                    "node_id": "21079b04-2fdb-11ef-bb1d-0242ac130006",
+                    "sortorder": 6,
+                    "visible": false,
+                    "widget_id": "10000000-0000-0000-0000-000000000002"
+                },
+                {
+                    "card_id": "21076292-2fdb-11ef-bb1d-0242ac130006",
+                    "config": {
+                        "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
+                        "label": "Place of Loss Name Currency",
+                        "options": [
+                            {
+                                "children": [],
+                                "collector": "",
+                                "conceptid": "9f404b29-797a-44cf-8693-25089566935f",
+                                "id": "c2051d53-40e7-4a2d-a4b4-02a31da37fd1",
+                                "sortorder": "",
+                                "text": "Current"
+                            },
+                            {
+                                "children": [],
+                                "collector": "",
+                                "conceptid": "d8b0f140-9cce-482b-be4e-fbaedc4e04c2",
+                                "id": "e756530f-40af-4a88-a1d5-39b03c1b809a",
+                                "sortorder": "",
+                                "text": "Former"
+                            },
+                            {
+                                "children": [],
+                                "collector": "",
+                                "conceptid": "4ef38f1c-ff8c-4d4c-bc0b-c06231419c80",
+                                "id": "2e820298-0d7b-4810-9e46-e16f255b9631",
+                                "sortorder": "",
+                                "text": "Historic"
+                            }
+                        ],
+                        "placeholder": {
+                            "en": "Select an option"
+                        },
+                        "url": "/concepts/dropdown?conceptid=a346ee99-67f6-44cd-87f7-b564ce32cdf3"
+                    },
+                    "id": "2107b404-2fdb-11ef-bb1d-0242ac130006",
+                    "label": {
+                        "en": "Place of Loss Name Currency"
+                    },
+                    "node_id": "21077c00-2fdb-11ef-bb1d-0242ac130006",
+                    "sortorder": 7,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000009"
+                },
+                {
+                    "card_id": "21076292-2fdb-11ef-bb1d-0242ac130006",
+                    "config": {
+                        "defaultValue": "5a88136a-bf3a-4b48-a830-a7f42000dd24",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
+                        "label": "Place of Loss Name Currency Metatype",
+                        "options": [],
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
+                    },
+                    "id": "2107b4cc-2fdb-11ef-bb1d-0242ac130006",
+                    "label": {
+                        "en": "Place of Loss Name Currency Metatype"
+                    },
+                    "node_id": "21076c74-2fdb-11ef-bb1d-0242ac130006",
+                    "sortorder": 8,
+                    "visible": false,
+                    "widget_id": "10000000-0000-0000-0000-000000000002"
+                },
+                {
+                    "card_id": "21076292-2fdb-11ef-bb1d-0242ac130006",
+                    "config": {
+                        "defaultResourceInstance": [],
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
+                        "label": "Named Location",
+                        "placeholder": {
+                            "en": ""
+                        }
+                    },
+                    "id": "2107b594-2fdb-11ef-bb1d-0242ac130006",
+                    "label": {
+                        "en": "Named Location"
+                    },
+                    "node_id": "210770d4-2fdb-11ef-bb1d-0242ac130006",
+                    "sortorder": 9,
+                    "visible": true,
+                    "widget_id": "31f3728c-7613-11e7-a139-784f435179ea"
+                },
+                {
+                    "card_id": "21076292-2fdb-11ef-bb1d-0242ac130006",
+                    "config": {
+                        "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
+                        "label": "Primary Manner of Loss",
+                        "options": [],
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
+                    },
+                    "id": "2107b65c-2fdb-11ef-bb1d-0242ac130006",
+                    "label": {
+                        "en": "Primary Manner of Loss"
+                    },
+                    "node_id": "21078bfa-2fdb-11ef-bb1d-0242ac130006",
+                    "sortorder": 10,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000002"
+                },
+                {
+                    "card_id": "21076292-2fdb-11ef-bb1d-0242ac130006",
+                    "config": {
+                        "defaultValue": "62f3f620-ea25-46c8-9a7b-dbadf23aa874",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
+                        "label": "Primary Manner of Loss Metatype",
+                        "options": [],
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
+                    },
+                    "id": "2107b724-2fdb-11ef-bb1d-0242ac130006",
+                    "label": {
+                        "en": "Primary Manner of Loss Metatype"
+                    },
+                    "node_id": "210796ae-2fdb-11ef-bb1d-0242ac130006",
+                    "sortorder": 11,
+                    "visible": false,
+                    "widget_id": "10000000-0000-0000-0000-000000000002"
+                },
+                {
+                    "card_id": "21076292-2fdb-11ef-bb1d-0242ac130006",
+                    "config": {
+                        "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
+                        "label": "Secondary Manner of Loss",
+                        "options": [],
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
+                    },
+                    "id": "2107b7f6-2fdb-11ef-bb1d-0242ac130006",
+                    "label": {
+                        "en": "Secondary Manner of Loss"
+                    },
+                    "node_id": "210779da-2fdb-11ef-bb1d-0242ac130006",
+                    "sortorder": 12,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000012"
+                },
+                {
+                    "card_id": "21076292-2fdb-11ef-bb1d-0242ac130006",
+                    "config": {
+                        "defaultValue": "62f3f620-ea25-46c8-9a7b-dbadf23aa874",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
+                        "label": "Secondary Manner of Loss Metatype",
+                        "options": [],
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
+                    },
+                    "id": "2107b8be-2fdb-11ef-bb1d-0242ac130006",
+                    "label": {
+                        "en": "Secondary Manner of Loss Metatype"
+                    },
+                    "node_id": "210777a0-2fdb-11ef-bb1d-0242ac130006",
+                    "sortorder": 13,
+                    "visible": false,
+                    "widget_id": "10000000-0000-0000-0000-000000000002"
+                },
+                {
+                    "card_id": "21076292-2fdb-11ef-bb1d-0242ac130006",
+                    "config": {
+                        "defaultResourceInstance": [],
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
+                        "label": "Sunk by",
+                        "placeholder": {
+                            "en": ""
+                        }
+                    },
+                    "id": "2107b97c-2fdb-11ef-bb1d-0242ac130006",
+                    "label": {
+                        "en": "Sunk by"
+                    },
+                    "node_id": "21079f78-2fdb-11ef-bb1d-0242ac130006",
+                    "sortorder": 14,
+                    "visible": true,
+                    "widget_id": "ff3c400a-76ec-11e7-a793-784f435179ea"
+                },
+                {
+                    "card_id": "21076292-2fdb-11ef-bb1d-0242ac130006",
+                    "config": {
+                        "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
+                        "label": "Date of Loss Start",
+                        "placeholder": {
+                            "en": ""
+                        }
+                    },
+                    "id": "2107ba4e-2fdb-11ef-bb1d-0242ac130006",
+                    "label": {
+                        "en": "Date of Loss Start"
+                    },
+                    "node_id": "2107658a-2fdb-11ef-bb1d-0242ac130006",
+                    "sortorder": 15,
+                    "visible": true,
+                    "widget_id": "adfd15ce-dbab-11e7-86d1-0fcf08612b27"
+                },
+                {
+                    "card_id": "21076292-2fdb-11ef-bb1d-0242ac130006",
+                    "config": {
+                        "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
+                        "label": "Date of Loss End",
+                        "placeholder": {
+                            "en": ""
+                        }
+                    },
+                    "id": "2107bb16-2fdb-11ef-bb1d-0242ac130006",
+                    "label": {
+                        "en": "Date of Loss End"
+                    },
+                    "node_id": "2107aaa4-2fdb-11ef-bb1d-0242ac130006",
+                    "sortorder": 16,
+                    "visible": true,
+                    "widget_id": "adfd15ce-dbab-11e7-86d1-0fcf08612b27"
+                },
+                {
+                    "card_id": "21076292-2fdb-11ef-bb1d-0242ac130006",
+                    "config": {
+                        "defaultValue": {
+                            "en": {
+                                "direction": "ltr",
+                                "value": ""
+                            }
+                        },
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
+                        "label": "Date of Loss Display Date",
+                        "maxLength": null,
+                        "placeholder": {
+                            "en": "Enter text"
+                        },
+                        "uneditable": false,
+                        "width": "100%"
+                    },
+                    "id": "2107bbe8-2fdb-11ef-bb1d-0242ac130006",
+                    "label": {
+                        "en": "Date of Loss Display Date"
+                    },
+                    "node_id": "21078e2a-2fdb-11ef-bb1d-0242ac130006",
+                    "sortorder": 17,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000001"
+                },
+                {
+                    "card_id": "21076292-2fdb-11ef-bb1d-0242ac130006",
+                    "config": {
+                        "defaultValue": "39a33725-9b43-47b0-9997-daa99ab29d26",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
+                        "label": "Date Qualifier",
+                        "options": [],
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
+                    },
+                    "id": "2107bcba-2fdb-11ef-bb1d-0242ac130006",
+                    "label": {
+                        "en": "Date Qualifier"
+                    },
+                    "node_id": "2107926c-2fdb-11ef-bb1d-0242ac130006",
+                    "sortorder": 18,
+                    "visible": false,
+                    "widget_id": "10000000-0000-0000-0000-000000000002"
+                },
+                {
+                    "card_id": "21076292-2fdb-11ef-bb1d-0242ac130006",
+                    "config": {
+                        "defaultValue": "59a0c936-3f60-44f9-9e37-67b6ed0f4fa4",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
+                        "label": "Date of Loss TImespan Date Qualifier Metatype",
+                        "options": [],
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
+                    },
+                    "id": "2107bd82-2fdb-11ef-bb1d-0242ac130006",
+                    "label": {
+                        "en": "Date of Loss TImespan Date Qualifier Metatype"
+                    },
+                    "node_id": "21076ea4-2fdb-11ef-bb1d-0242ac130006",
+                    "sortorder": 19,
+                    "visible": false,
+                    "widget_id": "10000000-0000-0000-0000-000000000002"
+                },
+                {
+                    "card_id": "21076292-2fdb-11ef-bb1d-0242ac130006",
+                    "config": {
+                        "basemap": "streets",
+                        "bearing": 0,
+                        "centerX": -4.296799178659593,
+                        "centerY": 51.847117973725695,
+                        "defaultValue": "",
+                        "defaultValueType": "",
+                        "featureColor": "#FF0000",
+                        "featureLineWidth": 1,
+                        "featurePointSize": 3,
+                        "geocodePlaceholder": "Search",
+                        "geocodeProvider": "10000000-0000-0000-0000-010000000000",
+                        "geocoderVisible": true,
+                        "geometryTypes": [
+                            {
+                                "id": "Point",
+                                "text": "Point"
+                            },
+                            {
+                                "id": "Line",
+                                "text": "Line"
+                            },
+                            {
+                                "id": "Polygon",
+                                "text": "Polygon"
+                            }
+                        ],
+                        "label": "Place of Loss Geospatial Coordinates",
+                        "maxZoom": 20,
+                        "minZoom": 0,
+                        "overlayConfigs": [],
+                        "overlayOpacity": 0,
+                        "pitch": 0,
+                        "rerender": true,
+                        "zoom": "4"
+                    },
+                    "id": "2107be4a-2fdb-11ef-bb1d-0242ac130006",
+                    "label": {
+                        "en": "Place of Loss Geospatial Coordinates"
+                    },
+                    "node_id": "2107a5ea-2fdb-11ef-bb1d-0242ac130006",
+                    "sortorder": 20,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000007"
+                }
+            ],
+            "color": "rgba(33,59,134,1)",
+            "config": {
+                "basemap": "streets",
+                "bearing": 0,
+                "centerX": -1.5983286851933372,
+                "centerY": 53.155430248627454,
+                "defaultValue": "",
+                "defaultValueType": 0,
+                "featureColor": "#FF0000",
+                "featureEditingDisabled": true,
+                "featureLineWidth": 1,
+                "featurePointSize": 3,
+                "geocodePlaceholder": "Search",
+                "geocodeProvider": "10000000-0000-0000-0000-010000000000",
+                "geocoderVisible": true,
+                "geometryTypes": [
+                    {
+                        "id": "Point",
+                        "text": "Point"
+                    },
+                    {
+                        "id": "Line",
+                        "text": "Line"
+                    },
+                    {
+                        "id": "Polygon",
+                        "text": "Polygon"
+                    }
+                ],
+                "mapControlsHidden": false,
+                "maxZoom": 20,
+                "minZoom": 0,
+                "overlayConfigs": [],
+                "overlayOpacity": 0,
+                "pitch": 0,
+                "zoom": 4.908319487490616
+            },
+            "deploymentdate": null,
+            "deploymentfile": null,
+            "description": {
+                "en": ""
+            },
+            "edges": [
+                {
+                    "description": null,
+                    "domainnode_id": "2107879a-2fdb-11ef-bb1d-0242ac130006",
+                    "edgeid": "2108d26c-2fdb-11ef-bb1d-0242ac130006",
+                    "graph_id": "21075798-2fdb-11ef-bb1d-0242ac130006",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P82b_end_of_the_end",
+                    "rangenode_id": "2107aaa4-2fdb-11ef-bb1d-0242ac130006"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "2107879a-2fdb-11ef-bb1d-0242ac130006",
+                    "edgeid": "2108d528-2fdb-11ef-bb1d-0242ac130006",
+                    "graph_id": "21075798-2fdb-11ef-bb1d-0242ac130006",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P82a_begin_of_the_begin",
+                    "rangenode_id": "2107658a-2fdb-11ef-bb1d-0242ac130006"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "21075ce8-2fdb-11ef-bb1d-0242ac130006",
+                    "edgeid": "2108d69a-2fdb-11ef-bb1d-0242ac130006",
+                    "graph_id": "21075798-2fdb-11ef-bb1d-0242ac130006",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "rangenode_id": "210779da-2fdb-11ef-bb1d-0242ac130006"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "21075ce8-2fdb-11ef-bb1d-0242ac130006",
+                    "edgeid": "2108d80c-2fdb-11ef-bb1d-0242ac130006",
+                    "graph_id": "21075798-2fdb-11ef-bb1d-0242ac130006",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P93_took_out_of_existence",
+                    "rangenode_id": "21076814-2fdb-11ef-bb1d-0242ac130006"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "21075ce8-2fdb-11ef-bb1d-0242ac130006",
+                    "edgeid": "2108d974-2fdb-11ef-bb1d-0242ac130006",
+                    "graph_id": "21075798-2fdb-11ef-bb1d-0242ac130006",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P93_took_out_of_existence",
+                    "rangenode_id": "21076a44-2fdb-11ef-bb1d-0242ac130006"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "210779da-2fdb-11ef-bb1d-0242ac130006",
+                    "edgeid": "2108dad2-2fdb-11ef-bb1d-0242ac130006",
+                    "graph_id": "21075798-2fdb-11ef-bb1d-0242ac130006",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "rangenode_id": "210777a0-2fdb-11ef-bb1d-0242ac130006"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "210798d4-2fdb-11ef-bb1d-0242ac130006",
+                    "edgeid": "2108dc26-2fdb-11ef-bb1d-0242ac130006",
+                    "graph_id": "21075798-2fdb-11ef-bb1d-0242ac130006",
+                    "name": null,
+                    "ontologyproperty": "http://www.ics.forth.gr/isl/CRMgeo/Q11i_is_approximated_by",
+                    "rangenode_id": "21079488-2fdb-11ef-bb1d-0242ac130006"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "21079488-2fdb-11ef-bb1d-0242ac130006",
+                    "edgeid": "2108dda2-2fdb-11ef-bb1d-0242ac130006",
+                    "graph_id": "21075798-2fdb-11ef-bb1d-0242ac130006",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P168_place_is_defined_by",
+                    "rangenode_id": "2107a5ea-2fdb-11ef-bb1d-0242ac130006"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "21075ce8-2fdb-11ef-bb1d-0242ac130006",
+                    "edgeid": "2108df00-2fdb-11ef-bb1d-0242ac130006",
+                    "graph_id": "21075798-2fdb-11ef-bb1d-0242ac130006",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "rangenode_id": "21078bfa-2fdb-11ef-bb1d-0242ac130006"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "21075ce8-2fdb-11ef-bb1d-0242ac130006",
+                    "edgeid": "2108e054-2fdb-11ef-bb1d-0242ac130006",
+                    "graph_id": "21075798-2fdb-11ef-bb1d-0242ac130006",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P117_occurs_during",
+                    "rangenode_id": "2107a3ba-2fdb-11ef-bb1d-0242ac130006"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "210774f8-2fdb-11ef-bb1d-0242ac130006",
+                    "edgeid": "2108e1b2-2fdb-11ef-bb1d-0242ac130006",
+                    "graph_id": "21075798-2fdb-11ef-bb1d-0242ac130006",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "rangenode_id": "210784c0-2fdb-11ef-bb1d-0242ac130006"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "21075ce8-2fdb-11ef-bb1d-0242ac130006",
+                    "edgeid": "2108e310-2fdb-11ef-bb1d-0242ac130006",
+                    "graph_id": "21075798-2fdb-11ef-bb1d-0242ac130006",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at",
+                    "rangenode_id": "210770d4-2fdb-11ef-bb1d-0242ac130006"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "2107879a-2fdb-11ef-bb1d-0242ac130006",
+                    "edgeid": "2108e464-2fdb-11ef-bb1d-0242ac130006",
+                    "graph_id": "21075798-2fdb-11ef-bb1d-0242ac130006",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P3_has_note",
+                    "rangenode_id": "21078e2a-2fdb-11ef-bb1d-0242ac130006"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "2107926c-2fdb-11ef-bb1d-0242ac130006",
+                    "edgeid": "2108e5c2-2fdb-11ef-bb1d-0242ac130006",
+                    "graph_id": "21075798-2fdb-11ef-bb1d-0242ac130006",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "rangenode_id": "21076ea4-2fdb-11ef-bb1d-0242ac130006"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "21075ce8-2fdb-11ef-bb1d-0242ac130006",
+                    "edgeid": "2108e928-2fdb-11ef-bb1d-0242ac130006",
+                    "graph_id": "21075798-2fdb-11ef-bb1d-0242ac130006",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span",
+                    "rangenode_id": "2107879a-2fdb-11ef-bb1d-0242ac130006"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "210774f8-2fdb-11ef-bb1d-0242ac130006",
+                    "edgeid": "2108eb12-2fdb-11ef-bb1d-0242ac130006",
+                    "graph_id": "21075798-2fdb-11ef-bb1d-0242ac130006",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "rangenode_id": "21079050-2fdb-11ef-bb1d-0242ac130006"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "21075ce8-2fdb-11ef-bb1d-0242ac130006",
+                    "edgeid": "2108ec84-2fdb-11ef-bb1d-0242ac130006",
+                    "graph_id": "21075798-2fdb-11ef-bb1d-0242ac130006",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P116_starts",
+                    "rangenode_id": "21079d2a-2fdb-11ef-bb1d-0242ac130006"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "210774f8-2fdb-11ef-bb1d-0242ac130006",
+                    "edgeid": "2108ede2-2fdb-11ef-bb1d-0242ac130006",
+                    "graph_id": "21075798-2fdb-11ef-bb1d-0242ac130006",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "rangenode_id": "21077c00-2fdb-11ef-bb1d-0242ac130006"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "210774f8-2fdb-11ef-bb1d-0242ac130006",
+                    "edgeid": "2108ef36-2fdb-11ef-bb1d-0242ac130006",
+                    "graph_id": "21075798-2fdb-11ef-bb1d-0242ac130006",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P3_has_note",
+                    "rangenode_id": "210789d4-2fdb-11ef-bb1d-0242ac130006"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "21079050-2fdb-11ef-bb1d-0242ac130006",
+                    "edgeid": "2108f094-2fdb-11ef-bb1d-0242ac130006",
+                    "graph_id": "21075798-2fdb-11ef-bb1d-0242ac130006",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "rangenode_id": "21077e30-2fdb-11ef-bb1d-0242ac130006"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "210784c0-2fdb-11ef-bb1d-0242ac130006",
+                    "edgeid": "2108f1e8-2fdb-11ef-bb1d-0242ac130006",
+                    "graph_id": "21075798-2fdb-11ef-bb1d-0242ac130006",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "rangenode_id": "21079b04-2fdb-11ef-bb1d-0242ac130006"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "21077c00-2fdb-11ef-bb1d-0242ac130006",
+                    "edgeid": "2108f33c-2fdb-11ef-bb1d-0242ac130006",
+                    "graph_id": "21075798-2fdb-11ef-bb1d-0242ac130006",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "rangenode_id": "21076c74-2fdb-11ef-bb1d-0242ac130006"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "210798d4-2fdb-11ef-bb1d-0242ac130006",
+                    "edgeid": "2108f490-2fdb-11ef-bb1d-0242ac130006",
+                    "graph_id": "21075798-2fdb-11ef-bb1d-0242ac130006",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by",
+                    "rangenode_id": "210774f8-2fdb-11ef-bb1d-0242ac130006"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "21075ce8-2fdb-11ef-bb1d-0242ac130006",
+                    "edgeid": "2108f5e4-2fdb-11ef-bb1d-0242ac130006",
+                    "graph_id": "21075798-2fdb-11ef-bb1d-0242ac130006",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P161_has_spatial_projection",
+                    "rangenode_id": "210798d4-2fdb-11ef-bb1d-0242ac130006"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "2107879a-2fdb-11ef-bb1d-0242ac130006",
+                    "edgeid": "2108f95e-2fdb-11ef-bb1d-0242ac130006",
+                    "graph_id": "21075798-2fdb-11ef-bb1d-0242ac130006",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "rangenode_id": "2107926c-2fdb-11ef-bb1d-0242ac130006"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "21078bfa-2fdb-11ef-bb1d-0242ac130006",
+                    "edgeid": "2108fb3e-2fdb-11ef-bb1d-0242ac130006",
+                    "graph_id": "21075798-2fdb-11ef-bb1d-0242ac130006",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "rangenode_id": "210796ae-2fdb-11ef-bb1d-0242ac130006"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "21079d2a-2fdb-11ef-bb1d-0242ac130006",
+                    "edgeid": "2108fca6-2fdb-11ef-bb1d-0242ac130006",
+                    "graph_id": "21075798-2fdb-11ef-bb1d-0242ac130006",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P92_brought_into_existence",
+                    "rangenode_id": "2107a19e-2fdb-11ef-bb1d-0242ac130006"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "21075ce8-2fdb-11ef-bb1d-0242ac130006",
+                    "edgeid": "2108fe0e-2fdb-11ef-bb1d-0242ac130006",
+                    "graph_id": "21075798-2fdb-11ef-bb1d-0242ac130006",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P12_occurred_in_the_presence_of",
+                    "rangenode_id": "21079f78-2fdb-11ef-bb1d-0242ac130006"
+                }
+            ],
+            "functions_x_graphs": [],
+            "graphid": "21075798-2fdb-11ef-bb1d-0242ac130006",
+            "iconclass": "fa fa-ship",
+            "is_editable": true,
+            "isresource": false,
+            "jsonldcontext": null,
+            "name": {
+                "en": "Loss"
+            },
+            "nodegroups": [
+                {
+                    "cardinality": "1",
+                    "legacygroupid": null,
+                    "nodegroupid": "21075ce8-2fdb-11ef-bb1d-0242ac130006",
+                    "parentnodegroup_id": null
+                }
+            ],
+            "nodes": [
+                {
+                    "alias": "loss",
+                    "config": {},
+                    "datatype": "semantic",
+                    "description": "USed to record the place, time and manner of loss of a vessel",
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "21075798-2fdb-11ef-bb1d-0242ac130006",
+                    "hascustomalias": false,
+                    "is_collector": true,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": true,
+                    "name": "Loss",
+                    "nodegroup_id": "21075ce8-2fdb-11ef-bb1d-0242ac130006",
+                    "nodeid": "21075ce8-2fdb-11ef-bb1d-0242ac130006",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E6_Destruction",
+                    "parentproperty": "",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "start_date_of_loss",
+                    "config": {
+                        "fuzzy_day_padding": 1,
+                        "fuzzy_month_padding": 1,
+                        "fuzzy_season_padding": 12,
+                        "fuzzy_year_padding": 1,
+                        "multiplier_if_approximate": 1,
+                        "multiplier_if_both": 1,
+                        "multiplier_if_uncertain": 1
+                    },
+                    "datatype": "edtf",
+                    "description": null,
+                    "exportable": true,
+                    "fieldname": "SDateLoss",
+                    "graph_id": "21075798-2fdb-11ef-bb1d-0242ac130006",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Start Date of Loss",
+                    "nodegroup_id": "21075ce8-2fdb-11ef-bb1d-0242ac130006",
+                    "nodeid": "2107658a-2fdb-11ef-bb1d-0242ac130006",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E61_Time_Primitive",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P82a_begin_of_the_begin",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "passengers_lost",
+                    "config": {},
+                    "datatype": "number",
+                    "description": null,
+                    "exportable": true,
+                    "fieldname": "PassLostNo",
+                    "graph_id": "21075798-2fdb-11ef-bb1d-0242ac130006",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Passengers Lost",
+                    "nodegroup_id": "21075ce8-2fdb-11ef-bb1d-0242ac130006",
+                    "nodeid": "21076814-2fdb-11ef-bb1d-0242ac130006",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E39_Actor",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P93_took_out_of_existence",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "crew_lost",
+                    "config": {},
+                    "datatype": "number",
+                    "description": null,
+                    "exportable": true,
+                    "fieldname": "CrewLostNo",
+                    "graph_id": "21075798-2fdb-11ef-bb1d-0242ac130006",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Crew Lost",
+                    "nodegroup_id": "21075ce8-2fdb-11ef-bb1d-0242ac130006",
+                    "nodeid": "21076a44-2fdb-11ef-bb1d-0242ac130006",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E39_Actor",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P93_took_out_of_existence",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "place_of_loss_name_currency_metatype",
+                    "config": {
+                        "rdmCollection": "1e63c514-eb9d-48d3-94b5-35e060e5f368"
+                    },
+                    "datatype": "concept",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "21075798-2fdb-11ef-bb1d-0242ac130006",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": false,
+                    "istopnode": false,
+                    "name": "Place of Loss Name Currency Metatype",
+                    "nodegroup_id": "21075ce8-2fdb-11ef-bb1d-0242ac130006",
+                    "nodeid": "21076c74-2fdb-11ef-bb1d-0242ac130006",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "date_of_loss_timespan_date_qualifier_metatype",
+                    "config": {
+                        "rdmCollection": "1e63c514-eb9d-48d3-94b5-35e060e5f368"
+                    },
+                    "datatype": "concept",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "21075798-2fdb-11ef-bb1d-0242ac130006",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": false,
+                    "istopnode": false,
+                    "name": "Date of Loss TImespan Date Qualifier Metatype",
+                    "nodegroup_id": "21075ce8-2fdb-11ef-bb1d-0242ac130006",
+                    "nodeid": "21076ea4-2fdb-11ef-bb1d-0242ac130006",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "named_location",
+                    "config": {
+                        "graphs": [
+                            {
+                                "graphid": "78b32d8c-b6f2-11ea-af42-f875a44e0e11",
+                                "name": "Place"
+                            }
+                        ],
+                        "searchDsl": "",
+                        "searchString": ""
+                    },
+                    "datatype": "resource-instance",
+                    "description": null,
+                    "exportable": true,
+                    "fieldname": "Named_Loc",
+                    "graph_id": "21075798-2fdb-11ef-bb1d-0242ac130006",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Named Location",
+                    "nodegroup_id": "21075ce8-2fdb-11ef-bb1d-0242ac130006",
+                    "nodeid": "210770d4-2fdb-11ef-bb1d-0242ac130006",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E53_Place",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "place_of_loss_names",
+                    "config": {},
+                    "datatype": "semantic",
+                    "description": "The name of a resource.Applies to Heritage Resource, Heritage Resource Group, Activity, and Historical Event.  Actors receive their 'names' from the Appellation branch.",
+                    "exportable": false,
+                    "fieldname": "",
+                    "graph_id": "21075798-2fdb-11ef-bb1d-0242ac130006",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Place of Loss Names",
+                    "nodegroup_id": "21075ce8-2fdb-11ef-bb1d-0242ac130006",
+                    "nodeid": "210774f8-2fdb-11ef-bb1d-0242ac130006",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E41_Appellation",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "secondary_manner_of_loss_metatype",
+                    "config": {
+                        "rdmCollection": "1e63c514-eb9d-48d3-94b5-35e060e5f368"
+                    },
+                    "datatype": "concept",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "21075798-2fdb-11ef-bb1d-0242ac130006",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Secondary Manner of Loss Metatype",
+                    "nodegroup_id": "21075ce8-2fdb-11ef-bb1d-0242ac130006",
+                    "nodeid": "210777a0-2fdb-11ef-bb1d-0242ac130006",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "secondary_manner_of_loss",
+                    "config": {
+                        "rdmCollection": null
+                    },
+                    "datatype": "concept-list",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "21075798-2fdb-11ef-bb1d-0242ac130006",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Secondary Manner of Loss",
+                    "nodegroup_id": "21075ce8-2fdb-11ef-bb1d-0242ac130006",
+                    "nodeid": "210779da-2fdb-11ef-bb1d-0242ac130006",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "place_of_loss_name_currency",
+                    "config": {
+                        "rdmCollection": "a346ee99-67f6-44cd-87f7-b564ce32cdf3"
+                    },
+                    "datatype": "concept",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "21075798-2fdb-11ef-bb1d-0242ac130006",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Place of Loss Name Currency",
+                    "nodegroup_id": "21075ce8-2fdb-11ef-bb1d-0242ac130006",
+                    "nodeid": "21077c00-2fdb-11ef-bb1d-0242ac130006",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "place_of_loss_name_metatype",
+                    "config": {
+                        "rdmCollection": "1e63c514-eb9d-48d3-94b5-35e060e5f368"
+                    },
+                    "datatype": "concept",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "21075798-2fdb-11ef-bb1d-0242ac130006",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": false,
+                    "istopnode": false,
+                    "name": "Place of Loss Name Metatype",
+                    "nodegroup_id": "21075ce8-2fdb-11ef-bb1d-0242ac130006",
+                    "nodeid": "21077e30-2fdb-11ef-bb1d-0242ac130006",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "place_of_loss_name_use_type",
+                    "config": {
+                        "rdmCollection": "1e4df896-992b-475e-bb5a-78817d3066d7"
+                    },
+                    "datatype": "concept",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "21075798-2fdb-11ef-bb1d-0242ac130006",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": false,
+                    "istopnode": false,
+                    "name": "Place of Loss Name Use Type",
+                    "nodegroup_id": "21075ce8-2fdb-11ef-bb1d-0242ac130006",
+                    "nodeid": "210784c0-2fdb-11ef-bb1d-0242ac130006",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "loss_timespan",
+                    "config": {},
+                    "datatype": "semantic",
+                    "description": "",
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "21075798-2fdb-11ef-bb1d-0242ac130006",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Loss Timespan",
+                    "nodegroup_id": "21075ce8-2fdb-11ef-bb1d-0242ac130006",
+                    "nodeid": "2107879a-2fdb-11ef-bb1d-0242ac130006",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "place_of_loss_name",
+                    "config": {
+                        "rdmCollection": "c3869409-0ab4-4327-9841-be7ec1da7810"
+                    },
+                    "datatype": "concept",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "21075798-2fdb-11ef-bb1d-0242ac130006",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Place of Loss Name",
+                    "nodegroup_id": "21075ce8-2fdb-11ef-bb1d-0242ac130006",
+                    "nodeid": "210789d4-2fdb-11ef-bb1d-0242ac130006",
+                    "ontologyclass": "http://www.w3.org/2000/01/rdf-schema#Literal",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P3_has_note",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "primary_manner_of_loss",
+                    "config": {
+                        "rdmCollection": null
+                    },
+                    "datatype": "concept",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "21075798-2fdb-11ef-bb1d-0242ac130006",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Primary Manner of Loss",
+                    "nodegroup_id": "21075ce8-2fdb-11ef-bb1d-0242ac130006",
+                    "nodeid": "21078bfa-2fdb-11ef-bb1d-0242ac130006",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "date_of_loss_display_date",
+                    "config": {},
+                    "datatype": "string",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "21075798-2fdb-11ef-bb1d-0242ac130006",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Date of Loss Display Date",
+                    "nodegroup_id": "21075ce8-2fdb-11ef-bb1d-0242ac130006",
+                    "nodeid": "21078e2a-2fdb-11ef-bb1d-0242ac130006",
+                    "ontologyclass": "http://www.w3.org/2000/01/rdf-schema#Literal",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P3_has_note",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "place_of_loss_name_type",
+                    "config": {
+                        "rdmCollection": "3e545767-c46c-4fe7-8754-c24528ba0842"
+                    },
+                    "datatype": "concept",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "21075798-2fdb-11ef-bb1d-0242ac130006",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": false,
+                    "istopnode": false,
+                    "name": "Place of Loss Name Type",
+                    "nodegroup_id": "21075ce8-2fdb-11ef-bb1d-0242ac130006",
+                    "nodeid": "21079050-2fdb-11ef-bb1d-0242ac130006",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "date_of_loss_timespan_date_qualifier",
+                    "config": {
+                        "rdmCollection": "366686d6-deb0-4245-81a3-f94d791a388c"
+                    },
+                    "datatype": "concept",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "21075798-2fdb-11ef-bb1d-0242ac130006",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": false,
+                    "istopnode": false,
+                    "name": "Date of Loss Timespan Date Qualifier",
+                    "nodegroup_id": "21075ce8-2fdb-11ef-bb1d-0242ac130006",
+                    "nodeid": "2107926c-2fdb-11ef-bb1d-0242ac130006",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "place_of_loss_geometry",
+                    "config": {},
+                    "datatype": "semantic",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "21075798-2fdb-11ef-bb1d-0242ac130006",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Place of Loss Geometry",
+                    "nodegroup_id": "21075ce8-2fdb-11ef-bb1d-0242ac130006",
+                    "nodeid": "21079488-2fdb-11ef-bb1d-0242ac130006",
+                    "ontologyclass": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+                    "parentproperty": "http://www.ics.forth.gr/isl/CRMgeo/Q11i_is_approximated_by",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "primary_manner_of_loss_metatype",
+                    "config": {
+                        "rdmCollection": "1e63c514-eb9d-48d3-94b5-35e060e5f368"
+                    },
+                    "datatype": "concept",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "21075798-2fdb-11ef-bb1d-0242ac130006",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Primary Manner of Loss Metatype",
+                    "nodegroup_id": "21075ce8-2fdb-11ef-bb1d-0242ac130006",
+                    "nodeid": "210796ae-2fdb-11ef-bb1d-0242ac130006",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "place_of_loss",
+                    "config": {},
+                    "datatype": "semantic",
+                    "description": "",
+                    "exportable": false,
+                    "fieldname": "",
+                    "graph_id": "21075798-2fdb-11ef-bb1d-0242ac130006",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Place of Loss",
+                    "nodegroup_id": "21075ce8-2fdb-11ef-bb1d-0242ac130006",
+                    "nodeid": "210798d4-2fdb-11ef-bb1d-0242ac130006",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E53_Place",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P161_has_spatial_projection",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "place_of_loss_name_use_metatype",
+                    "config": {
+                        "rdmCollection": "1e63c514-eb9d-48d3-94b5-35e060e5f368"
+                    },
+                    "datatype": "concept",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "21075798-2fdb-11ef-bb1d-0242ac130006",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": false,
+                    "istopnode": false,
+                    "name": "Place of Loss Name Use Metatype",
+                    "nodegroup_id": "21075ce8-2fdb-11ef-bb1d-0242ac130006",
+                    "nodeid": "21079b04-2fdb-11ef-bb1d-0242ac130006",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "associated_sites",
+                    "config": {},
+                    "datatype": "semantic",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "21075798-2fdb-11ef-bb1d-0242ac130006",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Associated Sites",
+                    "nodegroup_id": "21075ce8-2fdb-11ef-bb1d-0242ac130006",
+                    "nodeid": "21079d2a-2fdb-11ef-bb1d-0242ac130006",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E63_Beginning_of_Existence",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P116_starts",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "sunk_by",
+                    "config": {
+                        "graphs": [
+                            {
+                                "graphid": "49bac32e-5464-11e9-a6e2-000d3ab1e588",
+                                "name": "Maritime Vessel"
+                            }
+                        ],
+                        "searchDsl": "",
+                        "searchString": ""
+                    },
+                    "datatype": "resource-instance-list",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "21075798-2fdb-11ef-bb1d-0242ac130006",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Sunk by",
+                    "nodegroup_id": "21075ce8-2fdb-11ef-bb1d-0242ac130006",
+                    "nodeid": "21079f78-2fdb-11ef-bb1d-0242ac130006",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E24_Physical_Human-Made_Thing",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P12_occurred_in_the_presence_of",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "associated_wreck_site",
+                    "config": {
+                        "graphs": [
+                            {
+                                "graphid": "e14ac900-ee59-11ed-94d5-0242ac120006",
+                                "name": "Wreck Site"
+                            }
+                        ],
+                        "searchDsl": "",
+                        "searchString": ""
+                    },
+                    "datatype": "resource-instance-list",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "21075798-2fdb-11ef-bb1d-0242ac130006",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Associated Wreck Site",
+                    "nodegroup_id": "21075ce8-2fdb-11ef-bb1d-0242ac130006",
+                    "nodeid": "2107a19e-2fdb-11ef-bb1d-0242ac130006",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E27_Site",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P92_brought_into_existence",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "associated_event",
+                    "config": {
+                        "graphs": [
+                            {
+                                "graphid": "62ad577c-ee61-11ed-82e1-0242ac120006",
+                                "name": "Historic Event"
+                            }
+                        ],
+                        "searchDsl": "",
+                        "searchString": ""
+                    },
+                    "datatype": "resource-instance-list",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "21075798-2fdb-11ef-bb1d-0242ac130006",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Associated Event",
+                    "nodegroup_id": "21075ce8-2fdb-11ef-bb1d-0242ac130006",
+                    "nodeid": "2107a3ba-2fdb-11ef-bb1d-0242ac130006",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E5_Event",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P117_occurs_during",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "place_of_loss_geospatial_coordinates",
+                    "config": {
+                        "addToMap": true,
+                        "advancedStyle": "",
+                        "advancedStyling": false,
+                        "clusterDistance": 20,
+                        "clusterMaxZoom": 5,
+                        "clusterMinPoints": 3,
+                        "fillColor": "rgba(130, 130, 130, 0.5)",
+                        "haloRadius": 4,
+                        "haloWeight": 4,
+                        "layerActivated": true,
+                        "layerIcon": "",
+                        "layerLegend": "",
+                        "layerName": "",
+                        "lineColor": "rgba(130, 130, 130, 0.7)",
+                        "lineHaloColor": "rgba(200, 200, 200, 0.5)",
+                        "outlineColor": "rgba(200, 200, 200, 0.7)",
+                        "outlineWeight": 2,
+                        "pointColor": "rgba(16,35,201,0.7)",
+                        "pointHaloColor": "rgba(200, 200, 200, 0.5)",
+                        "radius": "4",
+                        "simplification": 0.3,
+                        "weight": 2
+                    },
+                    "datatype": "geojson-feature-collection",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "21075798-2fdb-11ef-bb1d-0242ac130006",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Place of Loss Geospatial Coordinates",
+                    "nodegroup_id": "21075ce8-2fdb-11ef-bb1d-0242ac130006",
+                    "nodeid": "2107a5ea-2fdb-11ef-bb1d-0242ac130006",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E94_Space_Primitive",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P168_place_is_defined_by",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "end_date_of_loss",
+                    "config": {
+                        "fuzzy_day_padding": 1,
+                        "fuzzy_month_padding": 1,
+                        "fuzzy_season_padding": 12,
+                        "fuzzy_year_padding": 1,
+                        "multiplier_if_approximate": 1,
+                        "multiplier_if_both": 1,
+                        "multiplier_if_uncertain": 1
+                    },
+                    "datatype": "edtf",
+                    "description": null,
+                    "exportable": true,
+                    "fieldname": "EDateLoss",
+                    "graph_id": "21075798-2fdb-11ef-bb1d-0242ac130006",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "End Date of Loss",
+                    "nodegroup_id": "21075ce8-2fdb-11ef-bb1d-0242ac130006",
+                    "nodeid": "2107aaa4-2fdb-11ef-bb1d-0242ac130006",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E61_Time_Primitive",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P82b_end_of_the_end",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                }
+            ],
+            "ontology_id": "e6e8db47-2ccf-11e6-927e-b8f6b115d7dd",
+            "publication": null,
+            "relatable_resource_model_ids": [],
+            "resource_2_resource_constraints": [],
+            "root": {
+                "alias": "loss",
+                "config": {},
+                "datatype": "semantic",
+                "description": "USed to record the place, time and manner of loss of a vessel",
+                "exportable": false,
+                "fieldname": null,
+                "graph_id": "21075798-2fdb-11ef-bb1d-0242ac130006",
+                "hascustomalias": false,
+                "is_collector": true,
+                "isrequired": false,
+                "issearchable": true,
+                "istopnode": true,
+                "name": "Loss",
+                "nodegroup_id": "21075ce8-2fdb-11ef-bb1d-0242ac130006",
+                "nodeid": "21075ce8-2fdb-11ef-bb1d-0242ac130006",
+                "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E6_Destruction",
+                "sortorder": 0,
+                "sourcebranchpublication_id": null
+            },
+            "slug": null,
+            "subtitle": {
+                "en": ""
+            },
+            "template_id": "50000000-0000-0000-0000-000000000002",
+            "version": ""
+        }
+    ],
+    "metadata": {
+        "db": "PostgreSQL 16.10 on x86_64-pc-linux-gnu, compiled by gcc (GCC) 11.2.0, 64-bit",
+        "git hash": "fatal: not a git repository (or any of the parent directories): .git",
+        "os": "Windows",
+        "os version": "2019Server"
+    }
+}

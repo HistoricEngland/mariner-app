@@ -17,3 +17,4 @@ webpack-stats.json
 CACHE
 .tsconfig-paths.json
 .frontend-configuration-settings.json
+tests/test_settings_for_docker.py

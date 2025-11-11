@@ -1,0 +1,486 @@
+{
+    "graph": [
+        {
+            "author": "",
+            "cards": [
+                {
+                    "active": true,
+                    "cardid": "8e2d4a08-1848-11ef-9dc8-0242ac130006",
+                    "component_id": "3c103484-22d1-4ca9-a9f3-eb3902d567ac",
+                    "config": {
+                        "basemap": "streets",
+                        "centerX": -4.584045603697746,
+                        "centerY": 51.329185565898655,
+                        "colorpalette": [
+                            "#A4DB6E",
+                            "#F0C200",
+                            "#fdb462",
+                            "#22ff33",
+                            "#D29EFF"
+                        ],
+                        "defaultcolor": "#F0C200",
+                        "fillopacity": 0.2,
+                        "hovercolor": "#ff0000",
+                        "linewidth": 2,
+                        "minzoom": 15,
+                        "overlayConfigs": [],
+                        "overviewzoom": 11,
+                        "pointradius": 4,
+                        "selectRelatedSource": "select-application-area",
+                        "selectRelatedSourceLayer": "",
+                        "selectSource": "",
+                        "selectSourceLayer": "",
+                        "selectText": "",
+                        "selectioncolor": "#427AFF",
+                        "strokecolor": "#fff",
+                        "strokelinewidth": 4,
+                        "strokepointopacity": 1,
+                        "strokepointradius": 6,
+                        "zoom": 4.863167361212929
+                    },
+                    "constraints": [],
+                    "cssclass": null,
+                    "description": "",
+                    "graph_id": "8e2d4148-1848-11ef-9dc8-0242ac130006",
+                    "helpenabled": false,
+                    "helptext": {
+                        "en": null
+                    },
+                    "helptitle": {
+                        "en": null
+                    },
+                    "instructions": {
+                        "en": null
+                    },
+                    "is_editable": true,
+                    "name": {
+                        "en": "Geometry"
+                    },
+                    "nodegroup_id": "8e2d4576-1848-11ef-9dc8-0242ac130006",
+                    "sortorder": null,
+                    "visible": true
+                },
+                {
+                    "active": true,
+                    "cardid": "8e2d4f62-1848-11ef-9dc8-0242ac130006",
+                    "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
+                    "config": {
+                        "basemap": "streets",
+                        "centerX": -0.088352147666961,
+                        "centerY": 51.5123507637671,
+                        "overlayConfigs": [],
+                        "selectSource": "",
+                        "selectSourceLayer": "",
+                        "selectText": "",
+                        "zoom": 0
+                    },
+                    "constraints": [],
+                    "cssclass": null,
+                    "description": {
+                        "en": ""
+                    },
+                    "graph_id": "8e2d4148-1848-11ef-9dc8-0242ac130006",
+                    "helpenabled": false,
+                    "helptext": {
+                        "en": null
+                    },
+                    "helptitle": {
+                        "en": null
+                    },
+                    "instructions": {
+                        "en": null
+                    },
+                    "is_editable": true,
+                    "name": {
+                        "en": "Geographic coverage"
+                    },
+                    "nodegroup_id": "8e2d4c4c-1848-11ef-9dc8-0242ac130006",
+                    "sortorder": 7,
+                    "visible": true
+                }
+            ],
+            "cards_x_nodes_x_widgets": [
+                {
+                    "card_id": "8e2d4a08-1848-11ef-9dc8-0242ac130006",
+                    "config": {
+                        "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
+                        "label": "Feature Shape",
+                        "options": [],
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
+                    },
+                    "id": "8e2d566a-1848-11ef-9dc8-0242ac130006",
+                    "label": {
+                        "en": "Feature Shape"
+                    },
+                    "node_id": "8e2d539a-1848-11ef-9dc8-0242ac130006",
+                    "sortorder": 2,
+                    "visible": false,
+                    "widget_id": "10000000-0000-0000-0000-000000000002"
+                },
+                {
+                    "card_id": "8e2d4a08-1848-11ef-9dc8-0242ac130006",
+                    "config": {
+                        "basemap": "streets",
+                        "bearing": null,
+                        "centerX": -4.584045603697746,
+                        "centerY": 51.329185565898655,
+                        "defaultValue": null,
+                        "defaultValueType": null,
+                        "featureColor": "#FF0000",
+                        "featureLineWidth": 1,
+                        "featurePointSize": 3,
+                        "geocodePlaceholder": "Search",
+                        "geocodeProvider": "10000000-0000-0000-0000-010000000000",
+                        "geocoderVisible": true,
+                        "geometryTypes": [
+                            {
+                                "id": "Point",
+                                "text": "Point"
+                            },
+                            {
+                                "id": "Line",
+                                "text": "Line"
+                            },
+                            {
+                                "id": "Polygon",
+                                "text": "Polygon"
+                            }
+                        ],
+                        "label": "Geospatial Coordinates",
+                        "maxZoom": 20,
+                        "minZoom": null,
+                        "overlayConfigs": [],
+                        "overlayOpacity": null,
+                        "pitch": null,
+                        "rerender": true,
+                        "zoom": 4.863167361212929
+                    },
+                    "id": "8e2d5728-1848-11ef-9dc8-0242ac130006",
+                    "label": {
+                        "en": "Geospatial Coordinates"
+                    },
+                    "node_id": "8e2d5552-1848-11ef-9dc8-0242ac130006",
+                    "sortorder": 0,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000007"
+                },
+                {
+                    "card_id": "8e2d4a08-1848-11ef-9dc8-0242ac130006",
+                    "config": {
+                        "defaultValue": "dbc18bc0-ec10-4623-b866-52ece47d9780",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
+                        "label": "Feature Shape Metatype",
+                        "options": [],
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
+                    },
+                    "id": "8e2d57c8-1848-11ef-9dc8-0242ac130006",
+                    "label": {
+                        "en": "Feature Shape Metatype"
+                    },
+                    "node_id": "8e2d51b0-1848-11ef-9dc8-0242ac130006",
+                    "sortorder": 6,
+                    "visible": false,
+                    "widget_id": "10000000-0000-0000-0000-000000000002"
+                },
+                {
+                    "card_id": "8e2d4a08-1848-11ef-9dc8-0242ac130006",
+                    "config": {
+                        "basemap": "streets",
+                        "bearing": null,
+                        "centerX": -0.088352147666961,
+                        "centerY": 51.5123507637671,
+                        "defaultValue": null,
+                        "defaultValueType": null,
+                        "featureColor": "#FF0000",
+                        "featureLineWidth": 1,
+                        "featurePointSize": 3,
+                        "geocodePlaceholder": "Search",
+                        "geocodeProvider": "10000000-0000-0000-0000-010000000000",
+                        "geocoderVisible": true,
+                        "geometryTypes": [
+                            {
+                                "id": "Point",
+                                "text": "Point"
+                            },
+                            {
+                                "id": "Line",
+                                "text": "Line"
+                            },
+                            {
+                                "id": "Polygon",
+                                "text": "Polygon"
+                            }
+                        ],
+                        "label": "Geometry",
+                        "maxZoom": 20,
+                        "minZoom": null,
+                        "overlayConfigs": [],
+                        "overlayOpacity": null,
+                        "pitch": null,
+                        "rerender": true,
+                        "zoom": null
+                    },
+                    "id": "8e2d5872-1848-11ef-9dc8-0242ac130006",
+                    "label": {
+                        "en": "Geometry"
+                    },
+                    "node_id": "8e2d4576-1848-11ef-9dc8-0242ac130006",
+                    "sortorder": 0,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000007"
+                }
+            ],
+            "color": "rgba(143,59,51,1)",
+            "config": {
+                "nodes": [
+                    "1f922569-1aa6-11eb-a3ff-f875a44e0e11"
+                ]
+            },
+            "deploymentdate": null,
+            "deploymentfile": null,
+            "description": {
+                "en": ""
+            },
+            "edges": [
+                {
+                    "description": null,
+                    "domainnode_id": "8e2d4c4c-1848-11ef-9dc8-0242ac130006",
+                    "edgeid": "8e2d6614-1848-11ef-9dc8-0242ac130006",
+                    "graph_id": "8e2d4148-1848-11ef-9dc8-0242ac130006",
+                    "name": null,
+                    "ontologyproperty": "http://www.ics.forth.gr/isl/CRMgeo/Q11i_is_approximated_by",
+                    "rangenode_id": "8e2d4576-1848-11ef-9dc8-0242ac130006"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "8e2d539a-1848-11ef-9dc8-0242ac130006",
+                    "edgeid": "8e2d675e-1848-11ef-9dc8-0242ac130006",
+                    "graph_id": "8e2d4148-1848-11ef-9dc8-0242ac130006",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "rangenode_id": "8e2d51b0-1848-11ef-9dc8-0242ac130006"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "8e2d4576-1848-11ef-9dc8-0242ac130006",
+                    "edgeid": "8e2d69f2-1848-11ef-9dc8-0242ac130006",
+                    "graph_id": "8e2d4148-1848-11ef-9dc8-0242ac130006",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "rangenode_id": "8e2d539a-1848-11ef-9dc8-0242ac130006"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "8e2d4576-1848-11ef-9dc8-0242ac130006",
+                    "edgeid": "8e2d6b28-1848-11ef-9dc8-0242ac130006",
+                    "graph_id": "8e2d4148-1848-11ef-9dc8-0242ac130006",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P168_place_is_defined_by",
+                    "rangenode_id": "8e2d5552-1848-11ef-9dc8-0242ac130006"
+                }
+            ],
+            "functions_x_graphs": [],
+            "graphid": "8e2d4148-1848-11ef-9dc8-0242ac130006",
+            "iconclass": "fa fa-book",
+            "is_editable": true,
+            "isresource": false,
+            "jsonldcontext": null,
+            "name": {
+                "en": "Geographic coverage"
+            },
+            "nodegroups": [
+                {
+                    "cardinality": "1",
+                    "legacygroupid": null,
+                    "nodegroupid": "8e2d4576-1848-11ef-9dc8-0242ac130006",
+                    "parentnodegroup_id": "8e2d4c4c-1848-11ef-9dc8-0242ac130006"
+                },
+                {
+                    "cardinality": "1",
+                    "legacygroupid": null,
+                    "nodegroupid": "8e2d4c4c-1848-11ef-9dc8-0242ac130006",
+                    "parentnodegroup_id": null
+                }
+            ],
+            "nodes": [
+                {
+                    "alias": "geometry",
+                    "config": {},
+                    "datatype": "semantic",
+                    "description": "",
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "8e2d4148-1848-11ef-9dc8-0242ac130006",
+                    "hascustomalias": false,
+                    "is_collector": true,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Geometry",
+                    "nodegroup_id": "8e2d4576-1848-11ef-9dc8-0242ac130006",
+                    "nodeid": "8e2d4576-1848-11ef-9dc8-0242ac130006",
+                    "ontologyclass": "http://www.ics.forth.gr/isl/CRMgeo/SP6_Declarative_Place",
+                    "parentproperty": "http://www.ics.forth.gr/isl/CRMgeo/Q11i_is_approximated_by",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "geographic_coverage",
+                    "config": {},
+                    "datatype": "semantic",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "8e2d4148-1848-11ef-9dc8-0242ac130006",
+                    "hascustomalias": false,
+                    "is_collector": true,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": true,
+                    "name": "Geographic coverage",
+                    "nodegroup_id": "8e2d4c4c-1848-11ef-9dc8-0242ac130006",
+                    "nodeid": "8e2d4c4c-1848-11ef-9dc8-0242ac130006",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E53_Place",
+                    "parentproperty": "",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "feature_shape_metatype",
+                    "config": {
+                        "rdmCollection": "1e63c514-eb9d-48d3-94b5-35e060e5f368"
+                    },
+                    "datatype": "concept",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "8e2d4148-1848-11ef-9dc8-0242ac130006",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Feature Shape Metatype",
+                    "nodegroup_id": "8e2d4576-1848-11ef-9dc8-0242ac130006",
+                    "nodeid": "8e2d51b0-1848-11ef-9dc8-0242ac130006",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "feature_shape",
+                    "config": {
+                        "rdmCollection": "3e698b1a-1462-486a-8cc5-666e676a4665"
+                    },
+                    "datatype": "concept",
+                    "description": "",
+                    "exportable": true,
+                    "fieldname": "Shape",
+                    "graph_id": "8e2d4148-1848-11ef-9dc8-0242ac130006",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Feature Shape",
+                    "nodegroup_id": "8e2d4576-1848-11ef-9dc8-0242ac130006",
+                    "nodeid": "8e2d539a-1848-11ef-9dc8-0242ac130006",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "geospatial_coordinates",
+                    "config": {
+                        "addToMap": false,
+                        "advancedStyle": "",
+                        "advancedStyling": false,
+                        "clusterDistance": 20,
+                        "clusterMaxZoom": 5,
+                        "clusterMinPoints": 3,
+                        "fillColor": "rgba(130, 130, 130, 0.5)",
+                        "haloRadius": 4,
+                        "haloWeight": 4,
+                        "layerActivated": true,
+                        "layerIcon": "",
+                        "layerLegend": "",
+                        "layerName": "",
+                        "lineColor": "rgba(130, 130, 130, 0.7)",
+                        "lineHaloColor": "rgba(200, 200, 200, 0.5)",
+                        "outlineColor": "rgba(200, 200, 200, 0.7)",
+                        "outlineWeight": 2,
+                        "pointColor": "rgba(130, 130, 130, 0.7)",
+                        "pointHaloColor": "rgba(200, 200, 200, 0.5)",
+                        "radius": 2,
+                        "simplification": 0.3,
+                        "weight": 2
+                    },
+                    "datatype": "geojson-feature-collection",
+                    "description": null,
+                    "exportable": true,
+                    "fieldname": "Geometry",
+                    "graph_id": "8e2d4148-1848-11ef-9dc8-0242ac130006",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Geospatial Coordinates",
+                    "nodegroup_id": "8e2d4576-1848-11ef-9dc8-0242ac130006",
+                    "nodeid": "8e2d5552-1848-11ef-9dc8-0242ac130006",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E94_Space_Primitive",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P168_place_is_defined_by",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                }
+            ],
+            "ontology_id": "e6e8db47-2ccf-11e6-927e-b8f6b115d7dd",
+            "publication": null,
+            "relatable_resource_model_ids": [],
+            "resource_2_resource_constraints": [],
+            "root": {
+                "alias": "geographic_coverage",
+                "config": {},
+                "datatype": "semantic",
+                "description": null,
+                "exportable": false,
+                "fieldname": null,
+                "graph_id": "8e2d4148-1848-11ef-9dc8-0242ac130006",
+                "hascustomalias": false,
+                "is_collector": true,
+                "isrequired": false,
+                "issearchable": true,
+                "istopnode": true,
+                "name": "Geographic coverage",
+                "nodegroup_id": "8e2d4c4c-1848-11ef-9dc8-0242ac130006",
+                "nodeid": "8e2d4c4c-1848-11ef-9dc8-0242ac130006",
+                "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E53_Place",
+                "sortorder": 0,
+                "sourcebranchpublication_id": null
+            },
+            "slug": null,
+            "subtitle": {
+                "en": ""
+            },
+            "template_id": "50000000-0000-0000-0000-000000000003",
+            "version": ""
+        }
+    ],
+    "metadata": {
+        "db": "PostgreSQL 16.10 on x86_64-pc-linux-gnu, compiled by gcc (GCC) 11.2.0, 64-bit",
+        "git hash": "fatal: not a git repository (or any of the parent directories): .git",
+        "os": "Windows",
+        "os version": "2019Server"
+    }
+}

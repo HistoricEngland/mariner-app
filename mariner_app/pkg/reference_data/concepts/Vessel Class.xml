@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/aaa993ff-0792-4427-879c-cea98cb7aa97">
+    <skos:inScheme>
+      <skos:ConceptScheme rdf:about="https://nmhr.historicengland.org.uk/ec3fd05d-8a12-4487-b14a-f9902371add6">
+        <dcterms:title xml:lang="en">{"id": "b1eb624e-3c46-4e0b-a430-127397d1264f", "value": "Vessel Class"}</dcterms:title>
+        <skos:hasTopConcept rdf:resource="https://nmhr.historicengland.org.uk/1803fb06-c3a4-4c09-863d-e7642183837f"/>
+      </skos:ConceptScheme>
+    </skos:inScheme>
+    <skos:prefLabel xml:lang="en">{"id": "7cb6b3fe-4b97-4e55-8882-61c059906e9c", "value": "Porpoise Class Submarine"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/5a091a09-951d-4aa3-8fd4-bf590240cc1b">
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/ec3fd05d-8a12-4487-b14a-f9902371add6"/>
+    <skos:prefLabel xml:lang="en">{"id": "2c44def3-1b31-4ed8-b9c7-d8f74247cef1", "value": "H Class Submarine"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/1803fb06-c3a4-4c09-863d-e7642183837f">
+    <skos:narrower rdf:resource="https://nmhr.historicengland.org.uk/5a091a09-951d-4aa3-8fd4-bf590240cc1b"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/8ef44a11-f266-453c-bc65-0116888c36eb">
+        <skos:prefLabel xml:lang="en">{"id": "a14e9ddb-b2a7-4331-9667-876eb4620555", "value": "P611 Class Submarine"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/ec3fd05d-8a12-4487-b14a-f9902371add6"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/87a28078-ee53-4d59-82f3-f9cb74a0e329">
+        <skos:prefLabel xml:lang="en">{"id": "396da7ca-c7d5-479a-b81a-d1c467a440db", "value": "A Class Submarine"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/ec3fd05d-8a12-4487-b14a-f9902371add6"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower rdf:resource="https://nmhr.historicengland.org.uk/aaa993ff-0792-4427-879c-cea98cb7aa97"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/6f27852b-0d19-4cd6-9de0-4a832f55cb27">
+        <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/ec3fd05d-8a12-4487-b14a-f9902371add6"/>
+        <skos:altLabel xml:lang="en">{"id": "5c6292df-f25e-4fc4-a79d-5aae78185aab", "value": "Thames Class Submarine"}</skos:altLabel>
+        <skos:prefLabel xml:lang="en">{"id": "5bfd4268-1d15-4146-a51f-a1f101aecc88", "value": "River Class Submarine"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/ec3fd05d-8a12-4487-b14a-f9902371add6"/>
+    <skos:narrower>
+      <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/538137f3-5dc2-4111-9058-9a1c16ab5924">
+        <skos:prefLabel xml:lang="en">{"id": "6fb7e427-f4f9-40df-a6d3-c28221e26f07", "value": "P Class Submarine"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/ec3fd05d-8a12-4487-b14a-f9902371add6"/>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/cb16f58b-feb5-4691-afb6-cda5b83220af">
+        <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/ec3fd05d-8a12-4487-b14a-f9902371add6"/>
+        <skos:prefLabel xml:lang="en">{"id": "8c0a159e-a21a-4104-8ce2-6b487616b98b", "value": "O Class Submarine"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/c6f80530-9c65-4350-9327-dca218ea5350">
+        <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/ec3fd05d-8a12-4487-b14a-f9902371add6"/>
+        <skos:prefLabel xml:lang="en">{"id": "6254cd78-cf16-4dba-bb30-cc6f0c1e73ff", "value": "V Class Submarine"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/2626e865-a339-4a88-95fa-8c644fc7bc3e">
+        <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/ec3fd05d-8a12-4487-b14a-f9902371add6"/>
+        <skos:prefLabel xml:lang="en">{"id": "06cda5be-e6c2-4ba2-bba6-2235c005ac51", "value": "R Class Submarine"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:narrower>
+      <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/42f1b7bd-129d-425b-b8cc-d45c8204dc29">
+        <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/ec3fd05d-8a12-4487-b14a-f9902371add6"/>
+        <skos:prefLabel xml:lang="en">{"id": "a1e95f0b-f85c-48db-958c-3bec4797f434", "value": "L Class Submarine"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+    <skos:prefLabel xml:lang="en">{"id": "4601c687-3672-4ed7-966e-0068f5328d36", "value": "Submarines"}</skos:prefLabel>
+    <skos:narrower>
+      <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/981e29c5-4e84-4d75-af2e-dc240fe56678">
+        <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/ec3fd05d-8a12-4487-b14a-f9902371add6"/>
+        <skos:prefLabel xml:lang="en">{"id": "0fc30e66-44ef-47c8-a54a-add02127fda8", "value": "S Class Submarine"}</skos:prefLabel>
+      </skos:Concept>
+    </skos:narrower>
+  </skos:Concept>
+</rdf:RDF>

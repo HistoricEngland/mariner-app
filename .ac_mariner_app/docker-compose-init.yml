@@ -1,0 +1,21 @@
+
+services:
+    marinerapp:
+      container_name: marinerapp
+      image: he/mariner_app:dev_build
+      build:
+        args:
+          - "PROJ_NAME=mariner_app"
+          - "DOCKER_PATH=./mariner_app/.ac_mariner_app/docker"
+        context: ../..
+        dockerfile: ./mariner_app/.ac_mariner_app/Dockerfile
+      command: create_project
+      volumes:
+        - ../..:/web_root
+      env_file:
+        - ./docker/env_file.env
+      ports:
+        - 8002:8000
+        - 5678:5678
+      stdin_open: true
+      tty: true

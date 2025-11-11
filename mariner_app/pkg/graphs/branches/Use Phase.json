@@ -1,0 +1,1318 @@
+{
+    "graph": [
+        {
+            "author": "",
+            "cards": [
+                {
+                    "active": true,
+                    "cardid": "790fab2a-fa3a-11ed-9654-0242ac120006",
+                    "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
+                    "config": null,
+                    "constraints": [],
+                    "cssclass": null,
+                    "description": null,
+                    "graph_id": "790f9518-fa3a-11ed-9654-0242ac120006",
+                    "helpenabled": false,
+                    "helptext": {
+                        "en": null
+                    },
+                    "helptitle": {
+                        "en": null
+                    },
+                    "instructions": {
+                        "en": "Used to record the type and number of any ordnance carried on the vessel."
+                    },
+                    "is_editable": true,
+                    "name": {
+                        "en": "Ordnance Type"
+                    },
+                    "nodegroup_id": "790f9900-fa3a-11ed-9654-0242ac120006",
+                    "sortorder": null,
+                    "visible": true
+                },
+                {
+                    "active": true,
+                    "cardid": "790fb390-fa3a-11ed-9654-0242ac120006",
+                    "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
+                    "config": null,
+                    "constraints": [],
+                    "cssclass": null,
+                    "description": {
+                        "en": ""
+                    },
+                    "graph_id": "790f9518-fa3a-11ed-9654-0242ac120006",
+                    "helpenabled": false,
+                    "helptext": {
+                        "en": null
+                    },
+                    "helptitle": {
+                        "en": null
+                    },
+                    "instructions": {
+                        "en": "Use to record changes of use for the Craft, eg. where a Liner has been requisitioned as a Troopship."
+                    },
+                    "is_editable": true,
+                    "name": {
+                        "en": "Use Phase"
+                    },
+                    "nodegroup_id": "790faf94-fa3a-11ed-9654-0242ac120006",
+                    "sortorder": 10,
+                    "visible": true
+                }
+            ],
+            "cards_x_nodes_x_widgets": [
+                {
+                    "card_id": "790fab2a-fa3a-11ed-9654-0242ac120006",
+                    "config": {
+                        "defaultValue": "62f3f620-ea25-46c8-9a7b-dbadf23aa874",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
+                        "label": "Use Phase Ordnance Metatype",
+                        "options": [],
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
+                    },
+                    "id": "790fdbfe-fa3a-11ed-9654-0242ac120006",
+                    "label": {
+                        "en": "Use Phase Ordnance Metatype"
+                    },
+                    "node_id": "790fb76e-fa3a-11ed-9654-0242ac120006",
+                    "sortorder": 0,
+                    "visible": false,
+                    "widget_id": "10000000-0000-0000-0000-000000000002"
+                },
+                {
+                    "card_id": "790fab2a-fa3a-11ed-9654-0242ac120006",
+                    "config": {
+                        "defaultValue": "",
+                        "format": "",
+                        "i18n_properties": [
+                            "placeholder",
+                            "prefix",
+                            "suffix"
+                        ],
+                        "label": "Number",
+                        "max": "",
+                        "min": "",
+                        "placeholder": {
+                            "en": "Enter number"
+                        },
+                        "precision": "",
+                        "prefix": {
+                            "en": ""
+                        },
+                        "step": "",
+                        "suffix": {
+                            "en": ""
+                        },
+                        "uneditable": false,
+                        "width": "100%"
+                    },
+                    "id": "790fdcda-fa3a-11ed-9654-0242ac120006",
+                    "label": {
+                        "en": "Number"
+                    },
+                    "node_id": "790fd6b8-fa3a-11ed-9654-0242ac120006",
+                    "sortorder": 2,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000008"
+                },
+                {
+                    "card_id": "790fab2a-fa3a-11ed-9654-0242ac120006",
+                    "config": {
+                        "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
+                        "label": "Ordnance Type",
+                        "options": [],
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
+                    },
+                    "id": "790fdd84-fa3a-11ed-9654-0242ac120006",
+                    "label": {
+                        "en": "Ordnance Type"
+                    },
+                    "node_id": "790f9900-fa3a-11ed-9654-0242ac120006",
+                    "sortorder": 1,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000012"
+                },
+                {
+                    "card_id": "790fb390-fa3a-11ed-9654-0242ac120006",
+                    "config": {
+                        "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
+                        "label": "Evidence Type",
+                        "options": [],
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
+                    },
+                    "id": "790fde2e-fa3a-11ed-9654-0242ac120006",
+                    "label": {
+                        "en": "Evidence Type"
+                    },
+                    "node_id": "790fce48-fa3a-11ed-9654-0242ac120006",
+                    "sortorder": 10,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000012"
+                },
+                {
+                    "card_id": "790fb390-fa3a-11ed-9654-0242ac120006",
+                    "config": {
+                        "defaultValue": "6fbe3775-e51d-4f90-af53-5695dd204c9a",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
+                        "label": "Use Phase Desctiption Metatype",
+                        "options": [],
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
+                    },
+                    "id": "790fdece-fa3a-11ed-9654-0242ac120006",
+                    "label": {
+                        "en": "Use Phase Desctiption Metatype"
+                    },
+                    "node_id": "790fc466-fa3a-11ed-9654-0242ac120006",
+                    "sortorder": 14,
+                    "visible": false,
+                    "widget_id": "10000000-0000-0000-0000-000000000002"
+                },
+                {
+                    "card_id": "790fb390-fa3a-11ed-9654-0242ac120006",
+                    "config": {
+                        "defaultValue": {
+                            "en": {
+                                "direction": "ltr",
+                                "value": ""
+                            }
+                        },
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
+                        "label": "Use Phase Display Date",
+                        "maxLength": null,
+                        "placeholder": {
+                            "en": "Enter text"
+                        },
+                        "uneditable": false,
+                        "width": "100%"
+                    },
+                    "id": "790fdf78-fa3a-11ed-9654-0242ac120006",
+                    "label": {
+                        "en": "Use Phase Display Date"
+                    },
+                    "node_id": "790fda96-fa3a-11ed-9654-0242ac120006",
+                    "sortorder": 6,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000001"
+                },
+                {
+                    "card_id": "790fb390-fa3a-11ed-9654-0242ac120006",
+                    "config": {
+                        "defaultValue": "c9f3250e-55bc-4ebb-b0cc-573d6de94884",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
+                        "label": "Functional Craft Metatype",
+                        "options": [],
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
+                    },
+                    "id": "790fe02c-fa3a-11ed-9654-0242ac120006",
+                    "label": {
+                        "en": "Functional Craft Metatype"
+                    },
+                    "node_id": "790fbf66-fa3a-11ed-9654-0242ac120006",
+                    "sortorder": 9,
+                    "visible": false,
+                    "widget_id": "10000000-0000-0000-0000-000000000002"
+                },
+                {
+                    "card_id": "790fb390-fa3a-11ed-9654-0242ac120006",
+                    "config": {
+                        "defaultValue": "1cc6f0e9-432f-4177-bae1-16cab5afd3ac",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
+                        "label": "Evidence Metatype",
+                        "options": [],
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
+                    },
+                    "id": "790fe0cc-fa3a-11ed-9654-0242ac120006",
+                    "label": {
+                        "en": "Evidence Metatype"
+                    },
+                    "node_id": "790fcfce-fa3a-11ed-9654-0242ac120006",
+                    "sortorder": 11,
+                    "visible": false,
+                    "widget_id": "10000000-0000-0000-0000-000000000002"
+                },
+                {
+                    "card_id": "790fb390-fa3a-11ed-9654-0242ac120006",
+                    "config": {
+                        "defaultValue": "59a0c936-3f60-44f9-9e37-67b6ed0f4fa4",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
+                        "label": "Use Phase Date Qualifier Metatype",
+                        "options": [],
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
+                    },
+                    "id": "790fe176-fa3a-11ed-9654-0242ac120006",
+                    "label": {
+                        "en": "Use Phase Date Qualifier Metatype"
+                    },
+                    "node_id": "790fbc32-fa3a-11ed-9654-0242ac120006",
+                    "sortorder": 8,
+                    "visible": false,
+                    "widget_id": "10000000-0000-0000-0000-000000000002"
+                },
+                {
+                    "card_id": "790fb390-fa3a-11ed-9654-0242ac120006",
+                    "config": {
+                        "defaultResourceInstance": [],
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
+                        "label": "Use Phase Period",
+                        "placeholder": {
+                            "en": ""
+                        }
+                    },
+                    "id": "790fe220-fa3a-11ed-9654-0242ac120006",
+                    "label": {
+                        "en": "Use Phase Period"
+                    },
+                    "node_id": "790fb912-fa3a-11ed-9654-0242ac120006",
+                    "sortorder": 2,
+                    "visible": true,
+                    "widget_id": "ff3c400a-76ec-11e7-a793-784f435179ea"
+                },
+                {
+                    "card_id": "790fb390-fa3a-11ed-9654-0242ac120006",
+                    "config": {
+                        "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
+                        "label": "Use Phase Type",
+                        "options": [],
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
+                    },
+                    "id": "790fe2de-fa3a-11ed-9654-0242ac120006",
+                    "label": {
+                        "en": "Use Phase Type"
+                    },
+                    "node_id": "790fd8ca-fa3a-11ed-9654-0242ac120006",
+                    "sortorder": 0,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000012"
+                },
+                {
+                    "card_id": "790fb390-fa3a-11ed-9654-0242ac120006",
+                    "config": {
+                        "defaultValue": {
+                            "en": {
+                                "direction": "ltr",
+                                "value": null
+                            }
+                        },
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
+                        "label": "Use Phase Description",
+                        "maxLength": null,
+                        "placeholder": {
+                            "en": "Enter text"
+                        },
+                        "width": "100%"
+                    },
+                    "id": "790fe392-fa3a-11ed-9654-0242ac120006",
+                    "label": {
+                        "en": "Use Phase Description"
+                    },
+                    "node_id": "790fbaa2-fa3a-11ed-9654-0242ac120006",
+                    "sortorder": 12,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000005"
+                },
+                {
+                    "card_id": "790fb390-fa3a-11ed-9654-0242ac120006",
+                    "config": {
+                        "defaultValue": null,
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
+                        "label": "Vessel Type",
+                        "options": [],
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
+                    },
+                    "id": "790fe432-fa3a-11ed-9654-0242ac120006",
+                    "label": {
+                        "en": "Vessel Type"
+                    },
+                    "node_id": "790fb584-fa3a-11ed-9654-0242ac120006",
+                    "sortorder": 1,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000012"
+                },
+                {
+                    "card_id": "790fb390-fa3a-11ed-9654-0242ac120006",
+                    "config": {
+                        "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
+                        "label": "Use Phase Date Qualifier",
+                        "options": [],
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
+                    },
+                    "id": "790fe4e6-fa3a-11ed-9654-0242ac120006",
+                    "label": {
+                        "en": "Use Phase Date Qualifier"
+                    },
+                    "node_id": "790fc998-fa3a-11ed-9654-0242ac120006",
+                    "sortorder": 7,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000002"
+                },
+                {
+                    "card_id": "790fb390-fa3a-11ed-9654-0242ac120006",
+                    "config": {
+                        "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
+                        "label": "Use Phase End Date",
+                        "placeholder": {
+                            "en": ""
+                        }
+                    },
+                    "id": "790fe590-fa3a-11ed-9654-0242ac120006",
+                    "label": {
+                        "en": "Use Phase End Date"
+                    },
+                    "node_id": "790fc66e-fa3a-11ed-9654-0242ac120006",
+                    "sortorder": 5,
+                    "visible": true,
+                    "widget_id": "adfd15ce-dbab-11e7-86d1-0fcf08612b27"
+                },
+                {
+                    "card_id": "790fb390-fa3a-11ed-9654-0242ac120006",
+                    "config": {
+                        "defaultValue": null,
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
+                        "label": "Use Phase Description Type",
+                        "options": [],
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
+                    },
+                    "id": "790fe630-fa3a-11ed-9654-0242ac120006",
+                    "label": {
+                        "en": "Use Phase Description Type"
+                    },
+                    "node_id": "790fbdcc-fa3a-11ed-9654-0242ac120006",
+                    "sortorder": 13,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000012"
+                },
+                {
+                    "card_id": "790fb390-fa3a-11ed-9654-0242ac120006",
+                    "config": {
+                        "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
+                        "label": "Use Phase Start Date",
+                        "placeholder": {
+                            "en": ""
+                        }
+                    },
+                    "id": "790fe6c6-fa3a-11ed-9654-0242ac120006",
+                    "label": {
+                        "en": "Use Phase Start Date"
+                    },
+                    "node_id": "790fc0ec-fa3a-11ed-9654-0242ac120006",
+                    "sortorder": 4,
+                    "visible": true,
+                    "widget_id": "adfd15ce-dbab-11e7-86d1-0fcf08612b27"
+                },
+                {
+                    "card_id": "790fb390-fa3a-11ed-9654-0242ac120006",
+                    "config": {
+                        "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
+                        "label": "Use Phase Currency",
+                        "options": [
+                            {
+                                "children": [],
+                                "collector": "",
+                                "conceptid": "9f404b29-797a-44cf-8693-25089566935f",
+                                "id": "c2051d53-40e7-4a2d-a4b4-02a31da37fd1",
+                                "sortorder": "",
+                                "text": "Current"
+                            },
+                            {
+                                "children": [],
+                                "collector": "",
+                                "conceptid": "d8b0f140-9cce-482b-be4e-fbaedc4e04c2",
+                                "id": "e756530f-40af-4a88-a1d5-39b03c1b809a",
+                                "sortorder": "",
+                                "text": "Former"
+                            },
+                            {
+                                "children": [],
+                                "collector": "",
+                                "conceptid": "4ef38f1c-ff8c-4d4c-bc0b-c06231419c80",
+                                "id": "2e820298-0d7b-4810-9e46-e16f255b9631",
+                                "sortorder": "",
+                                "text": "Historic"
+                            }
+                        ],
+                        "placeholder": {
+                            "en": "Select an option"
+                        },
+                        "url": "/concepts/dropdown?conceptid=a346ee99-67f6-44cd-87f7-b564ce32cdf3"
+                    },
+                    "id": "790fe78e-fa3a-11ed-9654-0242ac120006",
+                    "label": {
+                        "en": "Use Phase Currency"
+                    },
+                    "node_id": "790fd3ac-fa3a-11ed-9654-0242ac120006",
+                    "sortorder": 3,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000009"
+                }
+            ],
+            "color": "rgba(33,59,134,1)",
+            "config": {
+                "basemap": "streets",
+                "bearing": 0,
+                "centerX": -1.5983286851933372,
+                "centerY": 53.155430248627454,
+                "defaultValue": "",
+                "defaultValueType": 0,
+                "featureColor": "#FF0000",
+                "featureEditingDisabled": true,
+                "featureLineWidth": 1,
+                "featurePointSize": 3,
+                "geocodePlaceholder": "Search",
+                "geocodeProvider": "10000000-0000-0000-0000-010000000000",
+                "geocoderVisible": true,
+                "geometryTypes": [
+                    {
+                        "id": "Point",
+                        "text": "Point"
+                    },
+                    {
+                        "id": "Line",
+                        "text": "Line"
+                    },
+                    {
+                        "id": "Polygon",
+                        "text": "Polygon"
+                    }
+                ],
+                "mapControlsHidden": false,
+                "maxZoom": 20,
+                "minZoom": 0,
+                "overlayConfigs": [],
+                "overlayOpacity": 0,
+                "pitch": 0,
+                "zoom": 4.908319487490616
+            },
+            "deploymentdate": null,
+            "deploymentfile": null,
+            "description": {
+                "en": ""
+            },
+            "edges": [
+                {
+                    "description": null,
+                    "domainnode_id": "790faf94-fa3a-11ed-9654-0242ac120006",
+                    "edgeid": "79107adc-fa3a-11ed-9654-0242ac120006",
+                    "graph_id": "790f9518-fa3a-11ed-9654-0242ac120006",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P3_has_note",
+                    "rangenode_id": "790fda96-fa3a-11ed-9654-0242ac120006"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "790fccb8-fa3a-11ed-9654-0242ac120006",
+                    "edgeid": "791081b2-fa3a-11ed-9654-0242ac120006",
+                    "graph_id": "790f9518-fa3a-11ed-9654-0242ac120006",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P3_has_note",
+                    "rangenode_id": "790fbaa2-fa3a-11ed-9654-0242ac120006"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "790fcb1e-fa3a-11ed-9654-0242ac120006",
+                    "edgeid": "79108374-fa3a-11ed-9654-0242ac120006",
+                    "graph_id": "790f9518-fa3a-11ed-9654-0242ac120006",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P82a_begin_of_the_begin",
+                    "rangenode_id": "790fc0ec-fa3a-11ed-9654-0242ac120006"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "790fcb1e-fa3a-11ed-9654-0242ac120006",
+                    "edgeid": "79108536-fa3a-11ed-9654-0242ac120006",
+                    "graph_id": "790f9518-fa3a-11ed-9654-0242ac120006",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P82b_end_of_the_end",
+                    "rangenode_id": "790fc66e-fa3a-11ed-9654-0242ac120006"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "790fb584-fa3a-11ed-9654-0242ac120006",
+                    "edgeid": "791086d0-fa3a-11ed-9654-0242ac120006",
+                    "graph_id": "790f9518-fa3a-11ed-9654-0242ac120006",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "rangenode_id": "790fbf66-fa3a-11ed-9654-0242ac120006"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "790fcb1e-fa3a-11ed-9654-0242ac120006",
+                    "edgeid": "791088d8-fa3a-11ed-9654-0242ac120006",
+                    "graph_id": "790f9518-fa3a-11ed-9654-0242ac120006",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "rangenode_id": "790fc998-fa3a-11ed-9654-0242ac120006"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "790fc808-fa3a-11ed-9654-0242ac120006",
+                    "edgeid": "791089e6-fa3a-11ed-9654-0242ac120006",
+                    "graph_id": "790f9518-fa3a-11ed-9654-0242ac120006",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P42_assigned",
+                    "rangenode_id": "790fb584-fa3a-11ed-9654-0242ac120006"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "790fc808-fa3a-11ed-9654-0242ac120006",
+                    "edgeid": "79108aea-fa3a-11ed-9654-0242ac120006",
+                    "graph_id": "790f9518-fa3a-11ed-9654-0242ac120006",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P141_assigned",
+                    "rangenode_id": "790f9900-fa3a-11ed-9654-0242ac120006"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "790f9900-fa3a-11ed-9654-0242ac120006",
+                    "edgeid": "79108bf8-fa3a-11ed-9654-0242ac120006",
+                    "graph_id": "790f9518-fa3a-11ed-9654-0242ac120006",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "rangenode_id": "790fb76e-fa3a-11ed-9654-0242ac120006"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "790fc998-fa3a-11ed-9654-0242ac120006",
+                    "edgeid": "79108d10-fa3a-11ed-9654-0242ac120006",
+                    "graph_id": "790f9518-fa3a-11ed-9654-0242ac120006",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "rangenode_id": "790fbc32-fa3a-11ed-9654-0242ac120006"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "790fc808-fa3a-11ed-9654-0242ac120006",
+                    "edgeid": "79108e14-fa3a-11ed-9654-0242ac120006",
+                    "graph_id": "790f9518-fa3a-11ed-9654-0242ac120006",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P41_classified",
+                    "rangenode_id": "790fd3ac-fa3a-11ed-9654-0242ac120006"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "790f9900-fa3a-11ed-9654-0242ac120006",
+                    "edgeid": "79109008-fa3a-11ed-9654-0242ac120006",
+                    "graph_id": "790f9518-fa3a-11ed-9654-0242ac120006",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P3_has_note",
+                    "rangenode_id": "790fd6b8-fa3a-11ed-9654-0242ac120006"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "790faf94-fa3a-11ed-9654-0242ac120006",
+                    "edgeid": "79109152-fa3a-11ed-9654-0242ac120006",
+                    "graph_id": "790f9518-fa3a-11ed-9654-0242ac120006",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P10_falls_within",
+                    "rangenode_id": "790fb912-fa3a-11ed-9654-0242ac120006"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "790fc808-fa3a-11ed-9654-0242ac120006",
+                    "edgeid": "79109288-fa3a-11ed-9654-0242ac120006",
+                    "graph_id": "790f9518-fa3a-11ed-9654-0242ac120006",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "rangenode_id": "790fd8ca-fa3a-11ed-9654-0242ac120006"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "790fbdcc-fa3a-11ed-9654-0242ac120006",
+                    "edgeid": "7910938c-fa3a-11ed-9654-0242ac120006",
+                    "graph_id": "790f9518-fa3a-11ed-9654-0242ac120006",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "rangenode_id": "790fc466-fa3a-11ed-9654-0242ac120006"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "790fce48-fa3a-11ed-9654-0242ac120006",
+                    "edgeid": "79109490-fa3a-11ed-9654-0242ac120006",
+                    "graph_id": "790f9518-fa3a-11ed-9654-0242ac120006",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "rangenode_id": "790fcfce-fa3a-11ed-9654-0242ac120006"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "790faf94-fa3a-11ed-9654-0242ac120006",
+                    "edgeid": "7910959e-fa3a-11ed-9654-0242ac120006",
+                    "graph_id": "790f9518-fa3a-11ed-9654-0242ac120006",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span",
+                    "rangenode_id": "790fcb1e-fa3a-11ed-9654-0242ac120006"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "790fc808-fa3a-11ed-9654-0242ac120006",
+                    "edgeid": "791096ac-fa3a-11ed-9654-0242ac120006",
+                    "graph_id": "790f9518-fa3a-11ed-9654-0242ac120006",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P67i_is_referred_to_by",
+                    "rangenode_id": "790fccb8-fa3a-11ed-9654-0242ac120006"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "790faf94-fa3a-11ed-9654-0242ac120006",
+                    "edgeid": "791097ba-fa3a-11ed-9654-0242ac120006",
+                    "graph_id": "790f9518-fa3a-11ed-9654-0242ac120006",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P41i_was_classified_by",
+                    "rangenode_id": "790fc808-fa3a-11ed-9654-0242ac120006"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "790fc808-fa3a-11ed-9654-0242ac120006",
+                    "edgeid": "791098be-fa3a-11ed-9654-0242ac120006",
+                    "graph_id": "790f9518-fa3a-11ed-9654-0242ac120006",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P32_used_general_technique",
+                    "rangenode_id": "790fce48-fa3a-11ed-9654-0242ac120006"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "790fccb8-fa3a-11ed-9654-0242ac120006",
+                    "edgeid": "791099c2-fa3a-11ed-9654-0242ac120006",
+                    "graph_id": "790f9518-fa3a-11ed-9654-0242ac120006",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "rangenode_id": "790fbdcc-fa3a-11ed-9654-0242ac120006"
+                }
+            ],
+            "functions_x_graphs": [],
+            "graphid": "790f9518-fa3a-11ed-9654-0242ac120006",
+            "iconclass": "fa fa-ship",
+            "is_editable": true,
+            "isresource": false,
+            "jsonldcontext": null,
+            "name": {
+                "en": "Use Phase"
+            },
+            "nodegroups": [
+                {
+                    "cardinality": "n",
+                    "legacygroupid": null,
+                    "nodegroupid": "790f9900-fa3a-11ed-9654-0242ac120006",
+                    "parentnodegroup_id": "790faf94-fa3a-11ed-9654-0242ac120006"
+                },
+                {
+                    "cardinality": "n",
+                    "legacygroupid": null,
+                    "nodegroupid": "790faf94-fa3a-11ed-9654-0242ac120006",
+                    "parentnodegroup_id": null
+                }
+            ],
+            "nodes": [
+                {
+                    "alias": "use_phase_ordnance_type",
+                    "config": {
+                        "rdmCollection": "6c13cd00-16c1-486d-92fc-9c69be4fc3f9"
+                    },
+                    "datatype": "concept-list",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "790f9518-fa3a-11ed-9654-0242ac120006",
+                    "hascustomalias": false,
+                    "is_collector": true,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Use Phase Ordnance Type",
+                    "nodegroup_id": "790f9900-fa3a-11ed-9654-0242ac120006",
+                    "nodeid": "790f9900-fa3a-11ed-9654-0242ac120006",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P141_assigned",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "use_phase",
+                    "config": {},
+                    "datatype": "semantic",
+                    "description": "",
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "790f9518-fa3a-11ed-9654-0242ac120006",
+                    "hascustomalias": false,
+                    "is_collector": true,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": true,
+                    "name": "Use Phase",
+                    "nodegroup_id": "790faf94-fa3a-11ed-9654-0242ac120006",
+                    "nodeid": "790faf94-fa3a-11ed-9654-0242ac120006",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E5_Event",
+                    "parentproperty": "",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "functional_vessel_type",
+                    "config": {
+                        "rdmCollection": "8860d3cd-582c-442b-8a73-1aea8694be53"
+                    },
+                    "datatype": "concept-list",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "790f9518-fa3a-11ed-9654-0242ac120006",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Functional  Vessel Type",
+                    "nodegroup_id": "790faf94-fa3a-11ed-9654-0242ac120006",
+                    "nodeid": "790fb584-fa3a-11ed-9654-0242ac120006",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P42_assigned",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "use_phase_ordnance_metatype",
+                    "config": {
+                        "rdmCollection": "1e63c514-eb9d-48d3-94b5-35e060e5f368"
+                    },
+                    "datatype": "concept",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "790f9518-fa3a-11ed-9654-0242ac120006",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Use Phase Ordnance Metatype",
+                    "nodegroup_id": "790f9900-fa3a-11ed-9654-0242ac120006",
+                    "nodeid": "790fb76e-fa3a-11ed-9654-0242ac120006",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "use_phase_period",
+                    "config": {
+                        "graphs": [
+                            {
+                                "graphid": "f9045867-8861-11ea-b06f-f875a44e0e11",
+                                "name": "Period"
+                            }
+                        ],
+                        "searchDsl": "",
+                        "searchString": ""
+                    },
+                    "datatype": "resource-instance-list",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "790f9518-fa3a-11ed-9654-0242ac120006",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Use Phase Period",
+                    "nodegroup_id": "790faf94-fa3a-11ed-9654-0242ac120006",
+                    "nodeid": "790fb912-fa3a-11ed-9654-0242ac120006",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E4_Period",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P10_falls_within",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "use_phase_description",
+                    "config": {},
+                    "datatype": "string",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "790f9518-fa3a-11ed-9654-0242ac120006",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Use Phase Description",
+                    "nodegroup_id": "790faf94-fa3a-11ed-9654-0242ac120006",
+                    "nodeid": "790fbaa2-fa3a-11ed-9654-0242ac120006",
+                    "ontologyclass": "http://www.w3.org/2000/01/rdf-schema#Literal",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P3_has_note",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "use_phase_date_qualifier_metatype",
+                    "config": {
+                        "rdmCollection": "1e63c514-eb9d-48d3-94b5-35e060e5f368"
+                    },
+                    "datatype": "concept",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "790f9518-fa3a-11ed-9654-0242ac120006",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Use Phase Date Qualifier Metatype",
+                    "nodegroup_id": "790faf94-fa3a-11ed-9654-0242ac120006",
+                    "nodeid": "790fbc32-fa3a-11ed-9654-0242ac120006",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "use_phase_description_type",
+                    "config": {
+                        "rdmCollection": "0ff39ed3-cc95-4c60-9321-6d4e65fb1f2d"
+                    },
+                    "datatype": "concept-list",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "790f9518-fa3a-11ed-9654-0242ac120006",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Use Phase Description Type",
+                    "nodegroup_id": "790faf94-fa3a-11ed-9654-0242ac120006",
+                    "nodeid": "790fbdcc-fa3a-11ed-9654-0242ac120006",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "functional_craft_metatype",
+                    "config": {
+                        "rdmCollection": "1e63c514-eb9d-48d3-94b5-35e060e5f368"
+                    },
+                    "datatype": "concept",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "790f9518-fa3a-11ed-9654-0242ac120006",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Functional Craft Metatype",
+                    "nodegroup_id": "790faf94-fa3a-11ed-9654-0242ac120006",
+                    "nodeid": "790fbf66-fa3a-11ed-9654-0242ac120006",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "use_phase_start_date",
+                    "config": {
+                        "fuzzy_day_padding": 1,
+                        "fuzzy_month_padding": 1,
+                        "fuzzy_season_padding": 12,
+                        "fuzzy_year_padding": 1,
+                        "multiplier_if_approximate": 1,
+                        "multiplier_if_both": 1,
+                        "multiplier_if_uncertain": 1
+                    },
+                    "datatype": "edtf",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "790f9518-fa3a-11ed-9654-0242ac120006",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Use Phase Start Date",
+                    "nodegroup_id": "790faf94-fa3a-11ed-9654-0242ac120006",
+                    "nodeid": "790fc0ec-fa3a-11ed-9654-0242ac120006",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E61_Time_Primitive",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P82a_begin_of_the_begin",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "use_phase_desctiption_metatype",
+                    "config": {
+                        "rdmCollection": "1e63c514-eb9d-48d3-94b5-35e060e5f368"
+                    },
+                    "datatype": "concept",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "790f9518-fa3a-11ed-9654-0242ac120006",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Use Phase Desctiption Metatype",
+                    "nodegroup_id": "790faf94-fa3a-11ed-9654-0242ac120006",
+                    "nodeid": "790fc466-fa3a-11ed-9654-0242ac120006",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "use_phase_end_date",
+                    "config": {
+                        "fuzzy_day_padding": 1,
+                        "fuzzy_month_padding": 1,
+                        "fuzzy_season_padding": 12,
+                        "fuzzy_year_padding": 1,
+                        "multiplier_if_approximate": 1,
+                        "multiplier_if_both": 1,
+                        "multiplier_if_uncertain": 1
+                    },
+                    "datatype": "edtf",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "790f9518-fa3a-11ed-9654-0242ac120006",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Use Phase End Date",
+                    "nodegroup_id": "790faf94-fa3a-11ed-9654-0242ac120006",
+                    "nodeid": "790fc66e-fa3a-11ed-9654-0242ac120006",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E61_Time_Primitive",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P82b_end_of_the_end",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "use_phase_classification",
+                    "config": {},
+                    "datatype": "semantic",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "790f9518-fa3a-11ed-9654-0242ac120006",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Use Phase Classification",
+                    "nodegroup_id": "790faf94-fa3a-11ed-9654-0242ac120006",
+                    "nodeid": "790fc808-fa3a-11ed-9654-0242ac120006",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E17_Type_Assignment",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P41i_was_classified_by",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "use_phase_date_qualifier",
+                    "config": {
+                        "rdmCollection": "366686d6-deb0-4245-81a3-f94d791a388c"
+                    },
+                    "datatype": "concept",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "790f9518-fa3a-11ed-9654-0242ac120006",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Use Phase Date Qualifier",
+                    "nodegroup_id": "790faf94-fa3a-11ed-9654-0242ac120006",
+                    "nodeid": "790fc998-fa3a-11ed-9654-0242ac120006",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "use_phase_timespan",
+                    "config": {},
+                    "datatype": "semantic",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "790f9518-fa3a-11ed-9654-0242ac120006",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Use Phase Timespan",
+                    "nodegroup_id": "790faf94-fa3a-11ed-9654-0242ac120006",
+                    "nodeid": "790fcb1e-fa3a-11ed-9654-0242ac120006",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "use_phase_classification_description",
+                    "config": {},
+                    "datatype": "semantic",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "790f9518-fa3a-11ed-9654-0242ac120006",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Use Phase Classification Description",
+                    "nodegroup_id": "790faf94-fa3a-11ed-9654-0242ac120006",
+                    "nodeid": "790fccb8-fa3a-11ed-9654-0242ac120006",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P67i_is_referred_to_by",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "use_phase_evidence_type",
+                    "config": {
+                        "rdmCollection": "02da8114-6a70-4fde-a022-2ee07acf17a3"
+                    },
+                    "datatype": "concept-list",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "790f9518-fa3a-11ed-9654-0242ac120006",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Use Phase Evidence Type",
+                    "nodegroup_id": "790faf94-fa3a-11ed-9654-0242ac120006",
+                    "nodeid": "790fce48-fa3a-11ed-9654-0242ac120006",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P32_used_general_technique",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "use_phase_evidence_metatype",
+                    "config": {
+                        "rdmCollection": "1e63c514-eb9d-48d3-94b5-35e060e5f368"
+                    },
+                    "datatype": "concept",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "790f9518-fa3a-11ed-9654-0242ac120006",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Use Phase Evidence Metatype",
+                    "nodegroup_id": "790faf94-fa3a-11ed-9654-0242ac120006",
+                    "nodeid": "790fcfce-fa3a-11ed-9654-0242ac120006",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "use_phase_currency",
+                    "config": {
+                        "rdmCollection": "a346ee99-67f6-44cd-87f7-b564ce32cdf3"
+                    },
+                    "datatype": "concept",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "790f9518-fa3a-11ed-9654-0242ac120006",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Use Phase Currency",
+                    "nodegroup_id": "790faf94-fa3a-11ed-9654-0242ac120006",
+                    "nodeid": "790fd3ac-fa3a-11ed-9654-0242ac120006",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P41_classified",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "number",
+                    "config": {},
+                    "datatype": "number",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "790f9518-fa3a-11ed-9654-0242ac120006",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Number",
+                    "nodegroup_id": "790f9900-fa3a-11ed-9654-0242ac120006",
+                    "nodeid": "790fd6b8-fa3a-11ed-9654-0242ac120006",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E60_Number",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P3_has_note",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "use_phase_type",
+                    "config": {
+                        "rdmCollection": "81cc2e76-f51c-498d-9d36-4e548e0feed6"
+                    },
+                    "datatype": "concept-list",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "790f9518-fa3a-11ed-9654-0242ac120006",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Use Phase Type",
+                    "nodegroup_id": "790faf94-fa3a-11ed-9654-0242ac120006",
+                    "nodeid": "790fd8ca-fa3a-11ed-9654-0242ac120006",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                },
+                {
+                    "alias": "use_phase_display_date",
+                    "config": {},
+                    "datatype": "string",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "790f9518-fa3a-11ed-9654-0242ac120006",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Use Phase Display Date",
+                    "nodegroup_id": "790faf94-fa3a-11ed-9654-0242ac120006",
+                    "nodeid": "790fda96-fa3a-11ed-9654-0242ac120006",
+                    "ontologyclass": "http://www.w3.org/2000/01/rdf-schema#Literal",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P3_has_note",
+                    "sortorder": 0,
+                    "sourcebranchpublication_id": null
+                }
+            ],
+            "ontology_id": "e6e8db47-2ccf-11e6-927e-b8f6b115d7dd",
+            "publication": null,
+            "relatable_resource_model_ids": [],
+            "resource_2_resource_constraints": [],
+            "root": {
+                "alias": "use_phase",
+                "config": {},
+                "datatype": "semantic",
+                "description": "",
+                "exportable": false,
+                "fieldname": null,
+                "graph_id": "790f9518-fa3a-11ed-9654-0242ac120006",
+                "hascustomalias": false,
+                "is_collector": true,
+                "isrequired": false,
+                "issearchable": true,
+                "istopnode": true,
+                "name": "Use Phase",
+                "nodegroup_id": "790faf94-fa3a-11ed-9654-0242ac120006",
+                "nodeid": "790faf94-fa3a-11ed-9654-0242ac120006",
+                "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E5_Event",
+                "sortorder": 0,
+                "sourcebranchpublication_id": null
+            },
+            "slug": null,
+            "subtitle": {
+                "en": ""
+            },
+            "template_id": "50000000-0000-0000-0000-000000000002",
+            "version": ""
+        }
+    ],
+    "metadata": {
+        "db": "PostgreSQL 16.10 on x86_64-pc-linux-gnu, compiled by gcc (GCC) 11.2.0, 64-bit",
+        "git hash": "fatal: not a git repository (or any of the parent directories): .git",
+        "os": "Windows",
+        "os version": "2019Server"
+    }
+}

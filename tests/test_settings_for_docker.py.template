@@ -1,0 +1,34 @@
+"""
+This is a template for the test settings file for the mariner_app project when using docker/Arches container tool.
+Copy the file and remove the .template extension to use it.
+
+"""
+
+import os
+
+# import from the test_settings.py files in the swame folder first
+
+
+from mariner_app.settings import *
+from .test_settings import *
+
+DATABASES = {
+    "default": {
+        "ENGINE": "django.contrib.gis.db.backends.postgis",
+        "NAME": get_env_variable("PGDBNAME"),
+        "USER": get_env_variable("PGUSERNAME"),
+        "PASSWORD": get_env_variable("PGPASSWORD"),
+        "HOST": get_env_variable("PGHOST"),
+        "PORT": get_env_variable("PGPORT"),
+        "POSTGIS_TEMPLATE": "template_postgis",
+    }
+}
+
+ELASTICSEARCH_HTTP_PORT = ast.literal_eval(get_env_variable("ESPORT"))
+ELASTICSEARCH_HOSTS = [
+    {
+        "scheme": "http",
+        "host": get_env_variable("ESHOST"),
+        "port": ELASTICSEARCH_HTTP_PORT,
+    }
+]

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/b21d120e-b2f1-4910-971c-1dd14e50aa92">
+    <skos:inScheme>
+      <skos:ConceptScheme rdf:about="https://nmhr.historicengland.org.uk/1ceae604-e9cb-46ca-b77f-a1c2a57a2c3d">
+        <dcterms:title xml:lang="en">{"id": "668f1496-2d50-48d4-9270-c680aca14113", "value": "Aircraft Dimension Qualifiers"}</dcterms:title>
+        <skos:hasTopConcept rdf:resource="https://nmhr.historicengland.org.uk/a2d13a15-5c24-411e-8b26-012dd88fc2f6"/>
+        <skos:hasTopConcept rdf:resource="https://nmhr.historicengland.org.uk/4fa74a58-3651-40c7-b3f2-63c73aa9c2dc"/>
+        <skos:hasTopConcept rdf:resource="https://nmhr.historicengland.org.uk/301cb04f-8e26-4ad6-9a4b-ea97b1ea0878"/>
+        <skos:hasTopConcept rdf:resource="https://nmhr.historicengland.org.uk/3b1dd820-2863-43c2-a960-53c9e947fd0c"/>
+        <skos:hasTopConcept rdf:resource="https://nmhr.historicengland.org.uk/2dc4613b-2151-44a1-a187-f5b55d59c0b2"/>
+        <skos:hasTopConcept rdf:resource="https://nmhr.historicengland.org.uk/6457b830-615f-41c2-bfb7-d1a13c52f8bb"/>
+        <skos:hasTopConcept rdf:resource="https://nmhr.historicengland.org.uk/6c38d604-87b7-4261-bce6-1011fe45ece6"/>
+        <skos:hasTopConcept rdf:resource="https://nmhr.historicengland.org.uk/bf961f3c-b077-4150-8c53-6778e30a4a35"/>
+        <skos:hasTopConcept rdf:resource="https://nmhr.historicengland.org.uk/2d4a02dd-e37d-4ba2-aaeb-525ada384fa3"/>
+        <skos:hasTopConcept rdf:resource="https://nmhr.historicengland.org.uk/b21d120e-b2f1-4910-971c-1dd14e50aa92"/>
+      </skos:ConceptScheme>
+    </skos:inScheme>
+    <skos:prefLabel xml:lang="en">{"id": "879ed9ca-a2e4-4f66-b26a-2b0fbb696692", "value": "Length Measured from Remains"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/4fa74a58-3651-40c7-b3f2-63c73aa9c2dc">
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/1ceae604-e9cb-46ca-b77f-a1c2a57a2c3d"/>
+    <skos:prefLabel xml:lang="en">{"id": "18d93c3c-4244-47e4-a15f-5f09fbe8b560", "value": "Length"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/2dc4613b-2151-44a1-a187-f5b55d59c0b2">
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/1ceae604-e9cb-46ca-b77f-a1c2a57a2c3d"/>
+    <skos:prefLabel xml:lang="en">{"id": "3869b7a9-7b5a-4658-8566-0c018cb393e3", "value": "Depth"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/3b1dd820-2863-43c2-a960-53c9e947fd0c">
+    <skos:prefLabel xml:lang="en">{"id": "f48d4fb9-b06a-45dd-ab3e-8884cc3d1a7c", "value": "Breadth Estimated from Remains"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/1ceae604-e9cb-46ca-b77f-a1c2a57a2c3d"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/301cb04f-8e26-4ad6-9a4b-ea97b1ea0878">
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/1ceae604-e9cb-46ca-b77f-a1c2a57a2c3d"/>
+    <skos:prefLabel xml:lang="en">{"id": "3683dd80-b49e-4b1a-b50a-851195b042ea", "value": "Length Estimated from Remains"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/2d4a02dd-e37d-4ba2-aaeb-525ada384fa3">
+    <skos:prefLabel xml:lang="en">{"id": "30ef0464-8421-4ce5-a496-1296b45494d4", "value": "Wingspan"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/1ceae604-e9cb-46ca-b77f-a1c2a57a2c3d"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/6c38d604-87b7-4261-bce6-1011fe45ece6">
+    <skos:prefLabel xml:lang="en">{"id": "f1ccbcc7-a545-4a2c-a07c-591d281f1398", "value": "Length Overall"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/1ceae604-e9cb-46ca-b77f-a1c2a57a2c3d"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/6457b830-615f-41c2-bfb7-d1a13c52f8bb">
+    <skos:prefLabel xml:lang="en">{"id": "891d6eed-d441-4e57-9b91-e616d05e5c48", "value": "Height above seabed"}</skos:prefLabel>
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/1ceae604-e9cb-46ca-b77f-a1c2a57a2c3d"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/a2d13a15-5c24-411e-8b26-012dd88fc2f6">
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/1ceae604-e9cb-46ca-b77f-a1c2a57a2c3d"/>
+    <skos:prefLabel xml:lang="en">{"id": "43fb2894-0803-4ce3-bf9f-c90d87381778", "value": "Breadth Measured from Remains"}</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://nmhr.historicengland.org.uk/bf961f3c-b077-4150-8c53-6778e30a4a35">
+    <skos:inScheme rdf:resource="https://nmhr.historicengland.org.uk/1ceae604-e9cb-46ca-b77f-a1c2a57a2c3d"/>
+    <skos:prefLabel xml:lang="en">{"id": "1ea8a109-47e6-4d39-8f24-691b508c1f2b", "value": "Manufacturers measure"}</skos:prefLabel>
+  </skos:Concept>
+</rdf:RDF>

@@ -59,7 +59,6 @@ CACHES = {
     },
 }
 
-LOGGING["loggers"]["arches"]["level"] = "ERROR"
 
 ELASTICSEARCH_PREFIX = "test"
 
@@ -71,3 +70,29 @@ SILENCED_SYSTEM_CHECKS.append(
 ELASTICSEARCH_HOSTS = [
     {"scheme": "http", "host": "localhost", "port": ELASTICSEARCH_HTTP_PORT}
 ]
+
+LOGGING = {
+    "version": 1,
+    "disable_existing_loggers": False,
+    "formatters": {
+        "console": {
+            "format": "%(asctime)s %(name)-12s %(levelname)-8s %(message)s",
+        },
+    },
+    "handlers": {
+        "file": {
+            "level": "DEBUG",  # DEBUG, INFO, WARNING, ERROR
+            "class": "logging.FileHandler",
+            "filename": os.path.join(APP_ROOT, "arches.log"),
+            "formatter": "console",
+        },
+    },
+    "loggers": {
+        "mariner_app": {
+            "handlers": ["file"],
+            "level": "DEBUG",
+            "propagate": True,
+        }
+    },
+}
+# LOGGING["loggers"]["mariner_app"]["level"] = "ERROR"
