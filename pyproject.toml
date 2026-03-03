@@ -24,7 +24,7 @@ classifiers = [
 ]
 requires-python = ">=3.10"
 dependencies = [
-    "arches==7.6.17",
+    "arches @ git+https://github.com/HistoricEngland/arches.git@ph_101500_search_suggestion_contrast",
 ]
 version = "1.0.0"
 
