@@ -24,7 +24,7 @@ classifiers = [
 ]
 requires-python = ">=3.10"
 dependencies = [
-    "arches==7.6.17",
+    "arches==7.6.22",
 ]
 version = "1.0.0"
 
