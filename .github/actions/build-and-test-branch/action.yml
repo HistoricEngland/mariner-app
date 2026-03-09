@@ -72,7 +72,7 @@ runs:
     - name: Run frontend tests
       run: |
         npm run vitest
-        mv coverage/frontend/coverage.xml ${{ inputs.branch-type }}_branch_frontend_coverage.xml
+        mv coverage/frontend/coverage.xml ${{ inputs.branch-type }}_branch_frontend_${{ inputs.python-version }}_coverage.xml
       shell: bash
 
     - name: Check for missing migrations
@@ -94,7 +94,7 @@ runs:
       run: |
         coverage report
         coverage json
-        mv coverage/python/coverage.json ${{ inputs.branch-type }}_branch_python_coverage.json
+        mv coverage/python/coverage.json ${{ inputs.branch-type }}_branch_python_${{ inputs.python-version }}_coverage.json
       shell: bash
 
     - name: Upload frontend coverage report as artifact
