@@ -98,17 +98,15 @@ runs:
       shell: bash
 
     - name: Upload frontend coverage report as artifact
-      if: ${{ inputs.python-version == '3.12' || inputs.python-version == '' }}
       uses: actions/upload-artifact@v4
       with:
-        name: ${{ inputs.branch-type }}-branch-frontend-coverage-report
-        path: ${{ inputs.branch-type }}_branch_frontend_coverage.xml
+        name: ${{ inputs.branch-type }}-branch-frontend-${{ inputs.python-version }}-coverage-report
+        path: ${{ inputs.branch-type }}_branch_frontend_${{ inputs.python-version }}_coverage.xml
         overwrite: true
 
     - name: Upload Python coverage report as artifact
-      if: ${{ inputs.python-version == '3.12' || inputs.python-version == '' }}
       uses: actions/upload-artifact@v4
       with:
-        name: ${{ inputs.branch-type }}-branch-python-coverage-report
-        path: ${{ inputs.branch-type }}_branch_python_coverage.json
+        name: ${{ inputs.branch-type }}-branch-python-${{ inputs.python-version }}-coverage-report
+        path: ${{ inputs.branch-type }}_branch_python_${{ inputs.python-version }}_coverage.json
         overwrite: true
