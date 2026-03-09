@@ -7,6 +7,7 @@ on:
 
 jobs:
   build_target_branch:
+    name: Build target branch (Python ${{ matrix.python-version }})
     runs-on: ubuntu-latest
 
     services:
@@ -22,7 +23,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        python-version: ["3.12"]
+        python-version: ["3.10", "3.11", "3.12"]
 
     steps:
       - uses: actions/checkout@v4
@@ -49,6 +50,7 @@ jobs:
           python-version: ${{ matrix.python-version }}
 
   build_feature_branch:
+    name: Build feature branch (Python ${{ matrix.python-version }})
     runs-on: ubuntu-latest
 
     services:
@@ -90,185 +92,139 @@ jobs:
           branch-type: 'feature'
           python-version: ${{ matrix.python-version }}
 
-  check_frontend_coverage:
+  check_coverage:
+    name: Check coverage report (Python ${{ matrix.python-version }})
     runs-on: ubuntu-latest
     needs: [build_feature_branch, build_target_branch]
+    strategy:
+      fail-fast: false
+      matrix:
+        python-version: ["3.10", "3.11", "3.12"]
     steps:
-      - uses: actions/checkout@v4
-
-      - name: Set up Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: '3.x' # Use the latest available version
-          check-latest: true
-
       - name: Download feature branch frontend coverage report artifact
         uses: actions/download-artifact@v4
         with:
-          name: feature-branch-frontend-coverage-report
+          name: feature-branch-frontend-${{ matrix.python-version }}-coverage-report
           path: .
-
-      - name: Extract feature branch frontend coverage data
-        shell: pwsh
-        run: |
-          [xml]$xml = Get-Content feature_branch_frontend_coverage.xml
-          $metrics = $xml.coverage.project.metrics
-
-          $statements = [double]$metrics.statements
-          $coveredstatements = [double]$metrics.coveredstatements
-          $conditionals = [double]$metrics.conditionals
-          $coveredconditionals = [double]$metrics.coveredconditionals
-          $methods = [double]$metrics.methods
-          $coveredmethods = [double]$metrics.coveredmethods
-          $elements = [double]$metrics.elements
-          $coveredelements = [double]$metrics.coveredelements
-
-          $statement_coverage = 0.0
-          $conditional_coverage = 0.0
-          $method_coverage = 0.0
-          $element_coverage = 0.0
-
-          if ($statements -gt 0) {
-              $statement_coverage = ($coveredstatements / $statements) * 100
-          }
-          if ($conditionals -gt 0) {
-              $conditional_coverage = ($coveredconditionals / $conditionals) * 100
-          }
-          if ($methods -gt 0) {
-              $method_coverage = ($coveredmethods / $methods) * 100
-          }
-          if ($elements -gt 0) {
-              $element_coverage = ($coveredelements / $elements) * 100
-          }
-
-          $nonZeroCount = 0
-          $totalCoverage = 0.0
-
-          if ($statements -gt 0) { $nonZeroCount++; $totalCoverage += $statement_coverage }
-          if ($conditionals -gt 0) { $nonZeroCount++; $totalCoverage += $conditional_coverage }
-          if ($methods -gt 0) { $nonZeroCount++; $totalCoverage += $method_coverage }
-          if ($elements -gt 0) { $nonZeroCount++; $totalCoverage += $element_coverage }
-
-          $feature_branch_frontend_coverage = 0.0
-          if ($nonZeroCount -gt 0) {
-              $feature_branch_frontend_coverage = $totalCoverage / $nonZeroCount
-          }
-
-          Write-Output "feature_branch_frontend_coverage=$feature_branch_frontend_coverage" | Out-File -Append $env:GITHUB_ENV
 
       - name: Download target branch frontend coverage report artifact
         continue-on-error: true
         uses: actions/download-artifact@v4
         with:
-          name: target-branch-frontend-coverage-report
+          name: target-branch-frontend-${{ matrix.python-version }}-coverage-report
           path: .
-
-      - name: Check if target branch frontend coverage report artifact exists
-        run: |
-          if [ -f target_branch_frontend_coverage.xml ]; then
-            echo "target_branch_frontend_coverage_artifact_exists=true" >> $GITHUB_ENV
-          else
-            echo "Target branch coverage not found. Defaulting to 0% coverage."
-            echo "target_branch_frontend_coverage_artifact_exists=false" >> $GITHUB_ENV
-          fi
-
-      - name: Extract target branch frontend coverage data
-        if: ${{ env.target_branch_frontend_coverage_artifact_exists == 'true' }}
-        shell: pwsh
-        run: |
-          [xml]$xml = Get-Content target_branch_frontend_coverage.xml
-          $metrics = $xml.coverage.project.metrics
-
-          $statements = [double]$metrics.statements
-          $coveredstatements = [double]$metrics.coveredstatements
-          $conditionals = [double]$metrics.conditionals
-          $coveredconditionals = [double]$metrics.coveredconditionals
-          $methods = [double]$metrics.methods
-          $coveredmethods = [double]$metrics.coveredmethods
-          $elements = [double]$metrics.elements
-          $coveredelements = [double]$metrics.coveredelements
-
-          $statement_coverage = 0.0
-          $conditional_coverage = 0.0
-          $method_coverage = 0.0
-          $element_coverage = 0.0
-
-          if ($statements -gt 0) {
-              $statement_coverage = ($coveredstatements / $statements) * 100
-          }
-          if ($conditionals -gt 0) {
-              $conditional_coverage = ($coveredconditionals / $conditionals) * 100
-          }
-          if ($methods -gt 0) {
-              $method_coverage = ($coveredmethods / $methods) * 100
-          }
-          if ($elements -gt 0) {
-              $element_coverage = ($coveredelements / $elements) * 100
-          }
-
-          $nonZeroCount = 0
-          $totalCoverage = 0.0
-
-          if ($statements -gt 0) { $nonZeroCount++; $totalCoverage += $statement_coverage }
-          if ($conditionals -gt 0) { $nonZeroCount++; $totalCoverage += $conditional_coverage }
-          if ($methods -gt 0) { $nonZeroCount++; $totalCoverage += $method_coverage }
-          if ($elements -gt 0) { $nonZeroCount++; $totalCoverage += $element_coverage }
-
-          $target_branch_frontend_coverage = 0.0
-          if ($nonZeroCount -gt 0) {
-              $target_branch_frontend_coverage = $totalCoverage / $nonZeroCount
-          }
-
-          Write-Output "target_branch_frontend_coverage=$target_branch_frontend_coverage" | Out-File -Append $env:GITHUB_ENV
-
-      - name: Compare frontend feature coverage with target coverage
-        if: github.event_name == 'pull_request'
-        run: |
-          feature_branch_frontend_coverage=${feature_branch_frontend_coverage}
-          target_branch_frontend_coverage=${target_branch_frontend_coverage:-0.0}
-
-          # Compare feature coverage with target coverage using floating-point comparison
-          if awk -v feature="$feature_branch_frontend_coverage" -v target="$target_branch_frontend_coverage" 'BEGIN { exit (feature < target) ? 0 : 1 }'; then
-            echo "Coverage decreased from $target_branch_frontend_coverage% to $feature_branch_frontend_coverage%. Please add or update tests to increase coverage."
-            exit 1
-          else
-            echo "Feature branch coverage ($feature_branch_frontend_coverage%) >= Target branch coverage ($target_branch_frontend_coverage%)."
-          fi
-
-  check_python_coverage:
-    runs-on: ubuntu-latest
-    needs: [build_feature_branch, build_target_branch]
-    steps:
-      - uses: actions/checkout@v4
-
-      - name: Set up Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: '3.x' # Use the latest available version
-          check-latest: true
 
       - name: Download feature branch Python coverage report artifact
         uses: actions/download-artifact@v4
         with:
-          name: feature-branch-python-coverage-report
+          name: feature-branch-python-${{ matrix.python-version }}-coverage-report
           path: .
 
       - name: Download target branch Python coverage report artifact
+        continue-on-error: true
         uses: actions/download-artifact@v4
         with:
-          name: target-branch-python-coverage-report
+          name: target-branch-python-${{ matrix.python-version }}-coverage-report
           path: .
 
-      - name: Compare Python feature coverage with target coverage
+      - name: Compare and report frontend + Python coverage
         if: github.event_name == 'pull_request'
+        env:
+          PY_VERSION: ${{ matrix.python-version }}
         run: |
-          feature_branch_python_coverage=$(cat feature_branch_python_coverage.json | grep -o '"totals": {[^}]*' | grep -o '"percent_covered": [0-9.]*' | awk -F ': ' '{print $2}')
-          target_branch_python_coverage=$(cat target_branch_python_coverage.json | grep -o '"totals": {[^}]*' | grep -o '"percent_covered": [0-9.]*' | awk -F ': ' '{print $2}')
+          python - << 'PY'
+          import json
+          import os
+          import sys
+          import xml.etree.ElementTree as ET
+          from pathlib import Path
 
-          # Compare feature coverage with target coverage using floating-point comparison
-          if awk -v feature="$feature_branch_python_coverage" -v target="$target_branch_python_coverage" 'BEGIN { exit (feature < target) ? 0 : 1 }'; then
-            echo "Coverage decreased from $target_branch_python_coverage% to $feature_branch_python_coverage%. Please add or update tests to increase coverage."
-            exit 1
-          else
-            echo "Feature branch coverage ($feature_branch_python_coverage%) >= Target branch coverage ($target_branch_python_coverage%)."
-          fi
+          py_ver = os.environ["PY_VERSION"]
+
+          feature_frontend_file = Path(f"feature_branch_frontend_{py_ver}_coverage.xml")
+          target_frontend_file = Path(f"target_branch_frontend_{py_ver}_coverage.xml")
+          feature_python_file = Path(f"feature_branch_python_{py_ver}_coverage.json")
+          target_python_file = Path(f"target_branch_python_{py_ver}_coverage.json")
+
+          if not feature_frontend_file.exists():
+            print(f"Missing expected file: {feature_frontend_file}", file=sys.stderr)
+            sys.exit(1)
+          if not feature_python_file.exists():
+            print(f"Missing expected file: {feature_python_file}", file=sys.stderr)
+            sys.exit(1)
+
+          def parse_frontend_coverage(path: Path) -> float:
+            xml_root = ET.parse(path).getroot()
+            metrics = xml_root.find(".//metrics")
+            if metrics is None:
+              return 0.0
+
+            statements = float(metrics.attrib.get("statements", 0))
+            covered_statements = float(metrics.attrib.get("coveredstatements", 0))
+            conditionals = float(metrics.attrib.get("conditionals", 0))
+            covered_conditionals = float(metrics.attrib.get("coveredconditionals", 0))
+            methods = float(metrics.attrib.get("methods", 0))
+            covered_methods = float(metrics.attrib.get("coveredmethods", 0))
+            elements = float(metrics.attrib.get("elements", 0))
+            covered_elements = float(metrics.attrib.get("coveredelements", 0))
+
+            coverages = []
+            if statements > 0:
+              coverages.append((covered_statements / statements) * 100)
+            if conditionals > 0:
+              coverages.append((covered_conditionals / conditionals) * 100)
+            if methods > 0:
+              coverages.append((covered_methods / methods) * 100)
+            if elements > 0:
+              coverages.append((covered_elements / elements) * 100)
+
+            if not coverages:
+              return 0.0
+            return sum(coverages) / len(coverages)
+
+          def parse_python_coverage(path: Path) -> float:
+            with path.open("r", encoding="utf-8") as coverage_file:
+              data = json.load(coverage_file)
+            return float(data.get("totals", {}).get("percent_covered", 0.0))
+
+          feature_frontend_coverage = parse_frontend_coverage(feature_frontend_file)
+          target_frontend_coverage = parse_frontend_coverage(target_frontend_file) if target_frontend_file.exists() else 0.0
+          feature_python_coverage = parse_python_coverage(feature_python_file)
+          target_python_coverage = parse_python_coverage(target_python_file) if target_python_file.exists() else 0.0
+
+          summary_lines = [
+            f"### Coverage Report (Python {py_ver})",
+            "",
+            "| Coverage Type | Feature Branch | Target Branch | Delta |",
+            "| --- | ---: | ---: | ---: |",
+            f"| Frontend | {feature_frontend_coverage:.2f}% | {target_frontend_coverage:.2f}% | {feature_frontend_coverage - target_frontend_coverage:+.2f}% |",
+            f"| Python | {feature_python_coverage:.2f}% | {target_python_coverage:.2f}% | {feature_python_coverage - target_python_coverage:+.2f}% |",
+            "",
+          ]
+
+          if not target_frontend_file.exists() or not target_python_file.exists():
+            summary_lines.append("Target branch coverage artifact missing for at least one report type; target coverage defaults to 0.00%.")
+            summary_lines.append("")
+
+          with open(os.environ["GITHUB_STEP_SUMMARY"], "a", encoding="utf-8") as summary_file:
+            summary_file.write("\n".join(summary_lines))
+
+          if feature_frontend_coverage < target_frontend_coverage:
+            print(
+              f"Frontend coverage decreased: {feature_frontend_coverage:.2f}% < {target_frontend_coverage:.2f}%",
+              file=sys.stderr,
+            )
+            sys.exit(1)
+
+          if feature_python_coverage < target_python_coverage:
+            print(
+              f"Python coverage decreased: {feature_python_coverage:.2f}% < {target_python_coverage:.2f}%",
+              file=sys.stderr,
+            )
+            sys.exit(1)
+
+          print(
+            f"Coverage checks passed for Python {py_ver}: frontend {feature_frontend_coverage:.2f}% vs {target_frontend_coverage:.2f}%, "
+            f"python {feature_python_coverage:.2f}% vs {target_python_coverage:.2f}%."
+          )
+          PY
