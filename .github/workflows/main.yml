@@ -47,6 +47,7 @@ jobs:
           project-name: 'mariner_app'
           branch-type: 'target'
           python-version: ${{ matrix.python-version }}
+          coverage-python-version: '3.12'
 
   build_feature_branch:
     runs-on: ubuntu-latest
@@ -89,6 +90,7 @@ jobs:
           project-name: 'mariner_app'
           branch-type: 'feature'
           python-version: ${{ matrix.python-version }}
+          coverage-python-version: '3.12'
 
   check_frontend_coverage:
     runs-on: ubuntu-latest

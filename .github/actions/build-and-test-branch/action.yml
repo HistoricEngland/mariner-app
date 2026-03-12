@@ -12,6 +12,10 @@ inputs:
   python-version:
     description: 'Python version for matrix; used to control artifact uploads'
     required: false
+  coverage-python-version:
+    description: 'Python version to upload coverage artifacts for'
+    required: false
+    default: '3.12'
 runs:
   using: 'composite'
   steps:
@@ -98,7 +102,7 @@ runs:
       shell: bash
 
     - name: Upload frontend coverage report as artifact
-      if: ${{ inputs.python-version == '3.12' || inputs.python-version == '' }}
+      if: ${{ inputs.python-version == inputs.coverage-python-version }}
       uses: actions/upload-artifact@v4
       with:
         name: ${{ inputs.branch-type }}-branch-frontend-coverage-report-py${{ inputs.python-version }}
@@ -106,7 +110,7 @@ runs:
         overwrite: true
 
     - name: Upload Python coverage report as artifact
-      if: ${{ inputs.python-version == '3.12' || inputs.python-version == '' }}
+      if: ${{ inputs.python-version == inputs.coverage-python-version }}
       uses: actions/upload-artifact@v4
       with:
         name: ${{ inputs.branch-type }}-branch-python-coverage-report-py${{ inputs.python-version }}
