@@ -13,7 +13,7 @@ inputs:
     description: 'Python version for matrix; used to control artifact uploads'
     required: false
   coverage-python-version:
-    description: 'Python version to upload coverage artifacts for'
+    description: 'Python version that uploads coverage artifacts'
     required: false
     default: '3.12'
 runs:
