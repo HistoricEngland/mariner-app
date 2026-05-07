@@ -6,7 +6,7 @@ Mariner App was initially developed for use by Historic England to provide an in
 ## Requirements
 
 - Python 3.10+ (Check the Arches python requirements and match your Python version))
-- Arches >=7.6.0, <7.7.0
+- Arches ==7.6.22
 
 ## Installing for Development
 
@@ -65,15 +65,15 @@ While you can use Mariner App as a standalone app, you may wish to use it as par
   Add the following to your `pyproject.toml` dependencies (in the `[project]` section):
 
   ```toml
-  mariner-app @ git+https://github.com/HistoricEngland/mariner-app.git@release/1.0.0
+  mariner-app @ git+https://github.com/HistoricEngland/mariner-app.git@release/1.0.1
   ```
  
   Example:
 
   ```toml
   dependencies = [
-      "arches==7.6.17",
-      "mariner-app @ git+https://github.com/HistoricEngland/mariner-app.git@release/1.0.0",
+      "arches==7.6.22",
+      "mariner-app @ git+https://github.com/HistoricEngland/mariner-app.git@release/1.0.1",
   ]
   ```
 
