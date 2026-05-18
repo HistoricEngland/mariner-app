@@ -11,7 +11,7 @@ import logging
 import json
 from datetime import datetime
 
-
+logger = logging.getLogger(__name__)
 
 
 details = {
@@ -26,9 +26,19 @@ details = {
 
 
 class AutopopulateNodeFromCardNodes(BaseFunction):
+    """
+    Populates a target node in a card with values from other nodes in the same card, based on configuration.
+    """
 
     def autopopulate_nodes(self, tile, request, is_function_save_method=True):
+        """
+        Populates a target node in a card with values from other nodes in the same card, based on configuration.
 
+        Args:
+            tile: The Tile object being saved.
+            request: The WSGI request object (can be None).
+            is_function_save_method: True if called from save(), False otherwise.
+        """
         if request is None and is_function_save_method == True:
             return
 
@@ -85,7 +95,7 @@ class AutopopulateNodeFromCardNodes(BaseFunction):
                             write_to_node = True
 
                     except Exception as e:
-                        self.logger.error(str(e))
+                        logger.error(f"Error autopopulating node '{node_to_populate}' in tile {tile.pk}: {e}")
 
                 if write_to_node == True:
                     for n in populating_nodes:
@@ -102,12 +112,12 @@ class AutopopulateNodeFromCardNodes(BaseFunction):
                                     if node_display_value_from_tile != None:
                                         node_value_from_tile = node_display_value_from_tile
                                 except Exception as e:
-                                    self.logger.error(str(e))
+                                    logger.error(f"Error getting display value for node '{n}' in tile {tile.pk}: {e}")
 
                             try:
                                 autopopulated_string = autopopulated_string.replace("<%s>" % node_name_from_card, node_value_from_tile)
                             except Exception as e:
-                                self.logger.error(str(e))
+                                logger.error(str(e))
                     tile.data[node_to_populate] = autopopulated_string
                     tile.save()
                     return
@@ -118,7 +128,6 @@ class AutopopulateNodeFromCardNodes(BaseFunction):
         raise NotImplementedError
 
     def save(self, tile, request, context=None):
-        self.logger = logging.getLogger(__name__)
         self.autopopulate_nodes(tile=tile, request=request, is_function_save_method=True)
         return
 
