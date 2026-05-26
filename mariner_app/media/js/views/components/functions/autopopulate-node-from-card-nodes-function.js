@@ -2,8 +2,9 @@ define(['knockout',
         'knockout-mapping',
         'viewmodels/function',
         'bindings/chosen',
-        'viewmodels/alert'],
-function (ko, koMapping, FunctionViewModel, chosen, AlertViewModel) {
+        'viewmodels/alert',
+        'templates/views/components/functions/autopopulate-node-from-card-nodes-function.htm'],
+function (ko, koMapping, FunctionViewModel, chosen, AlertViewModel, autopopulateNodeFromCardNodesFunctionTemplate) {
     return ko.components.register('views/components/functions/autopopulate-node-from-card-nodes-function', {
         viewModel: function(params) {
             FunctionViewModel.apply(this, arguments);
@@ -365,17 +366,8 @@ function (ko, koMapping, FunctionViewModel, chosen, AlertViewModel) {
             }}
 
 
-
-
-
-
-
-
             window.setTimeout(function(){$("select[data-bind^=chosen]").trigger("chosen:updated")}, 300);
-
         },
-        template: {
-            require: 'text!templates/views/components/functions/autopopulate-node-from-card-nodes-function.htm'
-        }
+        template: autopopulateNodeFromCardNodesFunctionTemplate
     });
 })
