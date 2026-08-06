@@ -65,7 +65,7 @@ While you can use Mariner App as a standalone app, you may wish to use it as par
   Add the following to your `pyproject.toml` dependencies (in the `[project]` section):
 
   ```toml
-  mariner-app @ git+https://github.com/HistoricEngland/mariner-app.git@release/1.0.1
+  mariner-app @ git+https://github.com/HistoricEngland/mariner-app.git@release/1.1.0
   ```
  
   Example:
@@ -73,7 +73,7 @@ While you can use Mariner App as a standalone app, you may wish to use it as par
   ```toml
   dependencies = [
       "arches==7.6.22",
-      "mariner-app @ git+https://github.com/HistoricEngland/mariner-app.git@release/1.0.1",
+      "mariner-app @ git+https://github.com/HistoricEngland/mariner-app.git@release/1.1.0",
   ]
   ```
 
