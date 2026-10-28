@@ -25,6 +25,8 @@ classifiers = [
 requires-python = ">=3.10"
 dependencies = [
     "arches>=7.6.17,<8.0.0",
+    "arches-he-descriptors==1.0.0rc1",
+    "arches_querysets[drf]"
 ]
 version = "1.0.1"
 

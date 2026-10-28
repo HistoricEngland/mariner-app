@@ -5,7 +5,10 @@ from django.urls import include, path
 
 urlpatterns = [
     # project-level urls
+    path("", include("arches_he_descriptors.urls")),
 ]
+
+urlpatterns.append(path("", include("arches_querysets.urls")))
 
 # Ensure Arches core urls are superseded by project-level urls
 urlpatterns.append(path("", include("arches.urls")))

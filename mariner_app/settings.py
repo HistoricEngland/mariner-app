@@ -91,7 +91,8 @@ ELASTICSEARCH_CUSTOM_INDEXES = []
 # }]
 
 KIBANA_URL = "http://localhost:5601/"
-KIBANA_CONFIG_BASEPATH = "kibana"  # must match Kibana config.yml setting (server.basePath) but without the leading slash,
+# must match Kibana config.yml setting (server.basePath) but without the leading slash,
+KIBANA_CONFIG_BASEPATH = "kibana"
 # also make sure to set server.rewriteBasePath: true
 
 LOAD_DEFAULT_ONTOLOGY = False
@@ -143,6 +144,9 @@ INSTALLED_APPS = (
     "django_celery_results",
     # "silk",
     "mariner_app",  # Ensure the project is listed before any other arches applications
+    "arches_he_descriptors",
+    "arches_querysets",
+    "rest_framework",  # if you are using the Django REST Framework integration
 )
 
 # Placing this last ensures any templates provided by Arches Applications
@@ -153,7 +157,7 @@ MIDDLEWARE = [
     "corsheaders.middleware.CorsMiddleware",
     "django.middleware.security.SecurityMiddleware",
     "django.contrib.sessions.middleware.SessionMiddleware",
-    #'arches.app.utils.middleware.TokenMiddleware',
+    # 'arches.app.utils.middleware.TokenMiddleware',
     "django.middleware.locale.LocaleMiddleware",
     "django.middleware.common.CommonMiddleware",
     "django.middleware.csrf.CsrfViewMiddleware",
@@ -284,7 +288,7 @@ TILE_CACHE_TIMEOUT = 600  # seconds
 CLUSTER_DISTANCE_MAX = 5000  # meters
 GRAPH_MODEL_CACHE_TIMEOUT = None
 
-OAUTH_CLIENT_ID = ""  #'9JCibwrWQ4hwuGn5fu2u1oRZSs9V6gK8Vu8hpRC4'
+OAUTH_CLIENT_ID = ""  # '9JCibwrWQ4hwuGn5fu2u1oRZSs9V6gK8Vu8hpRC4'
 
 APP_TITLE = "Arches | Heritage Data Management"
 COPYRIGHT_TEXT = "All Rights Reserved."
@@ -306,7 +310,8 @@ EMAIL_HOST_USER = "xxxx@xxx.com"
 
 DEFAULT_FROM_EMAIL = EMAIL_HOST_USER
 
-CELERY_BROKER_URL = ""  # RabbitMQ --> "amqp://guest:guest@localhost",  Redis --> "redis://localhost:6379/0"
+# RabbitMQ --> "amqp://guest:guest@localhost",  Redis --> "redis://localhost:6379/0"
+CELERY_BROKER_URL = ""
 CELERY_ACCEPT_CONTENT = ["json"]
 CELERY_RESULT_BACKEND = (
     "django-db"  # Use 'django-cache' if you want to use your cache as your backend
